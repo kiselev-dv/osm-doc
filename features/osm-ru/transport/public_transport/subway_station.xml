@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="subway_station">
+        <title>Станция метро</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="station"/>
+            </tag>
+            <tag>
+                <key>station</key>
+                <val value="subway"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>subway_station.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

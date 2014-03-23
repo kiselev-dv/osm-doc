@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+	<trait name="poi">
+		<title i18Key="trait.poi.title">Точка интереса</title>
+		<description>
+			Базовый шаблон дополнительных атрибутов для всех точек интереса.
+			* Магазинов
+			* Организаций
+			* Отелей и т.п. 
+		</description>
+		<extends>named</extends>
+		<extends>addressed</extends>
+		<extends>working-hours</extends>
+		<extends>contacts</extends>
+	</trait>
+	
+	<trait name="named">
+		<title i18Key="trait.named.title">Название</title>
+		<description>
+			Шаблон атрибутов для именованых объектов
+		</description>
+		<tags>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
+				<key d:match="with-namespace">name</key>
+			</tag>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<key d:match="contains">name</key>
+			</tag>
+		</tags>
+	</trait>
+
+	<trait name="addressed">
+		<title i18Key="trait.named.title">Адрес</title>
+		<description>
+			Шаблон атрибутов для объектов имеющих адреса
+		</description>
+		<tags>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-housenumber">Номер дома</title>
+				<key>addr:housenumber</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-street">Улица</title>
+				<description>
+					Название улицы по которой адресуется дом. 
+					Не заполняйте если дом адресуется по территории (поселок Энергетик - 12)
+				</description>
+				<key>addr:street</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-city">Город</title>
+				<key>addr:city</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-housename">Название дома</title>
+				<key>addr:housename</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	<trait name="working-hours">
+		<title i18Key="trait.working-hours.title">Рабочее время</title>
+		<tags>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
+				<key d:match="with-namespace">name</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	
+</doc-part>

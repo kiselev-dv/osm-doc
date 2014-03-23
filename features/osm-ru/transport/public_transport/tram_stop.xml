@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="tram_stop">
+        <title>Остановка трамвая</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="tram_stop"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>tram_stop.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

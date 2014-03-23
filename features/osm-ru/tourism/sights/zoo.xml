@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="zoo">
+        <title>Зоопарк</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="zoo"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>zoo.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

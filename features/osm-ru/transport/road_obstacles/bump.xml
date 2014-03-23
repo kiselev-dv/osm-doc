@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bump">
+        <title>Лежачий полицейский</title>
+        <tags>
+            <tag>
+                <key>traffic_calming</key>
+                <val value="bump"/>
+            </tag>
+            <tag exclude="true">
+                <key>traffic_calming</key>
+                <val value="cushion"/>
+                <val value="hump"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>bump.png</icon>
+        <applyed-to node="true"/>
+    </feature>
+</doc-part>

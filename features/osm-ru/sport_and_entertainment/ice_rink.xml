@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ice_rink">
+        <title>Каток</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="ice_rink"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>ice_rink.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

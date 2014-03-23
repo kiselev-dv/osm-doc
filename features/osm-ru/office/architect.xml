@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="architect">
+        <title>Архитектура</title>
+        <tags>
+            <tag>
+                <key>office</key>
+                <val value="architect"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>architect.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

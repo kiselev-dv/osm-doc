@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="driving_school">
+        <title>Автошкола</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="driving_school"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

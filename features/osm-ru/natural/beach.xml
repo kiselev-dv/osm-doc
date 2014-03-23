@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="beach">
+        <title>Пляж</title>
+        <description>Естественный пляж</description>
+        <tags>
+            <tag>
+                <key>natural</key>
+                <val value="beach"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>beach.png</icon>
+        <wiki>Естественный пляж</wiki>
+        <applyed-to area="true"/>
+    </feature>
+</doc-part>

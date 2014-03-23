@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="cafe">
+        <title>Кафе</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="cafe"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>cafe.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

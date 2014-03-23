@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="musical_instrument">
+        <title>Музыкальные инструменты</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="musical_instrument"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>musical_instrument.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

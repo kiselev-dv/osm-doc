@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="club_veterans">
+        <title>Ветеранов</title>
+        <tags>
+            <tag>
+                <key>club</key>
+                <val value="veterans"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

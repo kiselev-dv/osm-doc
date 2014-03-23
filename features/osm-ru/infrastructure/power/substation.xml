@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="substation">
+        <title>Подстанция</title>
+        <tags>
+            <tag>
+                <key>power</key>
+                <val value="substation"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>substation.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

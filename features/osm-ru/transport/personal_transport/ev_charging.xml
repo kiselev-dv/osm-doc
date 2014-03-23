@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ev_charging">
+        <title>Зарядка электромобилей</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="ev_charging"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>ev_charging.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="mobile_phone">
+        <title>Салон связи</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="mobile_phone"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>mobile_phone.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

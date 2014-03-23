@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="subway_entrance">
+        <title>Вход в метро</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="subway_entrance"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>subway_entrance.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

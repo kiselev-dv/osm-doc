@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="water_works">
+        <title>Водозабор</title>
+        <tags>
+            <tag>
+                <key>man_made</key>
+                <val value="water_works"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>water_works.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="interior_decoration">
+        <title>Декор и оформление</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="interior_decoration"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>

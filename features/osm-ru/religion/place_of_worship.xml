@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="place_of_worship">
+        <title>Место поклонения</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="place_of_worship"/>
+            </tag>
+            <tag exclude="true">
+                <key>religion</key>
+                <val value="christian"/>
+                <val value="jewish"/>
+                <val value="muslim"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>place_of_worship.png</icon>
+        <applyed-to area="true" node="true"/>
+    </feature>
+</doc-part>
