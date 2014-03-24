@@ -2,6 +2,7 @@ package me.osm.osmdoc.processing;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Decision tree.
@@ -14,6 +15,6 @@ public interface TagsDecisionTree {
 	 * @param tags - feature tags
 	 * @returns feature types or <code>null</code> if this kind of features is not supported
 	 * */
-	public List<String> getType(Map<String, String> tags);
+	public Set<String> getType(Map<String, String> tags);
 	
 }

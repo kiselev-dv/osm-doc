@@ -17,7 +17,9 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 public class FeaturesReader {
-	public static List<Feature> getFeatures () {
+	
+	
+	public static List<Feature> getFeatures (String folder) {
 		
 		List<Feature> result = new ArrayList<Feature>();
 		
@@ -27,20 +29,18 @@ public class FeaturesReader {
 			
 			Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
 			
-			URL url = FeaturesReader.class.getResource("src/main/resources/features");
-			if (url != null) {
-				File dir = new File(url.toURI());
-				Iterator filesIterator = FileUtils
-						.iterateFiles(dir, new SuffixFileFilter(".xml"), TrueFileFilter.INSTANCE);
-				
-				for(File f = (File) filesIterator.next();filesIterator.hasNext();) {
-					DocPart docPart = (DocPart) unmarshaller.unmarshal(f);
-					for(Feature feature : docPart.getFeature()) {
-						result.add(feature);
-					}
+			File dir = new File(folder);
+			Iterator filesIterator = FileUtils
+					.iterateFiles(dir, new SuffixFileFilter(".xml"), TrueFileFilter.INSTANCE);
+			
+			while(filesIterator.hasNext()) {
+				File f = (File) filesIterator.next();
+				DocPart docPart = (DocPart) unmarshaller.unmarshal(f);
+				for(Feature feature : docPart.getFeature()) {
+					result.add(feature);
 				}
-				
 			}
+				
 		}
 		catch (Exception e) {
 			e.printStackTrace();

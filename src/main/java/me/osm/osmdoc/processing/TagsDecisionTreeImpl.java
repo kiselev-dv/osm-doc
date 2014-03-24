@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.TreeSet;
 
 import me.osm.osmdoc.model.Feature;
 import me.osm.osmdoc.model.Tag;
@@ -23,9 +24,9 @@ public class TagsDecisionTreeImpl implements TagsDecisionTree {
 		dictionary = key2values;
 	}
 
-	public List<String> getType(Map<String, String> tags) {
+	public Set<String> getType(Map<String, String> tags) {
 		
-		List<String> result = new ArrayList<String>();
+		Set<String> result = new TreeSet<String>();
 		
 		for(Entry<String, String> tag : tags.entrySet()) {
 			Map<String, List<Feature>> values = dictionary.get(tag.getKey());

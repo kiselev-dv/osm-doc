@@ -12,7 +12,6 @@ import me.osm.osmdoc.model.Tags;
 
 public class OSMDocFactory {
 	
-	private static final OSMDocFactory instance = new OSMDocFactory();
 	
 	private TagsDecisionTreeImpl dTree;
 	
@@ -29,8 +28,8 @@ public class OSMDocFactory {
 	 */
 	private Map<String, Map<String, List<Feature>>> key2values = new HashMap<String, Map<String,List<Feature>>>();
 	
-	private OSMDocFactory() {
-		List<Feature> features = FeaturesReader.getFeatures();
+	public OSMDocFactory(String dir) {
+		List<Feature> features = FeaturesReader.getFeatures(dir);
 		
 		for(Feature f : features) {
 			//synonyms
@@ -62,9 +61,9 @@ public class OSMDocFactory {
 		
 		dTree = new TagsDecisionTreeImpl(key2values);
 	}
-	
-	public static TagsDecisionTree getDecisionTree() {
-		return instance.dTree;
+
+	public TagsDecisionTreeImpl getPoiClassificator() {
+		return dTree;
 	}
 	
 }
