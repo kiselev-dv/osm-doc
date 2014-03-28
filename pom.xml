@@ -31,12 +31,12 @@
 		<repository>
 			<id>internal.repo</id>
 			<name>Internal Repository</name>
-			<url>file:///opt/osm-mvn-repo</url>
+			<url>file:///opt/osm-mvn-repo/releases</url>
 		</repository>
 		<snapshotRepository>
     		<id>internal.repo-snapshots</id>
 			<name>Internal SNAPSHOT Repository</name>
-			<url>file:///opt/osm-mvn-repo</url>
+			<url>file:///opt/osm-mvn-repo/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
