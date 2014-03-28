@@ -21,17 +21,15 @@
 			<version>1.3.2</version>
 		</dependency>
 	</dependencies>
-<!-- 	<build> -->
-<!-- 		<plugins> -->
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.codehaus.mojo</groupId> -->
-<!-- 				<artifactId>jaxb2-maven-plugin</artifactId> -->
-<!-- 				<version>1.5</version> -->
-<!-- 				<configuration> -->
-<!-- 					<schemaDirectory>${project.basedir}/schema/</schemaDirectory> -->
-<!-- 					<outputDirectory>${project.basedir}/src/generated-sources</outputDirectory> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
-<!-- 		</plugins> -->
-<!-- 	</build> -->
+	<scm>
+		<developerConnection>scm:git:git@github.com:kiselev-dv/osm-doc.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<distributionManagement>
+		<repository>
+    		<id>internal.repo</id>
+    		<name>Internal Repository</name>
+    		<url>${internal.repo.path}</url>
+  		</repository>
+	</distributionManagement>
 </project>
