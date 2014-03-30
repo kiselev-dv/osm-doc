@@ -5,7 +5,7 @@
         <tags>
             <tag>
                 <key>plant:output:electricity</key>
-                <val value="*"/>
+                <val match="any" value="*"/>
             </tag>
             <tag>
                 <key>power</key>

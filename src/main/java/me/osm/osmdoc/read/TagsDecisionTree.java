@@ -1,4 +1,4 @@
-package me.osm.osmdoc.processing;
+package me.osm.osmdoc.read;
 
 import java.util.List;
 import java.util.Map;

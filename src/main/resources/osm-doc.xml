@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
-    
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="carpet">
         <title>Ковры</title>
         <tags>
@@ -12,7 +11,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bag">
         <title>Сумки, чемоданы</title>
         <tags>
@@ -25,7 +23,6 @@
         <icon>bag.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="newsagent">
         <title>Журнальный киоск</title>
         <tags>
@@ -38,7 +35,6 @@
         <icon>newsagent.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="houseware">
         <title>Хозяйственные товары</title>
         <tags>
@@ -50,7 +46,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="atv">
         <title>Квадроциклы</title>
         <tags>
@@ -63,7 +58,6 @@
         <icon>atv.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle">
         <title>Велосипеды</title>
         <tags>
@@ -76,7 +70,6 @@
         <icon>bicycle.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="outdoor">
         <title>Активный отдых</title>
         <tags>
@@ -89,7 +82,6 @@
         <icon>outdoor.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pawnbroker">
         <title>Ломбард</title>
         <tags>
@@ -101,7 +93,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="chemist">
         <title>Бытовая химия, косметика</title>
         <tags>
@@ -114,7 +105,6 @@
         <icon>chemist.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bed">
         <title>Матрацы, спальные принадлежности</title>
         <tags>
@@ -127,7 +117,6 @@
         <icon>bed.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="erotic">
         <title>Секс-шоп</title>
         <tags>
@@ -140,7 +129,6 @@
         <icon>erotic.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sports">
         <title>Спорттовары</title>
         <tags>
@@ -153,7 +141,6 @@
         <icon>sports.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pet">
         <title>Зоомагазин</title>
         <tags>
@@ -166,7 +153,6 @@
         <icon>pet.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fishing_shop">
         <title>Рыболов</title>
         <tags>
@@ -179,7 +165,6 @@
         <icon>fishing_shop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="computer">
         <title>Компьютеры, оргтехника</title>
         <tags>
@@ -192,7 +177,6 @@
         <icon>computer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="stationery">
         <title>Канцелярские товары</title>
         <tags>
@@ -205,7 +189,6 @@
         <icon>stationery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="clothes">
         <title>Одежда</title>
         <tags>
@@ -218,7 +201,6 @@
         <icon>clothes.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="herbalist">
         <title>Травы (народная медицина)</title>
         <tags>
@@ -231,7 +213,6 @@
         <icon>herbalist.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="radiotechnics">
         <title>Радиодетали</title>
         <tags>
@@ -243,7 +224,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="furniture">
         <title>Мебель</title>
         <tags>
@@ -256,7 +236,6 @@
         <icon>furniture.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hardware">
         <title>Скобяные изделия и инструмент</title>
         <tags>
@@ -269,7 +248,6 @@
         <icon>hardware.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="glaziery_shop">
         <title>Окна, стёкла</title>
         <tags>
@@ -282,7 +260,6 @@
         <icon>glaziery_shop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="garden_centre">
         <title>Семена, садовые принадлежности</title>
         <tags>
@@ -295,7 +272,6 @@
         <icon>garden_centre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="video">
         <title>Продажа, прокат DVD</title>
         <tags>
@@ -308,7 +284,6 @@
         <icon>video.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bedding">
         <title>Постельное бельё</title>
         <tags>
@@ -320,7 +295,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="paint">
         <title>Краски</title>
         <tags>
@@ -333,7 +307,6 @@
         <icon>paint.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="gas">
         <title>Газ в баллонах</title>
         <tags>
@@ -346,7 +319,6 @@
         <icon>gas.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="antiques">
         <title>Антиквариат</title>
         <tags>
@@ -359,7 +331,6 @@
         <icon>antiques.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="toys">
         <title>Игрушки</title>
         <tags>
@@ -372,7 +343,6 @@
         <icon>toys.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="organic">
         <title>Натуральные продукты</title>
         <tags>
@@ -385,7 +355,6 @@
         <icon>organic.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="gift">
         <title>Подарки, сувениры</title>
         <tags>
@@ -398,7 +367,6 @@
         <icon>gift.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="trade">
         <title>Оптовый склад</title>
         <tags>
@@ -410,7 +378,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="jewelry">
         <title>Ювелирный магазин</title>
         <tags>
@@ -423,7 +390,6 @@
         <icon>jewelry.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="shoes">
         <title>Обувь</title>
         <tags>
@@ -436,7 +402,6 @@
         <icon>shoes.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="copyshop">
         <title>Ксерокопия, полиграфия</title>
         <tags>
@@ -449,7 +414,6 @@
         <icon>copyshop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="farm">
         <title>Фермерские продукты</title>
         <tags>
@@ -462,7 +426,6 @@
         <icon>farm.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="convenience">
         <title>Магазин</title>
         <tags>
@@ -475,7 +438,6 @@
         <icon>convenience.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="butcher">
         <title>Мясная лавка</title>
         <tags>
@@ -488,7 +450,6 @@
         <icon>butcher.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ice_cream">
         <title>Мороженое</title>
         <tags>
@@ -501,7 +462,6 @@
         <icon>ice_cream.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bakery">
         <title>Булочная</title>
         <tags>
@@ -514,7 +474,6 @@
         <icon>bakery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="greengrocer">
         <title>Овощи, фрукты</title>
         <tags>
@@ -527,7 +486,6 @@
         <icon>greengrocer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="mall">
         <title>Торговый центр</title>
         <tags>
@@ -540,7 +498,6 @@
         <icon>mall.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="confectionery">
         <title>Кондитерская</title>
         <tags>
@@ -553,7 +510,6 @@
         <icon>confectionery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="beverages">
         <title>Напитки</title>
         <tags>
@@ -566,7 +522,6 @@
         <icon>beverages.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="seafood">
         <title>Морепродукты</title>
         <tags>
@@ -579,7 +534,6 @@
         <icon>seafood.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="supermarket">
         <title>Супермаркет</title>
         <tags>
@@ -592,7 +546,6 @@
         <icon>supermarket.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="deli">
         <title>Деликатесы</title>
         <tags>
@@ -605,7 +558,6 @@
         <icon>deli.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="alcohol">
         <title>Винно-водочный</title>
         <tags>
@@ -618,7 +570,6 @@
         <icon>alcohol.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="mall">
         <title>Торговый центр</title>
         <tags>
@@ -631,7 +582,6 @@
         <icon>mall.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="doityourself">
         <title>Инструменты и стройматериалы</title>
         <tags>
@@ -644,7 +594,6 @@
         <icon>doityourself.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="florist">
         <title>Цветы</title>
         <tags>
@@ -657,7 +606,6 @@
         <icon>florist.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="vacuum_cleaner">
         <title>Пылесосы и аксессуары</title>
         <tags>
@@ -669,7 +617,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ticket">
         <title>Продажа, бронирование билетов</title>
         <tags>
@@ -682,7 +629,6 @@
         <icon>ticket.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="car">
         <title>Автосалон</title>
         <tags>
@@ -695,7 +641,6 @@
         <icon>car.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="kitchen">
         <title>Кухни на заказ</title>
         <tags>
@@ -708,7 +653,6 @@
         <icon>kitchen.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="variety_store">
         <title>Всё по одной цене</title>
         <tags>
@@ -720,7 +664,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bookshop">
         <title>Книжный</title>
         <tags>
@@ -733,7 +676,6 @@
         <icon>bookshop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tobacco">
         <title>Табак</title>
         <tags>
@@ -746,7 +688,6 @@
         <icon>tobacco.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="boutique">
         <title>Бутик</title>
         <tags>
@@ -759,7 +700,6 @@
         <icon>boutique.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="interior_decoration">
         <title>Декор и оформление</title>
         <tags>
@@ -771,7 +711,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="curtain">
         <title>Шторы, портьеры</title>
         <tags>
@@ -783,7 +722,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hunting">
         <title>Охота</title>
         <tags>
@@ -796,7 +734,6 @@
         <icon>hunting.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="supermarket">
         <title>Супермаркет</title>
         <tags>
@@ -809,7 +746,6 @@
         <icon>supermarket.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bathroom_furnishing">
         <title>Сантехника, ванные, душевые, фурнитура</title>
         <tags>
@@ -822,7 +758,6 @@
         <icon>bathroom_furnishing.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="cosmetics">
         <title>Косметика, парфюмерия</title>
         <tags>
@@ -835,7 +770,6 @@
         <icon>cosmetics.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="musical_instrument">
         <title>Музыкальные инструменты</title>
         <tags>
@@ -848,7 +782,6 @@
         <icon>musical_instrument.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fabric">
         <title>Ткани</title>
         <tags>
@@ -861,7 +794,6 @@
         <icon>fabric.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="art">
         <title>Предметы искусства</title>
         <tags>
@@ -874,7 +806,6 @@
         <icon>art.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="motorcycle">
         <title>Мотоциклы</title>
         <tags>
@@ -887,7 +818,6 @@
         <icon>motorcycle.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dive">
         <title>Снаряжение для дайвинга</title>
         <tags>
@@ -900,7 +830,6 @@
         <icon>dive.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tableware">
         <title>Кухонные принадлежности</title>
         <tags>
@@ -913,7 +842,6 @@
         <icon>tableware.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="optician_shop">
         <title>Оптика</title>
         <tags>
@@ -926,7 +854,6 @@
         <icon>optician_shop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="marketplace">
         <title>Рынок, базар</title>
         <tags>
@@ -939,7 +866,6 @@
         <icon>marketplace.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="charity">
         <title>Благотворительный</title>
         <tags>
@@ -951,7 +877,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="second_hand">
         <title>Секонд-хенд</title>
         <tags>
@@ -964,7 +889,6 @@
         <icon>second_hand.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="anime">
         <title>Аниме</title>
         <tags>
@@ -976,7 +900,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="department_store">
         <title>Универмаг</title>
         <tags>
@@ -989,7 +912,6 @@
         <icon>department_store.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="baby_goods">
         <title>Детские товары</title>
         <tags>
@@ -1002,7 +924,6 @@
         <icon>baby_goods.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hearing_aids">
         <title>Слуховые аппараты</title>
         <tags>
@@ -1015,7 +936,6 @@
         <icon>hearing_aids.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ship_chandler">
         <title>Яхты, запчасти, оснастка</title>
         <tags>
@@ -1028,7 +948,6 @@
         <icon>ship_chandler.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="window_blind">
         <title>Жалюзи, ставни, маркизы</title>
         <tags>
@@ -1040,7 +959,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hifi">
         <title>Hi-Fi аппаратура</title>
         <tags>
@@ -1053,7 +971,6 @@
         <icon>hifi.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sewing">
         <title>Шитьё и рукоделие</title>
         <tags>
@@ -1066,7 +983,6 @@
         <icon>sewing.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="electronics">
         <title>Электроника</title>
         <tags>
@@ -1079,7 +995,6 @@
         <icon>electronics.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="kiosk">
         <title>Киоск, ларёк</title>
         <tags>
@@ -1092,7 +1007,6 @@
         <icon>kiosk.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="frame">
         <title>Рамки, багет</title>
         <tags>
@@ -1104,7 +1018,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="mobile_phone">
         <title>Салон связи</title>
         <tags>
@@ -1117,7 +1030,6 @@
         <icon>mobile_phone.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="car_parts">
         <title>Автозапчасти</title>
         <tags>
@@ -1129,7 +1041,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="it">
         <title>Информационные технологии</title>
         <tags>
@@ -1142,7 +1053,6 @@
         <icon>it.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="town_hall">
         <title>Администрация нас.пункта</title>
         <tags>
@@ -1155,7 +1065,6 @@
         <icon>town_hall.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="lawyer">
         <title>Юридические услуги</title>
         <tags>
@@ -1172,7 +1081,6 @@
         <icon>lawyer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bookmaker">
         <title>Букмекерская контора</title>
         <tags>
@@ -1184,7 +1092,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="telecommunication">
         <title>Телекоммуникационная компания</title>
         <tags>
@@ -1197,7 +1104,6 @@
         <icon>telecommunication.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="accountant">
         <title>Бухгалтерские услуги</title>
         <tags>
@@ -1209,7 +1115,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="studio">
         <title>Студия звукозаписи, телестудия</title>
         <tags>
@@ -1222,7 +1127,6 @@
         <icon>studio.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="estate_agent">
         <title>Агентство недвижимости</title>
         <tags>
@@ -1235,7 +1139,6 @@
         <icon>estate_agent.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ngo">
         <title>Общественная организация</title>
         <tags>
@@ -1247,7 +1150,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="employment_agency">
         <title>Биржа труда</title>
         <tags>
@@ -1260,7 +1162,6 @@
         <icon>employment_agency.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="company">
         <title>Фирма</title>
         <tags>
@@ -1273,7 +1174,6 @@
         <icon>company.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="notary">
         <title>Нотариус</title>
         <tags>
@@ -1290,7 +1190,6 @@
         <icon>notary.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="architect">
         <title>Архитектура</title>
         <tags>
@@ -1303,7 +1202,6 @@
         <icon>architect.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="research">
         <title>Исследовательский центр</title>
         <tags>
@@ -1316,7 +1214,6 @@
         <icon>research.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="newspaper">
         <title>Печатное издание</title>
         <tags>
@@ -1329,7 +1226,6 @@
         <icon>newspaper.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="advertising_agency">
         <title>Рекламное агентство</title>
         <tags>
@@ -1341,7 +1237,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="administrative">
         <title>Административное учреждение</title>
         <tags>
@@ -1354,7 +1249,6 @@
         <icon>administrative.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="educational_institution">
         <title>Образовательное учреждение (администрация)</title>
         <tags>
@@ -1367,7 +1261,6 @@
         <icon>educational_institution.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="travel_agent">
         <title>Турагентство</title>
         <tags>
@@ -1380,7 +1273,6 @@
         <icon>travel_agent.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="insurance">
         <title>Страховая компания</title>
         <tags>
@@ -1392,7 +1284,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bridge">
         <title>Мост, путепровод</title>
         <tags>
@@ -1405,7 +1296,6 @@
         <icon>bridge.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tunnel">
         <title>Туннель</title>
         <tags>
@@ -1418,7 +1308,6 @@
         <icon>tunnel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="leading_beacon">
         <title>Створовый знак</title>
         <tags>
@@ -1434,7 +1323,6 @@
         <trait>poi</trait>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="lighthouse">
         <title>Маяк</title>
         <tags>
@@ -1447,7 +1335,6 @@
         <icon>lighthouse.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="lateral_buoy">
         <title>Буй</title>
         <tags>
@@ -1459,7 +1346,6 @@
         <trait>poi</trait>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="slipway">
         <title>Слип</title>
         <tags>
@@ -1472,7 +1358,6 @@
         <icon>slipway.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ferry_terminal">
         <title>Причал парома</title>
         <tags>
@@ -1485,7 +1370,6 @@
         <icon>ferry_terminal.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="mountain_pass">
         <title>Перевал</title>
         <tags>
@@ -1498,7 +1382,6 @@
         <icon>mountain_pass.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="hump">
         <title>Лежачий полицейский (широкий)</title>
         <tags>
@@ -1511,7 +1394,6 @@
         <icon>hump.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="gate">
         <title>Ворота</title>
         <tags>
@@ -1523,7 +1405,6 @@
         <trait>poi</trait>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="ford">
         <title>Брод</title>
         <tags>
@@ -1536,7 +1417,6 @@
         <icon>ford.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="toll_booth">
         <title>Пункт оплаты проезда</title>
         <tags>
@@ -1549,7 +1429,6 @@
         <icon>toll_booth.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="bump">
         <title>Лежачий полицейский</title>
         <tags>
@@ -1567,7 +1446,6 @@
         <icon>bump.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="speed_camera">
         <title>Дорожная видеокамера</title>
         <tags>
@@ -1580,7 +1458,6 @@
         <icon>speed_camera.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="lift_gate">
         <title>Шлагбаум</title>
         <tags>
@@ -1592,7 +1469,6 @@
         <trait>poi</trait>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="cushion">
         <title>Лежачий полицейский с разрывами</title>
         <tags>
@@ -1605,7 +1481,6 @@
         <icon>cushion.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="railway_station">
         <title>Ж/д станция</title>
         <tags>
@@ -1618,7 +1493,6 @@
         <icon>railway_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bus_stop">
         <title>Остановка автобуса</title>
         <tags>
@@ -1631,7 +1505,6 @@
         <icon>bus_stop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="railway_halt">
         <title>Ж/д платформа</title>
         <tags>
@@ -1644,7 +1517,6 @@
         <icon>railway_halt.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bus_station">
         <title>Автовокзал</title>
         <tags>
@@ -1657,7 +1529,6 @@
         <icon>bus_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="taxi">
         <title>Стоянка такси</title>
         <tags>
@@ -1670,7 +1541,6 @@
         <icon>taxi.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tram_stop">
         <title>Остановка трамвая</title>
         <tags>
@@ -1683,7 +1553,6 @@
         <icon>tram_stop.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="subway_entrance">
         <title>Вход в метро</title>
         <tags>
@@ -1696,7 +1565,6 @@
         <icon>subway_entrance.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="funicular">
         <title>Фуникулёр</title>
         <tags>
@@ -1709,7 +1577,6 @@
         <icon>funicular.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="subway_station">
         <title>Станция метро</title>
         <tags>
@@ -1726,7 +1593,6 @@
         <icon>subway_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="airport">
         <title>Аэропорт/аэродром</title>
         <tags>
@@ -1739,7 +1605,6 @@
         <icon>airport.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="helipad">
         <title>Вертолётная площадка</title>
         <tags>
@@ -1752,7 +1617,6 @@
         <icon>helipad.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="car_repair_tyres">
         <title>Шиномонтаж</title>
         <tags>
@@ -1769,7 +1633,6 @@
         <icon>car_repair_tyres.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="car_repair">
         <title>Автосервис</title>
         <tags>
@@ -1786,7 +1649,6 @@
         <icon>car_repair.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="parking_entrance">
         <title>Въезд на парковку</title>
         <tags>
@@ -1799,7 +1661,6 @@
         <icon>parking_entrance.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="car_wash">
         <title>Автомойка</title>
         <tags>
@@ -1812,7 +1673,6 @@
         <icon>car_wash.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="speed_camera">
         <title>Дорожная видеокамера</title>
         <tags>
@@ -1825,7 +1685,6 @@
         <icon>speed_camera.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ev_charging">
         <title>Зарядка электромобилей</title>
         <tags>
@@ -1838,7 +1697,6 @@
         <icon>ev_charging.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fuel">
         <title>Заправка</title>
         <tags>
@@ -1851,7 +1709,6 @@
         <icon>fuel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="vehicle_ramp">
         <title>Ремонтная эстакада/яма</title>
         <tags>
@@ -1864,7 +1721,6 @@
         <icon>vehicle_ramp.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="parking">
         <title>Парковка</title>
         <tags>
@@ -1877,7 +1733,6 @@
         <icon>parking.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle_rental">
         <title>Прокат велосипедов</title>
         <tags>
@@ -1890,7 +1745,6 @@
         <icon>bicycle_rental.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle_parking">
         <title>Велопарковка</title>
         <tags>
@@ -1903,7 +1757,6 @@
         <icon>bicycle_parking.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="cemetery">
         <title>Кладбище</title>
         <tags>
@@ -1916,7 +1769,6 @@
         <icon>cemetery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="place_of_worship">
         <title>Место поклонения</title>
         <tags>
@@ -1935,7 +1787,6 @@
         <icon>place_of_worship.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="place_of_worship_christian">
         <title>Храм, церковь</title>
         <tags>
@@ -1952,7 +1803,6 @@
         <icon>place_of_worship_christian.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="place_of_worship_jewish">
         <title>Синагога</title>
         <tags>
@@ -1969,7 +1819,6 @@
         <icon>place_of_worship_jewish.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="place_of_worship_muslim">
         <title>Мечеть</title>
         <tags>
@@ -1986,7 +1835,6 @@
         <icon>place_of_worship_muslim.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="island">
         <title>Остров</title>
         <tags>
@@ -2002,7 +1850,6 @@
         <trait>poi</trait>
         <applyed-to area="true"/>
     </feature>
-
     <feature name="cave_entrance">
         <title>Вход в пещеру</title>
         <tags>
@@ -2015,7 +1862,6 @@
         <icon>cave_entrance.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="spring">
         <title>Родник</title>
         <tags>
@@ -2028,7 +1874,6 @@
         <icon>spring.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="islet">
         <title>Остров (небольшой)</title>
         <tags>
@@ -2040,7 +1885,6 @@
         <trait>poi</trait>
         <applyed-to area="true"/>
     </feature>
-
     <feature name="bay">
         <title>Бухта, залив</title>
         <tags>
@@ -2052,7 +1896,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="beach">
         <title>Пляж</title>
         <description>Естественный пляж</description>
@@ -2067,7 +1910,6 @@
         <wiki>Естественный пляж</wiki>
         <applyed-to area="true"/>
     </feature>
-
     <feature name="strait">
         <title>Пролив</title>
         <tags>
@@ -2079,7 +1921,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="volcano">
         <title>Вулкан</title>
         <tags>
@@ -2092,7 +1933,6 @@
         <icon>volcano.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="saddle">
         <title>Седловая точка (перевал)</title>
         <tags>
@@ -2105,7 +1945,6 @@
         <icon>saddle.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="waterfall">
         <title>Водопад</title>
         <tags>
@@ -2118,7 +1957,6 @@
         <icon>waterfall.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="peak">
         <title>Горная вершина</title>
         <tags>
@@ -2131,7 +1969,6 @@
         <icon>peak.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="cape">
         <title>Мыс</title>
         <tags>
@@ -2144,7 +1981,6 @@
         <icon>cape.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="internet_cafe">
         <title>Интернет-кафе</title>
         <tags>
@@ -2157,7 +1993,6 @@
         <icon>internet_cafe.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="recycling">
         <title>Переработка отходов</title>
         <tags>
@@ -2170,7 +2005,6 @@
         <icon>recycling.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hairdresser">
         <title>Парикмахерская</title>
         <tags>
@@ -2183,7 +2017,6 @@
         <icon>hairdresser.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="toilets">
         <title>Туалет</title>
         <tags>
@@ -2196,7 +2029,6 @@
         <icon>toilets.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="telephone">
         <title>Телефон</title>
         <tags>
@@ -2209,7 +2041,6 @@
         <icon>telephone.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="funeral_directors">
         <title>Ритуальные услуги</title>
         <tags>
@@ -2222,7 +2053,6 @@
         <icon>funeral_directors.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="nails">
         <title>Маникюрный салон</title>
         <tags>
@@ -2239,7 +2069,6 @@
         <icon>nails.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="post_box">
         <title>Почтовый ящик</title>
         <tags>
@@ -2252,7 +2081,6 @@
         <icon>post_box.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="car_rental">
         <title>Прокат автомобилей</title>
         <tags>
@@ -2265,7 +2093,6 @@
         <icon>car_rental.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="driving_school">
         <title>Автошкола</title>
         <tags>
@@ -2277,7 +2104,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="beauty_salon">
         <title>Салон красоты</title>
         <tags>
@@ -2290,7 +2116,6 @@
         <icon>beauty_salon.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="laundry">
         <title>Прачечная</title>
         <tags>
@@ -2303,7 +2128,6 @@
         <icon>laundry.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="currencyexchange">
         <title>Обмен валют</title>
         <tags>
@@ -2316,7 +2140,6 @@
         <icon>currencyexchange.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tailor">
         <title>Ателье</title>
         <tags>
@@ -2329,7 +2152,6 @@
         <icon>tailor.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle_rental">
         <title>Прокат велосипедов</title>
         <tags>
@@ -2342,7 +2164,6 @@
         <icon>bicycle_rental.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="massage">
         <title>Массажный салон</title>
         <tags>
@@ -2355,7 +2176,6 @@
         <icon>massage.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="craft_computer">
         <title>Ремонт компьютеров и оргтехники</title>
         <tags>
@@ -2368,7 +2188,6 @@
         <icon>craft_computer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sauna">
         <title>Баня, сауна</title>
         <tags>
@@ -2381,7 +2200,6 @@
         <icon>sauna.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ev_charging">
         <title>Зарядка электромобилей</title>
         <tags>
@@ -2394,7 +2212,6 @@
         <icon>ev_charging.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tattoo">
         <title>Тату салон</title>
         <tags>
@@ -2406,7 +2223,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dry_cleaning">
         <title>Химчистка</title>
         <tags>
@@ -2419,7 +2235,6 @@
         <icon>dry_cleaning.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="post_office">
         <title>Почта</title>
         <tags>
@@ -2432,7 +2247,6 @@
         <icon>post_office.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="school">
         <title>Школа</title>
         <tags>
@@ -2445,7 +2259,6 @@
         <icon>school.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="college">
         <title>Колледж</title>
         <tags>
@@ -2458,7 +2271,6 @@
         <icon>college.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="driving_school">
         <title>Автошкола</title>
         <tags>
@@ -2470,7 +2282,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="university">
         <title>Институт</title>
         <tags>
@@ -2483,7 +2294,6 @@
         <icon>university.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="kindergarten">
         <title>Детский сад</title>
         <tags>
@@ -2496,7 +2306,6 @@
         <icon>kindergarten.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="library">
         <title>Библиотека</title>
         <tags>
@@ -2509,7 +2318,6 @@
         <icon>library.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="cafe">
         <title>Кафе</title>
         <tags>
@@ -2522,7 +2330,6 @@
         <icon>cafe.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pub">
         <title>Паб</title>
         <tags>
@@ -2535,7 +2342,6 @@
         <icon>pub.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fast_food">
         <title>Фастфуд (быстрое питание)</title>
         <tags>
@@ -2548,7 +2354,6 @@
         <icon>fast_food.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="restaurant">
         <title>Ресторан</title>
         <tags>
@@ -2561,7 +2366,6 @@
         <icon>restaurant.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="biergarten">
         <title>Летнее кафе</title>
         <tags>
@@ -2574,7 +2378,6 @@
         <icon>biergarten.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="food_court">
         <title>Ресторанный дворик</title>
         <tags>
@@ -2587,7 +2390,6 @@
         <icon>food_court.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bar">
         <title>Бар</title>
         <tags>
@@ -2600,7 +2402,6 @@
         <icon>bar.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="landfill">
         <title>Свалка</title>
         <tags>
@@ -2613,7 +2414,6 @@
         <icon>landfill.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="surveillance">
         <title>Наблюдение</title>
         <tags>
@@ -2626,7 +2426,6 @@
         <icon>surveillance.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="water_works">
         <title>Водозабор</title>
         <tags>
@@ -2639,7 +2438,6 @@
         <icon>water_works.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="wastewater_plant">
         <title>Очистные сооружения</title>
         <tags>
@@ -2652,7 +2450,6 @@
         <icon>wastewater_plant.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="water_well">
         <title>Колодец, колонка</title>
         <tags>
@@ -2665,7 +2462,6 @@
         <icon>water_well.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="water_tower">
         <title>Водонапорная башня</title>
         <tags>
@@ -2678,7 +2474,6 @@
         <icon>water_tower.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bridge">
         <title>Мост, путепровод</title>
         <tags>
@@ -2691,7 +2486,6 @@
         <icon>bridge.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tunnel">
         <title>Туннель</title>
         <tags>
@@ -2704,7 +2498,6 @@
         <icon>tunnel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="telephone_exchange">
         <title>АТС</title>
         <tags>
@@ -2717,7 +2510,6 @@
         <icon>telephone_exchange.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="communication_tower">
         <title>Вышка связи</title>
         <tags>
@@ -2734,7 +2526,6 @@
         <icon>communication_tower.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="power_generator">
         <title>Генератор</title>
         <tags>
@@ -2744,14 +2535,13 @@
             </tag>
             <tag>
                 <key>generator:output:electricity</key>
-                <val value="*"/>
+                <val match="any" value="*"/>
             </tag>
         </tags>
         <trait>poi</trait>
         <icon>power_generator.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="transformer">
         <title>Трансформатор</title>
         <tags>
@@ -2764,13 +2554,12 @@
         <icon>transformer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="power_plant">
         <title>Электростанция</title>
         <tags>
             <tag>
                 <key>plant:output:electricity</key>
-                <val value="*"/>
+                <val match="any" value="*"/>
             </tag>
             <tag>
                 <key>power</key>
@@ -2781,7 +2570,6 @@
         <icon>power_plant.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="substation">
         <title>Подстанция</title>
         <tags>
@@ -2794,7 +2582,6 @@
         <icon>substation.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="construction">
         <title>Стройка</title>
         <tags>
@@ -2807,7 +2594,6 @@
         <icon>construction.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="electrician">
         <title>Электрик</title>
         <tags>
@@ -2820,7 +2606,6 @@
         <icon>electrician.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="handicraft">
         <title>Рукодельные штуки, украшения</title>
         <tags>
@@ -2832,7 +2617,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="boatbuilder">
         <title>Верфь</title>
         <tags>
@@ -2845,7 +2629,6 @@
         <icon>boatbuilder.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="stonemason">
         <title>Камнерезная мастерская</title>
         <tags>
@@ -2857,7 +2640,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sawmill">
         <title>Пилорама</title>
         <tags>
@@ -2870,7 +2652,6 @@
         <icon>sawmill.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="insulation">
         <title>Услуги по утеплению помещений</title>
         <tags>
@@ -2882,7 +2663,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tiler">
         <title>Плиточные работы</title>
         <tags>
@@ -2894,7 +2674,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="saddler">
         <title>Пошив и ремонт автокресел</title>
         <tags>
@@ -2906,7 +2685,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="carpet_layer">
         <title>Укладка ковров, ковролина</title>
         <tags>
@@ -2918,7 +2696,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="upholsterer">
         <title>Драпировщик, обивка мебели</title>
         <tags>
@@ -2930,7 +2707,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="watchmaker">
         <title>Часовщик</title>
         <tags>
@@ -2943,7 +2719,6 @@
         <icon>watchmaker.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="photographer">
         <title>Фотограф</title>
         <tags>
@@ -2956,7 +2731,6 @@
         <icon>photographer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="roofer">
         <title>Кровельщик</title>
         <tags>
@@ -2968,7 +2742,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="parquet_layer">
         <title>Паркетные работы</title>
         <tags>
@@ -2980,7 +2753,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tailor">
         <title>Ателье</title>
         <tags>
@@ -2993,7 +2765,6 @@
         <icon>tailor.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="brewery">
         <title>Пивоварня</title>
         <tags>
@@ -3006,7 +2777,6 @@
         <icon>brewery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="clockmaker">
         <title>Часовая мастерская</title>
         <tags>
@@ -3019,7 +2789,6 @@
         <icon>clockmaker.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="basket_maker">
         <title>Плетение из лозы</title>
         <tags>
@@ -3031,7 +2800,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="shoemaker">
         <title>Обувная мастерская</title>
         <tags>
@@ -3044,7 +2812,6 @@
         <icon>shoemaker.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dressmaker">
         <title>Пошив, ремонт одежды</title>
         <tags>
@@ -3057,7 +2824,6 @@
         <icon>dressmaker.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hvac">
         <title>Монтаж кондиционеров, систем вентиляции</title>
         <tags>
@@ -3069,7 +2835,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="glaziery_craft">
         <title>Стеклорезная мастерская</title>
         <tags>
@@ -3082,7 +2847,6 @@
         <icon>glaziery_craft.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sailmaker">
         <title>Пошив и ремонт парусов</title>
         <tags>
@@ -3095,7 +2859,6 @@
         <icon>sailmaker.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sun_protection">
         <title>Изготовление навесов, жалюзи</title>
         <tags>
@@ -3108,7 +2871,6 @@
         <icon>sun_protection.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="window_construction">
         <title>Изготовление окон</title>
         <tags>
@@ -3121,7 +2883,6 @@
         <icon>window_construction.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sculptor">
         <title>Скульптор</title>
         <tags>
@@ -3134,7 +2895,6 @@
         <icon>sculptor.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="gardener">
         <title>Садовник, ландшафтный дизайнер</title>
         <tags>
@@ -3147,7 +2907,6 @@
         <icon>gardener.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="jeweller">
         <title>Ювелирная мастерская</title>
         <tags>
@@ -3160,7 +2919,6 @@
         <icon>jeweller.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="agricultural_engines">
         <title>Ремонт сельхоз. техники</title>
         <tags>
@@ -3173,7 +2931,6 @@
         <icon>agricultural_engines.png</icon>
         <applyed-to>area node relation</applyed-to>
     </feature>
-
     <feature name="pottery">
         <title>Гончарная мастерская</title>
         <tags>
@@ -3186,7 +2943,6 @@
         <icon>pottery.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="craft_computer">
         <title>Ремонт компьютеров и оргтехники</title>
         <tags>
@@ -3199,7 +2955,6 @@
         <icon>craft_computer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="optician_craft">
         <title>Изготовление, подгонка очков, линз</title>
         <tags>
@@ -3212,7 +2967,6 @@
         <icon>optician_craft.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="blacksmith">
         <title>Кузница</title>
         <tags>
@@ -3225,7 +2979,6 @@
         <icon>blacksmith.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="key_cutter">
         <title>Изготовление ключей</title>
         <tags>
@@ -3237,7 +2990,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="metal_construction">
         <title>Металлоконструкции</title>
         <tags>
@@ -3249,7 +3001,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="stand_builder">
         <title>Изготовление выставочных стендов</title>
         <tags>
@@ -3261,7 +3012,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tinsmith">
         <title>Жестянщик, лудильщик</title>
         <tags>
@@ -3273,7 +3023,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="plumber">
         <title>Сантехник</title>
         <tags>
@@ -3285,7 +3034,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="beekeeper">
         <title>Пасека</title>
         <tags>
@@ -3298,7 +3046,6 @@
         <icon>beekeeper.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="caterer">
         <title>Кейтеринг</title>
         <description>Выездное ресторанное обслуживание</description>
@@ -3313,7 +3060,6 @@
         <wiki>Выездное ресторанное обслуживание</wiki>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="rigger">
         <title>Оснастка для яхт, катеров</title>
         <tags>
@@ -3326,7 +3072,6 @@
         <icon>rigger.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="locksmith">
         <title>Слесарные работы</title>
         <tags>
@@ -3338,7 +3083,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="scaffolder">
         <title>Возведение строительных лесов</title>
         <tags>
@@ -3350,7 +3094,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="plasterer">
         <title>Штукатурные работы, изготовление лепнины</title>
         <tags>
@@ -3363,7 +3106,6 @@
         <icon>plasterer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="painter">
         <title>Маляр</title>
         <tags>
@@ -3376,7 +3118,6 @@
         <icon>painter.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bookbinder">
         <title>Переплётная мастерская</title>
         <tags>
@@ -3389,7 +3130,6 @@
         <icon>bookbinder.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sweep">
         <title>Трубочист</title>
         <tags>
@@ -3401,7 +3141,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="photographic_laboratory">
         <title>Фотолаборатория</title>
         <tags>
@@ -3414,7 +3153,6 @@
         <icon>photographic_laboratory.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="carpenter">
         <title>Столярная мастерская</title>
         <tags>
@@ -3427,7 +3165,6 @@
         <icon>carpenter.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="mortuary">
         <title>Морг</title>
         <tags>
@@ -3439,7 +3176,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="nursing_home">
         <title>Дом престарелых</title>
         <tags>
@@ -3452,7 +3188,6 @@
         <icon>nursing_home.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="veterinary">
         <title>Ветлечебница</title>
         <tags>
@@ -3465,7 +3200,6 @@
         <icon>veterinary.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="doctors">
         <title>Врач</title>
         <tags>
@@ -3478,7 +3212,6 @@
         <icon>doctors.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="clinic">
         <title>Поликлиника, клиника</title>
         <tags>
@@ -3491,7 +3224,6 @@
         <icon>clinic.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ambulance_station">
         <title>Станция скорой помощи</title>
         <tags>
@@ -3504,7 +3236,6 @@
         <icon>ambulance_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pharmacy">
         <title>Аптека</title>
         <tags>
@@ -3517,7 +3248,6 @@
         <icon>pharmacy.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hospital">
         <title>Больница</title>
         <tags>
@@ -3530,7 +3260,6 @@
         <icon>hospital.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dentist">
         <title>Стоматология</title>
         <tags>
@@ -3543,7 +3272,6 @@
         <icon>dentist.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="emergency_phone">
         <title>Экстренный телефон</title>
         <tags>
@@ -3556,7 +3284,6 @@
         <icon>emergency_phone.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="police">
         <title>Отделение полиции</title>
         <tags>
@@ -3569,7 +3296,6 @@
         <icon>police.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fire_station">
         <title>Пожарная часть</title>
         <tags>
@@ -3582,7 +3308,6 @@
         <icon>fire_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ambulance_station">
         <title>Станция скорой помощи</title>
         <tags>
@@ -3595,7 +3320,6 @@
         <icon>ambulance_station.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fire_hydrant">
         <title>Пожарный гидрант</title>
         <tags>
@@ -3608,7 +3332,6 @@
         <icon>fire_hydrant.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="zoo">
         <title>Зоопарк</title>
         <tags>
@@ -3621,7 +3344,6 @@
         <icon>zoo.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="arts_centre">
         <title>Художественный центр</title>
         <tags>
@@ -3634,7 +3356,6 @@
         <icon>arts_centre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dance">
         <title>Танцплощадка</title>
         <tags>
@@ -3647,7 +3368,6 @@
         <icon>dance.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_music">
         <title>Музыкальный клуб</title>
         <tags>
@@ -3660,7 +3380,6 @@
         <icon>club_music.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_board_games">
         <title>Настольные игры</title>
         <tags>
@@ -3673,7 +3392,6 @@
         <icon>club_board_games.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_tourism">
         <title>Туристический клуб</title>
         <tags>
@@ -3686,7 +3404,6 @@
         <icon>club_tourism.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_chess">
         <title>Шахматный клуб</title>
         <tags>
@@ -3698,7 +3415,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_art">
         <title>Клуб любителей искусства</title>
         <tags>
@@ -3711,7 +3427,6 @@
         <icon>club_art.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_sport">
         <title>Спортивный клуб</title>
         <tags>
@@ -3724,7 +3439,6 @@
         <icon>club_sport.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_computer">
         <title>Компьютерный кружок</title>
         <tags>
@@ -3737,7 +3451,6 @@
         <icon>club_computer.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_cinema">
         <title>Киноклуб</title>
         <tags>
@@ -3750,7 +3463,6 @@
         <icon>club_cinema.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_game">
         <title>Игровой клуб</title>
         <tags>
@@ -3763,7 +3475,6 @@
         <icon>club_game.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_history">
         <title>Исторический клуб</title>
         <tags>
@@ -3776,7 +3487,6 @@
         <icon>club_history.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_motorcycle">
         <title>Мотоклуб</title>
         <tags>
@@ -3789,7 +3499,6 @@
         <icon>club_motorcycle.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_photography">
         <title>Фотоклуб</title>
         <tags>
@@ -3802,7 +3511,6 @@
         <icon>club_photography.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_fan">
         <title>Фанклуб</title>
         <tags>
@@ -3814,7 +3522,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_shooting">
         <title>Оружейный клуб</title>
         <tags>
@@ -3827,7 +3534,6 @@
         <icon>club_shooting.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_astronomy">
         <title>Астрономия</title>
         <tags>
@@ -3840,7 +3546,6 @@
         <icon>club_astronomy.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_linux">
         <title>Пользователей Linux (LUG)</title>
         <tags>
@@ -3852,7 +3557,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_theatre">
         <title>Театральный клуб</title>
         <tags>
@@ -3865,7 +3569,6 @@
         <icon>club_theatre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_automobile">
         <title>Автоклуб</title>
         <tags>
@@ -3878,7 +3581,6 @@
         <icon>club_automobile.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_hunting">
         <title>Охотников</title>
         <tags>
@@ -3891,7 +3593,6 @@
         <icon>club_hunting.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_ethnic">
         <title>Этнической культуры</title>
         <tags>
@@ -3903,7 +3604,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_nature">
         <title>Натуралистов</title>
         <tags>
@@ -3916,7 +3616,6 @@
         <icon>club_nature.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_fishing">
         <title>Рыболовов</title>
         <tags>
@@ -3929,7 +3628,6 @@
         <icon>club_fishing.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_veterans">
         <title>Ветеранов</title>
         <tags>
@@ -3941,7 +3639,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_charity">
         <title>Благотворительность</title>
         <tags>
@@ -3953,7 +3650,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="museum">
         <title>Музей</title>
         <tags>
@@ -3966,7 +3662,6 @@
         <icon>museum.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="theatre">
         <title>Театр, концертный зал</title>
         <tags>
@@ -3983,7 +3678,6 @@
         <icon>theatre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="library">
         <title>Библиотека</title>
         <tags>
@@ -3996,7 +3690,6 @@
         <icon>library.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="cinema">
         <title>Кинотеатр</title>
         <tags>
@@ -4009,7 +3702,6 @@
         <icon>cinema.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="circus">
         <title>Цирк</title>
         <tags>
@@ -4026,7 +3718,6 @@
         <icon>circus.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="community_centre">
         <title>Общественный центр</title>
         <tags>
@@ -4039,7 +3730,6 @@
         <icon>community_centre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="playground">
         <title>Детская площадка</title>
         <tags>
@@ -4052,7 +3742,6 @@
         <icon>playground.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="swimming_pool">
         <title>Бассейн</title>
         <tags>
@@ -4065,7 +3754,6 @@
         <icon>swimming_pool.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="horse_track">
         <title>Ипподром</title>
         <tags>
@@ -4082,7 +3770,6 @@
         <icon>horse_track.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="stadium">
         <title>Стадион</title>
         <tags>
@@ -4095,7 +3782,6 @@
         <icon>stadium.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="marina">
         <title>Пристань, яхт-клуб</title>
         <tags>
@@ -4108,7 +3794,6 @@
         <icon>marina.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle_track">
         <title>Велотрек</title>
         <tags>
@@ -4125,7 +3810,6 @@
         <icon>bicycle_track.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dance">
         <title>Танцплощадка</title>
         <tags>
@@ -4138,7 +3822,6 @@
         <icon>dance.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fishing">
         <title>Место для рыбалки</title>
         <tags>
@@ -4151,7 +3834,6 @@
         <icon>fishing.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="golf_course">
         <title>Поле для гольфа</title>
         <tags>
@@ -4164,7 +3846,6 @@
         <icon>golf_course.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_sport">
         <title>Спортивный клуб</title>
         <tags>
@@ -4177,7 +3858,6 @@
         <icon>club_sport.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="miniature_golf">
         <title>Мини-гольф</title>
         <tags>
@@ -4190,7 +3870,6 @@
         <icon>miniature_golf.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="nightclub">
         <title>Ночной клуб</title>
         <tags>
@@ -4203,7 +3882,6 @@
         <icon>nightclub.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="raceway">
         <title>Гоночная/раллийная трасса</title>
         <tags>
@@ -4216,7 +3894,6 @@
         <icon>raceway.png</icon>
         <applyed-to/>
     </feature>
-
     <feature name="water_park">
         <title>Аквапарк</title>
         <tags>
@@ -4229,7 +3906,6 @@
         <icon>water_park.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="theme_park">
         <title>Парк развлечений</title>
         <tags>
@@ -4242,7 +3918,6 @@
         <icon>theme_park.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="beach_resort">
         <title>Пляжный комплекс</title>
         <description>Оборудованный пляж с услугами</description>
@@ -4257,7 +3932,6 @@
         <wiki>Оборудованный пляж с услугами</wiki>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="park">
         <title>Парк</title>
         <tags>
@@ -4270,7 +3944,6 @@
         <icon>park.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bicycle_rental">
         <title>Прокат велосипедов</title>
         <tags>
@@ -4283,7 +3956,6 @@
         <icon>bicycle_rental.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="running_track">
         <title>Беговая дорожка</title>
         <tags>
@@ -4300,7 +3972,6 @@
         <icon>running_track.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="slipway">
         <title>Слип</title>
         <tags>
@@ -4313,7 +3984,6 @@
         <icon>slipway.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sauna">
         <title>Баня, сауна</title>
         <tags>
@@ -4326,7 +3996,6 @@
         <icon>sauna.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="sports_centre">
         <title>Спортивный центр</title>
         <tags>
@@ -4339,7 +4008,6 @@
         <icon>sports_centre.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ice_rink">
         <title>Каток</title>
         <tags>
@@ -4352,7 +4020,6 @@
         <icon>ice_rink.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pitch">
         <title>Спортивная площадка, поле, корт</title>
         <tags>
@@ -4365,7 +4032,6 @@
         <icon>pitch.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="dog_park">
         <title>Площадка для выгула собак</title>
         <tags>
@@ -4378,7 +4044,6 @@
         <icon>dog_park.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="atm">
         <title>Банкомат</title>
         <tags>
@@ -4391,7 +4056,6 @@
         <icon>atm.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="pawnbroker">
         <title>Ломбард</title>
         <tags>
@@ -4403,7 +4067,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="accountant">
         <title>Бухгалтерские услуги</title>
         <tags>
@@ -4415,7 +4078,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="currencyexchange">
         <title>Обмен валют</title>
         <tags>
@@ -4428,7 +4090,6 @@
         <icon>currencyexchange.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="money_lender">
         <title>Ростовщик</title>
         <tags>
@@ -4441,7 +4102,6 @@
         <icon>money_lender.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bank">
         <title>Банк</title>
         <tags>
@@ -4454,7 +4114,6 @@
         <icon>bank.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="town_hall">
         <title>Администрация нас.пункта</title>
         <tags>
@@ -4467,7 +4126,6 @@
         <icon>town_hall.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="government">
         <title>Гос. учреждение</title>
         <tags>
@@ -4479,7 +4137,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="social_facility">
         <title>Социальное учреждение</title>
         <tags>
@@ -4492,7 +4149,6 @@
         <icon>social_facility.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="police">
         <title>Отделение полиции</title>
         <tags>
@@ -4505,7 +4161,6 @@
         <icon>police.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="register_office">
         <title>ЗАГС</title>
         <tags>
@@ -4518,7 +4173,6 @@
         <icon>register_office.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="migration">
         <title>Миграционная служба</title>
         <tags>
@@ -4534,7 +4188,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="prison">
         <title>Тюрьма</title>
         <tags>
@@ -4547,7 +4200,6 @@
         <icon>prison.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="customs">
         <title>Таможенный пункт</title>
         <tags>
@@ -4560,7 +4212,6 @@
         <icon>customs.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="embassy">
         <title>Посольство</title>
         <tags>
@@ -4573,7 +4224,6 @@
         <icon>embassy.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="bailiff">
         <title>Служба судебных приставов</title>
         <tags>
@@ -4590,7 +4240,6 @@
         <icon>bailiff.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="prosecutor">
         <title>Прокуратура</title>
         <tags>
@@ -4606,7 +4255,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="pension_fund">
         <title>Пенсионный фонд</title>
         <tags>
@@ -4622,7 +4270,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="tax_inspection">
         <title>Налоговая</title>
         <tags>
@@ -4638,7 +4285,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="administrative">
         <title>Административное учреждение</title>
         <tags>
@@ -4651,7 +4297,6 @@
         <icon>administrative.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="courthouse">
         <title>Суд</title>
         <tags>
@@ -4664,7 +4309,6 @@
         <icon>courthouse.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="club_tourism">
         <title>Туристический клуб</title>
         <tags>
@@ -4677,7 +4321,6 @@
         <icon>club_tourism.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="spring">
         <title>Родник</title>
         <tags>
@@ -4690,7 +4333,6 @@
         <icon>spring.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="clock">
         <title>Часы</title>
         <tags>
@@ -4703,7 +4345,6 @@
         <icon>clock.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="drinking_water">
         <title>Питьевая вода</title>
         <tags>
@@ -4716,7 +4357,6 @@
         <icon>drinking_water.png</icon>
         <applyed-to node="true"/>
     </feature>
-
     <feature name="hostel">
         <title>Хостел</title>
         <tags>
@@ -4729,7 +4369,6 @@
         <icon>hostel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="motel">
         <title>Мотель</title>
         <tags>
@@ -4742,7 +4381,6 @@
         <icon>motel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="guest_house">
         <title>Гостевой дом</title>
         <tags>
@@ -4755,7 +4393,6 @@
         <icon>guest_house.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="hotel">
         <title>Гостиница</title>
         <tags>
@@ -4768,7 +4405,6 @@
         <icon>hotel.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="shelter">
         <title>Укрытие от непогоды</title>
         <tags>
@@ -4781,7 +4417,6 @@
         <icon>shelter.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="information">
         <title>Информационный стенд</title>
         <tags>
@@ -4794,7 +4429,6 @@
         <icon>information.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="viewpoint">
         <title>Вид</title>
         <tags>
@@ -4807,7 +4441,6 @@
         <icon>viewpoint.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="camp_site">
         <title>Место для лагеря</title>
         <tags>
@@ -4820,7 +4453,6 @@
         <icon>camp_site.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="zoo">
         <title>Зоопарк</title>
         <tags>
@@ -4833,7 +4465,6 @@
         <icon>zoo.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ruins">
         <title>Исторические руины</title>
         <tags>
@@ -4846,7 +4477,6 @@
         <icon>ruins.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="memorial">
         <title>Мемориал, памятник</title>
         <tags>
@@ -4859,7 +4489,6 @@
         <icon>memorial.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="lighthouse">
         <title>Маяк</title>
         <tags>
@@ -4872,7 +4501,6 @@
         <icon>lighthouse.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="archaeological_site">
         <title>Раскопки</title>
         <tags>
@@ -4885,7 +4513,6 @@
         <icon>archaeological_site.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="boundary_stone">
         <title>Межевой камень</title>
         <tags>
@@ -4898,7 +4525,6 @@
         <icon>boundary_stone.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="battlefield">
         <title>Поле исторической битвы</title>
         <tags>
@@ -4911,7 +4537,6 @@
         <icon>battlefield.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fountain">
         <title>Фонтан</title>
         <tags>
@@ -4924,7 +4549,6 @@
         <icon>fountain.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="city_gate">
         <title>Городские ворота</title>
         <tags>
@@ -4937,7 +4561,6 @@
         <icon>city_gate.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="rune_stone">
         <title>Рунический камень</title>
         <tags>
@@ -4949,7 +4572,6 @@
         <trait>poi</trait>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="theme_park">
         <title>Парк развлечений</title>
         <tags>
@@ -4962,7 +4584,6 @@
         <icon>theme_park.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="ship">
         <title>Судно (музей)</title>
         <tags>
@@ -4975,7 +4596,6 @@
         <icon>ship.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="monument">
         <title>Монумент (памятник)</title>
         <tags>
@@ -4988,7 +4608,6 @@
         <icon>monument.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="viewpoint">
         <title>Вид</title>
         <tags>
@@ -5001,7 +4620,6 @@
         <icon>viewpoint.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="wreck">
         <title>Место кораблекрушения</title>
         <tags>
@@ -5014,7 +4632,6 @@
         <icon>wreck.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="museum">
         <title>Музей</title>
         <tags>
@@ -5027,7 +4644,6 @@
         <icon>museum.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="castle">
         <title>Замок</title>
         <tags>
@@ -5040,7 +4656,6 @@
         <icon>castle.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="attraction">
         <title>Достопримечательности</title>
         <tags>
@@ -5053,7 +4668,6 @@
         <icon>attraction.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="artwork">
         <title>Арт-объект</title>
         <tags>
@@ -5066,7 +4680,6 @@
         <icon>artwork.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="fort">
         <title>Фортификационные сооружения</title>
         <tags>
@@ -5079,7 +4692,6 @@
         <icon>fort.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="funicular">
         <title>Фуникулёр</title>
         <tags>
@@ -5092,7 +4704,6 @@
         <icon>funicular.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="travel_agent">
         <title>Турагентство</title>
         <tags>
@@ -5105,7 +4716,6 @@
         <icon>travel_agent.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
-
     <feature name="picnic_site">
         <title>Место для пикника</title>
         <tags>
@@ -5118,5 +4728,569 @@
         <icon>picnic_site.png</icon>
         <applyed-to area="true" node="true"/>
     </feature>
+    <hierarchy name="osm-ru">
+        <group name="shop">
+            <title>Магазины</title>
+            <group name="shop_food">
+                <title>Продукты</title>
+                <fref ref="bakery"/>
+                <fref ref="alcohol"/>
+                <fref ref="convenience"/>
+                <fref ref="mall"/>
+                <fref ref="beverages"/>
+                <fref ref="butcher"/>
+                <fref ref="deli"/>
+                <fref ref="farm"/>
+                <fref ref="greengrocer"/>
+                <fref ref="seafood"/>
+                <fref ref="confectionery"/>
+                <fref ref="ice_cream"/>
+                <fref ref="supermarket"/>
+            </group>
+            <fref ref="bookshop"/>
+            <fref ref="bicycle"/>
+            <fref ref="mall"/>
+            <fref ref="anime"/>
+            <fref ref="antiques"/>
+            <fref ref="art"/>
+            <fref ref="bag"/>
+            <fref ref="baby_goods"/>
+            <fref ref="bathroom_furnishing"/>
+            <fref ref="bed"/>
+            <fref ref="boutique"/>
+            <fref ref="carpet"/>
+            <fref ref="charity"/>
+            <fref ref="chemist"/>
+            <fref ref="clothes"/>
+            <fref ref="shoes"/>
+            <fref ref="computer"/>
+            <fref ref="copyshop"/>
+            <fref ref="curtain"/>
+            <fref ref="fabric"/>
+            <fref ref="bedding"/>
+            <fref ref="dive"/>
+            <fref ref="doityourself"/>
+            <fref ref="erotic"/>
+            <fref ref="fishing_shop"/>
+            <fref ref="florist"/>
+            <fref ref="frame"/>
+            <fref ref="furniture"/>
+            <fref ref="garden_centre"/>
+            <fref ref="gas"/>
+            <fref ref="gift"/>
+            <fref ref="glaziery_shop"/>
+            <fref ref="hardware"/>
+            <fref ref="hearing_aids"/>
+            <fref ref="herbalist"/>
+            <fref ref="hifi"/>
+            <fref ref="houseware"/>
+            <fref ref="hunting"/>
+            <fref ref="interior_decoration"/>
+            <fref ref="jewelry"/>
+            <fref ref="kiosk"/>
+            <fref ref="kitchen"/>
+            <fref ref="mobile_phone"/>
+            <fref ref="motorcycle"/>
+            <fref ref="musical_instrument"/>
+            <fref ref="newsagent"/>
+            <fref ref="optician_shop"/>
+            <fref ref="organic"/>
+            <fref ref="outdoor"/>
+            <fref ref="paint"/>
+            <fref ref="pet"/>
+            <fref ref="radiotechnics"/>
+            <fref ref="second_hand"/>
+            <fref ref="ship_chandler"/>
+            <fref ref="sports"/>
+            <fref ref="stationery"/>
+            <fref ref="tableware"/>
+            <fref ref="ticket"/>
+            <fref ref="tobacco"/>
+            <fref ref="toys"/>
+            <fref ref="trade"/>
+            <fref ref="vacuum_cleaner"/>
+            <fref ref="variety_store"/>
+            <fref ref="video"/>
+            <fref ref="window_blind"/>
+            <fref ref="supermarket"/>
+            <fref ref="department_store"/>
+            <fref ref="electronics"/>
+            <fref ref="car"/>
+            <fref ref="car_parts"/>
+            <fref ref="atv"/>
+            <fref ref="pawnbroker"/>
+            <fref ref="cosmetics"/>
+            <fref ref="marketplace"/>
+            <fref ref="sewing"/>
+        </group>
+        <group name="health">
+            <title>Здоровье</title>
+            <fref ref="pharmacy"/>
+            <fref ref="hospital"/>
+            <fref ref="doctors"/>
+            <fref ref="clinic"/>
+            <fref ref="dentist"/>
+            <fref ref="nursing_home"/>
+            <fref ref="veterinary"/>
+            <fref ref="mortuary"/>
+            <fref ref="ambulance_station"/>
+        </group>
+        <group name="food">
+            <title>Еда</title>
+            <fref ref="cafe"/>
+            <fref ref="biergarten"/>
+            <fref ref="restaurant"/>
+            <fref ref="fast_food"/>
+            <fref ref="bar"/>
+            <fref ref="pub"/>
+            <fref ref="food_court"/>
+        </group>
+        <group name="finance">
+            <title>Финансы</title>
+            <fref ref="bank"/>
+            <fref ref="atm"/>
+            <fref ref="money_lender"/>
+            <fref ref="pawnbroker"/>
+            <fref ref="currencyexchange"/>
+            <fref ref="accountant"/>
+        </group>
+        <group name="service">
+            <title>Услуги</title>
+            <fref ref="funeral_directors"/>
+            <fref ref="currencyexchange"/>
+            <fref ref="driving_school"/>
+            <fref ref="craft_computer"/>
+            <fref ref="post_office"/>
+            <fref ref="post_box"/>
+            <fref ref="beauty_salon"/>
+            <fref ref="nails"/>
+            <fref ref="hairdresser"/>
+            <fref ref="massage"/>
+            <fref ref="tattoo"/>
+            <fref ref="dry_cleaning"/>
+            <fref ref="laundry"/>
+            <fref ref="car_rental"/>
+            <fref ref="bicycle_rental"/>
+            <fref ref="tailor"/>
+            <fref ref="ev_charging"/>
+            <fref ref="toilets"/>
+            <fref ref="telephone"/>
+            <fref ref="sauna"/>
+            <fref ref="recycling"/>
+            <fref ref="internet_cafe"/>
+        </group>
+        <group name="craft">
+            <title>Ремонт и мелкое производство</title>
+            <fref ref="craft_computer"/>
+            <fref ref="agricultural_engines"/>
+            <fref ref="basket_maker"/>
+            <fref ref="beekeeper"/>
+            <fref ref="blacksmith"/>
+            <fref ref="brewery"/>
+            <fref ref="boatbuilder"/>
+            <fref ref="bookbinder"/>
+            <fref ref="carpenter"/>
+            <fref ref="carpet_layer"/>
+            <fref ref="caterer"/>
+            <fref ref="clockmaker"/>
+            <fref ref="dressmaker"/>
+            <fref ref="electrician"/>
+            <fref ref="gardener"/>
+            <fref ref="glaziery_craft"/>
+            <fref ref="handicraft"/>
+            <fref ref="hvac"/>
+            <fref ref="insulation"/>
+            <fref ref="jeweller"/>
+            <fref ref="locksmith"/>
+            <fref ref="key_cutter"/>
+            <fref ref="metal_construction"/>
+            <fref ref="optician_craft"/>
+            <fref ref="painter"/>
+            <fref ref="parquet_layer"/>
+            <fref ref="photographer"/>
+            <fref ref="photographic_laboratory"/>
+            <fref ref="plasterer"/>
+            <fref ref="plumber"/>
+            <fref ref="pottery"/>
+            <fref ref="rigger"/>
+            <fref ref="roofer"/>
+            <fref ref="saddler"/>
+            <fref ref="sailmaker"/>
+            <fref ref="sawmill"/>
+            <fref ref="scaffolder"/>
+            <fref ref="sculptor"/>
+            <fref ref="shoemaker"/>
+            <fref ref="stand_builder"/>
+            <fref ref="stonemason"/>
+            <fref ref="sun_protection"/>
+            <fref ref="sweep"/>
+            <fref ref="tailor"/>
+            <fref ref="tiler"/>
+            <fref ref="tinsmith"/>
+            <fref ref="upholsterer"/>
+            <fref ref="watchmaker"/>
+            <fref ref="window_construction"/>
+        </group>
+        <group name="transport">
+            <title>Транспорт</title>
+            <group name="road_obstacles">
+                <title>Препятствия на дороге</title>
+                <fref ref="ford"/>
+                <fref ref="mountain_pass"/>
+                <fref ref="gate"/>
+                <fref ref="lift_gate"/>
+                <fref ref="toll_booth"/>
+                <fref ref="bump"/>
+                <fref ref="hump"/>
+                <fref ref="cushion"/>
+                <fref ref="speed_camera"/>
+            </group>
+            <group name="personal_transport">
+                <title>Личный автотранспорт</title>
+                <fref ref="car_repair"/>
+                <fref ref="car_repair_tyres"/>
+                <fref ref="car_wash"/>
+                <fref ref="fuel"/>
+                <fref ref="ev_charging"/>
+                <fref ref="vehicle_ramp"/>
+                <fref ref="parking"/>
+                <fref ref="parking_entrance"/>
+                <fref ref="speed_camera"/>
+            </group>
+            <group name="public_transport">
+                <title>Общественный транспорт</title>
+                <fref ref="bus_station"/>
+                <fref ref="subway_entrance"/>
+                <fref ref="railway_station"/>
+                <fref ref="railway_halt"/>
+                <fref ref="subway_station"/>
+                <fref ref="bus_stop"/>
+                <fref ref="tram_stop"/>
+                <fref ref="taxi"/>
+                <fref ref="funicular"/>
+            </group>
+            <group name="air_transport">
+                <title>Воздушный транспорт</title>
+                <fref ref="airport"/>
+                <fref ref="helipad"/>
+            </group>
+            <group name="water_transport">
+                <title>Водный транспорт</title>
+                <group name="ship_navigation">
+                    <title>Судоходная навигация</title>
+                    <fref ref="leading_beacon"/>
+                    <fref ref="lateral_buoy"/>
+                    <fref ref="lighthouse"/>
+                </group>
+                <fref ref="slipway"/>
+                <fref ref="ferry_terminal"/>
+            </group>
+            <group name="bicycle_transport">
+                <title>Велосипеды</title>
+                <fref ref="bicycle_rental"/>
+                <fref ref="bicycle_parking"/>
+            </group>
+            <group name="transport_constructions">
+                <title>Транспортные сооружения</title>
+                <fref ref="tunnel"/>
+                <fref ref="bridge"/>
+            </group>
+        </group>
+        <group name="education">
+            <title>Образование</title>
+            <fref ref="driving_school"/>
+            <fref ref="school"/>
+            <fref ref="kindergarten"/>
+            <fref ref="library"/>
+            <fref ref="college"/>
+            <fref ref="university"/>
+        </group>
+        <group name="sport_and_entertainment">
+            <title>Спорт и развлечения</title>
+            <fref ref="bicycle_rental"/>
+            <fref ref="nightclub"/>
+            <fref ref="stadium"/>
+            <fref ref="sports_centre"/>
+            <fref ref="beach_resort"/>
+            <fref ref="dance"/>
+            <fref ref="dog_park"/>
+            <fref ref="fishing"/>
+            <fref ref="golf_course"/>
+            <fref ref="ice_rink"/>
+            <fref ref="marina"/>
+            <fref ref="slipway"/>
+            <fref ref="miniature_golf"/>
+            <fref ref="pitch"/>
+            <fref ref="running_track"/>
+            <fref ref="bicycle_track"/>
+            <fref ref="horse_track"/>
+            <fref ref="raceway"/>
+            <fref ref="playground"/>
+            <fref ref="swimming_pool"/>
+            <fref ref="water_park"/>
+            <fref ref="park"/>
+            <fref ref="sauna"/>
+            <fref ref="theme_park"/>
+            <fref ref="club_sport"/>
+        </group>
+        <group name="religion">
+            <title>Религия</title>
+            <fref ref="place_of_worship"/>
+            <fref ref="place_of_worship_christian"/>
+            <fref ref="place_of_worship_jewish"/>
+            <fref ref="place_of_worship_muslim"/>
+            <fref ref="cemetery"/>
+        </group>
+        <group name="democracy">
+            <title>Госучреждения</title>
+            <fref ref="social_facility"/>
+            <fref ref="police"/>
+            <fref ref="courthouse"/>
+            <fref ref="prison"/>
+            <fref ref="register_office"/>
+            <fref ref="embassy"/>
+            <fref ref="government"/>
+            <fref ref="bailiff"/>
+            <fref ref="prosecutor"/>
+            <fref ref="pension_fund"/>
+            <fref ref="migration"/>
+            <fref ref="tax_inspection"/>
+            <fref ref="administrative"/>
+            <fref ref="town_hall"/>
+            <fref ref="customs"/>
+        </group>
+        <group name="emergency">
+            <title>Экстренные службы</title>
+            <fref ref="police"/>
+            <fref ref="fire_station"/>
+            <fref ref="emergency_phone"/>
+            <fref ref="fire_hydrant"/>
+            <fref ref="ambulance_station"/>
+        </group>
+        <group name="tourism">
+            <title>Туризм</title>
+            <group name="sights">
+                <title>Достопримечательности</title>
+                <fref ref="museum"/>
+                <fref ref="attraction"/>
+                <fref ref="memorial"/>
+                <fref ref="artwork"/>
+                <fref ref="archaeological_site"/>
+                <fref ref="battlefield"/>
+                <fref ref="boundary_stone"/>
+                <fref ref="castle"/>
+                <fref ref="city_gate"/>
+                <fref ref="fort"/>
+                <fref ref="fountain"/>
+                <fref ref="ruins"/>
+                <fref ref="rune_stone"/>
+                <fref ref="wreck"/>
+                <fref ref="ship"/>
+                <fref ref="monument"/>
+                <fref ref="viewpoint"/>
+                <fref ref="zoo"/>
+                <fref ref="theme_park"/>
+                <fref ref="lighthouse"/>
+            </group>
+            <group name="lodging">
+                <title>Проживание</title>
+                <fref ref="hotel"/>
+                <fref ref="guest_house"/>
+                <fref ref="hostel"/>
+                <fref ref="motel"/>
+            </group>
+            <fref ref="information"/>
+            <fref ref="clock"/>
+            <fref ref="travel_agent"/>
+            <fref ref="viewpoint"/>
+            <fref ref="camp_site"/>
+            <fref ref="picnic_site"/>
+            <fref ref="spring"/>
+            <fref ref="shelter"/>
+            <fref ref="drinking_water"/>
+            <fref ref="club_tourism"/>
+            <fref ref="funicular"/>
+        </group>
+        <group name="culture">
+            <title>Культура, досуг</title>
+            <group name="clubs">
+                <title>Клубы по интересам, кружки</title>
+                <fref ref="club_art"/>
+                <fref ref="club_astronomy"/>
+                <fref ref="club_computer"/>
+                <fref ref="club_board_games"/>
+                <fref ref="club_motorcycle"/>
+                <fref ref="club_sport"/>
+                <fref ref="club_game"/>
+                <fref ref="club_automobile"/>
+                <fref ref="club_chess"/>
+                <fref ref="club_cinema"/>
+                <fref ref="club_fan"/>
+                <fref ref="club_fishing"/>
+                <fref ref="club_veterans"/>
+                <fref ref="club_linux"/>
+                <fref ref="club_theatre"/>
+                <fref ref="club_history"/>
+                <fref ref="club_music"/>
+                <fref ref="club_ethnic"/>
+                <fref ref="club_nature"/>
+                <fref ref="club_photography"/>
+                <fref ref="club_hunting"/>
+                <fref ref="club_shooting"/>
+                <fref ref="club_tourism"/>
+                <fref ref="club_charity"/>
+            </group>
+            <fref ref="library"/>
+            <fref ref="arts_centre"/>
+            <fref ref="cinema"/>
+            <fref ref="community_centre"/>
+            <fref ref="theatre"/>
+            <fref ref="circus"/>
+            <fref ref="museum"/>
+            <fref ref="dance"/>
+            <fref ref="zoo"/>
+        </group>
+        <group name="office">
+            <title>Организации</title>
+            <fref ref="company"/>
+            <fref ref="insurance"/>
+            <fref ref="estate_agent"/>
+            <fref ref="lawyer"/>
+            <fref ref="notary"/>
+            <fref ref="telecommunication"/>
+            <fref ref="travel_agent"/>
+            <fref ref="ngo"/>
+            <fref ref="administrative"/>
+            <fref ref="town_hall"/>
+            <fref ref="accountant"/>
+            <fref ref="employment_agency"/>
+            <fref ref="research"/>
+            <fref ref="it"/>
+            <fref ref="newspaper"/>
+            <fref ref="architect"/>
+            <fref ref="advertising_agency"/>
+            <fref ref="educational_institution"/>
+            <fref ref="studio"/>
+            <fref ref="bookmaker"/>
+        </group>
+        <group name="natural">
+            <title>Природные объекты</title>
+            <fref ref="cave_entrance"/>
+            <fref ref="peak"/>
+            <fref ref="saddle"/>
+            <fref ref="volcano"/>
+            <fref ref="waterfall"/>
+            <fref ref="spring"/>
+            <fref ref="cape"/>
+            <fref ref="bay"/>
+            <fref ref="strait"/>
+            <fref ref="island"/>
+            <fref ref="islet"/>
+            <fref ref="beach"/>
+        </group>
+        <group name="infrastructure">
+            <title>Инфраструктура</title>
+            <group name="transport_constructions">
+                <title>Транспортные сооружения</title>
+                <fref ref="tunnel"/>
+                <fref ref="bridge"/>
+            </group>
+            <group name="water_supply">
+                <title>Водоснабжение</title>
+                <fref ref="water_well"/>
+                <fref ref="water_works"/>
+                <fref ref="wastewater_plant"/>
+                <fref ref="water_tower"/>
+            </group>
+            <group name="power">
+                <title>Электроснабжение</title>
+                <fref ref="substation"/>
+                <fref ref="transformer"/>
+                <fref ref="power_plant"/>
+                <fref ref="power_generator"/>
+            </group>
+            <group name="communications">
+                <title>Связь</title>
+                <fref ref="communication_tower"/>
+                <fref ref="telephone_exchange"/>
+            </group>
+            <fref ref="surveillance"/>
+            <fref ref="construction"/>
+            <fref ref="landfill"/>
+        </group>
+    </hierarchy>
 
+	<trait name="poi">
+		<title i18Key="trait.poi.title">Точка интереса</title>
+		<description>
+			Базовый шаблон дополнительных атрибутов для всех точек интереса.
+			* Магазинов
+			* Организаций
+			* Отелей и т.п. 
+		</description>
+		<extends>named</extends>
+		<extends>addressed</extends>
+		<extends>working-hours</extends>
+		<extends>contacts</extends>
+	</trait>
+	
+	<trait name="named">
+		<title i18Key="trait.named.title">Название</title>
+		<description>
+			Шаблон атрибутов для именованых объектов
+		</description>
+		<tags>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
+				<key d:match="with-namespace">name</key>
+			</tag>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<key d:match="contains">name</key>
+			</tag>
+		</tags>
+	</trait>
+
+	<trait name="addressed">
+		<title i18Key="trait.named.title">Адрес</title>
+		<description>
+			Шаблон атрибутов для объектов имеющих адреса
+		</description>
+		<tags>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-housenumber">Номер дома</title>
+				<key>addr:housenumber</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-street">Улица</title>
+				<description>
+					Название улицы по которой адресуется дом. 
+					Не заполняйте если дом адресуется по территории (поселок Энергетик - 12)
+				</description>
+				<key>addr:street</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-city">Город</title>
+				<key>addr:city</key>
+			</tag>
+			<tag>
+				<title i18Key="trait.addressed.tag.addr-housename">Название дома</title>
+				<key>addr:housename</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	<trait name="working-hours">
+		<title i18Key="trait.working-hours.title">Рабочее время</title>
+		<tags>
+			<tag d:tag-value-type="anyString">
+				<title i18Key="trait.named.tag.name">Название</title>
+				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
+				<key d:match="with-namespace">name</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	
 </doc-part>

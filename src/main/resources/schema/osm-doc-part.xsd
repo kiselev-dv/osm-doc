@@ -28,6 +28,7 @@
 	<complexType name="feature">
 		<sequence>
 			<group ref="osmdoc:titleDescription" />
+			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" />
 			<element ref="osmdoc:tags" maxOccurs="unbounded">
 				<annotation>
 					<documentation>
@@ -59,6 +60,7 @@
 		<complexType>
 			<sequence>
 				<group ref="osmdoc:titleDescription" />
+				<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" />
 				<group ref="osmdoc:iconsWikiNote" />
 				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
 				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
@@ -108,15 +110,15 @@
 
 	<group name="titleDescription">
 		<sequence>
-			<element name="title" type="osmdoc:i18nString"/>
-			<element name="description" minOccurs="0" type="osmdoc:i18nString" />
+			<element name="title" type="string" />
+			<element name="description" minOccurs="0" type="string" />
 		</sequence>
 	</group>
 	
-	<complexType name="i18nString">
+	<complexType name="langString">
 		<simpleContent>
 			<extension base="string">
-				<attribute name="i18Key" type="string" use="optional" />
+				<attribute name="lang" type="string" use="required" />
 			</extension>
 		</simpleContent>
 	</complexType>
@@ -179,6 +181,7 @@
 	<attribute name="match" default="exact">
 		<simpleType>
 			<restriction base="string">
+				<enumeration value="any"/>
 				<enumeration value="exact"/>
 				<enumeration value="with-namespace"/>
 				<enumeration value="contains"/>

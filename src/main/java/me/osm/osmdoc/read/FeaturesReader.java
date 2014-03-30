@@ -1,4 +1,4 @@
-package me.osm.osmdoc.processing;
+package me.osm.osmdoc.read;
 
 import java.io.File;
 import java.net.URI;
@@ -20,37 +20,6 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 public class FeaturesReader {
-	
-	public static void main(String[] args) {
-		try {
-			System.out.println("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>");
-			System.out.println("<doc-part xmlns=\"http://map.osm.me/osm-doc-part\">");
-			
-			URL url = FeaturesReader.class.getResource("/features");
-			URI uri = url.toURI();
-			if(uri != null) {
-				File dir = new File(uri);
-				Iterator filesIterator = FileUtils
-						.iterateFiles(dir, new SuffixFileFilter(".xml"), TrueFileFilter.INSTANCE);
-				
-				while(filesIterator.hasNext()) {
-					File f = (File) filesIterator.next();
-					for(String line : (List<String>)FileUtils.readLines(f)) {
-						if(!line.contains("<?xml") && !line.contains("<doc-part") 
-								&& !line.contains("</doc-part>")) {
-							System.out.println(line);
-						}
-					}
-				}
-				
-			}
-			
-			System.out.println("</doc-part>");
-		}
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 	
 	public static List<Feature> getFeatures (String folder) {
 		

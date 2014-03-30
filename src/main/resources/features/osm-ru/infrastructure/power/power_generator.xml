@@ -9,7 +9,7 @@
             </tag>
             <tag>
                 <key>generator:output:electricity</key>
-                <val value="*"/>
+                <val match="any" value="*"/>
             </tag>
         </tags>
         <trait>poi</trait>
