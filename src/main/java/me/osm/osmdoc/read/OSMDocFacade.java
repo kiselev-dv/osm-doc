@@ -41,24 +41,7 @@ public class OSMDocFacade {
 		
 		List<Feature> features = docReader.getFeatures();
 		
-		String hierarcyName = null;
-		boolean singleHierarcy = docReader.getDoc().getHierarchy().size() == 1;
-		if(singleHierarcy) {
-			hierarcyName = docReader.getDoc().getHierarchy().get(0).getName();
-		}
-		
-		excludedFeatures = new HashSet<Feature>();
-		if(exclude != null) {
-			for(String ex : exclude) {
-				String[] split = StringUtils.split(ex, ':');
-				if(singleHierarcy && split.length == 1) {
-					excludedFeatures.addAll(docReader.getHierarcyBranch(hierarcyName, ex));
-				}
-				else {
-					excludedFeatures.addAll(docReader.getHierarcyBranch(split[0], split[1]));
-				}
-			}
-		}
+		excludedFeatures = getBranches(exclude);
 		
 		for(Feature f : features) {
 			
@@ -94,6 +77,33 @@ public class OSMDocFacade {
 		}
 		
 		dTree = new TagsDecisionTreeImpl(key2values);
+	}
+
+	public Set<Feature> getBranches(List<String> exclude) {
+		String hierarcyName = null;
+		boolean singleHierarcy = docReader.getDoc().getHierarchy().size() == 1;
+		if(singleHierarcy) {
+			hierarcyName = docReader.getDoc().getHierarchy().get(0).getName();
+		}
+		
+		return getBranches(exclude, hierarcyName, singleHierarcy);
+	}
+	
+	private Set<Feature> getBranches(List<String> exclude, String hierarcyName,
+			boolean singleHierarcy) {
+		Set<Feature> result = new HashSet<Feature>();
+		if(exclude != null) {
+			for(String ex : exclude) {
+				String[] split = StringUtils.split(ex, ':');
+				if(singleHierarcy && split.length == 1) {
+					result.addAll(docReader.getHierarcyBranch(hierarcyName, ex));
+				}
+				else {
+					result.addAll(docReader.getHierarcyBranch(split[0], split[1]));
+				}
+			}
+		}
+		return result;
 	}
 
 	public TagsDecisionTreeImpl getPoiClassificator() {
