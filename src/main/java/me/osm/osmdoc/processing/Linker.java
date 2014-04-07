@@ -38,6 +38,7 @@ public class Linker {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	private static void linkFeatures(String resource) throws URISyntaxException, IOException {
 		URL url = Linker.class.getResource(resource);
 		URI uri = url.toURI();
@@ -45,11 +46,11 @@ public class Linker {
 
 			File dir = new File(uri);
 			
-			Iterator filesIterator = FileUtils
-					.iterateFiles(dir, new SuffixFileFilter(".xml"), TrueFileFilter.INSTANCE);
+			Iterator<File> filesIterator = FileUtils.iterateFiles(dir, 
+					new SuffixFileFilter(".xml"), TrueFileFilter.INSTANCE);
 			
 			while(filesIterator.hasNext()) {
-				File f = (File) filesIterator.next();
+				File f = filesIterator.next();
 				for(String line : (List<String>)FileUtils.readLines(f)) {
 					if(!line.contains("<?xml") && !line.contains("<doc-part") 
 							&& !line.contains("</doc-part>")) {

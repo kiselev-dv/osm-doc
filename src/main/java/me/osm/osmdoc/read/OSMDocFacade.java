@@ -7,11 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.lang3.StringUtils;
-
 import me.osm.osmdoc.model.Feature;
 import me.osm.osmdoc.model.Tag;
 import me.osm.osmdoc.model.Tags;
+
+import org.apache.commons.lang3.StringUtils;
 
 
 public class OSMDocFacade {
@@ -48,13 +48,15 @@ public class OSMDocFacade {
 		}
 		
 		excludedFeatures = new HashSet<Feature>();
-		for(String ex : exclude) {
-			String[] split = StringUtils.split(ex, ':');
-			if(singleHierarcy && split.length == 1) {
-				excludedFeatures.addAll(docReader.getHierarcyBranch(hierarcyName, ex));
-			}
-			else {
-				excludedFeatures.addAll(docReader.getHierarcyBranch(split[0], split[1]));
+		if(exclude != null) {
+			for(String ex : exclude) {
+				String[] split = StringUtils.split(ex, ':');
+				if(singleHierarcy && split.length == 1) {
+					excludedFeatures.addAll(docReader.getHierarcyBranch(hierarcyName, ex));
+				}
+				else {
+					excludedFeatures.addAll(docReader.getHierarcyBranch(split[0], split[1]));
+				}
 			}
 		}
 		
