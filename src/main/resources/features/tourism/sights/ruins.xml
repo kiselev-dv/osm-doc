@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ruins">
+        <title>Исторические руины</title>
+        <tags>
+            <tag>
+                <key>historic</key>
+                <val value="ruins"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>ruins.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

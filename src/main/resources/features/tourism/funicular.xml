@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="funicular">
+        <title>Фуникулёр</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="funicular"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>funicular.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

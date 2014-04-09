@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="club_nature">
+        <title>Натуралистов</title>
+        <tags>
+            <tag>
+                <key>club</key>
+                <val value="nature"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>club_nature.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

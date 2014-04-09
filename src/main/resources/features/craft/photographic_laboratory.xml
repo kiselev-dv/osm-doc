@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="photographic_laboratory">
+        <title>Фотолаборатория</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="photographic_laboratory"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>photographic_laboratory.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

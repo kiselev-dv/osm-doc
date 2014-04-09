@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="place_of_worship">
+        <title>Место поклонения</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="place_of_worship"/>
+            </tag>
+            <tag exclude="true">
+                <key>religion</key>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Религия</title>
+                <key>religion</key>
+                <val value="muslim">
+                    <title>Мусульманство (Ислам)</title>
+                </val>
+                <val value="sikh">
+                    <title>Сикхизм</title>
+                </val>
+                <val value="christian">
+                    <title>Христианство</title>
+                </val>
+                <val value="jewish">
+                    <title>Иудаизм</title>
+                </val>
+                <val value="buddhist">
+                    <title>Буддизм</title>
+                </val>
+                <val value="jain">
+                    <title>Джайнизм</title>
+                </val>
+                <val value="shinto">
+                    <title>Синтоизм</title>
+                </val>
+                <val value="bahai">
+                    <title>Бахаи</title>
+                </val>
+                <val value="zoroastrian">
+                    <title>Зороастризм</title>
+                </val>
+                <val value="hindu">
+                    <title>Индуизм</title>
+                </val>
+                <val value="scientologist">
+                    <title>Сайентология</title>
+                </val>
+                <val value="unitarianist">
+                    <title>Унитаризм</title>
+                </val>
+                <val value="pastafarian">
+                    <title>Пастафарианство</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="period">
+                <title>Время проведения служб</title>
+                <key>service_times</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Конфессия</title>
+                <key>denomination</key>
+                <val value="armenian_apostolic">
+                    <title>Армянская Григорианская церковь</title>
+                </val>
+                <val value="catholic">
+                    <title>Римская католическая церковь</title>
+                </val>
+                <val value="russian_orthodox">
+                    <title>Русское православие</title>
+                </val>
+                <val value="baptist">
+                    <title>Баптизм</title>
+                </val>
+                <val value="orthodox">
+                    <title>Православие</title>
+                </val>
+                <val value="old_believers">
+                    <title>Старообрядчество</title>
+                </val>
+                <val value="pentecostal">
+                    <title>Пятидесятничество</title>
+                </val>
+                <val value="lutheran">
+                    <title>Лютеранство</title>
+                </val>
+                <val value="greek_orthodox">
+                    <title>Греческое православие</title>
+                </val>
+                <val value="anglican">
+                    <title>Англиканство</title>
+                </val>
+                <val value="assyrian">
+                    <title>Ассирийская церковь Востока</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>place_of_worship.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

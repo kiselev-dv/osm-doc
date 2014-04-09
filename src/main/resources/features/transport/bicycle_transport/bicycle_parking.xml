@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bicycle_parking">
+        <title>Велопарковка</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="bicycle_parking"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Наличие платы</title>
+                <key>fee</key>
+                <val value="yes">
+                    <title>платный</title>
+                </val>
+                <val value="no">
+                    <title>бесплатный</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Количество мест</title>
+                <key>capacity</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Крытый</title>
+                <key>covered</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bicycle_parking.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

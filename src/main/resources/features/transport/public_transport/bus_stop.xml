@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bus_stop">
+        <title>Остановка автобуса</title>
+        <tags>
+            <tag>
+                <key>highway</key>
+                <val value="bus_stop"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Номера маршрутов</title>
+                <key>route_ref</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Навес</title>
+                <key>shelter</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Скамейка</title>
+                <key>bench</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Урна для мусора</title>
+                <key>bin</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bus_stop.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

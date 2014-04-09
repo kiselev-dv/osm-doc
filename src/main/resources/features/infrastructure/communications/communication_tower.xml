@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="communication_tower">
+        <title>Вышка связи</title>
+        <tags>
+            <tag>
+                <key>tower:type</key>
+                <val value="communication"/>
+            </tag>
+            <tag>
+                <key>man_made</key>
+                <val value="tower"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Номер</title>
+                <key>ref</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Высота (м)</title>
+                <key>height</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Радиовещание</title>
+                <key>communication:radio</key>
+                <val value="yes">
+                    <title>используется</title>
+                </val>
+                <val value="fm">
+                    <title>FM</title>
+                </val>
+                <val value="am">
+                    <title>AM</title>
+                </val>
+                <val value="no">
+                    <title>не используется</title>
+                </val>
+                <val value="dav">
+                    <title>DAB</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Телевещание</title>
+                <key>communication:television</key>
+                <val value="yes">
+                    <title>используется</title>
+                </val>
+                <val value="dvb-t">
+                    <title>DVB-T</title>
+                </val>
+                <val value="no">
+                    <title>не используется</title>
+                </val>
+                <val value="analogue">
+                    <title>аналоговое</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Сотовая связь</title>
+                <key>communication:mobile_phone</key>
+                <val value="yes">
+                    <title>используется</title>
+                </val>
+                <val value="cdma">
+                    <title>CDMA</title>
+                </val>
+                <val value="umts">
+                    <title>UMTS</title>
+                </val>
+                <val value="no">
+                    <title>не используется</title>
+                </val>
+                <val value="gsm">
+                    <title>GSM</title>
+                </val>
+                <val value="lte">
+                    <title>LTE</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Высота над уровнем моря (м)</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>communication_tower.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

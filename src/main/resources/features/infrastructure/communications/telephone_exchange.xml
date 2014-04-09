@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="telephone_exchange">
+        <title>АТС</title>
+        <tags>
+            <tag>
+                <key>man_made</key>
+                <val value="telephone_exchange"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>telephone_exchange.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

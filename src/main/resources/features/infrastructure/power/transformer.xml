@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="transformer">
+        <title>Трансформатор</title>
+        <tags>
+            <tag>
+                <key>power</key>
+                <val value="transformer"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Число фаз</title>
+                <key>phases</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Напряжения</title>
+                <key>voltage</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Частота тока (Гц)</title>
+                <key>frequency</key>
+            </tag>
+        </more-tags>
+        <icon>transformer.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

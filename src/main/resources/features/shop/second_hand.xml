@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="second_hand">
+        <title>Секонд-хенд</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="second_hand"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>second_hand.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="parking">
+        <title>Парковка</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="parking"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Наличие платы</title>
+                <key>fee</key>
+                <val value="yes">
+                    <title>платный</title>
+                </val>
+                <val value="no">
+                    <title>бесплатный</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Тип парковки</title>
+                <key>parking</key>
+                <val value="garage_boxes">
+                    <title>гаражи</title>
+                </val>
+                <val value="surface">
+                    <title>открытая</title>
+                </val>
+                <val value="carports">
+                    <title>навесы</title>
+                </val>
+                <val value="sheds">
+                    <title>ракушки и пеналы</title>
+                </val>
+                <val value="underground">
+                    <title>подземная</title>
+                </val>
+                <val value="multi-storey">
+                    <title>многоэтажная</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Ограничение по времени стоянки</title>
+                <key>maystay</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Перехватывающая парковка</title>
+                <key>park_ride</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="bus">
+                    <title>пересадка на автобус</title>
+                </val>
+                <val value="ferry">
+                    <title>пересадка на паром</title>
+                </val>
+                <val value="metro">
+                    <title>пересадка на метро</title>
+                </val>
+                <val value="train">
+                    <title>пересадка на поезд</title>
+                </val>
+                <val value="tram">
+                    <title>пересадка на трамвай</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Количество машиномест</title>
+                <key>capacity</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Крытый</title>
+                <key>covered</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>parking.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

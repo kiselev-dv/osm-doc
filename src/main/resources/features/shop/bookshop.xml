@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bookshop">
+        <title>Книжный</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="books"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Продажа б/у</title>
+                <key>second_hand</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="only">
+                    <title>только б/у</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bookshop.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

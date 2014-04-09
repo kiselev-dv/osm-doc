@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="post_office">
+        <title>Почта</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="post_office"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Доступ в интернет</title>
+                <key>internet_access</key>
+                <val value="yes">
+                    <title>Есть</title>
+                </val>
+                <val value="wlan">
+                    <title>WiFi</title>
+                </val>
+                <val value="terminal">
+                    <title>Терминал</title>
+                </val>
+                <val value="no">
+                    <title>Нет</title>
+                </val>
+                <val value="wired">
+                    <title>Проводное подключение</title>
+                </val>
+                <val value="public">
+                    <title>Есть</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Оператор доступа в интернет</title>
+                <key>internet_access:operator</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Плата за доступ в интернет</title>
+                <key>internet_access:fee</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Номер отделения</title>
+                <key>ref</key>
+            </tag>
+        </more-tags>
+        <icon>post_office.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

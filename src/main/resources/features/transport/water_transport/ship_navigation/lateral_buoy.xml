@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="lateral_buoy">
+        <title>Буй</title>
+        <tags>
+            <tag>
+                <key>seamark:type</key>
+                <val value="buoy_lateral"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Тип</title>
+                <key>seamark:buoy_lateral:category</key>
+                <val value="port">
+                    <title>правая кромка судового хода</title>
+                </val>
+                <val value="starboard">
+                    <title>левая кромка судового хода</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Цвет</title>
+                <key>seamark:buoy_lateral:colour</key>
+                <val value="orange">
+                    <title>оранжевый</title>
+                </val>
+                <val value="red">
+                    <title>красный</title>
+                </val>
+                <val value="blue">
+                    <title>синий</title>
+                </val>
+                <val value="green">
+                    <title>зелёный</title>
+                </val>
+                <val value="white">
+                    <title>белый</title>
+                </val>
+                <val value="pink">
+                    <title>розовый</title>
+                </val>
+                <val value="grey">
+                    <title>серый</title>
+                </val>
+                <val value="brown">
+                    <title>коричневый</title>
+                </val>
+                <val value="yellow">
+                    <title>жёлтый</title>
+                </val>
+                <val value="black">
+                    <title>чёрный</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Обозначение</title>
+                <key>seamark:name</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Форма</title>
+                <key>seamark:buoy_lateral:shape</key>
+                <val value="ice_bouy">
+                    <title>ледовый буй</title>
+                </val>
+                <val value="can">
+                    <title>цилиндрический</title>
+                </val>
+                <val value="conical">
+                    <title>конический</title>
+                </val>
+                <val value="spherical">
+                    <title>шарообразный</title>
+                </val>
+            </tag>
+        </more-tags>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

@@ -16,9 +16,6 @@
 				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
 				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
 
-				<element ref="osmdoc:tags" minOccurs="0" maxOccurs="unbounded" />
-				<element ref="osmdoc:tag" minOccurs="0" maxOccurs="unbounded" />
-
 			</sequence>
 		</complexType>
 	</element>
@@ -39,6 +36,15 @@
 			</element>
 			<element name="trait" minOccurs="0" maxOccurs="unbounded"
 				type="string" />
+			<element ref="osmdoc:more-tags">
+				<annotation>
+					<documentation>
+						Additional tags. They don't specify particular
+						feature class, but allow to set oftenly used tags.
+						as trait but in simplier way.						    
+					</documentation>
+				</annotation>
+			</element>	
 			<group ref="osmdoc:iconsWikiNote" />
 			<element name="applyed-to" type="osmdoc:applyedTo" />
 		</sequence>
@@ -133,6 +139,16 @@
 		</complexType>
 	</element>
 
+	<element name="more-tags">
+		<complexType>
+			<sequence>
+				<element ref="osmdoc:tag" minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="deprecated" type="boolean" use="optional"
+				default="false" />
+		</complexType>
+	</element>
+
 	<element name="tag">
 		<complexType>
 			<sequence>
@@ -181,11 +197,37 @@
 	<attribute name="match" default="exact">
 		<simpleType>
 			<restriction base="string">
-				<enumeration value="any"/>
-				<enumeration value="exact"/>
-				<enumeration value="with-namespace"/>
-				<enumeration value="contains"/>
-				<enumeration value="regexp"/>
+				
+				<enumeration value="any">
+					<annotation>
+						<documentation>No actual checking for value, except "no"</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="exact">
+					<annotation>
+						<documentation>Exactly match (deaflult)</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="with-namespace">
+					<annotation>
+						<documentation>Match with namespace prefix/postfix ru:urban</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="contains">
+					<annotation>
+						<documentation>Check is value of tag substring of object tag value</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="regexp">
+					<annotation>
+						<documentation>This is regexp pattern</documentation>
+					</annotation>
+				</enumeration>
+				
 			</restriction>
 		</simpleType>
 	</attribute>
@@ -193,14 +235,66 @@
 	<attribute name="tag-value-type" default="anyString">
 		<simpleType>
 			<restriction base="string">
-				<enumeration value="anyString" />
-				<enumeration value="measure" />
-				<enumeration value="number" />
-				<enumeration value="openHours" />
-				<enumeration value="phone" />
-				<enumeration value="mail" />
-				<enumeration value="url" />
-				<enumeration value="boolean" />
+				
+				<enumeration value="anyString" >
+					<annotation>
+						<documentation>Any string without restrictions</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="measure" >
+					<annotation>
+						<documentation>Measured value. As 100mph</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="number" >
+					<annotation>
+						<documentation>Any number</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="openHours" >
+					<annotation>
+						<documentation>Open hours string.</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="phone" >
+					<annotation>
+						<documentation>Phone number string</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="mail" >
+					<annotation>
+						<documentation>Email string</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="url" >
+					<annotation>
+						<documentation>Url. Like http://flick.com/12345657</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="wiki" >
+					<annotation>
+						<documentation>Wiki link: ru:Екатеринбург</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="boolean" >
+					<annotation>
+						<documentation>yes/no, true/false, 1/0</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="period" >
+					<annotation>
+						<documentation>Eg. 18:00-19:30</documentation>
+					</annotation>
+				</enumeration>
 			</restriction>
 		</simpleType>
 	</attribute>

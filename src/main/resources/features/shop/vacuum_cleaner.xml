@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="vacuum_cleaner">
+        <title>Пылесосы и аксессуары</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="vacuum_cleaner"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

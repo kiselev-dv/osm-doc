@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="motorcycle">
+        <title>Мотоциклы</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="motorcycle"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>motorcycle.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

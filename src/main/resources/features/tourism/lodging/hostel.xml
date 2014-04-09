@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="hostel">
+        <title>Хостел</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="hostel"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Число спальных мест</title>
+                <key>beds</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Доступ в интернет</title>
+                <key>internet_access</key>
+                <val value="yes">
+                    <title>Есть</title>
+                </val>
+                <val value="wlan">
+                    <title>WiFi</title>
+                </val>
+                <val value="terminal">
+                    <title>Терминал</title>
+                </val>
+                <val value="no">
+                    <title>Нет</title>
+                </val>
+                <val value="wired">
+                    <title>Проводное подключение</title>
+                </val>
+                <val value="public">
+                    <title>Есть</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Курение</title>
+                <key>smoking</key>
+                <val value="yes">
+                    <title>Разрешено</title>
+                </val>
+                <val value="isolated">
+                    <title>Изолированное помещение</title>
+                </val>
+                <val value="no">
+                    <title>Запрещено</title>
+                </val>
+                <val value="dedicated">
+                    <title>Заведение предназначено для курильщиков</title>
+                </val>
+                <val value="separated">
+                    <title>Выделенная зона</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Оператор доступа в интернет</title>
+                <key>internet_access:operator</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Плата за доступ в интернет</title>
+                <key>internet_access:fee</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Число номеров</title>
+                <key>rooms</key>
+            </tag>
+        </more-tags>
+        <icon>hostel.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

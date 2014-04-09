@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="fountain">
+        <title>Фонтан</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="fountain"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Можно пить</title>
+                <key>drinkable</key>
+                <val value="yes">
+                    <title>Да</title>
+                </val>
+                <val value="mineral">
+                    <title>Да, минеральная вода</title>
+                </val>
+                <val value="no">
+                    <title>Нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>fountain.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

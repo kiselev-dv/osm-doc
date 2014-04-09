@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="information">
+        <title>Информационный стенд</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="information"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Тип стенда</title>
+                <key>information</key>
+                <val value="office">
+                    <title>Офис</title>
+                </val>
+                <val value="guidepost">
+                    <title>Указатель направления</title>
+                </val>
+                <val value="audioguide">
+                    <title>Аудиогид</title>
+                </val>
+                <val value="terminal">
+                    <title>Терминал</title>
+                </val>
+                <val value="tactile_model">
+                    <title>Тактильная модель</title>
+                </val>
+                <val value="map">
+                    <title>Карта</title>
+                </val>
+                <val value="tactile_map">
+                    <title>Тактильная карта</title>
+                </val>
+                <val value="board">
+                    <title>Щит</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>information.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="hairdresser">
+        <title>Парикмахерская</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="hairdresser"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>hairdresser.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

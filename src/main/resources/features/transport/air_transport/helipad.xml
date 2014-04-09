@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="helipad">
+        <title>Вертолётная площадка</title>
+        <tags>
+            <tag>
+                <key>aeroway</key>
+                <val value="helipad"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Код IATA</title>
+                <key>iata</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Покрытие</title>
+                <key>surface</key>
+                <val value="paving_stones">
+                    <title>Тротуарная плитка</title>
+                </val>
+                <val value="sand">
+                    <title>Песок</title>
+                </val>
+                <val value="asphalt">
+                    <title>Асфальт</title>
+                </val>
+                <val value="wood">
+                    <title>Дерево</title>
+                </val>
+                <val value="grass">
+                    <title>Трава</title>
+                </val>
+                <val value="paved">
+                    <title>С покрытием</title>
+                </val>
+                <val value="ground">
+                    <title>Земля</title>
+                </val>
+                <val value="gravel">
+                    <title>Гравий</title>
+                </val>
+                <val value="concrete">
+                    <title>Бетон</title>
+                </val>
+                <val value="unpaved">
+                    <title>Без покрытия</title>
+                </val>
+                <val value="metal">
+                    <title>Металл</title>
+                </val>
+                <val value="concrete:plates">
+                    <title>Бетонные плиты</title>
+                </val>
+                <val value="ice">
+                    <title>Лед</title>
+                </val>
+                <val value="concrete:lanes">
+                    <title>Бетонные плитки</title>
+                </val>
+                <val value="earth">
+                    <title>Земля</title>
+                </val>
+                <val value="tartan">
+                    <title>Тартан</title>
+                </val>
+                <val value="pebblestone">
+                    <title>Галька</title>
+                </val>
+                <val value="artificial_turf">
+                    <title>Искусственная трава</title>
+                </val>
+                <val value="dirt">
+                    <title>Грязь</title>
+                </val>
+                <val value="cobblestone">
+                    <title>Булыжник</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Код ICAO</title>
+                <key>icao</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Высота над уровнем моря (м)</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>helipad.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

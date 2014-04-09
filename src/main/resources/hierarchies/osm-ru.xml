@@ -18,6 +18,7 @@
                 <fref ref="confectionery"/>
                 <fref ref="ice_cream"/>
                 <fref ref="supermarket"/>
+                <fref ref="tea"/>
             </group>
             <fref ref="bookshop"/>
             <fref ref="bicycle"/>
@@ -144,7 +145,7 @@
             <fref ref="car_rental"/>
             <fref ref="bicycle_rental"/>
             <fref ref="tailor"/>
-            <fref ref="ev_charging"/>
+            <fref ref="charging_station"/>
             <fref ref="toilets"/>
             <fref ref="telephone"/>
             <fref ref="sauna"/>
@@ -215,18 +216,21 @@
                 <fref ref="bump"/>
                 <fref ref="hump"/>
                 <fref ref="cushion"/>
+                <fref ref="traffic_signals"/>
                 <fref ref="speed_camera"/>
             </group>
             <group name="personal_transport">
                 <title>Личный автотранспорт</title>
                 <fref ref="car_repair"/>
                 <fref ref="car_repair_tyres"/>
+                <fref ref="vehicle_inspection"/>
                 <fref ref="car_wash"/>
                 <fref ref="fuel"/>
-                <fref ref="ev_charging"/>
+                <fref ref="charging_station"/>
                 <fref ref="vehicle_ramp"/>
                 <fref ref="parking"/>
                 <fref ref="parking_entrance"/>
+                <fref ref="garages"/>
                 <fref ref="speed_camera"/>
             </group>
             <group name="public_transport">
@@ -337,6 +341,7 @@
             <fref ref="fire_station"/>
             <fref ref="emergency_phone"/>
             <fref ref="fire_hydrant"/>
+            <fref ref="fire_water_pond"/>
             <fref ref="ambulance_station"/>
         </group>
         <group name="tourism">
@@ -483,12 +488,31 @@
             </group>
             <group name="communications">
                 <title>Связь</title>
+                <fref ref="post_office"/>
+                <fref ref="post_box"/>
+                <fref ref="telephone"/>
+                <fref ref="emergency_phone"/>
                 <fref ref="communication_tower"/>
                 <fref ref="telephone_exchange"/>
             </group>
+            <group name="trash_disposal">
+                <title>Утилизация мусора</title>
+                <fref ref="recycling"/>
+                <fref ref="landfill"/>
+                <fref ref="waste_disposal"/>
+            </group>
+            <group name="advertising">
+                <title>Реклама</title>
+                <fref ref="advertising_billboard"/>
+                <fref ref="advertising_column"/>
+                <fref ref="advertising_flag"/>
+                <fref ref="advertising_sign"/>
+                <fref ref="advertising_screen"/>
+                <fref ref="advertising_sculpture"/>
+                <fref ref="advertising_wall_painting"/>
+            </group>
             <fref ref="surveillance"/>
             <fref ref="construction"/>
-            <fref ref="landfill"/>
         </group>
     </hierarchy>
 </doc-part>

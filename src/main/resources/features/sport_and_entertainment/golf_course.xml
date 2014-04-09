@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="golf_course">
+        <title>Поле для гольфа</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="golf_course"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Наличие платы</title>
+                <key>fee</key>
+                <val value="yes">
+                    <title>платный</title>
+                </val>
+                <val value="no">
+                    <title>бесплатный</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>golf_course.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

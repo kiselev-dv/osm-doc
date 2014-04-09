@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="speed_camera">
+        <title>Дорожная видеокамера</title>
+        <tags>
+            <tag>
+                <key>highway</key>
+                <val value="speed_camera"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Ограничение скорости</title>
+                <key>maxspeed</key>
+            </tag>
+        </more-tags>
+        <icon>speed_camera.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

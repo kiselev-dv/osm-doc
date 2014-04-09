@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="stadium">
+        <title>Стадион</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="stadium"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Виды спорта</title>
+                <key>sport</key>
+                <val value="basketball">
+                    <title>Баскетбол</title>
+                </val>
+                <val value="9pin">
+                    <title>Кегельбан</title>
+                </val>
+                <val value="cycling">
+                    <title>Велоспорт</title>
+                </val>
+                <val value="horseshoes">
+                    <title>Метание подковы</title>
+                </val>
+                <val value="table_tennis">
+                    <title>Настольный теннис</title>
+                </val>
+                <val value="karting">
+                    <title>Картинг</title>
+                </val>
+                <val value="curling">
+                    <title>Кёрлинг</title>
+                </val>
+                <val value="baseball">
+                    <title>Бейсбол</title>
+                </val>
+                <val value="archery">
+                    <title>Стрельбы из лука</title>
+                </val>
+                <val value="american_football">
+                    <title>Американский футбол</title>
+                </val>
+                <val value="tennis">
+                    <title>Большой теннис</title>
+                </val>
+                <val value="rugby_league">
+                    <title>Регбилиг</title>
+                </val>
+                <val value="volleyball">
+                    <title>Волейбол</title>
+                </val>
+                <val value="racquet">
+                    <title>Бадминтон, сквош</title>
+                </val>
+                <val value="orienteering">
+                    <title>Спортивное ориентирование</title>
+                </val>
+                <val value="taekwondo">
+                    <title>Тхэквондо</title>
+                </val>
+                <val value="korfball">
+                    <title>Корфбол</title>
+                </val>
+                <val value="equestrian">
+                    <title>Конный спорт</title>
+                </val>
+                <val value="climbing">
+                    <title>Альпинизм</title>
+                </val>
+                <val value="BASE">
+                    <title>Бейсджампинг</title>
+                </val>
+                <val value="free_flying">
+                    <title>Фрифлай</title>
+                </val>
+                <val value="toboggan">
+                    <title>Тобогган</title>
+                </val>
+                <val value="bmx">
+                    <title>BMX</title>
+                </val>
+                <val value="multi">
+                    <title>Различные виды</title>
+                </val>
+                <val value="boxing">
+                    <title>Бокс</title>
+                </val>
+                <val value="10pin">
+                    <title>Боулинг</title>
+                </val>
+                <val value="diving">
+                    <title>Прыжки в воду</title>
+                </val>
+                <val value="gymnastics">
+                    <title>Спортивная гимнастика</title>
+                </val>
+                <val value="bowls">
+                    <title>Игра в шары на траве</title>
+                </val>
+                <val value="skiing">
+                    <title>Лыжный спорт, сноуборд</title>
+                </val>
+                <val value="hockey">
+                    <title>Хоккей</title>
+                </val>
+                <val value="athletics">
+                    <title>Лёгкая атлетика</title>
+                </val>
+                <val value="dog_racing">
+                    <title>Собачьи бега</title>
+                </val>
+                <val value="rowing">
+                    <title>Академическая гребля</title>
+                </val>
+                <val value="water_ski">
+                    <title>Водные лыжи</title>
+                </val>
+                <val value="chess">
+                    <title>Шахматы</title>
+                </val>
+                <val value="canoe">
+                    <title>Гребля на байдарках (каяках)</title>
+                </val>
+                <val value="pelota">
+                    <title>Пелота</title>
+                </val>
+                <val value="ice_stock">
+                    <title>Айсшток</title>
+                </val>
+                <val value="paddle_tennis">
+                    <title>Настольный теннис</title>
+                </val>
+                <val value="running">
+                    <title>Бег</title>
+                </val>
+                <val value="swimming">
+                    <title>Плавание</title>
+                </val>
+                <val value="fencing">
+                    <title>Фехтование</title>
+                </val>
+                <val value="paragliding">
+                    <title>Парапланеризм</title>
+                </val>
+                <val value="horse_racing">
+                    <title>Лошадиные скачки</title>
+                </val>
+                <val value="surfing">
+                    <title>Сёрфинг</title>
+                </val>
+                <val value="motor">
+                    <title>Автомотоспорт</title>
+                </val>
+                <val value="team_handball">
+                    <title>Гандбол</title>
+                </val>
+                <val value="golf">
+                    <title>Гольф</title>
+                </val>
+                <val value="soccer">
+                    <title>Футбол</title>
+                </val>
+                <val value="scuba_diving">
+                    <title>Дайвинг</title>
+                </val>
+                <val value="canadian_football">
+                    <title>Канадский футбол</title>
+                </val>
+                <val value="badminton">
+                    <title>Бадминтон</title>
+                </val>
+                <val value="wrestling">
+                    <title>Борьба</title>
+                </val>
+                <val value="judo">
+                    <title>Дзюдо</title>
+                </val>
+                <val value="skating">
+                    <title>Бег на коньках</title>
+                </val>
+                <val value="rugby_union">
+                    <title>Регби</title>
+                </val>
+                <val value="skateboard">
+                    <title>Скейтборд</title>
+                </val>
+                <val value="gaelic_games">
+                    <title>Гэльские игры</title>
+                </val>
+                <val value="australian_football">
+                    <title>Австралийский футбол</title>
+                </val>
+                <val value="beachvolleyball">
+                    <title>Пляжный волейбол</title>
+                </val>
+                <val value="football">
+                    <title>Футбол</title>
+                </val>
+                <val value="motocross">
+                    <title>Мотокросс</title>
+                </val>
+                <val value="boules">
+                    <title>Игра в шары (французская)</title>
+                </val>
+                <val value="weightlifting">
+                    <title>Тяжёлая атлетика</title>
+                </val>
+                <val value="shooting">
+                    <title>Спортивная стрельба, тир</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>stadium.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

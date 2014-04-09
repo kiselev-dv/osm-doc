@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="clockmaker">
+        <title>Часовая мастерская</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="clockmaker"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>clockmaker.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

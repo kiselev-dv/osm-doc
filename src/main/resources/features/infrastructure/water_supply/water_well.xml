@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="water_well">
+        <title>Колодец, колонка</title>
+        <tags>
+            <tag>
+                <key>man_made</key>
+                <val value="water_well"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Насос</title>
+                <key>pump</key>
+                <val value="manual">
+                    <title>ручной</title>
+                </val>
+                <val value="powered">
+                    <title>автоматический</title>
+                </val>
+                <val value="no">
+                    <title>отсутствует</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>water_well.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="theatre">
+        <title>Театр, концертный зал</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="theatre"/>
+            </tag>
+            <tag exclude="true">
+                <key>theatre:genre</key>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Жанр</title>
+                <key>theatre:genre</key>
+                <val value="boulevard">
+                    <title>бульварный театр</title>
+                </val>
+                <val value="cabaret">
+                    <title>кабаре</title>
+                </val>
+                <val value="comedy">
+                    <title>комедия</title>
+                </val>
+                <val value="musical">
+                    <title>музыкальный</title>
+                </val>
+                <val value="political">
+                    <title>политический</title>
+                </val>
+                <val value="marionette">
+                    <title>театр марионеток</title>
+                </val>
+                <val value="drama">
+                    <title>драма</title>
+                </val>
+                <val value="varietе">
+                    <title>варьете</title>
+                </val>
+                <val value="philharmonic">
+                    <title>филармония</title>
+                </val>
+                <val value="puppet">
+                    <title>кукольный</title>
+                </val>
+                <val value="opera">
+                    <title>опера</title>
+                </val>
+                <val value="stand_up_comedy">
+                    <title>стендап комедия</title>
+                </val>
+                <val value="chamber_music">
+                    <title>камерная музыка</title>
+                </val>
+                <val value="shadow_play">
+                    <title>театр теней</title>
+                </val>
+                <val value="ballet">
+                    <title>балет</title>
+                </val>
+                <val value="circus">
+                    <title>цирк</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>theatre.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

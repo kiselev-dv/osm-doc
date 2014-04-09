@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="artwork">
+        <title>Арт-объект</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="artwork"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Имя художника</title>
+                <key>artist_name</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Дата установки</title>
+                <key>start_date</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Тип произведения</title>
+                <key>artwork_type</key>
+                <val value="sculpture">
+                    <title>скульптура</title>
+                </val>
+                <val value="statue">
+                    <title>статуя</title>
+                </val>
+                <val value="mural">
+                    <title>фреска</title>
+                </val>
+                <val value="architecture">
+                    <title>архитектурный объект</title>
+                </val>
+                <val value="mosaic">
+                    <title>мозаика</title>
+                </val>
+                <val value="painting">
+                    <title>живопись</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>artwork.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

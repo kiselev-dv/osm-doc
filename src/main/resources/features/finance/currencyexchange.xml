@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="currencyexchange">
+        <title>Обмен валют</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="bureau_de_change"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>currencyexchange.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

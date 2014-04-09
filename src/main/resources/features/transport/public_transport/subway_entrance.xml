@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="subway_entrance">
+        <title>Вход в метро</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="subway_entrance"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Доступ на инвалидной коляске</title>
+                <key>wheelchair</key>
+                <val value="yes">
+                    <title>есть</title>
+                </val>
+                <val value="limited">
+                    <title>ограниченный</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="designated">
+                    <title>специально предназначено</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Дата открытия</title>
+                <key>start_date</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Проход с велосипедом</title>
+                <key>bicycle</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>subway_entrance.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

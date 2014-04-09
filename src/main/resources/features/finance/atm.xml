@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="atm">
+        <title>Банкомат</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="atm"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Наличие комиссии</title>
+                <key>fee</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="time_subscription">
+                    <title>временный абонемент</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="varies">
+                    <title>процент</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>atm.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

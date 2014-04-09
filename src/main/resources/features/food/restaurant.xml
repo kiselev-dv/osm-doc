@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="restaurant">
+        <title>Ресторан</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="restaurant"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Обслуживание не выходя из машины</title>
+                <key>drive_in</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Кухня</title>
+                <key>cuisine</key>
+                <val value="burger">
+                    <title>Бургеры</title>
+                </val>
+                <val value="italian">
+                    <title>Итальянская</title>
+                </val>
+                <val value="fish">
+                    <title>Рыбная</title>
+                </val>
+                <val value="vietnamese">
+                    <title>Вьетнамская</title>
+                </val>
+                <val value="thai">
+                    <title>Тайская</title>
+                </val>
+                <val value="french">
+                    <title>Французская</title>
+                </val>
+                <val value="chinese">
+                    <title>Китайская</title>
+                </val>
+                <val value="asian">
+                    <title>Азиатская</title>
+                </val>
+                <val value="chicken">
+                    <title>Цыплёнок</title>
+                </val>
+                <val value="sushi">
+                    <title>Суши</title>
+                </val>
+                <val value="american">
+                    <title>Американская</title>
+                </val>
+                <val value="vegetarian">
+                    <title>Вегетарианская</title>
+                </val>
+                <val value="kebab">
+                    <title>Кебабы</title>
+                </val>
+                <val value="ice_cream">
+                    <title>Мороженое</title>
+                </val>
+                <val value="georgian">
+                    <title>Грузинская</title>
+                </val>
+                <val value="spanish">
+                    <title>Испанская</title>
+                </val>
+                <val value="greek">
+                    <title>Греческая</title>
+                </val>
+                <val value="fish_and_chips">
+                    <title>Fish and chips</title>
+                </val>
+                <val value="mexican">
+                    <title>Мексиканская</title>
+                </val>
+                <val value="german">
+                    <title>Немецкая</title>
+                </val>
+                <val value="international">
+                    <title>Интернациональная</title>
+                </val>
+                <val value="indian">
+                    <title>Индийская</title>
+                </val>
+                <val value="japanese">
+                    <title>Японская</title>
+                </val>
+                <val value="coffee_shop">
+                    <title>Кофейня</title>
+                </val>
+                <val value="turkish">
+                    <title>Турецкая</title>
+                </val>
+                <val value="korean">
+                    <title>Корейская</title>
+                </val>
+                <val value="steak_house">
+                    <title>Стейк хаус</title>
+                </val>
+                <val value="sandwich">
+                    <title>Сэндвичи</title>
+                </val>
+                <val value="russian">
+                    <title>Русская</title>
+                </val>
+                <val value="seafood">
+                    <title>Морепродукты</title>
+                </val>
+                <val value="regional">
+                    <title>Национальная</title>
+                </val>
+                <val value="pizza">
+                    <title>Пицца</title>
+                </val>
+                <val value="barbecue">
+                    <title>Барбекю</title>
+                </val>
+                <val value="bavarian">
+                    <title>Баварская</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Доступ в интернет</title>
+                <key>internet_access</key>
+                <val value="yes">
+                    <title>Есть</title>
+                </val>
+                <val value="wlan">
+                    <title>WiFi</title>
+                </val>
+                <val value="terminal">
+                    <title>Терминал</title>
+                </val>
+                <val value="no">
+                    <title>Нет</title>
+                </val>
+                <val value="wired">
+                    <title>Проводное подключение</title>
+                </val>
+                <val value="public">
+                    <title>Есть</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Звёзды</title>
+                <key>stars</key>
+                <val value="3">
+                    <title>***</title>
+                </val>
+                <val value="2">
+                    <title>**</title>
+                </val>
+                <val value="1">
+                    <title>*</title>
+                </val>
+                <val value="3S">
+                    <title>***S</title>
+                </val>
+                <val value="5">
+                    <title>*****</title>
+                </val>
+                <val value="4">
+                    <title>****</title>
+                </val>
+                <val value="5S">
+                    <title>*****S</title>
+                </val>
+                <val value="1S">
+                    <title>*S</title>
+                </val>
+                <val value="4S">
+                    <title>****S</title>
+                </val>
+                <val value="2S">
+                    <title>**S</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Курение</title>
+                <key>smoking</key>
+                <val value="yes">
+                    <title>Разрешено</title>
+                </val>
+                <val value="isolated">
+                    <title>Изолированное помещение</title>
+                </val>
+                <val value="no">
+                    <title>Запрещено</title>
+                </val>
+                <val value="dedicated">
+                    <title>Заведение предназначено для курильщиков</title>
+                </val>
+                <val value="separated">
+                    <title>Выделенная зона</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Оператор доступа в интернет</title>
+                <key>internet_access:operator</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Плата за доступ в интернет</title>
+                <key>internet_access:fee</key>
+                <val value="yes">
+                    <title>да</title>
+                </val>
+                <val value="no">
+                    <title>нет</title>
+                </val>
+                <val value="true">
+                    <title>да</title>
+                </val>
+                <val value="false">
+                    <title>нет</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>restaurant.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="power_plant">
+        <title>Электростанция</title>
+        <tags>
+            <tag>
+                <key xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:match="any">plant:output:electricity</key>
+                <val value="*"/>
+            </tag>
+            <tag>
+                <key>power</key>
+                <val value="plant"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка холодной воды</title>
+                <key>plant:output:cold_water</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Источник энергии/топливо</title>
+                <key>generator:source</key>
+                <val value="waste">
+                    <title>мусор, отходы</title>
+                </val>
+                <val value="wind">
+                    <title>ветряная энергия</title>
+                </val>
+                <val value="biomass">
+                    <title>биомасса</title>
+                </val>
+                <val value="gasoline">
+                    <title>безнзин</title>
+                </val>
+                <val value="biogas">
+                    <title>биогаз</title>
+                </val>
+                <val value="biofuel">
+                    <title>биотопливо</title>
+                </val>
+                <val value="osmotic">
+                    <title>осмотическая энегрия</title>
+                </val>
+                <val value="solar">
+                    <title>солнечная энергия</title>
+                </val>
+                <val value="hydro">
+                    <title>гидроэнегрия</title>
+                </val>
+                <val value="oil">
+                    <title>мазут</title>
+                </val>
+                <val value="gas">
+                    <title>природный газ</title>
+                </val>
+                <val value="diesel">
+                    <title>дизльное топливо</title>
+                </val>
+                <val value="nuclear">
+                    <title>ядерная энегрия</title>
+                </val>
+                <val value="coal">
+                    <title>уголь</title>
+                </val>
+                <val value="geothermal">
+                    <title>геотермальная энегрия</title>
+                </val>
+                <val value="wave">
+                    <title>приливная энегрия</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка пара</title>
+                <key>plant:output:steam</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка вакуума</title>
+                <key>plant:output:vacuum</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка сжатого воздуха</title>
+                <key>plant:output:compressed_air</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка электроэнергии</title>
+                <key>plant:output:electricity</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+                <title>Способ получения энергии</title>
+                <key>generator:method</key>
+                <val value="photovoltaic">
+                    <title>фотовольтаика</title>
+                </val>
+                <val value="stream">
+                    <title>использование приливных течений</title>
+                </val>
+                <val value="thermal">
+                    <title>нагрев солнцем</title>
+                </val>
+                <val value="fusion">
+                    <title>ядерный синтез</title>
+                </val>
+                <val value="water-pumped-storage">
+                    <title>использование водохранилища с закачкой воды (ГАЭС)</title>
+                </val>
+                <val value="combustion">
+                    <title>сжигание топлива</title>
+                </val>
+                <val value="run-of-the-river">
+                    <title>использование течения реки</title>
+                </val>
+                <val value="fission">
+                    <title>ядерный распад</title>
+                </val>
+                <val value="gasification">
+                    <title>газификация</title>
+                </val>
+                <val value="barrage">
+                    <title>использование изменений уровня водной поверхности</title>
+                </val>
+                <val value="water-storage">
+                    <title>использование водохранилища</title>
+                </val>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка горячей воды</title>
+                <key>plant:output:hot_water</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка холодного воздуха</title>
+                <key>plant:output:cold_air</key>
+            </tag>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Выработка горячего воздуха</title>
+                <key>plant:output:hot_air</key>
+            </tag>
+        </more-tags>
+        <icon>power_plant.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

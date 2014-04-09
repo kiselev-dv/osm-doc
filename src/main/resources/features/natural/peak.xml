@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="peak">
+        <title>Горная вершина</title>
+        <tags>
+            <tag>
+                <key>natural</key>
+                <val value="peak"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
+                <title>Высота над уровнем моря (м)</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>peak.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

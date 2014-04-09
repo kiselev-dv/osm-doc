@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ambulance_station">
+        <title>Станция скорой помощи</title>
+        <tags>
+            <tag>
+                <title>Неотложная помощь</title>
+                <key>emergency</key>
+                <val value="ambulance_station"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>ambulance_station.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>
