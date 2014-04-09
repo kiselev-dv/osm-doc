@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биотопливо</title>
                 <key>fuel:svo</key>
                 <val value="yes">
@@ -26,7 +26,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>LKW дизель</title>
                 <key>fuel:HGV_diesel</key>
                 <val value="yes">
@@ -42,7 +42,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-98</title>
                 <key>fuel:octane_98</key>
                 <val value="yes">
@@ -58,7 +58,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сжатый газ (CNG)</title>
                 <key>fuel:cng</key>
                 <val value="yes">
@@ -74,7 +74,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Е85</title>
                 <key>fuel:e85</key>
                 <val value="yes">
@@ -90,7 +90,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-76</title>
                 <key>fuel:octane_76</key>
                 <val value="yes">
@@ -106,7 +106,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Водород</title>
                 <key>fuel:LH2</key>
                 <val value="yes">
@@ -122,7 +122,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Этанол</title>
                 <key>fuel:ethanol</key>
                 <val value="yes">
@@ -138,7 +138,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-100</title>
                 <key>fuel:octane_100</key>
                 <val value="yes">
@@ -154,7 +154,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биодизель</title>
                 <key>fuel:biodiesel</key>
                 <val value="yes">
@@ -170,7 +170,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Топливная смесь 1:50</title>
                 <key>fuel:1_50</key>
                 <val value="yes">
@@ -186,7 +186,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биогаз</title>
                 <key>fuel:biogas</key>
                 <val value="yes">
@@ -202,7 +202,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Метанол</title>
                 <key>fuel:methanol</key>
                 <val value="yes">
@@ -218,7 +218,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сжиженный газ (LPG)</title>
                 <key>fuel:lpg</key>
                 <val value="yes">
@@ -234,7 +234,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-95</title>
                 <key>fuel:octane_95</key>
                 <val value="yes">
@@ -250,7 +250,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Топливная смесь 1:25</title>
                 <key>fuel:1_25</key>
                 <val value="yes">
@@ -266,7 +266,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Электроподзарядка</title>
                 <key>fuel:electricity</key>
                 <val value="yes">
@@ -282,7 +282,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-92</title>
                 <key>fuel:octane_92</key>
                 <val value="yes">
@@ -298,7 +298,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-91</title>
                 <key>fuel:octane_91</key>
                 <val value="yes">
@@ -314,7 +314,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Дизельное топливо</title>
                 <key>fuel:diesel</key>
                 <val value="yes">

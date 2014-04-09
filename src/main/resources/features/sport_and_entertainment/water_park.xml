@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -26,7 +26,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">

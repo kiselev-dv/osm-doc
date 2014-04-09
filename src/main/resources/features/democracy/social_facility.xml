@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Целевая группа</title>
                 <key>social_facility:for</key>
                 <val value="unemployed">
@@ -56,7 +56,7 @@
                     <title>пожилые</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>social_facility</key>
                 <val value="group_home">

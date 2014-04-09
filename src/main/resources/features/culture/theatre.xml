@@ -13,7 +13,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Жанр</title>
                 <key>theatre:genre</key>
                 <val value="boulevard">

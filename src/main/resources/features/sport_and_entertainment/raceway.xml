@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -20,7 +20,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -84,7 +84,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -100,7 +100,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -302,7 +302,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">

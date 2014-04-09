@@ -22,7 +22,7 @@
                 <title>Высота (м)</title>
                 <key>height</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Радиовещание</title>
                 <key>communication:radio</key>
                 <val value="yes">
@@ -41,7 +41,7 @@
                     <title>DAB</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Телевещание</title>
                 <key>communication:television</key>
                 <val value="yes">
@@ -57,7 +57,7 @@
                     <title>аналоговое</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сотовая связь</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">

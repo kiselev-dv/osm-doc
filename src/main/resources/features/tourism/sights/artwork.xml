@@ -18,7 +18,7 @@
                 <title>Дата установки</title>
                 <key>start_date</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип произведения</title>
                 <key>artwork_type</key>
                 <val value="sculpture">

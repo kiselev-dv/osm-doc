@@ -18,7 +18,7 @@
                 <title>Выработка холодной воды</title>
                 <key>plant:output:cold_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Источник энергии/топливо</title>
                 <key>generator:source</key>
                 <val value="waste">
@@ -86,7 +86,7 @@
                 <title>Выработка электроэнергии</title>
                 <key>plant:output:electricity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Способ получения энергии</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">

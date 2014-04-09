@@ -14,7 +14,7 @@
                 <title>Код IATA</title>
                 <key>iata</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">

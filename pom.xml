@@ -88,7 +88,27 @@
 						<phase>deploy</phase>
 					</execution>
 				</executions>
+				 <!-- JAXB xjc plugin that invokes the xjc compiler to compile XML schema into Java classes.-->
 			</plugin>
+<!-- 	        <plugin> -->
+<!-- 	            <groupId>org.codehaus.mojo</groupId> -->
+<!-- 	            <artifactId>jaxb2-maven-plugin</artifactId> -->
+<!-- 	            <executions> -->
+<!-- 	                <execution> -->
+<!-- 	                    <goals> -->
+<!-- 	                        <goal>xjc</goal> -->
+<!-- 	                    </goals> -->
+<!-- 	                </execution> -->
+<!-- 	            </executions> -->
+<!-- 	            <configuration> -->
+<!-- 	                The schema directory or xsd files. -->
+<!-- 	                <schemaDirectory>${basedir}/src/main/resources/schema</schemaDirectory> -->
+<!-- 	                The package in which the source files will be generated. -->
+<!-- 	                <packageName>me.osm.osmdoc.model</packageName> -->
+<!-- 	                The working directory to create the generated java source files. -->
+<!-- 	                <outputDirectory>${basedir}/src/main/java</outputDirectory> -->
+<!-- 	            </configuration> -->
+<!-- 	        </plugin> -->
 		</plugins>
 	</build>
 

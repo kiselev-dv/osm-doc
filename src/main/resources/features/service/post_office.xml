@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -36,7 +36,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">

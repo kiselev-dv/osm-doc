@@ -15,7 +15,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -62,7 +62,7 @@
                 <title>Время проведения служб</title>
                 <key>service_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">

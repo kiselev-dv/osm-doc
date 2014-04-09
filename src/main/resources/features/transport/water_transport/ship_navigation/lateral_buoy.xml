@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>seamark:buoy_lateral:category</key>
                 <val value="port">
@@ -20,7 +20,7 @@
                     <title>левая кромка судового хода</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Цвет</title>
                 <key>seamark:buoy_lateral:colour</key>
                 <val value="orange">
@@ -58,7 +58,7 @@
                 <title>Обозначение</title>
                 <key>seamark:name</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Форма</title>
                 <key>seamark:buoy_lateral:shape</key>
                 <val value="ice_bouy">
