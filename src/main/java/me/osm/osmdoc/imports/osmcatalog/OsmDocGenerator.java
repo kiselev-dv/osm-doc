@@ -348,7 +348,7 @@ public class OsmDocGenerator {
 			String tagType = t.getType();
 			if(StringUtils.isNotBlank(tagType)) {
 				if("translate".equals(tagType)) {
-					tagType = "anyString";
+					tagType = "enum";
 				}
 				tag.setTagValueType(TagValueType.fromValue(tagType));
 			}

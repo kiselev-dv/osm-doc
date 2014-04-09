@@ -241,6 +241,12 @@
 						<documentation>Any string without restrictions</documentation>
 					</annotation>
 				</enumeration>
+
+				<enumeration value="enum" >
+					<annotation>
+						<documentation>Possible values and their translations are restricted by val tags</documentation>
+					</annotation>
+				</enumeration>
 				
 				<enumeration value="measure" >
 					<annotation>
