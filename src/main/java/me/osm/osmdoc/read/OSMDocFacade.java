@@ -9,6 +9,7 @@ import java.util.Set;
 
 import me.osm.osmdoc.model.Feature;
 import me.osm.osmdoc.model.Tag;
+import me.osm.osmdoc.model.Tag.Val;
 import me.osm.osmdoc.model.Tags;
 
 import org.apache.commons.lang3.StringUtils;
@@ -20,6 +21,7 @@ public class OSMDocFacade {
 	private TagsDecisionTreeImpl dTree;
 	private DOCReader docReader;
 	private Set<Feature> excludedFeatures;
+	private Map<String, Feature> featureByName = new HashMap<>();
 	
 	
 	/*
@@ -48,6 +50,8 @@ public class OSMDocFacade {
 			if(excludedFeatures.contains(f)){
 				continue;
 			}
+			
+			featureByName.put(f.getName(), f);
 			
 			//synonyms
 			for(Tags synonym : f.getTags()) {
@@ -108,6 +112,45 @@ public class OSMDocFacade {
 
 	public TagsDecisionTreeImpl getPoiClassificator() {
 		return dTree;
+	}
+
+	public Feature getFeature(String poiClass) {
+		return featureByName.get(poiClass);
+	}
+
+	public String getTranslatedTitle(Feature fClass, String lang) {
+		
+		String title = fClass.getTitle();
+		if(title.startsWith("i18n:") && lang != null) {
+			return translate(title, lang);
+		}
+		
+		return title;
+	}
+
+	private String translate(String title, String lang) {
+		return null;
+	}
+
+	public String getTranslatedTitle(Feature fClass, Tag td, String lang) {
+		
+		String title = td.getTitle();
+		if(title.startsWith("i18n:") && lang != null) {
+			return translate(title, lang);
+		}
+		
+		return title;
+	}
+
+	public String getTranslatedTitle(Feature fClass, Val valuePattern,
+			String lang) {
+		
+		String title = valuePattern.getTitle();
+		if(title.startsWith("i18n:") && lang != null) {
+			return translate(title, lang);
+		}
+		
+		return title;
 	}
 	
 }

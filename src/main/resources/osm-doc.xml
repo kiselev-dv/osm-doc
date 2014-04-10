@@ -68,7 +68,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Продажа велосипедов</title>
                 <key>service:bicycle:retail</key>
                 <val value="yes">
@@ -84,7 +84,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Накачка шин</title>
                 <key>service:bicycle:pump</key>
                 <val value="yes">
@@ -100,7 +100,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Продажа подержанных велосипедов</title>
                 <key>service:bicycle:second_hand</key>
                 <val value="yes">
@@ -116,7 +116,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Мойка велосипедов</title>
                 <key>service:bicycle:cleaning</key>
                 <val value="yes">
@@ -132,7 +132,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Ремонт велосипедов</title>
                 <key>service:bicycle:repair</key>
                 <val value="yes">
@@ -148,7 +148,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Прокат велосипедов</title>
                 <key>service:bicycle:rental</key>
                 <val value="yes">
@@ -164,7 +164,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Предоставление инструмента для самостоятельного ремонта</title>
                 <key>service:bicycle:diy</key>
                 <val value="yes">
@@ -799,7 +799,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Продажа б/у</title>
                 <key>second_hand</key>
                 <val value="yes">
@@ -1039,7 +1039,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Подарки, сувениры</title>
                 <key>anime:gift</key>
                 <val value="yes">
@@ -1055,7 +1055,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Манга</title>
                 <key>anime:manga</key>
                 <val value="yes">
@@ -1071,7 +1071,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Костюмы для косплея</title>
                 <key>anime:costume</key>
                 <val value="yes">
@@ -1087,7 +1087,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Видео</title>
                 <key>anime:video</key>
                 <val value="yes">
@@ -1550,7 +1550,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>seamark:buoy_lateral:category</key>
                 <val value="port">
@@ -1560,7 +1560,7 @@
                     <title>левая кромка судового хода</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Цвет</title>
                 <key>seamark:buoy_lateral:colour</key>
                 <val value="orange">
@@ -1598,7 +1598,7 @@
                 <title>Обозначение</title>
                 <key>seamark:name</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Форма</title>
                 <key>seamark:buoy_lateral:shape</key>
                 <val value="ice_bouy">
@@ -1703,7 +1703,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -1853,7 +1853,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие билетной кассы</title>
                 <key>ticket_office</key>
                 <val value="yes">
@@ -1869,7 +1869,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Не используется</title>
                 <key>disused</key>
                 <val value="yes">
@@ -1903,7 +1903,7 @@
                 <title>Номера маршрутов</title>
                 <key>route_ref</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Навес</title>
                 <key>shelter</key>
                 <val value="yes">
@@ -1919,7 +1919,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Скамейка</title>
                 <key>bench</key>
                 <val value="yes">
@@ -1935,7 +1935,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Урна для мусора</title>
                 <key>bin</key>
                 <val value="yes">
@@ -1965,7 +1965,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие билетной кассы</title>
                 <key>ticket_office</key>
                 <val value="yes">
@@ -1981,7 +1981,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Не используется</title>
                 <key>disused</key>
                 <val value="yes">
@@ -2035,7 +2035,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Навес</title>
                 <key>shelter</key>
                 <val value="yes">
@@ -2051,7 +2051,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Скамейка</title>
                 <key>bench</key>
                 <val value="yes">
@@ -2067,7 +2067,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Урна для мусора</title>
                 <key>bin</key>
                 <val value="yes">
@@ -2097,7 +2097,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ на инвалидной коляске</title>
                 <key>wheelchair</key>
                 <val value="yes">
@@ -2117,7 +2117,7 @@
                 <title>Дата открытия</title>
                 <key>start_date</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Проход с велосипедом</title>
                 <key>bicycle</key>
                 <val value="yes">
@@ -2199,7 +2199,7 @@
                 <title>Код IATA</title>
                 <key>iata</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -2391,7 +2391,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биотопливо</title>
                 <key>fuel:svo</key>
                 <val value="yes">
@@ -2407,7 +2407,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>LKW дизель</title>
                 <key>fuel:HGV_diesel</key>
                 <val value="yes">
@@ -2423,7 +2423,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-98</title>
                 <key>fuel:octane_98</key>
                 <val value="yes">
@@ -2439,7 +2439,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сжатый газ (CNG)</title>
                 <key>fuel:cng</key>
                 <val value="yes">
@@ -2455,7 +2455,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Е85</title>
                 <key>fuel:e85</key>
                 <val value="yes">
@@ -2471,7 +2471,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-76</title>
                 <key>fuel:octane_76</key>
                 <val value="yes">
@@ -2487,7 +2487,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Водород</title>
                 <key>fuel:LH2</key>
                 <val value="yes">
@@ -2503,7 +2503,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Этанол</title>
                 <key>fuel:ethanol</key>
                 <val value="yes">
@@ -2519,7 +2519,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-100</title>
                 <key>fuel:octane_100</key>
                 <val value="yes">
@@ -2535,7 +2535,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биодизель</title>
                 <key>fuel:biodiesel</key>
                 <val value="yes">
@@ -2551,7 +2551,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Топливная смесь 1:50</title>
                 <key>fuel:1_50</key>
                 <val value="yes">
@@ -2567,7 +2567,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Биогаз</title>
                 <key>fuel:biogas</key>
                 <val value="yes">
@@ -2583,7 +2583,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Метанол</title>
                 <key>fuel:methanol</key>
                 <val value="yes">
@@ -2599,7 +2599,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сжиженный газ (LPG)</title>
                 <key>fuel:lpg</key>
                 <val value="yes">
@@ -2615,7 +2615,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-95</title>
                 <key>fuel:octane_95</key>
                 <val value="yes">
@@ -2631,7 +2631,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Топливная смесь 1:25</title>
                 <key>fuel:1_25</key>
                 <val value="yes">
@@ -2647,7 +2647,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Электроподзарядка</title>
                 <key>fuel:electricity</key>
                 <val value="yes">
@@ -2663,7 +2663,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-92</title>
                 <key>fuel:octane_92</key>
                 <val value="yes">
@@ -2679,7 +2679,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Бензин АИ-91</title>
                 <key>fuel:octane_91</key>
                 <val value="yes">
@@ -2695,7 +2695,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Дизельное топливо</title>
                 <key>fuel:diesel</key>
                 <val value="yes">
@@ -2737,7 +2737,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -2747,7 +2747,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип парковки</title>
                 <key>parking</key>
                 <val value="garage_boxes">
@@ -2773,7 +2773,7 @@
                 <title>Ограничение по времени стоянки</title>
                 <key>maystay</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Перехватывающая парковка</title>
                 <key>park_ride</key>
                 <val value="yes">
@@ -2799,7 +2799,7 @@
                 <title>Количество машиномест</title>
                 <key>capacity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -2841,7 +2841,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -2855,7 +2855,7 @@
                 <title>Количество мест</title>
                 <key>capacity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -2885,7 +2885,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -2928,7 +2928,7 @@
                     <title>Пастафарианство</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
@@ -2982,7 +2982,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -3029,7 +3029,7 @@
                 <title>Время проведения служб</title>
                 <key>service_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
@@ -3085,7 +3085,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -3132,7 +3132,7 @@
                 <title>Время проведения служб</title>
                 <key>service_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
@@ -3188,7 +3188,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -3235,7 +3235,7 @@
                 <title>Время проведения служб</title>
                 <key>service_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
@@ -3291,7 +3291,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Религия</title>
                 <key>religion</key>
                 <val value="muslim">
@@ -3338,7 +3338,7 @@
                 <title>Время проведения служб</title>
                 <key>service_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
@@ -3403,7 +3403,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -3466,7 +3466,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -3530,7 +3530,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Нудизм</title>
                 <key>nudism</key>
                 <val value="yes">
@@ -3653,7 +3653,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -3675,7 +3675,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -3698,7 +3698,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -3728,7 +3728,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает листовой метал</title>
                 <key>recycling:sheet_metal</key>
                 <val value="yes">
@@ -3744,7 +3744,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает картон</title>
                 <key>recycling:cardboard</key>
                 <val value="yes">
@@ -3760,7 +3760,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает алюминий</title>
                 <key>recycling:aluminium</key>
                 <val value="yes">
@@ -3776,7 +3776,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает гипсокартон</title>
                 <key>recycling:plasterboard</key>
                 <val value="yes">
@@ -3792,7 +3792,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пробку</title>
                 <key>recycling:cork</key>
                 <val value="yes">
@@ -3808,7 +3808,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает компьютеры</title>
                 <key>recycling:computers</key>
                 <val value="yes">
@@ -3824,7 +3824,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает продукты жизнедеятельности животных</title>
                 <key>recycling:animal_waste</key>
                 <val value="yes">
@@ -3840,7 +3840,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает садовый мусор</title>
                 <key>recycling:garden_waste</key>
                 <val value="yes">
@@ -3856,7 +3856,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает батарейки</title>
                 <key>recycling:batteries</key>
                 <val value="yes">
@@ -3872,7 +3872,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает энергосберегающие лампы</title>
                 <key>recycling:low_energy_bulbs</key>
                 <val value="yes">
@@ -3888,7 +3888,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает экскременты</title>
                 <key>recycling:excrement</key>
                 <val value="yes">
@@ -3904,7 +3904,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает компакт-диски</title>
                 <key>recycling:cds</key>
                 <val value="yes">
@@ -3920,7 +3920,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает краску</title>
                 <key>recycling:paint</key>
                 <val value="yes">
@@ -3936,7 +3936,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает книги</title>
                 <key>recycling:books</key>
                 <val value="yes">
@@ -3952,7 +3952,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковую упаковку</title>
                 <key>recycling:plastic_packaging</key>
                 <val value="yes">
@@ -3968,7 +3968,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает кухонную технику</title>
                 <key>recycling:white_goods</key>
                 <val value="yes">
@@ -3984,7 +3984,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает мелкую кухонную технику</title>
                 <key>recycling:small_appliances</key>
                 <val value="yes">
@@ -4000,7 +4000,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает металлолом</title>
                 <key>recycling:scrap_metal</key>
                 <val value="yes">
@@ -4016,7 +4016,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевое масло</title>
                 <key>recycling:cooking_oil</key>
                 <val value="yes">
@@ -4032,7 +4032,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевой картон</title>
                 <key>recycling:cartons</key>
                 <val value="yes">
@@ -4048,7 +4048,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает покрышки</title>
                 <key>recycling:tyres</key>
                 <val value="yes">
@@ -4068,7 +4068,7 @@
                 <title>Время вывоза мусора</title>
                 <key>collection_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает термометры</title>
                 <key>recycling:thermometers</key>
                 <val value="yes">
@@ -4084,7 +4084,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает биоразлагаемые отходы</title>
                 <key>recycling:green_waste</key>
                 <val value="yes">
@@ -4100,7 +4100,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковые пакеты</title>
                 <key>recycling:plastic_bags</key>
                 <val value="yes">
@@ -4116,7 +4116,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бытовую технику</title>
                 <key>recycling:electrical_items</key>
                 <val value="yes">
@@ -4132,7 +4132,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает стеклянные бутылки</title>
                 <key>recycling:glass_bottles</key>
                 <val value="yes">
@@ -4148,7 +4148,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает машинное масло</title>
                 <key>recycling:engine_oil</key>
                 <val value="yes">
@@ -4164,7 +4164,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бумагу</title>
                 <key>recycling:paper</key>
                 <val value="yes">
@@ -4180,7 +4180,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает картриджи для принтеров</title>
                 <key>recycling:printer_cartridges</key>
                 <val value="yes">
@@ -4196,7 +4196,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает полиэстер</title>
                 <key>recycling:polyester</key>
                 <val value="yes">
@@ -4212,7 +4212,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бытовой мусор</title>
                 <key>recycling:waste</key>
                 <val value="yes">
@@ -4228,7 +4228,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает мобильные телефоны</title>
                 <key>recycling:mobile_phones</key>
                 <val value="yes">
@@ -4244,7 +4244,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает электронные компоненты</title>
                 <key>recycling:chipboard</key>
                 <val value="yes">
@@ -4260,7 +4260,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает новогодние ёлки</title>
                 <key>recycling:christmas_trees</key>
                 <val value="yes">
@@ -4276,7 +4276,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевые отходы</title>
                 <key>recycling:organic</key>
                 <val value="yes">
@@ -4292,7 +4292,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает журналы</title>
                 <key>recycling:magazines</key>
                 <val value="yes">
@@ -4308,7 +4308,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает тяжёлый строительный мусор</title>
                 <key>recycling:hardcore</key>
                 <val value="yes">
@@ -4324,7 +4324,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает одежду</title>
                 <key>recycling:clothes</key>
                 <val value="yes">
@@ -4340,7 +4340,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает газовые баллоны</title>
                 <key>recycling:gas_bottles</key>
                 <val value="yes">
@@ -4356,7 +4356,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бумажную упаковку</title>
                 <key>recycling:paper_packaging</key>
                 <val value="yes">
@@ -4372,7 +4372,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковые бутылки</title>
                 <key>recycling:plastic_bottles</key>
                 <val value="yes">
@@ -4388,7 +4388,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает строительный мусор</title>
                 <key>recycling:rubble</key>
                 <val value="yes">
@@ -4404,7 +4404,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пенопласт</title>
                 <key>recycling:styrofoam</key>
                 <val value="yes">
@@ -4420,7 +4420,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает люминесцентные лампы</title>
                 <key>recycling:fluorescent_tubes</key>
                 <val value="yes">
@@ -4436,7 +4436,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает газеты</title>
                 <key>recycling:newspaper</key>
                 <val value="yes">
@@ -4452,7 +4452,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластик</title>
                 <key>recycling:plastic</key>
                 <val value="yes">
@@ -4468,7 +4468,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевую фольгу</title>
                 <key>recycling:foil</key>
                 <val value="yes">
@@ -4484,7 +4484,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает велосипеды</title>
                 <key>recycling:bicycles</key>
                 <val value="yes">
@@ -4500,7 +4500,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает телевизоры</title>
                 <key>recycling:tv_monitor</key>
                 <val value="yes">
@@ -4516,7 +4516,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>recycling_type</key>
                 <val value="center">
@@ -4526,7 +4526,7 @@
                     <title>Контейнер</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает дерево</title>
                 <key>recycling:wood</key>
                 <val value="yes">
@@ -4542,7 +4542,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает алюминиевые банки</title>
                 <key>recycling:cans</key>
                 <val value="yes">
@@ -4558,7 +4558,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает стекло</title>
                 <key>recycling:glass</key>
                 <val value="yes">
@@ -4600,7 +4600,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -4839,7 +4839,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -4865,7 +4865,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -4970,7 +4970,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -4986,7 +4986,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -5092,7 +5092,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -5114,7 +5114,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -5137,7 +5137,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -5167,7 +5167,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -5183,7 +5183,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -5289,7 +5289,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -5311,7 +5311,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -5334,7 +5334,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -5364,7 +5364,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -5380,7 +5380,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -5486,7 +5486,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -5508,7 +5508,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -5531,7 +5531,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -5561,7 +5561,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -5577,7 +5577,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -5683,7 +5683,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -5705,7 +5705,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Звёзды</title>
                 <key>stars</key>
                 <val value="3">
@@ -5739,7 +5739,7 @@
                     <title>**S</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -5762,7 +5762,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -5792,7 +5792,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -5808,7 +5808,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -5914,7 +5914,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -5936,7 +5936,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -5959,7 +5959,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -5989,7 +5989,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -6005,7 +6005,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -6111,7 +6111,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -6133,7 +6133,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -6156,7 +6156,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -6186,7 +6186,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -6202,7 +6202,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
@@ -6308,7 +6308,7 @@
                     <title>Баварская</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -6330,7 +6330,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -6353,7 +6353,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -6383,7 +6383,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>surveillance</key>
                 <val value="indoor">
@@ -6434,7 +6434,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Насос</title>
                 <key>pump</key>
                 <val value="manual">
@@ -6578,7 +6578,7 @@
                 <title>Высота (м)</title>
                 <key>height</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Радиовещание</title>
                 <key>communication:radio</key>
                 <val value="yes">
@@ -6597,7 +6597,7 @@
                     <title>DAB</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Телевещание</title>
                 <key>communication:television</key>
                 <val value="yes">
@@ -6613,7 +6613,7 @@
                     <title>аналоговое</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сотовая связь</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
@@ -6653,7 +6653,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -6679,7 +6679,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -6721,7 +6721,7 @@
                 <title>Выработка холодной воды</title>
                 <key>generator:output:cold_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Источник энергии/топливо</title>
                 <key>generator:source</key>
                 <val value="waste">
@@ -6789,7 +6789,7 @@
                 <title>Выработка электроэнергии</title>
                 <key>generator:output:electricity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Способ получения энергии</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">
@@ -6830,7 +6830,7 @@
                 <title>Выработка горячей воды</title>
                 <key>generator:output:hot_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип генератора</title>
                 <key>generator:type</key>
             </tag>
@@ -6890,7 +6890,7 @@
                 <title>Выработка холодной воды</title>
                 <key>plant:output:cold_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Источник энергии/топливо</title>
                 <key>generator:source</key>
                 <val value="waste">
@@ -6958,7 +6958,7 @@
                 <title>Выработка электроэнергии</title>
                 <key>plant:output:electricity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Способ получения энергии</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">
@@ -7021,7 +7021,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Газовая изоляция</title>
                 <key>gas_insulated</key>
                 <val value="yes">
@@ -7156,7 +7156,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает листовой метал</title>
                 <key>recycling:sheet_metal</key>
                 <val value="yes">
@@ -7172,7 +7172,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает картон</title>
                 <key>recycling:cardboard</key>
                 <val value="yes">
@@ -7188,7 +7188,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает алюминий</title>
                 <key>recycling:aluminium</key>
                 <val value="yes">
@@ -7204,7 +7204,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает гипсокартон</title>
                 <key>recycling:plasterboard</key>
                 <val value="yes">
@@ -7220,7 +7220,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пробку</title>
                 <key>recycling:cork</key>
                 <val value="yes">
@@ -7236,7 +7236,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает компьютеры</title>
                 <key>recycling:computers</key>
                 <val value="yes">
@@ -7252,7 +7252,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает продукты жизнедеятельности животных</title>
                 <key>recycling:animal_waste</key>
                 <val value="yes">
@@ -7268,7 +7268,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает садовый мусор</title>
                 <key>recycling:garden_waste</key>
                 <val value="yes">
@@ -7284,7 +7284,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает батарейки</title>
                 <key>recycling:batteries</key>
                 <val value="yes">
@@ -7300,7 +7300,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает энергосберегающие лампы</title>
                 <key>recycling:low_energy_bulbs</key>
                 <val value="yes">
@@ -7316,7 +7316,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает экскременты</title>
                 <key>recycling:excrement</key>
                 <val value="yes">
@@ -7332,7 +7332,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает компакт-диски</title>
                 <key>recycling:cds</key>
                 <val value="yes">
@@ -7348,7 +7348,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает краску</title>
                 <key>recycling:paint</key>
                 <val value="yes">
@@ -7364,7 +7364,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает книги</title>
                 <key>recycling:books</key>
                 <val value="yes">
@@ -7380,7 +7380,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковую упаковку</title>
                 <key>recycling:plastic_packaging</key>
                 <val value="yes">
@@ -7396,7 +7396,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает кухонную технику</title>
                 <key>recycling:white_goods</key>
                 <val value="yes">
@@ -7412,7 +7412,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает мелкую кухонную технику</title>
                 <key>recycling:small_appliances</key>
                 <val value="yes">
@@ -7428,7 +7428,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает металлолом</title>
                 <key>recycling:scrap_metal</key>
                 <val value="yes">
@@ -7444,7 +7444,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевое масло</title>
                 <key>recycling:cooking_oil</key>
                 <val value="yes">
@@ -7460,7 +7460,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевой картон</title>
                 <key>recycling:cartons</key>
                 <val value="yes">
@@ -7476,7 +7476,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает покрышки</title>
                 <key>recycling:tyres</key>
                 <val value="yes">
@@ -7496,7 +7496,7 @@
                 <title>Время вывоза мусора</title>
                 <key>collection_times</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает термометры</title>
                 <key>recycling:thermometers</key>
                 <val value="yes">
@@ -7512,7 +7512,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает биоразлагаемые отходы</title>
                 <key>recycling:green_waste</key>
                 <val value="yes">
@@ -7528,7 +7528,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковые пакеты</title>
                 <key>recycling:plastic_bags</key>
                 <val value="yes">
@@ -7544,7 +7544,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бытовую технику</title>
                 <key>recycling:electrical_items</key>
                 <val value="yes">
@@ -7560,7 +7560,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает стеклянные бутылки</title>
                 <key>recycling:glass_bottles</key>
                 <val value="yes">
@@ -7576,7 +7576,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает машинное масло</title>
                 <key>recycling:engine_oil</key>
                 <val value="yes">
@@ -7592,7 +7592,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бумагу</title>
                 <key>recycling:paper</key>
                 <val value="yes">
@@ -7608,7 +7608,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает картриджи для принтеров</title>
                 <key>recycling:printer_cartridges</key>
                 <val value="yes">
@@ -7624,7 +7624,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает полиэстер</title>
                 <key>recycling:polyester</key>
                 <val value="yes">
@@ -7640,7 +7640,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бытовой мусор</title>
                 <key>recycling:waste</key>
                 <val value="yes">
@@ -7656,7 +7656,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает мобильные телефоны</title>
                 <key>recycling:mobile_phones</key>
                 <val value="yes">
@@ -7672,7 +7672,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает электронные компоненты</title>
                 <key>recycling:chipboard</key>
                 <val value="yes">
@@ -7688,7 +7688,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает новогодние ёлки</title>
                 <key>recycling:christmas_trees</key>
                 <val value="yes">
@@ -7704,7 +7704,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевые отходы</title>
                 <key>recycling:organic</key>
                 <val value="yes">
@@ -7720,7 +7720,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает журналы</title>
                 <key>recycling:magazines</key>
                 <val value="yes">
@@ -7736,7 +7736,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает тяжёлый строительный мусор</title>
                 <key>recycling:hardcore</key>
                 <val value="yes">
@@ -7752,7 +7752,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает одежду</title>
                 <key>recycling:clothes</key>
                 <val value="yes">
@@ -7768,7 +7768,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает газовые баллоны</title>
                 <key>recycling:gas_bottles</key>
                 <val value="yes">
@@ -7784,7 +7784,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает бумажную упаковку</title>
                 <key>recycling:paper_packaging</key>
                 <val value="yes">
@@ -7800,7 +7800,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластиковые бутылки</title>
                 <key>recycling:plastic_bottles</key>
                 <val value="yes">
@@ -7816,7 +7816,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает строительный мусор</title>
                 <key>recycling:rubble</key>
                 <val value="yes">
@@ -7832,7 +7832,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пенопласт</title>
                 <key>recycling:styrofoam</key>
                 <val value="yes">
@@ -7848,7 +7848,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает люминесцентные лампы</title>
                 <key>recycling:fluorescent_tubes</key>
                 <val value="yes">
@@ -7864,7 +7864,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает газеты</title>
                 <key>recycling:newspaper</key>
                 <val value="yes">
@@ -7880,7 +7880,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пластик</title>
                 <key>recycling:plastic</key>
                 <val value="yes">
@@ -7896,7 +7896,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает пищевую фольгу</title>
                 <key>recycling:foil</key>
                 <val value="yes">
@@ -7912,7 +7912,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает велосипеды</title>
                 <key>recycling:bicycles</key>
                 <val value="yes">
@@ -7928,7 +7928,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает телевизоры</title>
                 <key>recycling:tv_monitor</key>
                 <val value="yes">
@@ -7944,7 +7944,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>recycling_type</key>
                 <val value="center">
@@ -7954,7 +7954,7 @@
                     <title>Контейнер</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает дерево</title>
                 <key>recycling:wood</key>
                 <val value="yes">
@@ -7970,7 +7970,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает алюминиевые банки</title>
                 <key>recycling:cans</key>
                 <val value="yes">
@@ -7986,7 +7986,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Принимает стекло</title>
                 <key>recycling:glass</key>
                 <val value="yes">
@@ -8639,7 +8639,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Неотложная помощь</title>
                 <key>emergency</key>
                 <val value="yes">
@@ -8669,7 +8669,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Неотложная помощь</title>
                 <key>emergency</key>
                 <val value="yes">
@@ -8712,7 +8712,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Изготовление лекарств по рецепту</title>
                 <key>dispensing</key>
                 <val value="yes">
@@ -8742,7 +8742,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Неотложная помощь</title>
                 <key>emergency</key>
                 <val value="yes">
@@ -8847,7 +8847,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип гидранта</title>
                 <key>fire_hydrant:type</key>
                 <val value="pillar">
@@ -8913,7 +8913,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -8923,7 +8923,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -9012,7 +9012,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -9454,7 +9454,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Жанр</title>
                 <key>theatre:genre</key>
                 <val value="boulevard">
@@ -9532,7 +9532,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
@@ -9602,7 +9602,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -9618,7 +9618,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -9820,7 +9820,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -9855,7 +9855,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -9865,7 +9865,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -9929,7 +9929,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -9945,7 +9945,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -10147,7 +10147,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -10177,7 +10177,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -10416,7 +10416,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -10426,7 +10426,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -10490,7 +10490,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -10506,7 +10506,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -10708,7 +10708,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -10738,7 +10738,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -10748,7 +10748,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -10778,7 +10778,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -10802,7 +10802,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -10826,7 +10826,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -11066,7 +11066,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -11076,7 +11076,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -11140,7 +11140,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -11156,7 +11156,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -11358,7 +11358,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -11388,7 +11388,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -11404,7 +11404,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -11434,7 +11434,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -11651,7 +11651,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -11661,7 +11661,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Нудизм</title>
                 <key>nudism</key>
                 <val value="yes">
@@ -11718,7 +11718,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -11728,7 +11728,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -11792,7 +11792,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -11808,7 +11808,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -12010,7 +12010,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -12064,7 +12064,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -12280,7 +12280,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -12290,7 +12290,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -12306,7 +12306,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -12508,7 +12508,7 @@
                     <title>Спортивная стрельба, тир</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -12538,7 +12538,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
@@ -12548,7 +12548,7 @@
                     <title>бесплатный</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
@@ -12612,7 +12612,7 @@
                     <title>Булыжник</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
@@ -12628,7 +12628,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -12834,7 +12834,7 @@
                 <title>Число баскетбольных колец</title>
                 <key>hoops</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Крытый</title>
                 <key>covered</key>
                 <val value="yes">
@@ -12876,7 +12876,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие комиссии</title>
                 <key>fee</key>
                 <val value="yes">
@@ -12952,7 +12952,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Наличие банкомата</title>
                 <key>atm</key>
                 <val value="yes">
@@ -13017,7 +13017,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Целевая группа</title>
                 <key>social_facility:for</key>
                 <val value="unemployed">
@@ -13063,7 +13063,7 @@
                     <title>пожилые</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип</title>
                 <key>social_facility</key>
                 <val value="group_home">
@@ -13165,7 +13165,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Страна</title>
                 <key>country</key>
                 <val value="VU">
@@ -14036,7 +14036,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Видимость</title>
                 <key>visibility</key>
                 <val value="area">
@@ -14049,7 +14049,7 @@
                     <title>в пределах нескольких метров</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Метод отображения</title>
                 <key>display</key>
                 <val value="sundial">
@@ -14069,7 +14069,7 @@
                 <title>Число циферблатов</title>
                 <key>faces</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Показывает влажность</title>
                 <key>hygrometer</key>
                 <val value="yes">
@@ -14085,7 +14085,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Метод установки</title>
                 <key>support</key>
                 <val value="pole">
@@ -14101,7 +14101,7 @@
                     <title>информационный щит</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Показывает дату</title>
                 <key>date</key>
                 <val value="yes">
@@ -14117,7 +14117,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Показывает давление</title>
                 <key>barometer</key>
                 <val value="yes">
@@ -14133,7 +14133,7 @@
                     <title>нет</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Показывает температуру</title>
                 <key>thermometer</key>
                 <val value="yes">
@@ -14179,7 +14179,7 @@
                 <title>Число спальных мест</title>
                 <key>beds</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -14201,7 +14201,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -14224,7 +14224,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -14262,7 +14262,7 @@
                 <title>Число спальных мест</title>
                 <key>beds</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -14284,7 +14284,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -14307,7 +14307,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -14345,7 +14345,7 @@
                 <title>Число спальных мест</title>
                 <key>beds</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -14367,7 +14367,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -14390,7 +14390,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -14424,7 +14424,7 @@
                 <title>Число спальных мест</title>
                 <key>beds</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
@@ -14446,7 +14446,7 @@
                     <title>Есть</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Звёзды</title>
                 <key>stars</key>
                 <val value="3">
@@ -14480,7 +14480,7 @@
                     <title>**S</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Курение</title>
                 <key>smoking</key>
                 <val value="yes">
@@ -14503,7 +14503,7 @@
                 <title>Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
@@ -14537,7 +14537,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Скамейка</title>
                 <key>bench</key>
                 <val value="yes">
@@ -14567,7 +14567,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип стенда</title>
                 <key>information</key>
                 <val value="office">
@@ -14723,7 +14723,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Можно пить</title>
                 <key>drinkable</key>
                 <val value="yes">
@@ -14773,7 +14773,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
@@ -15081,7 +15081,7 @@
                 <title>Дата установки</title>
                 <key>start_date</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="anyString">
+            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
                 <title>Тип произведения</title>
                 <key>artwork_type</key>
                 <val value="sculpture">
