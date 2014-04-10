@@ -1,0 +1,116 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>osm-doc</groupId>
+	<artifactId>osm-doc</artifactId>
+	<version>0.3</version>
+
+	<dependencies>
+<!-- 		<dependency> -->
+<!-- 		   <groupId>org.eclipse.persistence</groupId> -->
+<!-- 		   <artifactId>org.eclipse.persistence.moxy</artifactId> -->
+<!-- 		   <version>2.5.0</version> -->
+<!-- 		</dependency> -->
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20131018</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:kiselev-dv/osm-doc.git</developerConnection>
+		<tag>osm-doc-0.3</tag>
+	</scm>
+
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal Repository</name>
+			<!-- <url>file:///opt/osm-mvn-repo/releases</url> -->
+			<url>file://${project.build.directory}/mvn-repo</url>
+		</repository>
+		<snapshotRepository>
+			<id>internal.repo-snapshots</id>
+			<name>Internal SNAPSHOT Repository</name>
+			<url>file:///opt/osm-mvn-repo/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<github.global.server>github</github.global.server>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.9</version>
+				<configuration>
+					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
+					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
+					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
+					<branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
+					<includes>
+						<include>**/*</include>
+					</includes>
+					<repositoryName>osm-doc</repositoryName>      <!-- github repo name -->
+					<repositoryOwner>kiselev-dv</repositoryOwner>    <!-- github username -->
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>deploy</phase>
+					</execution>
+				</executions>
+				 <!-- JAXB xjc plugin that invokes the xjc compiler to compile XML schema into Java classes.-->
+			</plugin>
+<!-- 	        <plugin> -->
+<!-- 	            <groupId>org.codehaus.mojo</groupId> -->
+<!-- 	            <artifactId>jaxb2-maven-plugin</artifactId> -->
+<!-- 	            <executions> -->
+<!-- 	                <execution> -->
+<!-- 	                    <goals> -->
+<!-- 	                        <goal>xjc</goal> -->
+<!-- 	                    </goals> -->
+<!-- 	                </execution> -->
+<!-- 	            </executions> -->
+<!-- 	            <configuration> -->
+<!-- 	                The schema directory or xsd files. -->
+<!-- 	                <schemaDirectory>${basedir}/src/main/resources/schema</schemaDirectory> -->
+<!-- 	                The package in which the source files will be generated. -->
+<!-- 	                <packageName>me.osm.osmdoc.model</packageName> -->
+<!-- 	                The working directory to create the generated java source files. -->
+<!-- 	                <outputDirectory>${basedir}/src/main/java</outputDirectory> -->
+<!-- 	            </configuration> -->
+<!-- 	        </plugin> -->
+		</plugins>
+	</build>
+
+</project>

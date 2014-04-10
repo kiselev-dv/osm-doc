@@ -3,10 +3,10 @@
   <groupId>osm-doc</groupId>
   <artifactId>osm-doc</artifactId>
   <versioning>
-    <release>0.2</release>
+    <release>0.3</release>
     <versions>
-      <version>0.2</version>
+      <version>0.3</version>
     </versions>
-    <lastUpdated>20140331075739</lastUpdated>
+    <lastUpdated>20140410202050</lastUpdated>
   </versioning>
 </metadata>
