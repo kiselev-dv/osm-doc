@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>osm-doc</groupId>
 	<artifactId>osm-doc</artifactId>
-	<version>0.4</version>
+	<version>0.4-SNAPSHOT</version>
 
 	<dependencies>
 <!-- 		<dependency> -->
@@ -59,7 +59,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<github.global.server>github</github.global.server>
+		<github.global.server>github.com</github.global.server>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
