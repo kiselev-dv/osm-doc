@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>osm-doc</groupId>
 	<artifactId>osm-doc</artifactId>
-	<version>0.4-SNAPSHOT</version>
+	<version>0.4</version>
 
 	<dependencies>
 <!-- 		<dependency> -->
@@ -40,7 +40,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:kiselev-dv/osm-doc.git</developerConnection>
-		<tag>osm-doc-0.3</tag>
+		<tag>osm-doc-0.4</tag>
 	</scm>
 
 	<distributionManagement>
