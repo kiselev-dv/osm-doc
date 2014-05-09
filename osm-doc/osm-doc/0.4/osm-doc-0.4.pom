@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>osm-doc</groupId>
 	<artifactId>osm-doc</artifactId>
-	<version>0.3</version>
+	<version>0.4</version>
 
 	<dependencies>
 <!-- 		<dependency> -->
@@ -39,8 +39,10 @@
 	</dependencies>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:kiselev-dv/osm-doc.git</developerConnection>
-		<tag>osm-doc-0.3</tag>
+		<connection>scm:git:https://github.com/kiselev-dv/osm-doc.git</connection>
+		<developerConnection>scm:git:https://github.com/kiselev-dv/osm-doc.git</developerConnection>
+		<url>https://github.com/kiselev-dv/osm-doc</url>
+		<tag>osm-doc-0.4</tag>
 	</scm>
 
 	<distributionManagement>
@@ -59,7 +61,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<github.global.server>github</github.global.server>
+		<github.global.server>github.com</github.global.server>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
