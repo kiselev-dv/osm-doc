@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 import me.osm.osmdoc.model.Feature;
+import me.osm.osmdoc.model.LangString;
 import me.osm.osmdoc.model.Tag;
 import me.osm.osmdoc.model.Tag.Val;
 import me.osm.osmdoc.model.Tags;
@@ -153,4 +154,16 @@ public class OSMDocFacade {
 		return title;
 	}
 	
+	public List<String> listTranslatedTitles(Feature fClass) {
+		List<String> result = new ArrayList<String>();
+		
+		String title = getTranslatedTitle(fClass, null);
+		result.add(title);
+		
+		for(LangString ls :  fClass.getAlias()) {
+			result.add(ls.getValue());
+		}
+		
+		return result;
+	}
 }
