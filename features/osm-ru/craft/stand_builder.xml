@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="stand_builder">
-        <title>Изготовление выставочных стендов</title>
+        <title lang="ru">Изготовление выставочных стендов</title>
         <tags>
             <tag>
                 <key>craft</key>

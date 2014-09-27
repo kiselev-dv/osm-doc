@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bicycle_rental">
-        <title>Прокат велосипедов</title>
+        <title lang="ru">Прокат велосипедов</title>
         <tags>
             <tag>
                 <key>amenity</key>

@@ -2,9 +2,9 @@
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <hierarchy name="osm-ru">
         <group name="shop">
-            <title>Магазины</title>
+            <title lang="ru">Магазины</title>
             <group name="shop_food">
-                <title>Продукты</title>
+                <title lang="ru">Продукты</title>
                 <fref ref="bakery"/>
                 <fref ref="alcohol"/>
                 <fref ref="convenience"/>
@@ -97,7 +97,7 @@
             <fref ref="sewing"/>
         </group>
         <group name="health">
-            <title>Здоровье</title>
+            <title lang="ru">Здоровье</title>
             <fref ref="pharmacy"/>
             <fref ref="hospital"/>
             <fref ref="doctors"/>
@@ -109,7 +109,7 @@
             <fref ref="ambulance_station"/>
         </group>
         <group name="food">
-            <title>Еда</title>
+            <title lang="ru">Еда</title>
             <fref ref="cafe"/>
             <fref ref="biergarten"/>
             <fref ref="restaurant"/>
@@ -119,7 +119,7 @@
             <fref ref="food_court"/>
         </group>
         <group name="finance">
-            <title>Финансы</title>
+            <title lang="ru">Финансы</title>
             <fref ref="bank"/>
             <fref ref="atm"/>
             <fref ref="money_lender"/>
@@ -128,7 +128,7 @@
             <fref ref="accountant"/>
         </group>
         <group name="service">
-            <title>Услуги</title>
+            <title lang="ru">Услуги</title>
             <fref ref="funeral_directors"/>
             <fref ref="currencyexchange"/>
             <fref ref="driving_school"/>
@@ -153,7 +153,7 @@
             <fref ref="internet_cafe"/>
         </group>
         <group name="craft">
-            <title>Ремонт и мелкое производство</title>
+            <title lang="ru">Ремонт и мелкое производство</title>
             <fref ref="craft_computer"/>
             <fref ref="agricultural_engines"/>
             <fref ref="basket_maker"/>
@@ -205,9 +205,9 @@
             <fref ref="window_construction"/>
         </group>
         <group name="transport">
-            <title>Транспорт</title>
+            <title lang="ru">Транспорт</title>
             <group name="road_obstacles">
-                <title>Препятствия на дороге</title>
+                <title lang="ru">Препятствия на дороге</title>
                 <fref ref="ford"/>
                 <fref ref="mountain_pass"/>
                 <fref ref="gate"/>
@@ -220,7 +220,7 @@
                 <fref ref="speed_camera"/>
             </group>
             <group name="personal_transport">
-                <title>Личный автотранспорт</title>
+                <title lang="ru">Личный автотранспорт</title>
                 <fref ref="car_repair"/>
                 <fref ref="car_repair_tyres"/>
                 <fref ref="vehicle_inspection"/>
@@ -234,7 +234,7 @@
                 <fref ref="speed_camera"/>
             </group>
             <group name="public_transport">
-                <title>Общественный транспорт</title>
+                <title lang="ru">Общественный транспорт</title>
                 <fref ref="bus_station"/>
                 <fref ref="subway_entrance"/>
                 <fref ref="railway_station"/>
@@ -246,14 +246,14 @@
                 <fref ref="funicular"/>
             </group>
             <group name="air_transport">
-                <title>Воздушный транспорт</title>
+                <title lang="ru">Воздушный транспорт</title>
                 <fref ref="airport"/>
                 <fref ref="helipad"/>
             </group>
             <group name="water_transport">
-                <title>Водный транспорт</title>
+                <title lang="ru">Водный транспорт</title>
                 <group name="ship_navigation">
-                    <title>Судоходная навигация</title>
+                    <title lang="ru">Судоходная навигация</title>
                     <fref ref="leading_beacon"/>
                     <fref ref="lateral_buoy"/>
                     <fref ref="lighthouse"/>
@@ -262,18 +262,18 @@
                 <fref ref="ferry_terminal"/>
             </group>
             <group name="bicycle_transport">
-                <title>Велосипеды</title>
+                <title lang="ru">Велосипеды</title>
                 <fref ref="bicycle_rental"/>
                 <fref ref="bicycle_parking"/>
             </group>
             <group name="transport_constructions">
-                <title>Транспортные сооружения</title>
+                <title lang="ru">Транспортные сооружения</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
         </group>
         <group name="education">
-            <title>Образование</title>
+            <title lang="ru">Образование</title>
             <fref ref="driving_school"/>
             <fref ref="school"/>
             <fref ref="kindergarten"/>
@@ -282,7 +282,7 @@
             <fref ref="university"/>
         </group>
         <group name="sport_and_entertainment">
-            <title>Спорт и развлечения</title>
+            <title lang="ru">Спорт и развлечения</title>
             <fref ref="bicycle_rental"/>
             <fref ref="nightclub"/>
             <fref ref="stadium"/>
@@ -310,7 +310,7 @@
             <fref ref="club_sport"/>
         </group>
         <group name="religion">
-            <title>Религия</title>
+            <title lang="ru">Религия</title>
             <fref ref="place_of_worship"/>
             <fref ref="place_of_worship_christian"/>
             <fref ref="place_of_worship_jewish"/>
@@ -318,7 +318,7 @@
             <fref ref="cemetery"/>
         </group>
         <group name="democracy">
-            <title>Госучреждения</title>
+            <title lang="ru">Госучреждения</title>
             <fref ref="social_facility"/>
             <fref ref="police"/>
             <fref ref="courthouse"/>
@@ -336,7 +336,7 @@
             <fref ref="customs"/>
         </group>
         <group name="emergency">
-            <title>Экстренные службы</title>
+            <title lang="ru">Экстренные службы</title>
             <fref ref="police"/>
             <fref ref="fire_station"/>
             <fref ref="emergency_phone"/>
@@ -345,9 +345,9 @@
             <fref ref="ambulance_station"/>
         </group>
         <group name="tourism">
-            <title>Туризм</title>
+            <title lang="ru">Туризм</title>
             <group name="sights">
-                <title>Достопримечательности</title>
+                <title lang="ru">Достопримечательности</title>
                 <fref ref="museum"/>
                 <fref ref="attraction"/>
                 <fref ref="memorial"/>
@@ -370,7 +370,7 @@
                 <fref ref="lighthouse"/>
             </group>
             <group name="lodging">
-                <title>Проживание</title>
+                <title lang="ru">Проживание</title>
                 <fref ref="hotel"/>
                 <fref ref="guest_house"/>
                 <fref ref="hostel"/>
@@ -389,9 +389,9 @@
             <fref ref="funicular"/>
         </group>
         <group name="culture">
-            <title>Культура, досуг</title>
+            <title lang="ru">Культура, досуг</title>
             <group name="clubs">
-                <title>Клубы по интересам, кружки</title>
+                <title lang="ru">Клубы по интересам, кружки</title>
                 <fref ref="club_art"/>
                 <fref ref="club_astronomy"/>
                 <fref ref="club_computer"/>
@@ -428,7 +428,7 @@
             <fref ref="zoo"/>
         </group>
         <group name="office">
-            <title>Организации</title>
+            <title lang="ru">Организации</title>
             <fref ref="company"/>
             <fref ref="insurance"/>
             <fref ref="estate_agent"/>
@@ -451,7 +451,7 @@
             <fref ref="bookmaker"/>
         </group>
         <group name="natural">
-            <title>Природные объекты</title>
+            <title lang="ru">Природные объекты</title>
             <fref ref="cave_entrance"/>
             <fref ref="peak"/>
             <fref ref="saddle"/>
@@ -466,28 +466,28 @@
             <fref ref="beach"/>
         </group>
         <group name="infrastructure">
-            <title>Инфраструктура</title>
+            <title lang="ru">Инфраструктура</title>
             <group name="transport_constructions">
-                <title>Транспортные сооружения</title>
+                <title lang="ru">Транспортные сооружения</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
             <group name="water_supply">
-                <title>Водоснабжение</title>
+                <title lang="ru">Водоснабжение</title>
                 <fref ref="water_well"/>
                 <fref ref="water_works"/>
                 <fref ref="wastewater_plant"/>
                 <fref ref="water_tower"/>
             </group>
             <group name="power">
-                <title>Электроснабжение</title>
+                <title lang="ru">Электроснабжение</title>
                 <fref ref="substation"/>
                 <fref ref="transformer"/>
                 <fref ref="power_plant"/>
                 <fref ref="power_generator"/>
             </group>
             <group name="communications">
-                <title>Связь</title>
+                <title lang="ru">Связь</title>
                 <fref ref="post_office"/>
                 <fref ref="post_box"/>
                 <fref ref="telephone"/>
@@ -496,13 +496,13 @@
                 <fref ref="telephone_exchange"/>
             </group>
             <group name="trash_disposal">
-                <title>Утилизация мусора</title>
+                <title lang="ru">Утилизация мусора</title>
                 <fref ref="recycling"/>
                 <fref ref="landfill"/>
                 <fref ref="waste_disposal"/>
             </group>
             <group name="advertising">
-                <title>Реклама</title>
+                <title lang="ru">Реклама</title>
                 <fref ref="advertising_billboard"/>
                 <fref ref="advertising_column"/>
                 <fref ref="advertising_flag"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="artwork">
-        <title>Арт-объект</title>
+        <title lang="ru">Арт-объект</title>
         <tags>
             <tag>
                 <key>tourism</key>

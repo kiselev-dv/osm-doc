@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="place_of_worship_jewish">
-        <title>Синагога</title>
+        <title lang="ru">Синагога</title>
         <tags>
             <tag>
-                <title>Религия</title>
+                <title lang="ru">Религия</title>
                 <key>religion</key>
                 <val value="jewish"/>
             </tag>
@@ -16,87 +16,87 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Религия</title>
+                <title lang="ru">Религия</title>
                 <key>religion</key>
                 <val value="muslim">
-                    <title>Мусульманство (Ислам)</title>
+                    <title lang="ru">Мусульманство (Ислам)</title>
                 </val>
                 <val value="sikh">
-                    <title>Сикхизм</title>
+                    <title lang="ru">Сикхизм</title>
                 </val>
                 <val value="christian">
-                    <title>Христианство</title>
+                    <title lang="ru">Христианство</title>
                 </val>
                 <val value="jewish">
-                    <title>Иудаизм</title>
+                    <title lang="ru">Иудаизм</title>
                 </val>
                 <val value="buddhist">
-                    <title>Буддизм</title>
+                    <title lang="ru">Буддизм</title>
                 </val>
                 <val value="jain">
-                    <title>Джайнизм</title>
+                    <title lang="ru">Джайнизм</title>
                 </val>
                 <val value="shinto">
-                    <title>Синтоизм</title>
+                    <title lang="ru">Синтоизм</title>
                 </val>
                 <val value="bahai">
-                    <title>Бахаи</title>
+                    <title lang="ru">Бахаи</title>
                 </val>
                 <val value="zoroastrian">
-                    <title>Зороастризм</title>
+                    <title lang="ru">Зороастризм</title>
                 </val>
                 <val value="hindu">
-                    <title>Индуизм</title>
+                    <title lang="ru">Индуизм</title>
                 </val>
                 <val value="scientologist">
-                    <title>Сайентология</title>
+                    <title lang="ru">Сайентология</title>
                 </val>
                 <val value="unitarianist">
-                    <title>Унитаризм</title>
+                    <title lang="ru">Унитаризм</title>
                 </val>
                 <val value="pastafarian">
-                    <title>Пастафарианство</title>
+                    <title lang="ru">Пастафарианство</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="period">
-                <title>Время проведения служб</title>
+                <title lang="ru">Время проведения служб</title>
                 <key>service_times</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Конфессия</title>
+                <title lang="ru">Конфессия</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
-                    <title>Армянская Григорианская церковь</title>
+                    <title lang="ru">Армянская Григорианская церковь</title>
                 </val>
                 <val value="catholic">
-                    <title>Римская католическая церковь</title>
+                    <title lang="ru">Римская католическая церковь</title>
                 </val>
                 <val value="russian_orthodox">
-                    <title>Русское православие</title>
+                    <title lang="ru">Русское православие</title>
                 </val>
                 <val value="baptist">
-                    <title>Баптизм</title>
+                    <title lang="ru">Баптизм</title>
                 </val>
                 <val value="orthodox">
-                    <title>Православие</title>
+                    <title lang="ru">Православие</title>
                 </val>
                 <val value="old_believers">
-                    <title>Старообрядчество</title>
+                    <title lang="ru">Старообрядчество</title>
                 </val>
                 <val value="pentecostal">
-                    <title>Пятидесятничество</title>
+                    <title lang="ru">Пятидесятничество</title>
                 </val>
                 <val value="lutheran">
-                    <title>Лютеранство</title>
+                    <title lang="ru">Лютеранство</title>
                 </val>
                 <val value="greek_orthodox">
-                    <title>Греческое православие</title>
+                    <title lang="ru">Греческое православие</title>
                 </val>
                 <val value="anglican">
-                    <title>Англиканство</title>
+                    <title lang="ru">Англиканство</title>
                 </val>
                 <val value="assyrian">
-                    <title>Ассирийская церковь Востока</title>
+                    <title lang="ru">Ассирийская церковь Востока</title>
                 </val>
             </tag>
         </more-tags>

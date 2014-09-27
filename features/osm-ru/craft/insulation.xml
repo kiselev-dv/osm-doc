@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="insulation">
-        <title>Услуги по утеплению помещений</title>
+        <title lang="ru">Услуги по утеплению помещений</title>
         <tags>
             <tag>
                 <key>craft</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="lighthouse">
-        <title>Маяк</title>
+        <title lang="ru">Маяк</title>
         <tags>
             <tag>
                 <key>man_made</key>

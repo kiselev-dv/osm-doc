@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="post_box">
-        <title>Почтовый ящик</title>
+        <title lang="ru">Почтовый ящик</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,11 +11,11 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Номер</title>
+                <title lang="ru">Номер</title>
                 <key>ref</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="period">
-                <title>Время сбора почты</title>
+                <title lang="ru">Время сбора почты</title>
                 <key>collection_times</key>
             </tag>
         </more-tags>

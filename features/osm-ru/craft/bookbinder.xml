@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bookbinder">
-        <title>Переплётная мастерская</title>
+        <title lang="ru">Переплётная мастерская</title>
         <tags>
             <tag>
                 <key>craft</key>

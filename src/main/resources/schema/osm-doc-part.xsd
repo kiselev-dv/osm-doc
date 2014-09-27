@@ -24,8 +24,8 @@
 
 	<complexType name="feature">
 		<sequence>
-			<group ref="osmdoc:titleDescription" />
-			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" />
+			<group ref="osmdoc:titleDescription" maxOccurs="unbounded" />
+<!-- 			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" /> -->
 			<element ref="osmdoc:tags" maxOccurs="unbounded">
 				<annotation>
 					<documentation>
@@ -36,7 +36,7 @@
 			</element>
 			<element name="trait" minOccurs="0" maxOccurs="unbounded"
 				type="string" />
-			<element ref="osmdoc:more-tags">
+			<element ref="osmdoc:more-tags" minOccurs="0" maxOccurs="unbounded" >
 				<annotation>
 					<documentation>
 						Additional tags. They don't specify particular
@@ -108,7 +108,7 @@
 	<group name="iconsWikiNote">
 		<sequence>
 			<element name="icon" minOccurs="0" maxOccurs="unbounded"
-				type="anyURI" />
+				type="string" />
 			<element name="wiki" type="anyURI" minOccurs="0" maxOccurs="unbounded" />
 			<element name="note" type="string" minOccurs="0" maxOccurs="1" />
 		</sequence>
@@ -116,8 +116,8 @@
 
 	<group name="titleDescription">
 		<sequence>
-			<element name="title" type="string" />
-			<element name="description" minOccurs="0" type="string" />
+			<element name="title" type="osmdoc:langString" minOccurs="1" maxOccurs="unbounded" />
+			<element name="description" minOccurs="0" type="osmdoc:langString" />
 		</sequence>
 	</group>
 	

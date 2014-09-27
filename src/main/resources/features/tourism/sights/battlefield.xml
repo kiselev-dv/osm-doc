@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="battlefield">
-        <title>Поле исторической битвы</title>
+        <title lang="ru">Поле исторической битвы</title>
         <tags>
             <tag>
                 <key>historic</key>
@@ -11,7 +11,7 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Дата</title>
+                <title lang="ru">Дата</title>
                 <key>date</key>
             </tag>
         </more-tags>

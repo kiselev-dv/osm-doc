@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="club_charity">
-        <title>Благотворительность</title>
+        <title lang="ru">Благотворительность</title>
         <tags>
             <tag>
                 <key>club</key>

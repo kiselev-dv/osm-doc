@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bus_stop">
-        <title>Остановка автобуса</title>
+        <title lang="ru">Остановка автобуса</title>
         <tags>
             <tag>
                 <key>highway</key>

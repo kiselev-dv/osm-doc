@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="hotel">
-        <title>Гостиница</title>
+        <title lang="ru">Гостиница</title>
         <tags>
             <tag>
                 <key>tourism</key>

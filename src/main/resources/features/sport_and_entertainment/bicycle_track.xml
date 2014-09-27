@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bicycle_track">
-        <title>Велотрек</title>
+        <title lang="ru">Велотрек</title>
         <tags>
             <tag>
-                <title>Виды спорта</title>
+                <title lang="ru">Виды спорта</title>
                 <key>sport</key>
                 <val value="cycling"/>
             </tag>
@@ -16,311 +16,311 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+                <title lang="ru">Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title lang="ru">платный</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title lang="ru">бесплатный</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Покрытие</title>
+                <title lang="ru">Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
-                    <title>Тротуарная плитка</title>
+                    <title lang="ru">Тротуарная плитка</title>
                 </val>
                 <val value="sand">
-                    <title>Песок</title>
+                    <title lang="ru">Песок</title>
                 </val>
                 <val value="asphalt">
-                    <title>Асфальт</title>
+                    <title lang="ru">Асфальт</title>
                 </val>
                 <val value="wood">
-                    <title>Дерево</title>
+                    <title lang="ru">Дерево</title>
                 </val>
                 <val value="grass">
-                    <title>Трава</title>
+                    <title lang="ru">Трава</title>
                 </val>
                 <val value="paved">
-                    <title>С покрытием</title>
+                    <title lang="ru">С покрытием</title>
                 </val>
                 <val value="ground">
-                    <title>Земля</title>
+                    <title lang="ru">Земля</title>
                 </val>
                 <val value="gravel">
-                    <title>Гравий</title>
+                    <title lang="ru">Гравий</title>
                 </val>
                 <val value="concrete">
-                    <title>Бетон</title>
+                    <title lang="ru">Бетон</title>
                 </val>
                 <val value="unpaved">
-                    <title>Без покрытия</title>
+                    <title lang="ru">Без покрытия</title>
                 </val>
                 <val value="metal">
-                    <title>Металл</title>
+                    <title lang="ru">Металл</title>
                 </val>
                 <val value="concrete:plates">
-                    <title>Бетонные плиты</title>
+                    <title lang="ru">Бетонные плиты</title>
                 </val>
                 <val value="ice">
-                    <title>Лед</title>
+                    <title lang="ru">Лед</title>
                 </val>
                 <val value="concrete:lanes">
-                    <title>Бетонные плитки</title>
+                    <title lang="ru">Бетонные плитки</title>
                 </val>
                 <val value="earth">
-                    <title>Земля</title>
+                    <title lang="ru">Земля</title>
                 </val>
                 <val value="tartan">
-                    <title>Тартан</title>
+                    <title lang="ru">Тартан</title>
                 </val>
                 <val value="pebblestone">
-                    <title>Галька</title>
+                    <title lang="ru">Галька</title>
                 </val>
                 <val value="artificial_turf">
-                    <title>Искусственная трава</title>
+                    <title lang="ru">Искусственная трава</title>
                 </val>
                 <val value="dirt">
-                    <title>Грязь</title>
+                    <title lang="ru">Грязь</title>
                 </val>
                 <val value="cobblestone">
-                    <title>Булыжник</title>
+                    <title lang="ru">Булыжник</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сезонный</title>
+                <title lang="ru">Сезонный</title>
                 <key>seasonal</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Виды спорта</title>
+                <title lang="ru">Виды спорта</title>
                 <key>sport</key>
                 <val value="basketball">
-                    <title>Баскетбол</title>
+                    <title lang="ru">Баскетбол</title>
                 </val>
                 <val value="9pin">
-                    <title>Кегельбан</title>
+                    <title lang="ru">Кегельбан</title>
                 </val>
                 <val value="cycling">
-                    <title>Велоспорт</title>
+                    <title lang="ru">Велоспорт</title>
                 </val>
                 <val value="horseshoes">
-                    <title>Метание подковы</title>
+                    <title lang="ru">Метание подковы</title>
                 </val>
                 <val value="table_tennis">
-                    <title>Настольный теннис</title>
+                    <title lang="ru">Настольный теннис</title>
                 </val>
                 <val value="karting">
-                    <title>Картинг</title>
+                    <title lang="ru">Картинг</title>
                 </val>
                 <val value="curling">
-                    <title>Кёрлинг</title>
+                    <title lang="ru">Кёрлинг</title>
                 </val>
                 <val value="baseball">
-                    <title>Бейсбол</title>
+                    <title lang="ru">Бейсбол</title>
                 </val>
                 <val value="archery">
-                    <title>Стрельбы из лука</title>
+                    <title lang="ru">Стрельбы из лука</title>
                 </val>
                 <val value="american_football">
-                    <title>Американский футбол</title>
+                    <title lang="ru">Американский футбол</title>
                 </val>
                 <val value="tennis">
-                    <title>Большой теннис</title>
+                    <title lang="ru">Большой теннис</title>
                 </val>
                 <val value="rugby_league">
-                    <title>Регбилиг</title>
+                    <title lang="ru">Регбилиг</title>
                 </val>
                 <val value="volleyball">
-                    <title>Волейбол</title>
+                    <title lang="ru">Волейбол</title>
                 </val>
                 <val value="racquet">
-                    <title>Бадминтон, сквош</title>
+                    <title lang="ru">Бадминтон, сквош</title>
                 </val>
                 <val value="orienteering">
-                    <title>Спортивное ориентирование</title>
+                    <title lang="ru">Спортивное ориентирование</title>
                 </val>
                 <val value="taekwondo">
-                    <title>Тхэквондо</title>
+                    <title lang="ru">Тхэквондо</title>
                 </val>
                 <val value="korfball">
-                    <title>Корфбол</title>
+                    <title lang="ru">Корфбол</title>
                 </val>
                 <val value="equestrian">
-                    <title>Конный спорт</title>
+                    <title lang="ru">Конный спорт</title>
                 </val>
                 <val value="climbing">
-                    <title>Альпинизм</title>
+                    <title lang="ru">Альпинизм</title>
                 </val>
                 <val value="BASE">
-                    <title>Бейсджампинг</title>
+                    <title lang="ru">Бейсджампинг</title>
                 </val>
                 <val value="free_flying">
-                    <title>Фрифлай</title>
+                    <title lang="ru">Фрифлай</title>
                 </val>
                 <val value="toboggan">
-                    <title>Тобогган</title>
+                    <title lang="ru">Тобогган</title>
                 </val>
                 <val value="bmx">
-                    <title>BMX</title>
+                    <title lang="ru">BMX</title>
                 </val>
                 <val value="multi">
-                    <title>Различные виды</title>
+                    <title lang="ru">Различные виды</title>
                 </val>
                 <val value="boxing">
-                    <title>Бокс</title>
+                    <title lang="ru">Бокс</title>
                 </val>
                 <val value="10pin">
-                    <title>Боулинг</title>
+                    <title lang="ru">Боулинг</title>
                 </val>
                 <val value="diving">
-                    <title>Прыжки в воду</title>
+                    <title lang="ru">Прыжки в воду</title>
                 </val>
                 <val value="gymnastics">
-                    <title>Спортивная гимнастика</title>
+                    <title lang="ru">Спортивная гимнастика</title>
                 </val>
                 <val value="bowls">
-                    <title>Игра в шары на траве</title>
+                    <title lang="ru">Игра в шары на траве</title>
                 </val>
                 <val value="skiing">
-                    <title>Лыжный спорт, сноуборд</title>
+                    <title lang="ru">Лыжный спорт, сноуборд</title>
                 </val>
                 <val value="hockey">
-                    <title>Хоккей</title>
+                    <title lang="ru">Хоккей</title>
                 </val>
                 <val value="athletics">
-                    <title>Лёгкая атлетика</title>
+                    <title lang="ru">Лёгкая атлетика</title>
                 </val>
                 <val value="dog_racing">
-                    <title>Собачьи бега</title>
+                    <title lang="ru">Собачьи бега</title>
                 </val>
                 <val value="rowing">
-                    <title>Академическая гребля</title>
+                    <title lang="ru">Академическая гребля</title>
                 </val>
                 <val value="water_ski">
-                    <title>Водные лыжи</title>
+                    <title lang="ru">Водные лыжи</title>
                 </val>
                 <val value="chess">
-                    <title>Шахматы</title>
+                    <title lang="ru">Шахматы</title>
                 </val>
                 <val value="canoe">
-                    <title>Гребля на байдарках (каяках)</title>
+                    <title lang="ru">Гребля на байдарках (каяках)</title>
                 </val>
                 <val value="pelota">
-                    <title>Пелота</title>
+                    <title lang="ru">Пелота</title>
                 </val>
                 <val value="ice_stock">
-                    <title>Айсшток</title>
+                    <title lang="ru">Айсшток</title>
                 </val>
                 <val value="paddle_tennis">
-                    <title>Настольный теннис</title>
+                    <title lang="ru">Настольный теннис</title>
                 </val>
                 <val value="running">
-                    <title>Бег</title>
+                    <title lang="ru">Бег</title>
                 </val>
                 <val value="swimming">
-                    <title>Плавание</title>
+                    <title lang="ru">Плавание</title>
                 </val>
                 <val value="fencing">
-                    <title>Фехтование</title>
+                    <title lang="ru">Фехтование</title>
                 </val>
                 <val value="paragliding">
-                    <title>Парапланеризм</title>
+                    <title lang="ru">Парапланеризм</title>
                 </val>
                 <val value="horse_racing">
-                    <title>Лошадиные скачки</title>
+                    <title lang="ru">Лошадиные скачки</title>
                 </val>
                 <val value="surfing">
-                    <title>Сёрфинг</title>
+                    <title lang="ru">Сёрфинг</title>
                 </val>
                 <val value="motor">
-                    <title>Автомотоспорт</title>
+                    <title lang="ru">Автомотоспорт</title>
                 </val>
                 <val value="team_handball">
-                    <title>Гандбол</title>
+                    <title lang="ru">Гандбол</title>
                 </val>
                 <val value="golf">
-                    <title>Гольф</title>
+                    <title lang="ru">Гольф</title>
                 </val>
                 <val value="soccer">
-                    <title>Футбол</title>
+                    <title lang="ru">Футбол</title>
                 </val>
                 <val value="scuba_diving">
-                    <title>Дайвинг</title>
+                    <title lang="ru">Дайвинг</title>
                 </val>
                 <val value="canadian_football">
-                    <title>Канадский футбол</title>
+                    <title lang="ru">Канадский футбол</title>
                 </val>
                 <val value="badminton">
-                    <title>Бадминтон</title>
+                    <title lang="ru">Бадминтон</title>
                 </val>
                 <val value="wrestling">
-                    <title>Борьба</title>
+                    <title lang="ru">Борьба</title>
                 </val>
                 <val value="judo">
-                    <title>Дзюдо</title>
+                    <title lang="ru">Дзюдо</title>
                 </val>
                 <val value="skating">
-                    <title>Бег на коньках</title>
+                    <title lang="ru">Бег на коньках</title>
                 </val>
                 <val value="rugby_union">
-                    <title>Регби</title>
+                    <title lang="ru">Регби</title>
                 </val>
                 <val value="skateboard">
-                    <title>Скейтборд</title>
+                    <title lang="ru">Скейтборд</title>
                 </val>
                 <val value="gaelic_games">
-                    <title>Гэльские игры</title>
+                    <title lang="ru">Гэльские игры</title>
                 </val>
                 <val value="australian_football">
-                    <title>Австралийский футбол</title>
+                    <title lang="ru">Австралийский футбол</title>
                 </val>
                 <val value="beachvolleyball">
-                    <title>Пляжный волейбол</title>
+                    <title lang="ru">Пляжный волейбол</title>
                 </val>
                 <val value="football">
-                    <title>Футбол</title>
+                    <title lang="ru">Футбол</title>
                 </val>
                 <val value="motocross">
-                    <title>Мотокросс</title>
+                    <title lang="ru">Мотокросс</title>
                 </val>
                 <val value="boules">
-                    <title>Игра в шары (французская)</title>
+                    <title lang="ru">Игра в шары (французская)</title>
                 </val>
                 <val value="weightlifting">
-                    <title>Тяжёлая атлетика</title>
+                    <title lang="ru">Тяжёлая атлетика</title>
                 </val>
                 <val value="shooting">
-                    <title>Спортивная стрельба, тир</title>
+                    <title lang="ru">Спортивная стрельба, тир</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Крытый</title>
+                <title lang="ru">Крытый</title>
                 <key>covered</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="post_box">
-        <title>Почтовый ящик</title>
+        <title lang="ru">Почтовый ящик</title>
         <tags>
             <tag>
                 <key>amenity</key>

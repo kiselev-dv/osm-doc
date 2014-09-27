@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="marina">
-        <title>Пристань, яхт-клуб</title>
+        <title lang="ru">Пристань, яхт-клуб</title>
         <tags>
             <tag>
                 <key>leisure</key>

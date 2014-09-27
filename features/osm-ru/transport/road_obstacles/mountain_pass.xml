@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="mountain_pass">
-        <title>Перевал</title>
+        <title lang="ru">Перевал</title>
         <tags>
             <tag>
                 <key>mountain_pass</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="place_of_worship">
-        <title>Место поклонения</title>
+        <title lang="ru">Место поклонения</title>
         <tags>
             <tag>
                 <key>amenity</key>

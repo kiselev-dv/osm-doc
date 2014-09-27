@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bar">
-        <title>Бар</title>
+        <title lang="ru">Бар</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,186 +11,186 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Обслуживание не выходя из машины</title>
+                <title lang="ru">Обслуживание не выходя из машины</title>
                 <key>drive_in</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Кухня</title>
+                <title lang="ru">Кухня</title>
                 <key>cuisine</key>
                 <val value="burger">
-                    <title>Бургеры</title>
+                    <title lang="ru">Бургеры</title>
                 </val>
                 <val value="italian">
-                    <title>Итальянская</title>
+                    <title lang="ru">Итальянская</title>
                 </val>
                 <val value="fish">
-                    <title>Рыбная</title>
+                    <title lang="ru">Рыбная</title>
                 </val>
                 <val value="vietnamese">
-                    <title>Вьетнамская</title>
+                    <title lang="ru">Вьетнамская</title>
                 </val>
                 <val value="thai">
-                    <title>Тайская</title>
+                    <title lang="ru">Тайская</title>
                 </val>
                 <val value="french">
-                    <title>Французская</title>
+                    <title lang="ru">Французская</title>
                 </val>
                 <val value="chinese">
-                    <title>Китайская</title>
+                    <title lang="ru">Китайская</title>
                 </val>
                 <val value="asian">
-                    <title>Азиатская</title>
+                    <title lang="ru">Азиатская</title>
                 </val>
                 <val value="chicken">
-                    <title>Цыплёнок</title>
+                    <title lang="ru">Цыплёнок</title>
                 </val>
                 <val value="sushi">
-                    <title>Суши</title>
+                    <title lang="ru">Суши</title>
                 </val>
                 <val value="american">
-                    <title>Американская</title>
+                    <title lang="ru">Американская</title>
                 </val>
                 <val value="vegetarian">
-                    <title>Вегетарианская</title>
+                    <title lang="ru">Вегетарианская</title>
                 </val>
                 <val value="kebab">
-                    <title>Кебабы</title>
+                    <title lang="ru">Кебабы</title>
                 </val>
                 <val value="ice_cream">
-                    <title>Мороженое</title>
+                    <title lang="ru">Мороженое</title>
                 </val>
                 <val value="georgian">
-                    <title>Грузинская</title>
+                    <title lang="ru">Грузинская</title>
                 </val>
                 <val value="spanish">
-                    <title>Испанская</title>
+                    <title lang="ru">Испанская</title>
                 </val>
                 <val value="greek">
-                    <title>Греческая</title>
+                    <title lang="ru">Греческая</title>
                 </val>
                 <val value="fish_and_chips">
-                    <title>Fish and chips</title>
+                    <title lang="ru">Fish and chips</title>
                 </val>
                 <val value="mexican">
-                    <title>Мексиканская</title>
+                    <title lang="ru">Мексиканская</title>
                 </val>
                 <val value="german">
-                    <title>Немецкая</title>
+                    <title lang="ru">Немецкая</title>
                 </val>
                 <val value="international">
-                    <title>Интернациональная</title>
+                    <title lang="ru">Интернациональная</title>
                 </val>
                 <val value="indian">
-                    <title>Индийская</title>
+                    <title lang="ru">Индийская</title>
                 </val>
                 <val value="japanese">
-                    <title>Японская</title>
+                    <title lang="ru">Японская</title>
                 </val>
                 <val value="coffee_shop">
-                    <title>Кофейня</title>
+                    <title lang="ru">Кофейня</title>
                 </val>
                 <val value="turkish">
-                    <title>Турецкая</title>
+                    <title lang="ru">Турецкая</title>
                 </val>
                 <val value="korean">
-                    <title>Корейская</title>
+                    <title lang="ru">Корейская</title>
                 </val>
                 <val value="steak_house">
-                    <title>Стейк хаус</title>
+                    <title lang="ru">Стейк хаус</title>
                 </val>
                 <val value="sandwich">
-                    <title>Сэндвичи</title>
+                    <title lang="ru">Сэндвичи</title>
                 </val>
                 <val value="russian">
-                    <title>Русская</title>
+                    <title lang="ru">Русская</title>
                 </val>
                 <val value="seafood">
-                    <title>Морепродукты</title>
+                    <title lang="ru">Морепродукты</title>
                 </val>
                 <val value="regional">
-                    <title>Национальная</title>
+                    <title lang="ru">Национальная</title>
                 </val>
                 <val value="pizza">
-                    <title>Пицца</title>
+                    <title lang="ru">Пицца</title>
                 </val>
                 <val value="barbecue">
-                    <title>Барбекю</title>
+                    <title lang="ru">Барбекю</title>
                 </val>
                 <val value="bavarian">
-                    <title>Баварская</title>
+                    <title lang="ru">Баварская</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Доступ в интернет</title>
+                <title lang="ru">Доступ в интернет</title>
                 <key>internet_access</key>
                 <val value="yes">
-                    <title>Есть</title>
+                    <title lang="ru">Есть</title>
                 </val>
                 <val value="wlan">
-                    <title>WiFi</title>
+                    <title lang="ru">WiFi</title>
                 </val>
                 <val value="terminal">
-                    <title>Терминал</title>
+                    <title lang="ru">Терминал</title>
                 </val>
                 <val value="no">
-                    <title>Нет</title>
+                    <title lang="ru">Нет</title>
                 </val>
                 <val value="wired">
-                    <title>Проводное подключение</title>
+                    <title lang="ru">Проводное подключение</title>
                 </val>
                 <val value="public">
-                    <title>Есть</title>
+                    <title lang="ru">Есть</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Курение</title>
+                <title lang="ru">Курение</title>
                 <key>smoking</key>
                 <val value="yes">
-                    <title>Разрешено</title>
+                    <title lang="ru">Разрешено</title>
                 </val>
                 <val value="isolated">
-                    <title>Изолированное помещение</title>
+                    <title lang="ru">Изолированное помещение</title>
                 </val>
                 <val value="no">
-                    <title>Запрещено</title>
+                    <title lang="ru">Запрещено</title>
                 </val>
                 <val value="dedicated">
-                    <title>Заведение предназначено для курильщиков</title>
+                    <title lang="ru">Заведение предназначено для курильщиков</title>
                 </val>
                 <val value="separated">
-                    <title>Выделенная зона</title>
+                    <title lang="ru">Выделенная зона</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Оператор доступа в интернет</title>
+                <title lang="ru">Оператор доступа в интернет</title>
                 <key>internet_access:operator</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Плата за доступ в интернет</title>
+                <title lang="ru">Плата за доступ в интернет</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="place_of_worship_muslim">
-        <title>Мечеть</title>
+        <title lang="ru">Мечеть</title>
         <tags>
             <tag>
                 <key>religion</key>

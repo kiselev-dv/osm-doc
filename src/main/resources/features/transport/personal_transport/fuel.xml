@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fuel">
-        <title>Заправка</title>
+        <title lang="ru">Заправка</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,323 +11,323 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Биотопливо</title>
+                <title lang="ru">Биотопливо</title>
                 <key>fuel:svo</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>LKW дизель</title>
+                <title lang="ru">LKW дизель</title>
                 <key>fuel:HGV_diesel</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-98</title>
+                <title lang="ru">Бензин АИ-98</title>
                 <key>fuel:octane_98</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сжатый газ (CNG)</title>
+                <title lang="ru">Сжатый газ (CNG)</title>
                 <key>fuel:cng</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Е85</title>
+                <title lang="ru">Е85</title>
                 <key>fuel:e85</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-76</title>
+                <title lang="ru">Бензин АИ-76</title>
                 <key>fuel:octane_76</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Водород</title>
+                <title lang="ru">Водород</title>
                 <key>fuel:LH2</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Этанол</title>
+                <title lang="ru">Этанол</title>
                 <key>fuel:ethanol</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-100</title>
+                <title lang="ru">Бензин АИ-100</title>
                 <key>fuel:octane_100</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Биодизель</title>
+                <title lang="ru">Биодизель</title>
                 <key>fuel:biodiesel</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Топливная смесь 1:50</title>
+                <title lang="ru">Топливная смесь 1:50</title>
                 <key>fuel:1_50</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Биогаз</title>
+                <title lang="ru">Биогаз</title>
                 <key>fuel:biogas</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Метанол</title>
+                <title lang="ru">Метанол</title>
                 <key>fuel:methanol</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сжиженный газ (LPG)</title>
+                <title lang="ru">Сжиженный газ (LPG)</title>
                 <key>fuel:lpg</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-95</title>
+                <title lang="ru">Бензин АИ-95</title>
                 <key>fuel:octane_95</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Топливная смесь 1:25</title>
+                <title lang="ru">Топливная смесь 1:25</title>
                 <key>fuel:1_25</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Электроподзарядка</title>
+                <title lang="ru">Электроподзарядка</title>
                 <key>fuel:electricity</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-92</title>
+                <title lang="ru">Бензин АИ-92</title>
                 <key>fuel:octane_92</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Бензин АИ-91</title>
+                <title lang="ru">Бензин АИ-91</title>
                 <key>fuel:octane_91</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Дизельное топливо</title>
+                <title lang="ru">Дизельное топливо</title>
                 <key>fuel:diesel</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
         </more-tags>

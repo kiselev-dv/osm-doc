@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="advertising_agency">
-        <title>Рекламное агентство</title>
+        <title lang="ru">Рекламное агентство</title>
         <tags>
             <tag>
                 <key>office</key>

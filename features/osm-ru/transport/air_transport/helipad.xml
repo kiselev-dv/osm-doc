@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="helipad">
-        <title>Вертолётная площадка</title>
+        <title lang="ru">Вертолётная площадка</title>
         <tags>
             <tag>
                 <key>aeroway</key>

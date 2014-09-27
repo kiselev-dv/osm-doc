@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="surveillance">
-        <title>Наблюдение</title>
+        <title lang="ru">Наблюдение</title>
         <tags>
             <tag>
                 <key>man_made</key>
@@ -11,16 +11,16 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип</title>
+                <title lang="ru">Тип</title>
                 <key>surveillance</key>
                 <val value="indoor">
-                    <title>внутреннее</title>
+                    <title lang="ru">внутреннее</title>
                 </val>
                 <val value="outdoor">
-                    <title>наружное</title>
+                    <title lang="ru">наружное</title>
                 </val>
                 <val value="public">
-                    <title>публичное</title>
+                    <title lang="ru">публичное</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="tram_stop">
-        <title>Остановка трамвая</title>
+        <title lang="ru">Остановка трамвая</title>
         <tags>
             <tag>
                 <key>railway</key>
@@ -11,51 +11,51 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Навес</title>
+                <title lang="ru">Навес</title>
                 <key>shelter</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Скамейка</title>
+                <title lang="ru">Скамейка</title>
                 <key>bench</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Урна для мусора</title>
+                <title lang="ru">Урна для мусора</title>
                 <key>bin</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title lang="ru">да</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title lang="ru">нет</title>
                 </val>
             </tag>
         </more-tags>

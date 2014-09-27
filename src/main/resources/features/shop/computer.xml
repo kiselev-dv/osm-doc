@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="computer">
-        <title>Компьютеры, оргтехника</title>
+        <title lang="ru">Компьютеры, оргтехника</title>
         <tags>
             <tag>
                 <key>shop</key>

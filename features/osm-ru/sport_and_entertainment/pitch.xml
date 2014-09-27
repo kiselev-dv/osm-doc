@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="pitch">
-        <title>Спортивная площадка, поле, корт</title>
+        <title lang="ru">Спортивная площадка, поле, корт</title>
         <tags>
             <tag>
                 <key>leisure</key>

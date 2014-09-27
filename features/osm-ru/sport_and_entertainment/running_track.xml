@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="running_track">
-        <title>Беговая дорожка</title>
+        <title lang="ru">Беговая дорожка</title>
         <tags>
             <tag>
                 <key>sport</key>

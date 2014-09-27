@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="water_well">
-        <title>Колодец, колонка</title>
+        <title lang="ru">Колодец, колонка</title>
         <tags>
             <tag>
                 <key>man_made</key>
@@ -11,16 +11,16 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Насос</title>
+                <title lang="ru">Насос</title>
                 <key>pump</key>
                 <val value="manual">
-                    <title>ручной</title>
+                    <title lang="ru">ручной</title>
                 </val>
                 <val value="powered">
-                    <title>автоматический</title>
+                    <title lang="ru">автоматический</title>
                 </val>
                 <val value="no">
-                    <title>отсутствует</title>
+                    <title lang="ru">отсутствует</title>
                 </val>
             </tag>
         </more-tags>

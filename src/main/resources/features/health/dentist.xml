@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="dentist">
-        <title>Стоматология</title>
+        <title lang="ru">Стоматология</title>
         <tags>
             <tag>
                 <key>amenity</key>

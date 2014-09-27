@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fishing">
-        <title>Место для рыбалки</title>
+        <title lang="ru">Место для рыбалки</title>
         <tags>
             <tag>
                 <key>leisure</key>
@@ -11,13 +11,13 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+                <title lang="ru">Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title lang="ru">платный</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title lang="ru">бесплатный</title>
                 </val>
             </tag>
         </more-tags>

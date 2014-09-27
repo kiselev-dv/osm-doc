@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="lawyer">
-        <title>Юридические услуги</title>
+        <title lang="ru">Юридические услуги</title>
         <tags>
             <tag>
                 <key>office</key>

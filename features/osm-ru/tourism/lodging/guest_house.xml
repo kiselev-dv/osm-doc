@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="guest_house">
-        <title>Гостевой дом</title>
+        <title lang="ru">Гостевой дом</title>
         <tags>
             <tag>
                 <key>tourism</key>
