@@ -24,7 +24,6 @@ public class OSMDocFacade {
 	private Set<Feature> excludedFeatures;
 	private Map<String, Feature> featureByName = new HashMap<>();
 	
-	
 	/*
 	 * tagKey -> [tagVal, tagVal, tagVal] 
 	 * 	  tagVal -> [featureType, featureType] 
@@ -38,9 +37,9 @@ public class OSMDocFacade {
 	 */
 	private Map<String, Map<String, List<Feature>>> key2values = new HashMap<String, Map<String,List<Feature>>>();
 	
-	public OSMDocFacade(String osmXML, List<String> exclude) {
+	public OSMDocFacade(DOCReader reader, List<String> exclude) {
 		
-		docReader = new DOCReader(osmXML);
+		docReader = reader;
 		
 		List<Feature> features = docReader.getFeatures();
 		
@@ -86,9 +85,9 @@ public class OSMDocFacade {
 
 	public Set<Feature> getBranches(List<String> exclude) {
 		String hierarcyName = null;
-		boolean singleHierarcy = docReader.getDoc().getHierarchy().size() == 1;
+		boolean singleHierarcy = docReader.listHierarchies().size() == 1;
 		if(singleHierarcy) {
-			hierarcyName = docReader.getDoc().getHierarchy().get(0).getName();
+			hierarcyName = docReader.listHierarchies().get(0).getName();
 		}
 		
 		return getBranches(exclude, hierarcyName, singleHierarcy);
@@ -121,49 +120,45 @@ public class OSMDocFacade {
 
 	public String getTranslatedTitle(Feature fClass, String lang) {
 		
-		String title = fClass.getTitle();
-		if(title.startsWith("i18n:") && lang != null) {
-			return translate(title, lang);
+		Map<String, String> translations = new HashMap<String, String>();
+		
+		List<LangString> titles = fClass.getTitle();
+		for(LangString t : titles) {
+			if(translations.get(t.getLang()) == null) {
+				translations.put(t.getLang(), t.getValue());
+			}
 		}
 		
-		return title;
-	}
-
-	private String translate(String title, String lang) {
-		return null;
+		return translations.get(lang);
 	}
 
 	public String getTranslatedTitle(Feature fClass, Tag td, String lang) {
 		
-		String title = td.getTitle();
-		if(title.startsWith("i18n:") && lang != null) {
-			return translate(title, lang);
+		Map<String, String> translations = new HashMap<String, String>();
+		
+		List<LangString> titles = td.getTitle();
+		for(LangString t : titles) {
+			if(translations.get(t.getLang()) == null) {
+				translations.put(t.getLang(), t.getValue());
+			}
 		}
 		
-		return title;
+		return translations.get(lang);
 	}
 
 	public String getTranslatedTitle(Feature fClass, Val valuePattern,
 			String lang) {
 		
-		String title = valuePattern.getTitle();
-		if(title.startsWith("i18n:") && lang != null) {
-			return translate(title, lang);
+		Map<String, String> translations = new HashMap<String, String>();
+		
+		List<LangString> titles = valuePattern.getTitle();
+		for(LangString t : titles) {
+			if(translations.get(t.getLang()) == null) {
+				translations.put(t.getLang(), t.getValue());
+			}
 		}
 		
-		return title;
+		return translations.get(lang);
 	}
 	
-	public List<String> listTranslatedTitles(Feature fClass) {
-		List<String> result = new ArrayList<String>();
-		
-		String title = getTranslatedTitle(fClass, null);
-		result.add(title);
-		
-		for(LangString ls :  fClass.getAlias()) {
-			result.add(ls.getValue());
-		}
-		
-		return result;
-	}
 }

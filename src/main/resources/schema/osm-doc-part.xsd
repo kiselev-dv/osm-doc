@@ -24,7 +24,7 @@
 
 	<complexType name="feature">
 		<sequence>
-			<group ref="osmdoc:titleDescription" maxOccurs="unbounded" />
+			<group ref="osmdoc:titleDescription" />
 <!-- 			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" /> -->
 			<element ref="osmdoc:tags" maxOccurs="unbounded">
 				<annotation>

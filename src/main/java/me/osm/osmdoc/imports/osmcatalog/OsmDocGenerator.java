@@ -39,6 +39,7 @@ import me.osm.osmdoc.imports.osmcatalog.model.TagDescriptor;
 import me.osm.osmdoc.model.DocPart;
 import me.osm.osmdoc.model.Feature;
 import me.osm.osmdoc.model.KeyType;
+import me.osm.osmdoc.model.LangString;
 import me.osm.osmdoc.model.MoreTags;
 import me.osm.osmdoc.model.ObjectFactory;
 import me.osm.osmdoc.model.Tag.TagValueType;
@@ -65,7 +66,7 @@ public class OsmDocGenerator {
 	private static Properties properties;
 
 	private static OsmDocGenerator instance;
-	private static ObjectFactory objectFactory;
+	private static ObjectFactory objF;
 	private static JAXBContext docPartJC;
 	
 	private static final Map<String, String> namespacesMapper = new HashMap<>();
@@ -105,7 +106,7 @@ public class OsmDocGenerator {
 
 			instance = new OsmDocGenerator();
 			docPartJC = JAXBContext.newInstance(DocPart.class);
-			objectFactory = new ObjectFactory();
+			objF = new ObjectFactory();
 
 			instance.generate();
 			
@@ -188,7 +189,7 @@ public class OsmDocGenerator {
 		}
 		else
 		{
-			Feature feature = getFeature(catalogItem, dictionary);
+			Feature feature = getFeature(catalogItem, dictionary, "ru");
 
 			String featuresDir = StringUtils.stripToNull(properties.getProperty("OsmMeXmlGenerator.featuresBaseDir"));
 			
@@ -208,7 +209,7 @@ public class OsmDocGenerator {
 					marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 					marshaller.setProperty("com.sun.xml.bind.namespacePrefixMapper", DOC_PART_NS_MAPPER);
 					
-					DocPart docPart = objectFactory.createDocPart();
+					DocPart docPart = objF.createDocPart();
 					docPart.getFeature().add(feature);
 					
 					marshaller.marshal(docPart, doc);
@@ -295,25 +296,33 @@ public class OsmDocGenerator {
 		hierarchyGroupNodes = new HashMap<String, Element>();
 	}
 
-	private Feature getFeature(CatalogItem catalogItem, JSONObject dictionary) {
+	private Feature getFeature(CatalogItem catalogItem, JSONObject dictionary, String lang) {
 		
-		Feature feature = objectFactory.createFeature();
+		Feature feature = objF.createFeature();
 		
 		feature.setName(catalogItem.getName());
-		feature.setTitle(JSONTreeGenerator.getTitle(catalogItem.getName(), dictionary));
+		String titleSRC = JSONTreeGenerator.getTitle(catalogItem.getName(), dictionary);
+		LangString title = objF.createLangString();
+		title.setLang(lang);
+		title.setValue(titleSRC);
+		feature.getTitle().add(title);
 		
-		String description = JSONTreeGenerator.getDescription(catalogItem.getName(), dictionary);
-		if(StringUtils.isNotBlank(description)){
+		String descriptionSRC = JSONTreeGenerator.getDescription(catalogItem.getName(), dictionary);
+		if(StringUtils.isNotBlank(descriptionSRC)){
+			LangString description = objF.createLangString();
+			description.setLang(lang);
+			description.setValue(descriptionSRC);
 			feature.setDescription(description);
 		}
 		
-		Tags mappedTags = mapTags(catalogItem.getTags());
+		Tags mappedTags = mapTags(catalogItem.getTags(), lang);
 		feature.getTags().add(mappedTags);
 		setChildSpecificTags(catalogItem, feature, mappedTags);
 		
 		List<TagDescriptor> moreTags = catalogItem.getMoreTags();
 		if(!moreTags.isEmpty()) {
-			feature.setMoreTags(mapMoreTags(moreTags));
+			MoreTags moreTagsSrc = mapMoreTags(moreTags, lang);
+			feature.getMoreTags().add(moreTagsSrc);
 		}
 
 		if(catalogItem.isPoi()) {
@@ -332,17 +341,20 @@ public class OsmDocGenerator {
 		return feature;
 	}
 
-	private MoreTags mapMoreTags(List<TagDescriptor> moreTags) {
-		MoreTags result = objectFactory.createMoreTags();
+	private MoreTags mapMoreTags(List<TagDescriptor> moreTags, String lang) {
+		MoreTags result = objF.createMoreTags();
 		for(TagDescriptor t : moreTags) {
 			
-			me.osm.osmdoc.model.Tag tag = objectFactory.createTag();
-			KeyType kt = objectFactory.createKeyType();
+			me.osm.osmdoc.model.Tag tag = objF.createTag();
+			KeyType kt = objF.createKeyType();
 			
-			String tagTitle = JSONTreeGenerator.getTagTitle(t.getId(), dictionary);
+			String tagTitleSRC = JSONTreeGenerator.getTagTitle(t.getId(), dictionary);
 			
-			if(StringUtils.isNoneBlank(tagTitle)) {
-				tag.setTitle(tagTitle);
+			if(StringUtils.isNoneBlank(tagTitleSRC)) {
+				LangString tagTitle = objF.createLangString();
+				tagTitle.setLang(lang);
+				tagTitle.setValue(tagTitleSRC);
+				tag.getTitle().add(tagTitle);
 			}
 			
 			String tagType = t.getType();
@@ -360,13 +372,16 @@ public class OsmDocGenerator {
 			
 			if(values != null) {
 				for(String vk : (Set<String>)values.keySet()) {
-					String valueTitle = values.getString(vk);
+					String valueTitleSRC = values.getString(vk);
 					
-					Val val = objectFactory.createTagVal();
+					Val val = objF.createTagVal();
 					tag.getVal().add(val);
 					
 					val.setValue(vk);
-					val.setTitle(valueTitle);
+					LangString valueTitle =  objF.createLangString();
+					valueTitle.setLang(lang);
+					valueTitle.setValue(valueTitleSRC);
+					val.getTitle().add(valueTitle);
 				}
 			}
 			
@@ -376,19 +391,22 @@ public class OsmDocGenerator {
 		return result;
 	}
 
-	private Tags mapTags(List<Tag> tags) {
+	private Tags mapTags(List<Tag> tags, String lang) {
 
-		Tags result = objectFactory.createTags();
+		Tags result = objF.createTags();
 		for(Tag t : tags) {
 			
-			me.osm.osmdoc.model.Tag tag = objectFactory.createTag();
-			KeyType kt = objectFactory.createKeyType();
+			me.osm.osmdoc.model.Tag tag = objF.createTag();
+			KeyType kt = objF.createKeyType();
 			String tagKey = t.getKey();
 			
-			String tagTitle = JSONTreeGenerator.getTagTitle(tagKey, dictionary);
+			String tagTitleSRC = JSONTreeGenerator.getTagTitle(tagKey, dictionary);
 			
-			if(StringUtils.isNoneBlank(tagTitle)) {
-				tag.setTitle(tagTitle);
+			if(StringUtils.isNoneBlank(tagTitleSRC)) {
+				LangString tagTitle = objF.createLangString();
+				tagTitle.setLang(lang);
+				tagTitle.setValue(tagTitleSRC);
+				tag.getTitle().add(tagTitle);
 			}
 			
 			kt.setValue(tagKey);
@@ -398,7 +416,7 @@ public class OsmDocGenerator {
 				kt.setMatch(MatchType.ANY);
 			}
 			
-			Val val = objectFactory.createTagVal();
+			Val val = objF.createTagVal();
 			tag.getVal().add(val);
 			
 			val.setValue(t.getValue());
@@ -461,17 +479,17 @@ public class OsmDocGenerator {
 		}
 		
 		for(Entry<String, Set<String>> tag : childTags.entrySet()) {
-			me.osm.osmdoc.model.Tag tg = objectFactory.createTag();
+			me.osm.osmdoc.model.Tag tg = objF.createTag();
 			tg.setExclude(true);
 			
-			KeyType kt = objectFactory.createKeyType();
+			KeyType kt = objF.createKeyType();
 			kt.setValue(tag.getKey());
 			tg.setKey(kt);
 			
 			List<String> vals = new ArrayList<>(tag.getValue());
 			Collections.sort(vals);
 			for(String val : vals) {
-				Val tv = objectFactory.createTagVal();
+				Val tv = objF.createTagVal();
 				tv.setValue(val);
 			}
 			
