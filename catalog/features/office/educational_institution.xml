@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="educational_institution">
-        <title lang="ru">Образовательное учреждение (администрация)</title>
+        <title>Образовательное учреждение (администрация)</title>
         <tags>
             <tag>
                 <key>office</key>

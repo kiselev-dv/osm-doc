@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bicycle">
-        <title lang="ru">Велосипеды</title>
+        <title>Велосипеды</title>
         <tags>
             <tag>
                 <key>shop</key>
@@ -11,115 +11,115 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Продажа велосипедов</title>
+                <title>Продажа велосипедов</title>
                 <key>service:bicycle:retail</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Накачка шин</title>
+                <title>Накачка шин</title>
                 <key>service:bicycle:pump</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Продажа подержанных велосипедов</title>
+                <title>Продажа подержанных велосипедов</title>
                 <key>service:bicycle:second_hand</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Мойка велосипедов</title>
+                <title>Мойка велосипедов</title>
                 <key>service:bicycle:cleaning</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Ремонт велосипедов</title>
+                <title>Ремонт велосипедов</title>
                 <key>service:bicycle:repair</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Прокат велосипедов</title>
+                <title>Прокат велосипедов</title>
                 <key>service:bicycle:rental</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Предоставление инструмента для самостоятельного ремонта</title>
+                <title>Предоставление инструмента для самостоятельного ремонта</title>
                 <key>service:bicycle:diy</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
         </more-tags>

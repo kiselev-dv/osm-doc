@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="car_parts">
-        <title lang="ru">Автозапчасти</title>
+        <title>Автозапчасти</title>
         <tags>
             <tag>
                 <key>shop</key>

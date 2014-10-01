@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="advertising_wall_painting">
-        <title lang="ru">Изображение на стене</title>
+        <title>Изображение на стене</title>
         <tags>
             <tag>
                 <key>advertising</key>

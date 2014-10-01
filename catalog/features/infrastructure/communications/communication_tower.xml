@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="communication_tower">
-        <title lang="ru">Вышка связи</title>
+        <title>Вышка связи</title>
         <tags>
             <tag>
                 <key>tower:type</key>
@@ -15,72 +15,72 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Номер</title>
+                <title>Номер</title>
                 <key>ref</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Высота (м)</title>
+                <title>Высота (м)</title>
                 <key>height</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Радиовещание</title>
+                <title>Радиовещание</title>
                 <key>communication:radio</key>
                 <val value="yes">
-                    <title lang="ru">используется</title>
+                    <title>используется</title>
                 </val>
                 <val value="fm">
-                    <title lang="ru">FM</title>
+                    <title>FM</title>
                 </val>
                 <val value="am">
-                    <title lang="ru">AM</title>
+                    <title>AM</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">не используется</title>
+                    <title>не используется</title>
                 </val>
                 <val value="dav">
-                    <title lang="ru">DAB</title>
+                    <title>DAB</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Телевещание</title>
+                <title>Телевещание</title>
                 <key>communication:television</key>
                 <val value="yes">
-                    <title lang="ru">используется</title>
+                    <title>используется</title>
                 </val>
                 <val value="dvb-t">
-                    <title lang="ru">DVB-T</title>
+                    <title>DVB-T</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">не используется</title>
+                    <title>не используется</title>
                 </val>
                 <val value="analogue">
-                    <title lang="ru">аналоговое</title>
+                    <title>аналоговое</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Сотовая связь</title>
+                <title>Сотовая связь</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
-                    <title lang="ru">используется</title>
+                    <title>используется</title>
                 </val>
                 <val value="cdma">
-                    <title lang="ru">CDMA</title>
+                    <title>CDMA</title>
                 </val>
                 <val value="umts">
-                    <title lang="ru">UMTS</title>
+                    <title>UMTS</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">не используется</title>
+                    <title>не используется</title>
                 </val>
                 <val value="gsm">
-                    <title lang="ru">GSM</title>
+                    <title>GSM</title>
                 </val>
                 <val value="lte">
-                    <title lang="ru">LTE</title>
+                    <title>LTE</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Высота над уровнем моря (м)</title>
+                <title>Высота над уровнем моря (м)</title>
                 <key>ele</key>
             </tag>
         </more-tags>

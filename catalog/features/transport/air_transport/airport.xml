@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="airport">
-        <title lang="ru">Аэропорт/аэродром</title>
+        <title>Аэропорт/аэродром</title>
         <tags>
             <tag>
                 <key>aeroway</key>
@@ -11,15 +11,15 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Код IATA</title>
+                <title>Код IATA</title>
                 <key>iata</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Код ICAO</title>
+                <title>Код ICAO</title>
                 <key>icao</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Высота над уровнем моря (м)</title>
+                <title>Высота над уровнем моря (м)</title>
                 <key>ele</key>
             </tag>
         </more-tags>

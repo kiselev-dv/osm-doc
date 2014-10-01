@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="greengrocer">
-        <title lang="ru">Овощи, фрукты</title>
+        <title>Овощи, фрукты</title>
         <tags>
             <tag>
                 <key>shop</key>

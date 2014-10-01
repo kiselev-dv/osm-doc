@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="embassy">
-        <title lang="ru">Посольство</title>
+        <title>Посольство</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,751 +11,751 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Страна</title>
+                <title>Страна</title>
                 <key>country</key>
                 <val value="VU">
-                    <title lang="ru">Вануату</title>
+                    <title>Вануату</title>
                 </val>
                 <val value="VN">
-                    <title lang="ru">Вьетнам</title>
+                    <title>Вьетнам</title>
                 </val>
                 <val value="EC">
-                    <title lang="ru">Эквадор</title>
+                    <title>Эквадор</title>
                 </val>
                 <val value="VI">
-                    <title lang="ru">Американские Виргинские острова</title>
+                    <title>Американские Виргинские острова</title>
                 </val>
                 <val value="DZ">
-                    <title lang="ru">Алжир</title>
+                    <title>Алжир</title>
                 </val>
                 <val value="VG">
-                    <title lang="ru">Британские Виргинские острова</title>
+                    <title>Британские Виргинские острова</title>
                 </val>
                 <val value="VE">
-                    <title lang="ru">Венесуэла</title>
+                    <title>Венесуэла</title>
                 </val>
                 <val value="DM">
-                    <title lang="ru">Доминика</title>
+                    <title>Доминика</title>
                 </val>
                 <val value="VC">
-                    <title lang="ru">Сент-Винсент и Гренадины</title>
+                    <title>Сент-Винсент и Гренадины</title>
                 </val>
                 <val value="DO">
-                    <title lang="ru">Доминикана</title>
+                    <title>Доминикана</title>
                 </val>
                 <val value="VA">
-                    <title lang="ru">Ватикан</title>
+                    <title>Ватикан</title>
                 </val>
                 <val value="DE">
-                    <title lang="ru">Германия</title>
+                    <title>Германия</title>
                 </val>
                 <val value="UZ">
-                    <title lang="ru">Узбекистан</title>
+                    <title>Узбекистан</title>
                 </val>
                 <val value="UY">
-                    <title lang="ru">Уругвай</title>
+                    <title>Уругвай</title>
                 </val>
                 <val value="DK">
-                    <title lang="ru">Дания</title>
+                    <title>Дания</title>
                 </val>
                 <val value="DJ">
-                    <title lang="ru">Джибути</title>
+                    <title>Джибути</title>
                 </val>
                 <val value="US">
-                    <title lang="ru">США</title>
+                    <title>США</title>
                 </val>
                 <val value="UM">
-                    <title lang="ru">Внешние малые острова США</title>
+                    <title>Внешние малые острова США</title>
                 </val>
                 <val value="UG">
-                    <title lang="ru">Уганда</title>
+                    <title>Уганда</title>
                 </val>
                 <val value="UA">
-                    <title lang="ru">Украина</title>
+                    <title>Украина</title>
                 </val>
                 <val value="ET">
-                    <title lang="ru">Эфиопия</title>
+                    <title>Эфиопия</title>
                 </val>
                 <val value="ES">
-                    <title lang="ru">Испания</title>
+                    <title>Испания</title>
                 </val>
                 <val value="ER">
-                    <title lang="ru">Эритрея</title>
+                    <title>Эритрея</title>
                 </val>
                 <val value="EH">
-                    <title lang="ru">Западная Сахара</title>
+                    <title>Западная Сахара</title>
                 </val>
                 <val value="EG">
-                    <title lang="ru">Египет</title>
+                    <title>Египет</title>
                 </val>
                 <val value="TZ">
-                    <title lang="ru">Танзания</title>
+                    <title>Танзания</title>
                 </val>
                 <val value="EE">
-                    <title lang="ru">Эстония</title>
+                    <title>Эстония</title>
                 </val>
                 <val value="TT">
-                    <title lang="ru">Тринидад и Тобаго</title>
+                    <title>Тринидад и Тобаго</title>
                 </val>
                 <val value="TW">
-                    <title lang="ru">Тайвань</title>
+                    <title>Тайвань</title>
                 </val>
                 <val value="TV">
-                    <title lang="ru">Тувалу</title>
+                    <title>Тувалу</title>
                 </val>
                 <val value="GD">
-                    <title lang="ru">Гренада</title>
+                    <title>Гренада</title>
                 </val>
                 <val value="GE">
-                    <title lang="ru">Грузия</title>
+                    <title>Грузия</title>
                 </val>
                 <val value="GF">
-                    <title lang="ru">Французская Гвиана</title>
+                    <title>Французская Гвиана</title>
                 </val>
                 <val value="GA">
-                    <title lang="ru">Габон</title>
+                    <title>Габон</title>
                 </val>
                 <val value="GB">
-                    <title lang="ru">Великобритания</title>
+                    <title>Великобритания</title>
                 </val>
                 <val value="FR">
-                    <title lang="ru">Франция</title>
+                    <title>Франция</title>
                 </val>
                 <val value="FO">
-                    <title lang="ru">Фарерские острова</title>
+                    <title>Фарерские острова</title>
                 </val>
                 <val value="FK">
-                    <title lang="ru">Фолклендские острова</title>
+                    <title>Фолклендские острова</title>
                 </val>
                 <val value="FJ">
-                    <title lang="ru">Фиджи</title>
+                    <title>Фиджи</title>
                 </val>
                 <val value="FM">
-                    <title lang="ru">Микронезия</title>
+                    <title>Микронезия</title>
                 </val>
                 <val value="FI">
-                    <title lang="ru">Финляндия</title>
+                    <title>Финляндия</title>
                 </val>
                 <val value="WS">
-                    <title lang="ru">Самоа</title>
+                    <title>Самоа</title>
                 </val>
                 <val value="GY">
-                    <title lang="ru">Гайана</title>
+                    <title>Гайана</title>
                 </val>
                 <val value="GW">
-                    <title lang="ru">Гвинея-Бисау</title>
+                    <title>Гвинея-Бисау</title>
                 </val>
                 <val value="GU">
-                    <title lang="ru">Гуам</title>
+                    <title>Гуам</title>
                 </val>
                 <val value="GT">
-                    <title lang="ru">Гватемала</title>
+                    <title>Гватемала</title>
                 </val>
                 <val value="GS">
-                    <title lang="ru">Южная Георгия и Южные Сандвичевы острова</title>
+                    <title>Южная Георгия и Южные Сандвичевы острова</title>
                 </val>
                 <val value="GR">
-                    <title lang="ru">Греция</title>
+                    <title>Греция</title>
                 </val>
                 <val value="GQ">
-                    <title lang="ru">Экваториальная Гвинея</title>
+                    <title>Экваториальная Гвинея</title>
                 </val>
                 <val value="WF">
-                    <title lang="ru">Уоллис и Футуна</title>
+                    <title>Уоллис и Футуна</title>
                 </val>
                 <val value="GP">
-                    <title lang="ru">Гваделупа</title>
+                    <title>Гваделупа</title>
                 </val>
                 <val value="GN">
-                    <title lang="ru">Гвинея</title>
+                    <title>Гвинея</title>
                 </val>
                 <val value="GM">
-                    <title lang="ru">Гамбия</title>
+                    <title>Гамбия</title>
                 </val>
                 <val value="GL">
-                    <title lang="ru">Гренландия</title>
+                    <title>Гренландия</title>
                 </val>
                 <val value="GI">
-                    <title lang="ru">Гибралтар</title>
+                    <title>Гибралтар</title>
                 </val>
                 <val value="GH">
-                    <title lang="ru">Гана</title>
+                    <title>Гана</title>
                 </val>
                 <val value="GG">
-                    <title lang="ru">Гернси</title>
+                    <title>Гернси</title>
                 </val>
                 <val value="RE">
-                    <title lang="ru">Реюньон</title>
+                    <title>Реюньон</title>
                 </val>
                 <val value="RO">
-                    <title lang="ru">Румыния</title>
+                    <title>Румыния</title>
                 </val>
                 <val value="AT">
-                    <title lang="ru">Австрия</title>
+                    <title>Австрия</title>
                 </val>
                 <val value="AS">
-                    <title lang="ru">Американское Самоа</title>
+                    <title>Американское Самоа</title>
                 </val>
                 <val value="AR">
-                    <title lang="ru">Аргентина</title>
+                    <title>Аргентина</title>
                 </val>
                 <val value="AQ">
-                    <title lang="ru">Антарктика</title>
+                    <title>Антарктика</title>
                 </val>
                 <val value="AX">
-                    <title lang="ru">Аландские острова</title>
+                    <title>Аландские острова</title>
                 </val>
                 <val value="AW">
-                    <title lang="ru">Аруба</title>
+                    <title>Аруба</title>
                 </val>
                 <val value="QA">
-                    <title lang="ru">Катар</title>
+                    <title>Катар</title>
                 </val>
                 <val value="AU">
-                    <title lang="ru">Австралия</title>
+                    <title>Австралия</title>
                 </val>
                 <val value="AZ">
-                    <title lang="ru">Азербайджан</title>
+                    <title>Азербайджан</title>
                 </val>
                 <val value="BA">
-                    <title lang="ru">Босния и Герцеговина</title>
+                    <title>Босния и Герцеговина</title>
                 </val>
                 <val value="PT">
-                    <title lang="ru">Португалия</title>
+                    <title>Португалия</title>
                 </val>
                 <val value="AD">
-                    <title lang="ru">Андорра</title>
+                    <title>Андорра</title>
                 </val>
                 <val value="PW">
-                    <title lang="ru">Палау</title>
+                    <title>Палау</title>
                 </val>
                 <val value="AG">
-                    <title lang="ru">Антигуа и Барбуда</title>
+                    <title>Антигуа и Барбуда</title>
                 </val>
                 <val value="AE">
-                    <title lang="ru">Объединённые Арабские Эмираты</title>
+                    <title>Объединённые Арабские Эмираты</title>
                 </val>
                 <val value="PR">
-                    <title lang="ru">Пуэрто-Рико</title>
+                    <title>Пуэрто-Рико</title>
                 </val>
                 <val value="AF">
-                    <title lang="ru">Афганистан</title>
+                    <title>Афганистан</title>
                 </val>
                 <val value="PS">
-                    <title lang="ru">Палестина</title>
+                    <title>Палестина</title>
                 </val>
                 <val value="AL">
-                    <title lang="ru">Албания</title>
+                    <title>Албания</title>
                 </val>
                 <val value="AI">
-                    <title lang="ru">Ангилья</title>
+                    <title>Ангилья</title>
                 </val>
                 <val value="AO">
-                    <title lang="ru">Ангола</title>
+                    <title>Ангола</title>
                 </val>
                 <val value="PY">
-                    <title lang="ru">Парагвай</title>
+                    <title>Парагвай</title>
                 </val>
                 <val value="AM">
-                    <title lang="ru">Армения</title>
+                    <title>Армения</title>
                 </val>
                 <val value="TG">
-                    <title lang="ru">Того</title>
+                    <title>Того</title>
                 </val>
                 <val value="BW">
-                    <title lang="ru">Ботсвана</title>
+                    <title>Ботсвана</title>
                 </val>
                 <val value="TF">
-                    <title lang="ru">Французские Южные и Антарктические территории</title>
+                    <title>Французские Южные и Антарктические территории</title>
                 </val>
                 <val value="BV">
-                    <title lang="ru">Остров Буве</title>
+                    <title>Остров Буве</title>
                 </val>
                 <val value="BY">
-                    <title lang="ru">Белоруссия</title>
+                    <title>Белоруссия</title>
                 </val>
                 <val value="TD">
-                    <title lang="ru">Чад</title>
+                    <title>Чад</title>
                 </val>
                 <val value="TK">
-                    <title lang="ru">Токелау</title>
+                    <title>Токелау</title>
                 </val>
                 <val value="BS">
-                    <title lang="ru">Содружество Багамских островов</title>
+                    <title>Содружество Багамских островов</title>
                 </val>
                 <val value="TJ">
-                    <title lang="ru">Таджикистан</title>
+                    <title>Таджикистан</title>
                 </val>
                 <val value="BR">
-                    <title lang="ru">Бразилия</title>
+                    <title>Бразилия</title>
                 </val>
                 <val value="TH">
-                    <title lang="ru">Тайланд</title>
+                    <title>Тайланд</title>
                 </val>
                 <val value="BT">
-                    <title lang="ru">Бутан</title>
+                    <title>Бутан</title>
                 </val>
                 <val value="TO">
-                    <title lang="ru">Тонга</title>
+                    <title>Тонга</title>
                 </val>
                 <val value="TN">
-                    <title lang="ru">Тунис</title>
+                    <title>Тунис</title>
                 </val>
                 <val value="TM">
-                    <title lang="ru">Туркмения</title>
+                    <title>Туркмения</title>
                 </val>
                 <val value="TL">
-                    <title lang="ru">Восточный Тимор</title>
+                    <title>Восточный Тимор</title>
                 </val>
                 <val value="CA">
-                    <title lang="ru">Канада</title>
+                    <title>Канада</title>
                 </val>
                 <val value="TR">
-                    <title lang="ru">Турция</title>
+                    <title>Турция</title>
                 </val>
                 <val value="BZ">
-                    <title lang="ru">Белиз</title>
+                    <title>Белиз</title>
                 </val>
                 <val value="BF">
-                    <title lang="ru">Буркина-Фасо</title>
+                    <title>Буркина-Фасо</title>
                 </val>
                 <val value="SV">
-                    <title lang="ru">Сальвадор</title>
+                    <title>Сальвадор</title>
                 </val>
                 <val value="BG">
-                    <title lang="ru">Болгария</title>
+                    <title>Болгария</title>
                 </val>
                 <val value="SS">
-                    <title lang="ru">Южный Судан</title>
+                    <title>Южный Судан</title>
                 </val>
                 <val value="BH">
-                    <title lang="ru">Бахрейн</title>
+                    <title>Бахрейн</title>
                 </val>
                 <val value="ST">
-                    <title lang="ru">Сан-Томе и Принсипи</title>
+                    <title>Сан-Томе и Принсипи</title>
                 </val>
                 <val value="BI">
-                    <title lang="ru">Бурунди</title>
+                    <title>Бурунди</title>
                 </val>
                 <val value="SY">
-                    <title lang="ru">Сирия</title>
+                    <title>Сирия</title>
                 </val>
                 <val value="BB">
-                    <title lang="ru">Барбадос</title>
+                    <title>Барбадос</title>
                 </val>
                 <val value="SZ">
-                    <title lang="ru">Свазиленд</title>
+                    <title>Свазиленд</title>
                 </val>
                 <val value="BD">
-                    <title lang="ru">Бангладеш</title>
+                    <title>Бангладеш</title>
                 </val>
                 <val value="SX">
-                    <title lang="ru">Синт-Мартен</title>
+                    <title>Синт-Мартен</title>
                 </val>
                 <val value="BE">
-                    <title lang="ru">Бельгия</title>
+                    <title>Бельгия</title>
                 </val>
                 <val value="BN">
-                    <title lang="ru">Бруней</title>
+                    <title>Бруней</title>
                 </val>
                 <val value="BO">
-                    <title lang="ru">Боливия</title>
+                    <title>Боливия</title>
                 </val>
                 <val value="BQ">
-                    <title lang="ru">Синт-Эстатиус</title>
+                    <title>Синт-Эстатиус</title>
                 </val>
                 <val value="BJ">
-                    <title lang="ru">Бенин</title>
+                    <title>Бенин</title>
                 </val>
                 <val value="TC">
-                    <title lang="ru">Тёркс и Кайкос</title>
+                    <title>Тёркс и Кайкос</title>
                 </val>
                 <val value="BL">
-                    <title lang="ru">Сен-Бартелеми </title>
+                    <title>Сен-Бартелеми </title>
                 </val>
                 <val value="BM">
-                    <title lang="ru">Бермудские острова</title>
+                    <title>Бермудские острова</title>
                 </val>
                 <val value="SD">
-                    <title lang="ru">Судан</title>
+                    <title>Судан</title>
                 </val>
                 <val value="CZ">
-                    <title lang="ru">Чехия</title>
+                    <title>Чехия</title>
                 </val>
                 <val value="SC">
-                    <title lang="ru">Сейшельские Острова</title>
+                    <title>Сейшельские Острова</title>
                 </val>
                 <val value="CY">
-                    <title lang="ru">Республика Кипр</title>
+                    <title>Республика Кипр</title>
                 </val>
                 <val value="CX">
-                    <title lang="ru">Остров Рождества</title>
+                    <title>Остров Рождества</title>
                 </val>
                 <val value="SE">
-                    <title lang="ru">Швеция</title>
+                    <title>Швеция</title>
                 </val>
                 <val value="CW">
-                    <title lang="ru">Кюрасао</title>
+                    <title>Кюрасао</title>
                 </val>
                 <val value="SH">
-                    <title lang="ru">Острова Святой Елены, Вознесения и Тристан-да-Кунья</title>
+                    <title>Острова Святой Елены, Вознесения и Тристан-да-Кунья</title>
                 </val>
                 <val value="CV">
-                    <title lang="ru">Кабо-Верде</title>
+                    <title>Кабо-Верде</title>
                 </val>
                 <val value="SG">
-                    <title lang="ru">Сингапур</title>
+                    <title>Сингапур</title>
                 </val>
                 <val value="CU">
-                    <title lang="ru">Куба</title>
+                    <title>Куба</title>
                 </val>
                 <val value="SJ">
-                    <title lang="ru">Шпицберген и Ян-Майен</title>
+                    <title>Шпицберген и Ян-Майен</title>
                 </val>
                 <val value="SI">
-                    <title lang="ru">Словения</title>
+                    <title>Словения</title>
                 </val>
                 <val value="SL">
-                    <title lang="ru">Сьерра-Леоне</title>
+                    <title>Сьерра-Леоне</title>
                 </val>
                 <val value="SK">
-                    <title lang="ru">Словакия</title>
+                    <title>Словакия</title>
                 </val>
                 <val value="SN">
-                    <title lang="ru">Сенегал</title>
+                    <title>Сенегал</title>
                 </val>
                 <val value="SM">
-                    <title lang="ru">Сан-Марино</title>
+                    <title>Сан-Марино</title>
                 </val>
                 <val value="SO">
-                    <title lang="ru">Сомали</title>
+                    <title>Сомали</title>
                 </val>
                 <val value="SR">
-                    <title lang="ru">Суринам</title>
+                    <title>Суринам</title>
                 </val>
                 <val value="CI">
-                    <title lang="ru">Кот-д’Ивуар</title>
+                    <title>Кот-д’Ивуар</title>
                 </val>
                 <val value="RS">
-                    <title lang="ru">Сербия</title>
+                    <title>Сербия</title>
                 </val>
                 <val value="CG">
-                    <title lang="ru">Республика Конго</title>
+                    <title>Республика Конго</title>
                 </val>
                 <val value="CH">
-                    <title lang="ru">Швейцария</title>
+                    <title>Швейцария</title>
                 </val>
                 <val value="RU">
-                    <title lang="ru">Россия</title>
+                    <title>Россия</title>
                 </val>
                 <val value="CF">
-                    <title lang="ru">Центральноафриканская Республика</title>
+                    <title>Центральноафриканская Республика</title>
                 </val>
                 <val value="RW">
-                    <title lang="ru">Руанда</title>
+                    <title>Руанда</title>
                 </val>
                 <val value="CC">
-                    <title lang="ru">Кокосовые острова</title>
+                    <title>Кокосовые острова</title>
                 </val>
                 <val value="CD">
-                    <title lang="ru">Демократическая Республика Конго</title>
+                    <title>Демократическая Республика Конго</title>
                 </val>
                 <val value="CR">
-                    <title lang="ru">Коста Рика</title>
+                    <title>Коста Рика</title>
                 </val>
                 <val value="CO">
-                    <title lang="ru">Колумбия</title>
+                    <title>Колумбия</title>
                 </val>
                 <val value="CM">
-                    <title lang="ru">Камерун</title>
+                    <title>Камерун</title>
                 </val>
                 <val value="CN">
-                    <title lang="ru">Китай</title>
+                    <title>Китай</title>
                 </val>
                 <val value="CK">
-                    <title lang="ru">Острова Кука</title>
+                    <title>Острова Кука</title>
                 </val>
                 <val value="SA">
-                    <title lang="ru">Саудовская Аравия</title>
+                    <title>Саудовская Аравия</title>
                 </val>
                 <val value="SB">
-                    <title lang="ru">Соломоновы острова</title>
+                    <title>Соломоновы острова</title>
                 </val>
                 <val value="CL">
-                    <title lang="ru">Чили</title>
+                    <title>Чили</title>
                 </val>
                 <val value="LV">
-                    <title lang="ru">Латвия</title>
+                    <title>Латвия</title>
                 </val>
                 <val value="LU">
-                    <title lang="ru">Люксембург</title>
+                    <title>Люксембург</title>
                 </val>
                 <val value="LT">
-                    <title lang="ru">Литва</title>
+                    <title>Литва</title>
                 </val>
                 <val value="LY">
-                    <title lang="ru">Ливия</title>
+                    <title>Ливия</title>
                 </val>
                 <val value="LS">
-                    <title lang="ru">Лесото</title>
+                    <title>Лесото</title>
                 </val>
                 <val value="LR">
-                    <title lang="ru">Либерия</title>
+                    <title>Либерия</title>
                 </val>
                 <val value="MG">
-                    <title lang="ru">Мадагаскар</title>
+                    <title>Мадагаскар</title>
                 </val>
                 <val value="MH">
-                    <title lang="ru">Маршалловы Острова</title>
+                    <title>Маршалловы Острова</title>
                 </val>
                 <val value="ME">
-                    <title lang="ru">Черногория</title>
+                    <title>Черногория</title>
                 </val>
                 <val value="MF">
-                    <title lang="ru">Сен-Мартен</title>
+                    <title>Сен-Мартен</title>
                 </val>
                 <val value="MK">
-                    <title lang="ru">Македония</title>
+                    <title>Македония</title>
                 </val>
                 <val value="ML">
-                    <title lang="ru">Мали</title>
+                    <title>Мали</title>
                 </val>
                 <val value="MC">
-                    <title lang="ru">Монако</title>
+                    <title>Монако</title>
                 </val>
                 <val value="MD">
-                    <title lang="ru">Молдавия</title>
+                    <title>Молдавия</title>
                 </val>
                 <val value="MA">
-                    <title lang="ru">Марокко</title>
+                    <title>Марокко</title>
                 </val>
                 <val value="MV">
-                    <title lang="ru">Мальдивы</title>
+                    <title>Мальдивы</title>
                 </val>
                 <val value="MU">
-                    <title lang="ru">Маврикий</title>
+                    <title>Маврикий</title>
                 </val>
                 <val value="MX">
-                    <title lang="ru">Мексика</title>
+                    <title>Мексика</title>
                 </val>
                 <val value="MW">
-                    <title lang="ru">Малави</title>
+                    <title>Малави</title>
                 </val>
                 <val value="MZ">
-                    <title lang="ru">Мозамбик</title>
+                    <title>Мозамбик</title>
                 </val>
                 <val value="MY">
-                    <title lang="ru">Малайзия</title>
+                    <title>Малайзия</title>
                 </val>
                 <val value="MN">
-                    <title lang="ru">Монголия</title>
+                    <title>Монголия</title>
                 </val>
                 <val value="MM">
-                    <title lang="ru">Мьянма</title>
+                    <title>Мьянма</title>
                 </val>
                 <val value="MP">
-                    <title lang="ru">Северные Марианские острова</title>
+                    <title>Северные Марианские острова</title>
                 </val>
                 <val value="MO">
-                    <title lang="ru">Макао</title>
+                    <title>Макао</title>
                 </val>
                 <val value="MR">
-                    <title lang="ru">Мавритания</title>
+                    <title>Мавритания</title>
                 </val>
                 <val value="MQ">
-                    <title lang="ru">Мартиника</title>
+                    <title>Мартиника</title>
                 </val>
                 <val value="MT">
-                    <title lang="ru">Мальта</title>
+                    <title>Мальта</title>
                 </val>
                 <val value="MS">
-                    <title lang="ru">Монтсеррат</title>
+                    <title>Монтсеррат</title>
                 </val>
                 <val value="NF">
-                    <title lang="ru">Норфолк</title>
+                    <title>Норфолк</title>
                 </val>
                 <val value="NG">
-                    <title lang="ru">Нигерия</title>
+                    <title>Нигерия</title>
                 </val>
                 <val value="NI">
-                    <title lang="ru">Никарагуа</title>
+                    <title>Никарагуа</title>
                 </val>
                 <val value="NL">
-                    <title lang="ru">Нидерланды</title>
+                    <title>Нидерланды</title>
                 </val>
                 <val value="NA">
-                    <title lang="ru">Намибия</title>
+                    <title>Намибия</title>
                 </val>
                 <val value="NC">
-                    <title lang="ru">Новая Каледония</title>
+                    <title>Новая Каледония</title>
                 </val>
                 <val value="NE">
-                    <title lang="ru">Нигер</title>
+                    <title>Нигер</title>
                 </val>
                 <val value="NZ">
-                    <title lang="ru">Новая Зеландия</title>
+                    <title>Новая Зеландия</title>
                 </val>
                 <val value="NU">
-                    <title lang="ru">Ниуэ</title>
+                    <title>Ниуэ</title>
                 </val>
                 <val value="NR">
-                    <title lang="ru">Науру</title>
+                    <title>Науру</title>
                 </val>
                 <val value="NP">
-                    <title lang="ru">Непал</title>
+                    <title>Непал</title>
                 </val>
                 <val value="NO">
-                    <title lang="ru">Норвегия</title>
+                    <title>Норвегия</title>
                 </val>
                 <val value="OM">
-                    <title lang="ru">Оман</title>
+                    <title>Оман</title>
                 </val>
                 <val value="PL">
-                    <title lang="ru">Польша</title>
+                    <title>Польша</title>
                 </val>
                 <val value="PM">
-                    <title lang="ru">Сен-Пьер и Микелон</title>
+                    <title>Сен-Пьер и Микелон</title>
                 </val>
                 <val value="PN">
-                    <title lang="ru">Острова Питкэрн</title>
+                    <title>Острова Питкэрн</title>
                 </val>
                 <val value="PH">
-                    <title lang="ru">Филиппины</title>
+                    <title>Филиппины</title>
                 </val>
                 <val value="PK">
-                    <title lang="ru">Пакистан</title>
+                    <title>Пакистан</title>
                 </val>
                 <val value="PE">
-                    <title lang="ru">Перу</title>
+                    <title>Перу</title>
                 </val>
                 <val value="PF">
-                    <title lang="ru">Французская Полинезия</title>
+                    <title>Французская Полинезия</title>
                 </val>
                 <val value="PG">
-                    <title lang="ru">Папуа-Новая Гвинея</title>
+                    <title>Папуа-Новая Гвинея</title>
                 </val>
                 <val value="PA">
-                    <title lang="ru">Панама</title>
+                    <title>Панама</title>
                 </val>
                 <val value="HK">
-                    <title lang="ru">Гонконг</title>
+                    <title>Гонконг</title>
                 </val>
                 <val value="ZA">
-                    <title lang="ru">Южно-Африканская Республика</title>
+                    <title>Южно-Африканская Республика</title>
                 </val>
                 <val value="HN">
-                    <title lang="ru">Гондурас</title>
+                    <title>Гондурас</title>
                 </val>
                 <val value="HM">
-                    <title lang="ru">Остров Херд и острова Макдональд</title>
+                    <title>Остров Херд и острова Макдональд</title>
                 </val>
                 <val value="HR">
-                    <title lang="ru">Хорватия</title>
+                    <title>Хорватия</title>
                 </val>
                 <val value="HT">
-                    <title lang="ru">Гаити</title>
+                    <title>Гаити</title>
                 </val>
                 <val value="HU">
-                    <title lang="ru">Венгрия</title>
+                    <title>Венгрия</title>
                 </val>
                 <val value="ZM">
-                    <title lang="ru">Замбия</title>
+                    <title>Замбия</title>
                 </val>
                 <val value="ZW">
-                    <title lang="ru">Зимбабве</title>
+                    <title>Зимбабве</title>
                 </val>
                 <val value="ID">
-                    <title lang="ru">Индонезия</title>
+                    <title>Индонезия</title>
                 </val>
                 <val value="IE">
-                    <title lang="ru">Ирландия</title>
+                    <title>Ирландия</title>
                 </val>
                 <val value="IL">
-                    <title lang="ru">Израиль</title>
+                    <title>Израиль</title>
                 </val>
                 <val value="IM">
-                    <title lang="ru">Остров Мэн</title>
+                    <title>Остров Мэн</title>
                 </val>
                 <val value="IN">
-                    <title lang="ru">Индия</title>
+                    <title>Индия</title>
                 </val>
                 <val value="IO">
-                    <title lang="ru">Британская территория в Индийском океане</title>
+                    <title>Британская территория в Индийском океане</title>
                 </val>
                 <val value="IQ">
-                    <title lang="ru">Ирак</title>
+                    <title>Ирак</title>
                 </val>
                 <val value="IR">
-                    <title lang="ru">Иран</title>
+                    <title>Иран</title>
                 </val>
                 <val value="YE">
-                    <title lang="ru">Йемен</title>
+                    <title>Йемен</title>
                 </val>
                 <val value="IS">
-                    <title lang="ru">Исландия</title>
+                    <title>Исландия</title>
                 </val>
                 <val value="IT">
-                    <title lang="ru">Италия</title>
+                    <title>Италия</title>
                 </val>
                 <val value="JE">
-                    <title lang="ru">Джерси</title>
+                    <title>Джерси</title>
                 </val>
                 <val value="YT">
-                    <title lang="ru">Майотта</title>
+                    <title>Майотта</title>
                 </val>
                 <val value="JP">
-                    <title lang="ru">Япония</title>
+                    <title>Япония</title>
                 </val>
                 <val value="JO">
-                    <title lang="ru">Иордания</title>
+                    <title>Иордания</title>
                 </val>
                 <val value="KI">
-                    <title lang="ru">Кирибати</title>
+                    <title>Кирибати</title>
                 </val>
                 <val value="KH">
-                    <title lang="ru">Камбоджа</title>
+                    <title>Камбоджа</title>
                 </val>
                 <val value="KG">
-                    <title lang="ru">Киргизия</title>
+                    <title>Киргизия</title>
                 </val>
                 <val value="KE">
-                    <title lang="ru">Кения</title>
+                    <title>Кения</title>
                 </val>
                 <val value="KP">
-                    <title lang="ru">Корейская Народно-Демократическая Республика</title>
+                    <title>Корейская Народно-Демократическая Республика</title>
                 </val>
                 <val value="KR">
-                    <title lang="ru">Республика Корея</title>
+                    <title>Республика Корея</title>
                 </val>
                 <val value="KM">
-                    <title lang="ru">Коморы</title>
+                    <title>Коморы</title>
                 </val>
                 <val value="KN">
-                    <title lang="ru">Сент-Китс и Невис</title>
+                    <title>Сент-Китс и Невис</title>
                 </val>
                 <val value="KW">
-                    <title lang="ru">Кувейт</title>
+                    <title>Кувейт</title>
                 </val>
                 <val value="KY">
-                    <title lang="ru">Каймановы острова</title>
+                    <title>Каймановы острова</title>
                 </val>
                 <val value="KZ">
-                    <title lang="ru">Казахстан</title>
+                    <title>Казахстан</title>
                 </val>
                 <val value="LA">
-                    <title lang="ru">Лаос</title>
+                    <title>Лаос</title>
                 </val>
                 <val value="LC">
-                    <title lang="ru">Сент-Люсия</title>
+                    <title>Сент-Люсия</title>
                 </val>
                 <val value="LB">
-                    <title lang="ru">Ливан</title>
+                    <title>Ливан</title>
                 </val>
                 <val value="LI">
-                    <title lang="ru">Лихтенштейн</title>
+                    <title>Лихтенштейн</title>
                 </val>
                 <val value="LK">
-                    <title lang="ru">Шри-Ланка</title>
+                    <title>Шри-Ланка</title>
                 </val>
             </tag>
         </more-tags>

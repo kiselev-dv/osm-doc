@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import me.osm.osmdoc.commands.ExpStrings;
 import net.sourceforge.argparse4j.ArgumentParsers;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
@@ -59,7 +60,7 @@ public class Main {
 			String catalogPath = namespace.getString("catalog");
 			
 			if(namespace.get(COMMAND).equals(Command.EXP_STRINGS)) {
-				throw new UnsupportedOperationException();
+				new ExpStrings(catalogPath).run();
 			}
 			
 		}
@@ -90,16 +91,6 @@ public class Main {
 			generateTranslations = subparsers.addParser(command.longName())
         			.setDefault(COMMAND, command)
 					.help(command.help());
-        	
-			generateTranslations.addArgument("--langs").required(true)
-				.nargs("+")
-				.help("List of languages");
-        	
-
-			generateTranslations.addArgument("--types").required(false)
-				.nargs("+").setDefault(Arrays.asList("feature_title"))
-				.help("List of translated types");
-        	
         }
         
         return parser;

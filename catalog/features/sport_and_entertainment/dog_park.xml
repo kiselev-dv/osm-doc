@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="dog_park">
-        <title lang="ru">Площадка для выгула собак</title>
+        <title>Площадка для выгула собак</title>
         <tags>
             <tag>
                 <key>leisure</key>

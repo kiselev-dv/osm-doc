@@ -2,7 +2,7 @@
 
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="agricultural_engines">
-        <title lang="ru">Ремонт сельхоз. техники</title>
+        <title>Ремонт сельхоз. техники</title>
         <tags>
             <tag>
                 <key>craft</key>

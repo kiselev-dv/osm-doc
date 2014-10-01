@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="vehicle_ramp">
-        <title lang="ru">Ремонтная эстакада/яма</title>
+        <title>Ремонтная эстакада/яма</title>
         <tags>
             <tag>
                 <key>amenity</key>

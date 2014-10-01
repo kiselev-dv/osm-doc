@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="social_facility">
-        <title lang="ru">Социальное учреждение</title>
+        <title>Социальное учреждение</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,74 +11,74 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Целевая группа</title>
+                <title>Целевая группа</title>
                 <key>social_facility:for</key>
                 <val value="unemployed">
-                    <title lang="ru">безработные</title>
+                    <title>безработные</title>
                 </val>
                 <val value="underprivileged">
-                    <title lang="ru">малообеспеченные</title>
+                    <title>малообеспеченные</title>
                 </val>
                 <val value="abused">
-                    <title lang="ru">жертвы насилия</title>
+                    <title>жертвы насилия</title>
                 </val>
                 <val value="victim">
-                    <title lang="ru">жертвы преступности</title>
+                    <title>жертвы преступности</title>
                 </val>
                 <val value="migrant">
-                    <title lang="ru">мигранты, беженцы</title>
+                    <title>мигранты, беженцы</title>
                 </val>
                 <val value="drug_addicted">
-                    <title lang="ru">наркозависимые</title>
+                    <title>наркозависимые</title>
                 </val>
                 <val value="child">
-                    <title lang="ru">дети</title>
+                    <title>дети</title>
                 </val>
                 <val value="mental_health">
-                    <title lang="ru">люди с психическими проблемами</title>
+                    <title>люди с психическими проблемами</title>
                 </val>
                 <val value="orphan">
-                    <title lang="ru">сироты</title>
+                    <title>сироты</title>
                 </val>
                 <val value="diseased">
-                    <title lang="ru">больные конкретными заболеваниями</title>
+                    <title>больные конкретными заболеваниями</title>
                 </val>
                 <val value="homeless">
-                    <title lang="ru">бездомные</title>
+                    <title>бездомные</title>
                 </val>
                 <val value="juvenile">
-                    <title lang="ru">подростки</title>
+                    <title>подростки</title>
                 </val>
                 <val value="disabled">
-                    <title lang="ru">инвалиды</title>
+                    <title>инвалиды</title>
                 </val>
                 <val value="senior">
-                    <title lang="ru">пожилые</title>
+                    <title>пожилые</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Тип</title>
+                <title>Тип</title>
                 <key>social_facility</key>
                 <val value="group_home">
-                    <title lang="ru">учреждение группового проживания</title>
+                    <title>учреждение группового проживания</title>
                 </val>
                 <val value="ambulatory_care">
-                    <title lang="ru">учреждение, занимающееся поддержкой на дому</title>
+                    <title>учреждение, занимающееся поддержкой на дому</title>
                 </val>
                 <val value="food_bank">
-                    <title lang="ru">учреждение без проживания, занимающееся раздачей пищевых рационов или готовых блюд</title>
+                    <title>учреждение без проживания, занимающееся раздачей пищевых рационов или готовых блюд</title>
                 </val>
                 <val value="workshop">
-                    <title lang="ru">учреждение без проживания, обеспечивающее работой людей с проблемами, реабилитационный центр</title>
+                    <title>учреждение без проживания, обеспечивающее работой людей с проблемами, реабилитационный центр</title>
                 </val>
                 <val value="shelter">
-                    <title lang="ru">учреждение временного проживания (ночлега)</title>
+                    <title>учреждение временного проживания (ночлега)</title>
                 </val>
                 <val value="outreach">
-                    <title lang="ru">учреждение без проживания, занимающееся предоставлением социальных услуг на бесплатной основе</title>
+                    <title>учреждение без проживания, занимающееся предоставлением социальных услуг на бесплатной основе</title>
                 </val>
                 <val value="assisted_living">
-                    <title lang="ru">учреждение группового проживания</title>
+                    <title>учреждение группового проживания</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="confectionery">
-        <title lang="ru">Кондитерская</title>
+        <title>Кондитерская</title>
         <tags>
             <tag>
                 <key>shop</key>

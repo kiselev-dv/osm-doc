@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="shoes">
-        <title lang="ru">Обувь</title>
+        <title>Обувь</title>
         <tags>
             <tag>
                 <key>shop</key>

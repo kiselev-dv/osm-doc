@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="administrative">
-        <title lang="ru">Административное учреждение</title>
+        <title>Административное учреждение</title>
         <tags>
             <tag>
                 <key>office</key>

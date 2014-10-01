@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="helipad">
-        <title lang="ru">Вертолётная площадка</title>
+        <title>Вертолётная площадка</title>
         <tags>
             <tag>
                 <key>aeroway</key>
@@ -11,79 +11,79 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Код IATA</title>
+                <title>Код IATA</title>
                 <key>iata</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Покрытие</title>
+                <title>Покрытие</title>
                 <key>surface</key>
                 <val value="paving_stones">
-                    <title lang="ru">Тротуарная плитка</title>
+                    <title>Тротуарная плитка</title>
                 </val>
                 <val value="sand">
-                    <title lang="ru">Песок</title>
+                    <title>Песок</title>
                 </val>
                 <val value="asphalt">
-                    <title lang="ru">Асфальт</title>
+                    <title>Асфальт</title>
                 </val>
                 <val value="wood">
-                    <title lang="ru">Дерево</title>
+                    <title>Дерево</title>
                 </val>
                 <val value="grass">
-                    <title lang="ru">Трава</title>
+                    <title>Трава</title>
                 </val>
                 <val value="paved">
-                    <title lang="ru">С покрытием</title>
+                    <title>С покрытием</title>
                 </val>
                 <val value="ground">
-                    <title lang="ru">Земля</title>
+                    <title>Земля</title>
                 </val>
                 <val value="gravel">
-                    <title lang="ru">Гравий</title>
+                    <title>Гравий</title>
                 </val>
                 <val value="concrete">
-                    <title lang="ru">Бетон</title>
+                    <title>Бетон</title>
                 </val>
                 <val value="unpaved">
-                    <title lang="ru">Без покрытия</title>
+                    <title>Без покрытия</title>
                 </val>
                 <val value="metal">
-                    <title lang="ru">Металл</title>
+                    <title>Металл</title>
                 </val>
                 <val value="concrete:plates">
-                    <title lang="ru">Бетонные плиты</title>
+                    <title>Бетонные плиты</title>
                 </val>
                 <val value="ice">
-                    <title lang="ru">Лед</title>
+                    <title>Лед</title>
                 </val>
                 <val value="concrete:lanes">
-                    <title lang="ru">Бетонные плитки</title>
+                    <title>Бетонные плитки</title>
                 </val>
                 <val value="earth">
-                    <title lang="ru">Земля</title>
+                    <title>Земля</title>
                 </val>
                 <val value="tartan">
-                    <title lang="ru">Тартан</title>
+                    <title>Тартан</title>
                 </val>
                 <val value="pebblestone">
-                    <title lang="ru">Галька</title>
+                    <title>Галька</title>
                 </val>
                 <val value="artificial_turf">
-                    <title lang="ru">Искусственная трава</title>
+                    <title>Искусственная трава</title>
                 </val>
                 <val value="dirt">
-                    <title lang="ru">Грязь</title>
+                    <title>Грязь</title>
                 </val>
                 <val value="cobblestone">
-                    <title lang="ru">Булыжник</title>
+                    <title>Булыжник</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Код ICAO</title>
+                <title>Код ICAO</title>
                 <key>icao</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Высота над уровнем моря (м)</title>
+                <title>Высота над уровнем моря (м)</title>
                 <key>ele</key>
             </tag>
         </more-tags>

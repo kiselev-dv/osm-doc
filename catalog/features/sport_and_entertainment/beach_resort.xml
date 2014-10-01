@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="beach_resort">
-        <title lang="ru">Пляжный комплекс</title>
+        <title>Пляжный комплекс</title>
         <description>Оборудованный пляж с услугами</description>
         <tags>
             <tag>
@@ -12,26 +12,26 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Наличие платы</title>
+                <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title lang="ru">платный</title>
+                    <title>платный</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">бесплатный</title>
+                    <title>бесплатный</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Нудизм</title>
+                <title>Нудизм</title>
                 <key>nudism</key>
                 <val value="yes">
-                    <title lang="ru">Да</title>
+                    <title>Да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">Нет</title>
+                    <title>Нет</title>
                 </val>
                 <val value="permissive">
-                    <title lang="ru">Не возбраняется</title>
+                    <title>Не возбраняется</title>
                 </val>
             </tag>
         </more-tags>

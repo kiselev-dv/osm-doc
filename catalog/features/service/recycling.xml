@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="recycling">
-        <title lang="ru">Переработка отходов</title>
+        <title>Переработка отходов</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,849 +11,849 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает листовой метал</title>
+                <title>Принимает листовой метал</title>
                 <key>recycling:sheet_metal</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает картон</title>
+                <title>Принимает картон</title>
                 <key>recycling:cardboard</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает алюминий</title>
+                <title>Принимает алюминий</title>
                 <key>recycling:aluminium</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает гипсокартон</title>
+                <title>Принимает гипсокартон</title>
                 <key>recycling:plasterboard</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пробку</title>
+                <title>Принимает пробку</title>
                 <key>recycling:cork</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает компьютеры</title>
+                <title>Принимает компьютеры</title>
                 <key>recycling:computers</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает продукты жизнедеятельности животных</title>
+                <title>Принимает продукты жизнедеятельности животных</title>
                 <key>recycling:animal_waste</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает садовый мусор</title>
+                <title>Принимает садовый мусор</title>
                 <key>recycling:garden_waste</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает батарейки</title>
+                <title>Принимает батарейки</title>
                 <key>recycling:batteries</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает энергосберегающие лампы</title>
+                <title>Принимает энергосберегающие лампы</title>
                 <key>recycling:low_energy_bulbs</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает экскременты</title>
+                <title>Принимает экскременты</title>
                 <key>recycling:excrement</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает компакт-диски</title>
+                <title>Принимает компакт-диски</title>
                 <key>recycling:cds</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает краску</title>
+                <title>Принимает краску</title>
                 <key>recycling:paint</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает книги</title>
+                <title>Принимает книги</title>
                 <key>recycling:books</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пластиковую упаковку</title>
+                <title>Принимает пластиковую упаковку</title>
                 <key>recycling:plastic_packaging</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает кухонную технику</title>
+                <title>Принимает кухонную технику</title>
                 <key>recycling:white_goods</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает мелкую кухонную технику</title>
+                <title>Принимает мелкую кухонную технику</title>
                 <key>recycling:small_appliances</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает металлолом</title>
+                <title>Принимает металлолом</title>
                 <key>recycling:scrap_metal</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пищевое масло</title>
+                <title>Принимает пищевое масло</title>
                 <key>recycling:cooking_oil</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пищевой картон</title>
+                <title>Принимает пищевой картон</title>
                 <key>recycling:cartons</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает покрышки</title>
+                <title>Принимает покрышки</title>
                 <key>recycling:tyres</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="period">
-                <title lang="ru">Время вывоза мусора</title>
+                <title>Время вывоза мусора</title>
                 <key>collection_times</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает термометры</title>
+                <title>Принимает термометры</title>
                 <key>recycling:thermometers</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает биоразлагаемые отходы</title>
+                <title>Принимает биоразлагаемые отходы</title>
                 <key>recycling:green_waste</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пластиковые пакеты</title>
+                <title>Принимает пластиковые пакеты</title>
                 <key>recycling:plastic_bags</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает бытовую технику</title>
+                <title>Принимает бытовую технику</title>
                 <key>recycling:electrical_items</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает стеклянные бутылки</title>
+                <title>Принимает стеклянные бутылки</title>
                 <key>recycling:glass_bottles</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает машинное масло</title>
+                <title>Принимает машинное масло</title>
                 <key>recycling:engine_oil</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает бумагу</title>
+                <title>Принимает бумагу</title>
                 <key>recycling:paper</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает картриджи для принтеров</title>
+                <title>Принимает картриджи для принтеров</title>
                 <key>recycling:printer_cartridges</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает полиэстер</title>
+                <title>Принимает полиэстер</title>
                 <key>recycling:polyester</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает бытовой мусор</title>
+                <title>Принимает бытовой мусор</title>
                 <key>recycling:waste</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает мобильные телефоны</title>
+                <title>Принимает мобильные телефоны</title>
                 <key>recycling:mobile_phones</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает электронные компоненты</title>
+                <title>Принимает электронные компоненты</title>
                 <key>recycling:chipboard</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает новогодние ёлки</title>
+                <title>Принимает новогодние ёлки</title>
                 <key>recycling:christmas_trees</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пищевые отходы</title>
+                <title>Принимает пищевые отходы</title>
                 <key>recycling:organic</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает журналы</title>
+                <title>Принимает журналы</title>
                 <key>recycling:magazines</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает тяжёлый строительный мусор</title>
+                <title>Принимает тяжёлый строительный мусор</title>
                 <key>recycling:hardcore</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает одежду</title>
+                <title>Принимает одежду</title>
                 <key>recycling:clothes</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает газовые баллоны</title>
+                <title>Принимает газовые баллоны</title>
                 <key>recycling:gas_bottles</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает бумажную упаковку</title>
+                <title>Принимает бумажную упаковку</title>
                 <key>recycling:paper_packaging</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пластиковые бутылки</title>
+                <title>Принимает пластиковые бутылки</title>
                 <key>recycling:plastic_bottles</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает строительный мусор</title>
+                <title>Принимает строительный мусор</title>
                 <key>recycling:rubble</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пенопласт</title>
+                <title>Принимает пенопласт</title>
                 <key>recycling:styrofoam</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает люминесцентные лампы</title>
+                <title>Принимает люминесцентные лампы</title>
                 <key>recycling:fluorescent_tubes</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает газеты</title>
+                <title>Принимает газеты</title>
                 <key>recycling:newspaper</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пластик</title>
+                <title>Принимает пластик</title>
                 <key>recycling:plastic</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает пищевую фольгу</title>
+                <title>Принимает пищевую фольгу</title>
                 <key>recycling:foil</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает велосипеды</title>
+                <title>Принимает велосипеды</title>
                 <key>recycling:bicycles</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает телевизоры</title>
+                <title>Принимает телевизоры</title>
                 <key>recycling:tv_monitor</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Тип</title>
+                <title>Тип</title>
                 <key>recycling_type</key>
                 <val value="center">
-                    <title lang="ru">Пункт переработки</title>
+                    <title>Пункт переработки</title>
                 </val>
                 <val value="container">
-                    <title lang="ru">Контейнер</title>
+                    <title>Контейнер</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает дерево</title>
+                <title>Принимает дерево</title>
                 <key>recycling:wood</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает алюминиевые банки</title>
+                <title>Принимает алюминиевые банки</title>
                 <key>recycling:cans</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Принимает стекло</title>
+                <title>Принимает стекло</title>
                 <key>recycling:glass</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
         </more-tags>

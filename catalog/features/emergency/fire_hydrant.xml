@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fire_hydrant">
-        <title lang="ru">Пожарный гидрант</title>
+        <title>Пожарный гидрант</title>
         <tags>
             <tag>
-                <title lang="ru">Неотложная помощь</title>
+                <title>Неотложная помощь</title>
                 <key>emergency</key>
                 <val value="fire_hydrant"/>
             </tag>
@@ -12,31 +12,31 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Тип гидранта</title>
+                <title>Тип гидранта</title>
                 <key>fire_hydrant:type</key>
                 <val value="pillar">
-                    <title lang="ru">Столб</title>
+                    <title>Столб</title>
                 </val>
                 <val value="underground">
-                    <title lang="ru">Подземный</title>
+                    <title>Подземный</title>
                 </val>
                 <val value="pond">
-                    <title lang="ru">Пруд</title>
+                    <title>Пруд</title>
                 </val>
                 <val value="wall">
-                    <title lang="ru">Настенный</title>
+                    <title>Настенный</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Число гидрантов</title>
+                <title>Число гидрантов</title>
                 <key>fire_hydrant:count</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Диаметр отверстия</title>
+                <title>Диаметр отверстия</title>
                 <key>fire_hydrant:diameter</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Давление (атм.)</title>
+                <title>Давление (атм.)</title>
                 <key>fire_hydrant:pressure</key>
             </tag>
         </more-tags>

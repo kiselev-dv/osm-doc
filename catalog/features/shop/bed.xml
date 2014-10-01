@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bed">
-        <title lang="ru">Матрацы, спальные принадлежности</title>
+        <title>Матрацы, спальные принадлежности</title>
         <tags>
             <tag>
                 <key>shop</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="club_chess">
-        <title lang="ru">Шахматный клуб</title>
+        <title>Шахматный клуб</title>
         <tags>
             <tag>
                 <key>club</key>

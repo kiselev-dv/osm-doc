@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="employment_agency">
-        <title lang="ru">Биржа труда</title>
+        <title>Биржа труда</title>
         <tags>
             <tag>
                 <key>office</key>

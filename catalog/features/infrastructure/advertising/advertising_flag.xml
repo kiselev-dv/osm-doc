@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="advertising_flag">
-        <title lang="ru">Флаг</title>
+        <title>Флаг</title>
         <tags>
             <tag>
                 <key>advertising</key>

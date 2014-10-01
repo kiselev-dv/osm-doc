@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="hospital">
-        <title lang="ru">Больница</title>
+        <title>Больница</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,19 +11,19 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Неотложная помощь</title>
+                <title>Неотложная помощь</title>
                 <key>emergency</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
         </more-tags>

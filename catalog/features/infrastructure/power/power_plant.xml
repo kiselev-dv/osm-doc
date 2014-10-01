@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="power_plant">
-        <title lang="ru">Электростанция</title>
+        <title>Электростанция</title>
         <tags>
             <tag>
                 <key xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:match="any">plant:output:electricity</key>
@@ -15,124 +15,124 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка холодной воды</title>
+                <title>Выработка холодной воды</title>
                 <key>plant:output:cold_water</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Источник энергии/топливо</title>
+                <title>Источник энергии/топливо</title>
                 <key>generator:source</key>
                 <val value="waste">
-                    <title lang="ru">мусор, отходы</title>
+                    <title>мусор, отходы</title>
                 </val>
                 <val value="wind">
-                    <title lang="ru">ветряная энергия</title>
+                    <title>ветряная энергия</title>
                 </val>
                 <val value="biomass">
-                    <title lang="ru">биомасса</title>
+                    <title>биомасса</title>
                 </val>
                 <val value="gasoline">
-                    <title lang="ru">безнзин</title>
+                    <title>безнзин</title>
                 </val>
                 <val value="biogas">
-                    <title lang="ru">биогаз</title>
+                    <title>биогаз</title>
                 </val>
                 <val value="biofuel">
-                    <title lang="ru">биотопливо</title>
+                    <title>биотопливо</title>
                 </val>
                 <val value="osmotic">
-                    <title lang="ru">осмотическая энегрия</title>
+                    <title>осмотическая энегрия</title>
                 </val>
                 <val value="solar">
-                    <title lang="ru">солнечная энергия</title>
+                    <title>солнечная энергия</title>
                 </val>
                 <val value="hydro">
-                    <title lang="ru">гидроэнегрия</title>
+                    <title>гидроэнегрия</title>
                 </val>
                 <val value="oil">
-                    <title lang="ru">мазут</title>
+                    <title>мазут</title>
                 </val>
                 <val value="gas">
-                    <title lang="ru">природный газ</title>
+                    <title>природный газ</title>
                 </val>
                 <val value="diesel">
-                    <title lang="ru">дизльное топливо</title>
+                    <title>дизльное топливо</title>
                 </val>
                 <val value="nuclear">
-                    <title lang="ru">ядерная энегрия</title>
+                    <title>ядерная энегрия</title>
                 </val>
                 <val value="coal">
-                    <title lang="ru">уголь</title>
+                    <title>уголь</title>
                 </val>
                 <val value="geothermal">
-                    <title lang="ru">геотермальная энегрия</title>
+                    <title>геотермальная энегрия</title>
                 </val>
                 <val value="wave">
-                    <title lang="ru">приливная энегрия</title>
+                    <title>приливная энегрия</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка пара</title>
+                <title>Выработка пара</title>
                 <key>plant:output:steam</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка вакуума</title>
+                <title>Выработка вакуума</title>
                 <key>plant:output:vacuum</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка сжатого воздуха</title>
+                <title>Выработка сжатого воздуха</title>
                 <key>plant:output:compressed_air</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка электроэнергии</title>
+                <title>Выработка электроэнергии</title>
                 <key>plant:output:electricity</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Способ получения энергии</title>
+                <title>Способ получения энергии</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">
-                    <title lang="ru">фотовольтаика</title>
+                    <title>фотовольтаика</title>
                 </val>
                 <val value="stream">
-                    <title lang="ru">использование приливных течений</title>
+                    <title>использование приливных течений</title>
                 </val>
                 <val value="thermal">
-                    <title lang="ru">нагрев солнцем</title>
+                    <title>нагрев солнцем</title>
                 </val>
                 <val value="fusion">
-                    <title lang="ru">ядерный синтез</title>
+                    <title>ядерный синтез</title>
                 </val>
                 <val value="water-pumped-storage">
-                    <title lang="ru">использование водохранилища с закачкой воды (ГАЭС)</title>
+                    <title>использование водохранилища с закачкой воды (ГАЭС)</title>
                 </val>
                 <val value="combustion">
-                    <title lang="ru">сжигание топлива</title>
+                    <title>сжигание топлива</title>
                 </val>
                 <val value="run-of-the-river">
-                    <title lang="ru">использование течения реки</title>
+                    <title>использование течения реки</title>
                 </val>
                 <val value="fission">
-                    <title lang="ru">ядерный распад</title>
+                    <title>ядерный распад</title>
                 </val>
                 <val value="gasification">
-                    <title lang="ru">газификация</title>
+                    <title>газификация</title>
                 </val>
                 <val value="barrage">
-                    <title lang="ru">использование изменений уровня водной поверхности</title>
+                    <title>использование изменений уровня водной поверхности</title>
                 </val>
                 <val value="water-storage">
-                    <title lang="ru">использование водохранилища</title>
+                    <title>использование водохранилища</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка горячей воды</title>
+                <title>Выработка горячей воды</title>
                 <key>plant:output:hot_water</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка холодного воздуха</title>
+                <title>Выработка холодного воздуха</title>
                 <key>plant:output:cold_air</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Выработка горячего воздуха</title>
+                <title>Выработка горячего воздуха</title>
                 <key>plant:output:hot_air</key>
             </tag>
         </more-tags>

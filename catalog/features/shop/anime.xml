@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="anime">
-        <title lang="ru">Аниме</title>
+        <title>Аниме</title>
         <tags>
             <tag>
                 <key>shop</key>
@@ -11,67 +11,67 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Подарки, сувениры</title>
+                <title>Подарки, сувениры</title>
                 <key>anime:gift</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Манга</title>
+                <title>Манга</title>
                 <key>anime:manga</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Костюмы для косплея</title>
+                <title>Костюмы для косплея</title>
                 <key>anime:costume</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Видео</title>
+                <title>Видео</title>
                 <key>anime:video</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
         </more-tags>

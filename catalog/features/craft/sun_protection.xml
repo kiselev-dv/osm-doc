@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="sun_protection">
-        <title lang="ru">Изготовление навесов, жалюзи</title>
+        <title>Изготовление навесов, жалюзи</title>
         <tags>
             <tag>
                 <key>craft</key>

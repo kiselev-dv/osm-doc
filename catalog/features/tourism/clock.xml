@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="clock">
-        <title lang="ru">Часы</title>
+        <title>Часы</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -11,116 +11,116 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Видимость</title>
+                <title>Видимость</title>
                 <key>visibility</key>
                 <val value="area">
-                    <title lang="ru">с большого расстояния</title>
+                    <title>с большого расстояния</title>
                 </val>
                 <val value="street">
-                    <title lang="ru">в пределах улицы</title>
+                    <title>в пределах улицы</title>
                 </val>
                 <val value="house">
-                    <title lang="ru">в пределах нескольких метров</title>
+                    <title>в пределах нескольких метров</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Метод отображения</title>
+                <title>Метод отображения</title>
                 <key>display</key>
                 <val value="sundial">
-                    <title lang="ru">солнечные часы</title>
+                    <title>солнечные часы</title>
                 </val>
                 <val value="unorthodox">
-                    <title lang="ru">нестандартный</title>
+                    <title>нестандартный</title>
                 </val>
                 <val value="analog">
-                    <title lang="ru">аналоговый (стрелки)</title>
+                    <title>аналоговый (стрелки)</title>
                 </val>
                 <val value="digital">
-                    <title lang="ru">цифровой</title>
+                    <title>цифровой</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Число циферблатов</title>
+                <title>Число циферблатов</title>
                 <key>faces</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Показывает влажность</title>
+                <title>Показывает влажность</title>
                 <key>hygrometer</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Метод установки</title>
+                <title>Метод установки</title>
                 <key>support</key>
                 <val value="pole">
-                    <title lang="ru">крепление на столб</title>
+                    <title>крепление на столб</title>
                 </val>
                 <val value="wall_mounted">
-                    <title lang="ru">крепление на стену</title>
+                    <title>крепление на стену</title>
                 </val>
                 <val value="ground">
-                    <title lang="ru">на земле</title>
+                    <title>на земле</title>
                 </val>
                 <val value="billboard">
-                    <title lang="ru">информационный щит</title>
+                    <title>информационный щит</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Показывает дату</title>
+                <title>Показывает дату</title>
                 <key>date</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Показывает давление</title>
+                <title>Показывает давление</title>
                 <key>barometer</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Показывает температуру</title>
+                <title>Показывает температуру</title>
                 <key>thermometer</key>
                 <val value="yes">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
                 <val value="true">
-                    <title lang="ru">да</title>
+                    <title>да</title>
                 </val>
                 <val value="false">
-                    <title lang="ru">нет</title>
+                    <title>нет</title>
                 </val>
             </tag>
         </more-tags>

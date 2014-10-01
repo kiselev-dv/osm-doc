@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="theatre">
-        <title lang="ru">Театр, концертный зал</title>
+        <title>Театр, концертный зал</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -14,55 +14,55 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Жанр</title>
+                <title>Жанр</title>
                 <key>theatre:genre</key>
                 <val value="boulevard">
-                    <title lang="ru">бульварный театр</title>
+                    <title>бульварный театр</title>
                 </val>
                 <val value="cabaret">
-                    <title lang="ru">кабаре</title>
+                    <title>кабаре</title>
                 </val>
                 <val value="comedy">
-                    <title lang="ru">комедия</title>
+                    <title>комедия</title>
                 </val>
                 <val value="musical">
-                    <title lang="ru">музыкальный</title>
+                    <title>музыкальный</title>
                 </val>
                 <val value="political">
-                    <title lang="ru">политический</title>
+                    <title>политический</title>
                 </val>
                 <val value="marionette">
-                    <title lang="ru">театр марионеток</title>
+                    <title>театр марионеток</title>
                 </val>
                 <val value="drama">
-                    <title lang="ru">драма</title>
+                    <title>драма</title>
                 </val>
                 <val value="varietе">
-                    <title lang="ru">варьете</title>
+                    <title>варьете</title>
                 </val>
                 <val value="philharmonic">
-                    <title lang="ru">филармония</title>
+                    <title>филармония</title>
                 </val>
                 <val value="puppet">
-                    <title lang="ru">кукольный</title>
+                    <title>кукольный</title>
                 </val>
                 <val value="opera">
-                    <title lang="ru">опера</title>
+                    <title>опера</title>
                 </val>
                 <val value="stand_up_comedy">
-                    <title lang="ru">стендап комедия</title>
+                    <title>стендап комедия</title>
                 </val>
                 <val value="chamber_music">
-                    <title lang="ru">камерная музыка</title>
+                    <title>камерная музыка</title>
                 </val>
                 <val value="shadow_play">
-                    <title lang="ru">театр теней</title>
+                    <title>театр теней</title>
                 </val>
                 <val value="ballet">
-                    <title lang="ru">балет</title>
+                    <title>балет</title>
                 </val>
                 <val value="circus">
-                    <title lang="ru">цирк</title>
+                    <title>цирк</title>
                 </val>
             </tag>
         </more-tags>

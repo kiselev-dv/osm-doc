@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="artwork">
-        <title lang="ru">Арт-объект</title>
+        <title>Арт-объект</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -11,33 +11,33 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Имя художника</title>
+                <title>Имя художника</title>
                 <key>artist_name</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Дата установки</title>
+                <title>Дата установки</title>
                 <key>start_date</key>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Тип произведения</title>
+                <title>Тип произведения</title>
                 <key>artwork_type</key>
                 <val value="sculpture">
-                    <title lang="ru">скульптура</title>
+                    <title>скульптура</title>
                 </val>
                 <val value="statue">
-                    <title lang="ru">статуя</title>
+                    <title>статуя</title>
                 </val>
                 <val value="mural">
-                    <title lang="ru">фреска</title>
+                    <title>фреска</title>
                 </val>
                 <val value="architecture">
-                    <title lang="ru">архитектурный объект</title>
+                    <title>архитектурный объект</title>
                 </val>
                 <val value="mosaic">
-                    <title lang="ru">мозаика</title>
+                    <title>мозаика</title>
                 </val>
                 <val value="painting">
-                    <title lang="ru">живопись</title>
+                    <title>живопись</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="advertising_screen">
-        <title lang="ru">Экран</title>
+        <title>Экран</title>
         <tags>
             <tag>
                 <key>advertising</key>

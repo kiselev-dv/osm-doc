@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="miniature_golf">
-        <title lang="ru">Мини-гольф</title>
+        <title>Мини-гольф</title>
         <tags>
             <tag>
                 <key>leisure</key>

@@ -2,7 +2,7 @@
 
 <doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
 	<trait name="poi">
-		<title lang="ru" i18Key="trait.poi.title">Точка интереса</title>
+		<title i18Key="trait.poi.title">Точка интереса</title>
 		<description>
 			Базовый шаблон дополнительных атрибутов для всех точек интереса.
 			* Магазинов
@@ -16,35 +16,35 @@
 	</trait>
 	
 	<trait name="named">
-		<title lang="ru" i18Key="trait.named.title">Название</title>
+		<title i18Key="trait.named.title">Название</title>
 		<description>
 			Шаблон атрибутов для именованых объектов
 		</description>
 		<tags>
 			<tag d:tag-value-type="anyString">
-				<title lang="ru" i18Key="trait.named.tag.name">Название</title>
+				<title i18Key="trait.named.tag.name">Название</title>
 				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
 				<key d:match="with-namespace">name</key>
 			</tag>
 			<tag d:tag-value-type="anyString">
-				<title lang="ru" i18Key="trait.named.tag.name">Название</title>
+				<title i18Key="trait.named.tag.name">Название</title>
 				<key d:match="contains">name</key>
 			</tag>
 		</tags>
 	</trait>
 
 	<trait name="addressed">
-		<title lang="ru" i18Key="trait.named.title">Адрес</title>
+		<title i18Key="trait.named.title">Адрес</title>
 		<description>
 			Шаблон атрибутов для объектов имеющих адреса
 		</description>
 		<tags>
 			<tag>
-				<title lang="ru" i18Key="trait.addressed.tag.addr-housenumber">Номер дома</title>
+				<title i18Key="trait.addressed.tag.addr-housenumber">Номер дома</title>
 				<key>addr:housenumber</key>
 			</tag>
 			<tag>
-				<title lang="ru" i18Key="trait.addressed.tag.addr-street">Улица</title>
+				<title i18Key="trait.addressed.tag.addr-street">Улица</title>
 				<description>
 					Название улицы по которой адресуется дом. 
 					Не заполняйте если дом адресуется по территории (поселок Энергетик - 12)
@@ -52,21 +52,21 @@
 				<key>addr:street</key>
 			</tag>
 			<tag>
-				<title lang="ru" i18Key="trait.addressed.tag.addr-city">Город</title>
+				<title i18Key="trait.addressed.tag.addr-city">Город</title>
 				<key>addr:city</key>
 			</tag>
 			<tag>
-				<title lang="ru" i18Key="trait.addressed.tag.addr-housename">Название дома</title>
+				<title i18Key="trait.addressed.tag.addr-housename">Название дома</title>
 				<key>addr:housename</key>
 			</tag>
 		</tags>
 	</trait>
 	
 	<trait name="working-hours">
-		<title lang="ru" i18Key="trait.working-hours.title">Рабочее время</title>
+		<title i18Key="trait.working-hours.title">Рабочее время</title>
 		<tags>
 			<tag d:tag-value-type="anyString">
-				<title lang="ru" i18Key="trait.named.tag.name">Название</title>
+				<title i18Key="trait.named.tag.name">Название</title>
 				<description>Общеупотребимое название объекта. Будет импользовано для подписи объекта на карте.</description>
 				<key d:match="with-namespace">name</key>
 			</tag>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="leading_beacon">
-        <title lang="ru">Створовый знак</title>
+        <title>Створовый знак</title>
         <tags>
             <tag>
                 <key>seamark:beacon_special_purpose:category</key>

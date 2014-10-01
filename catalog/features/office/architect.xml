@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="architect">
-        <title lang="ru">Архитектура</title>
+        <title>Архитектура</title>
         <tags>
             <tag>
                 <key>office</key>

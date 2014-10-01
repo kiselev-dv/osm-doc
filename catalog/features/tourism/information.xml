@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="information">
-        <title lang="ru">Информационный стенд</title>
+        <title>Информационный стенд</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -11,31 +11,31 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Тип стенда</title>
+                <title>Тип стенда</title>
                 <key>information</key>
                 <val value="office">
-                    <title lang="ru">Офис</title>
+                    <title>Офис</title>
                 </val>
                 <val value="guidepost">
-                    <title lang="ru">Указатель направления</title>
+                    <title>Указатель направления</title>
                 </val>
                 <val value="audioguide">
-                    <title lang="ru">Аудиогид</title>
+                    <title>Аудиогид</title>
                 </val>
                 <val value="terminal">
-                    <title lang="ru">Терминал</title>
+                    <title>Терминал</title>
                 </val>
                 <val value="tactile_model">
-                    <title lang="ru">Тактильная модель</title>
+                    <title>Тактильная модель</title>
                 </val>
                 <val value="map">
-                    <title lang="ru">Карта</title>
+                    <title>Карта</title>
                 </val>
                 <val value="tactile_map">
-                    <title lang="ru">Тактильная карта</title>
+                    <title>Тактильная карта</title>
                 </val>
                 <val value="board">
-                    <title lang="ru">Щит</title>
+                    <title>Щит</title>
                 </val>
             </tag>
         </more-tags>

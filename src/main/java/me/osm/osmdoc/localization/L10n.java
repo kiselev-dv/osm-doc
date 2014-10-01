@@ -1,12 +1,13 @@
 package me.osm.osmdoc.localization;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 
 public class L10n {
+	
+	public static final String L10N_PREFIX = "l10n.";
 	
 	private L10n() {
 		
@@ -26,7 +27,7 @@ public class L10n {
 			locale = Locale.getDefault();
 		}
 		
-		if(key.startsWith("l10n:")) {
+		if(key.startsWith(L10N_PREFIX)) {
 			
 			if(instances.get(locale.getDisplayName()) == null) {
 				synchronized (instances) {

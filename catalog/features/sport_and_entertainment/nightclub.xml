@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="nightclub">
-        <title lang="ru">Ночной клуб</title>
+        <title>Ночной клуб</title>
         <tags>
             <tag>
                 <key>amenity</key>

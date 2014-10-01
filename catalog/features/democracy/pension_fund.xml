@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="pension_fund">
-        <title lang="ru">Пенсионный фонд</title>
+        <title>Пенсионный фонд</title>
         <tags>
             <tag>
                 <key>office</key>

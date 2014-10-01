@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cave_entrance">
-        <title lang="ru">Вход в пещеру</title>
+        <title>Вход в пещеру</title>
         <tags>
             <tag>
                 <key>natural</key>
@@ -11,17 +11,17 @@
         <trait>poi</trait>
         <more-tags>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title lang="ru">Наличие платы</title>
+                <title>Наличие платы</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title lang="ru">платный</title>
+                    <title>платный</title>
                 </val>
                 <val value="no">
-                    <title lang="ru">бесплатный</title>
+                    <title>бесплатный</title>
                 </val>
             </tag>
             <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title lang="ru">Высота над уровнем моря (м)</title>
+                <title>Высота над уровнем моря (м)</title>
                 <key>ele</key>
             </tag>
         </more-tags>
