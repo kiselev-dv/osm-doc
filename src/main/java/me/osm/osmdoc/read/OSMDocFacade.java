@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
+import me.osm.osmdoc.localization.L10n;
 import me.osm.osmdoc.model.Feature;
-import me.osm.osmdoc.model.LangString;
 import me.osm.osmdoc.model.Tag;
 import me.osm.osmdoc.model.Tag.Val;
 import me.osm.osmdoc.model.Tags;
@@ -118,47 +119,17 @@ public class OSMDocFacade {
 		return featureByName.get(poiClass);
 	}
 
-	public String getTranslatedTitle(Feature fClass, String lang) {
-		
-		Map<String, String> translations = new HashMap<String, String>();
-		
-		List<LangString> titles = fClass.getTitle();
-		for(LangString t : titles) {
-			if(translations.get(t.getLang()) == null) {
-				translations.put(t.getLang(), t.getValue());
-			}
-		}
-		
-		return translations.get(lang);
+	public String getTranslatedTitle(Feature fClass, Locale lang) {
+		return L10n.tr(fClass.getTitle(), lang);
 	}
 
-	public String getTranslatedTitle(Feature fClass, Tag td, String lang) {
-		
-		Map<String, String> translations = new HashMap<String, String>();
-		
-		List<LangString> titles = td.getTitle();
-		for(LangString t : titles) {
-			if(translations.get(t.getLang()) == null) {
-				translations.put(t.getLang(), t.getValue());
-			}
-		}
-		
-		return translations.get(lang);
+	public String getTranslatedTitle(Feature fClass, Tag td, Locale lang) {
+		return L10n.tr(td.getTitle(), lang);
 	}
 
 	public String getTranslatedTitle(Feature fClass, Val valuePattern,
-			String lang) {
-		
-		Map<String, String> translations = new HashMap<String, String>();
-		
-		List<LangString> titles = valuePattern.getTitle();
-		for(LangString t : titles) {
-			if(translations.get(t.getLang()) == null) {
-				translations.put(t.getLang(), t.getValue());
-			}
-		}
-		
-		return translations.get(lang);
+			Locale lang) {
+		return L10n.tr(valuePattern.getTitle(), lang);
 	}
 	
 }

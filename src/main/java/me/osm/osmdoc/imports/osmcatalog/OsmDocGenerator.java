@@ -39,7 +39,6 @@ import me.osm.osmdoc.imports.osmcatalog.model.TagDescriptor;
 import me.osm.osmdoc.model.DocPart;
 import me.osm.osmdoc.model.Feature;
 import me.osm.osmdoc.model.KeyType;
-import me.osm.osmdoc.model.LangString;
 import me.osm.osmdoc.model.MoreTags;
 import me.osm.osmdoc.model.ObjectFactory;
 import me.osm.osmdoc.model.Tag.TagValueType;
@@ -302,17 +301,11 @@ public class OsmDocGenerator {
 		
 		feature.setName(catalogItem.getName());
 		String titleSRC = JSONTreeGenerator.getTitle(catalogItem.getName(), dictionary);
-		LangString title = objF.createLangString();
-		title.setLang(lang);
-		title.setValue(titleSRC);
-		feature.getTitle().add(title);
+		feature.setTitle(titleSRC);
 		
 		String descriptionSRC = JSONTreeGenerator.getDescription(catalogItem.getName(), dictionary);
 		if(StringUtils.isNotBlank(descriptionSRC)){
-			LangString description = objF.createLangString();
-			description.setLang(lang);
-			description.setValue(descriptionSRC);
-			feature.setDescription(description);
+			feature.setDescription(descriptionSRC);
 		}
 		
 		Tags mappedTags = mapTags(catalogItem.getTags(), lang);
@@ -351,10 +344,7 @@ public class OsmDocGenerator {
 			String tagTitleSRC = JSONTreeGenerator.getTagTitle(t.getId(), dictionary);
 			
 			if(StringUtils.isNoneBlank(tagTitleSRC)) {
-				LangString tagTitle = objF.createLangString();
-				tagTitle.setLang(lang);
-				tagTitle.setValue(tagTitleSRC);
-				tag.getTitle().add(tagTitle);
+				tag.setTitle(tagTitleSRC);
 			}
 			
 			String tagType = t.getType();
@@ -378,10 +368,7 @@ public class OsmDocGenerator {
 					tag.getVal().add(val);
 					
 					val.setValue(vk);
-					LangString valueTitle =  objF.createLangString();
-					valueTitle.setLang(lang);
-					valueTitle.setValue(valueTitleSRC);
-					val.getTitle().add(valueTitle);
+					val.setTitle(valueTitleSRC);
 				}
 			}
 			
@@ -403,10 +390,7 @@ public class OsmDocGenerator {
 			String tagTitleSRC = JSONTreeGenerator.getTagTitle(tagKey, dictionary);
 			
 			if(StringUtils.isNoneBlank(tagTitleSRC)) {
-				LangString tagTitle = objF.createLangString();
-				tagTitle.setLang(lang);
-				tagTitle.setValue(tagTitleSRC);
-				tag.getTitle().add(tagTitle);
+				tag.setTitle(tagTitleSRC);
 			}
 			
 			kt.setValue(tagKey);

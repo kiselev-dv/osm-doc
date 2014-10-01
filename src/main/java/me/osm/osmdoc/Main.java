@@ -4,10 +4,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import me.osm.osmdoc.imports.osmcatalog.commands.ExpStrings;
-import me.osm.osmdoc.read.DOCFileReader;
-import me.osm.osmdoc.read.DOCFolderReader;
-import me.osm.osmdoc.read.DOCReader;
 import net.sourceforge.argparse4j.ArgumentParsers;
 import net.sourceforge.argparse4j.inf.ArgumentParser;
 import net.sourceforge.argparse4j.inf.ArgumentParserException;
@@ -63,11 +59,7 @@ public class Main {
 			String catalogPath = namespace.getString("catalog");
 			
 			if(namespace.get(COMMAND).equals(Command.EXP_STRINGS)) {
-				
-				ExpStrings expStrings = new ExpStrings(catalogPath, list(namespace.getList("langs")), 
-						list(namespace.getList("types")));
-				
-				expStrings.run();
+				throw new UnsupportedOperationException();
 			}
 			
 		}

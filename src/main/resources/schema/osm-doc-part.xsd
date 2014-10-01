@@ -66,7 +66,6 @@
 		<complexType>
 			<sequence>
 				<group ref="osmdoc:titleDescription" />
-				<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" />
 				<group ref="osmdoc:iconsWikiNote" />
 				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
 				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
@@ -116,19 +115,12 @@
 
 	<group name="titleDescription">
 		<sequence>
-			<element name="title" type="osmdoc:langString" minOccurs="1" maxOccurs="unbounded" />
-			<element name="description" minOccurs="0" type="osmdoc:langString" />
+			<element name="title" type="string" />
+			<element name="alias" type="string" minOccurs="0" maxOccurs="unbounded" />
+			<element name="description" minOccurs="0" type="string" />
 		</sequence>
 	</group>
 	
-	<complexType name="langString">
-		<simpleContent>
-			<extension base="string">
-				<attribute name="lang" type="string" use="required" />
-			</extension>
-		</simpleContent>
-	</complexType>
-
 	<element name="tags">
 		<complexType>
 			<sequence>
