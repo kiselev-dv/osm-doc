@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="social_facility">
-        <title>Социальное учреждение</title>
+        <title>l10n.feature.social_facility.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,75 +10,75 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Целевая группа</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.social_facility.more_tags.social_facility:for.title</title>
                 <key>social_facility:for</key>
                 <val value="unemployed">
-                    <title>безработные</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.unemployed.title</title>
                 </val>
                 <val value="underprivileged">
-                    <title>малообеспеченные</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.underprivileged.title</title>
                 </val>
                 <val value="abused">
-                    <title>жертвы насилия</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.abused.title</title>
                 </val>
                 <val value="victim">
-                    <title>жертвы преступности</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.victim.title</title>
                 </val>
                 <val value="migrant">
-                    <title>мигранты, беженцы</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.migrant.title</title>
                 </val>
                 <val value="drug_addicted">
-                    <title>наркозависимые</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.drug_addicted.title</title>
                 </val>
                 <val value="child">
-                    <title>дети</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.child.title</title>
                 </val>
                 <val value="mental_health">
-                    <title>люди с психическими проблемами</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.mental_health.title</title>
                 </val>
                 <val value="orphan">
-                    <title>сироты</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.orphan.title</title>
                 </val>
                 <val value="diseased">
-                    <title>больные конкретными заболеваниями</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.diseased.title</title>
                 </val>
                 <val value="homeless">
-                    <title>бездомные</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.homeless.title</title>
                 </val>
                 <val value="juvenile">
-                    <title>подростки</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.juvenile.title</title>
                 </val>
                 <val value="disabled">
-                    <title>инвалиды</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.disabled.title</title>
                 </val>
                 <val value="senior">
-                    <title>пожилые</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility:for.senior.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.social_facility.more_tags.social_facility.title</title>
                 <key>social_facility</key>
                 <val value="group_home">
-                    <title>учреждение группового проживания</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.group_home.title</title>
                 </val>
                 <val value="ambulatory_care">
-                    <title>учреждение, занимающееся поддержкой на дому</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.ambulatory_care.title</title>
                 </val>
                 <val value="food_bank">
-                    <title>учреждение без проживания, занимающееся раздачей пищевых рационов или готовых блюд</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.food_bank.title</title>
                 </val>
                 <val value="workshop">
-                    <title>учреждение без проживания, обеспечивающее работой людей с проблемами, реабилитационный центр</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.workshop.title</title>
                 </val>
                 <val value="shelter">
-                    <title>учреждение временного проживания (ночлега)</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.shelter.title</title>
                 </val>
                 <val value="outreach">
-                    <title>учреждение без проживания, занимающееся предоставлением социальных услуг на бесплатной основе</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.outreach.title</title>
                 </val>
                 <val value="assisted_living">
-                    <title>учреждение группового проживания</title>
+                    <title>l10n.feature.social_facility.more_tags.social_facility.assisted_living.title</title>
                 </val>
             </tag>
         </more-tags>

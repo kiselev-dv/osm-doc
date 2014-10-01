@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fire_water_pond">
-        <title>Пожарный водоём</title>
+        <title>l10n.feature.fire_water_pond.title</title>
         <tags>
             <tag>
-                <title>Неотложная помощь</title>
+                <title>l10n.feature.fire_water_pond.tags.emergency.title</title>
                 <key>emergency</key>
                 <val value="fire_water_pond"/>
             </tag>

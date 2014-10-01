@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="communication_tower">
-        <title>Вышка связи</title>
+        <title>l10n.feature.communication_tower.title</title>
         <tags>
             <tag>
                 <key>tower:type</key>
@@ -14,73 +14,73 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Номер</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.communication_tower.more_tags.ref.title</title>
                 <key>ref</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Высота (м)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.communication_tower.more_tags.height.title</title>
                 <key>height</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Радиовещание</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.communication_tower.more_tags.communication:radio.title</title>
                 <key>communication:radio</key>
                 <val value="yes">
-                    <title>используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:radio.yes.title</title>
                 </val>
                 <val value="fm">
-                    <title>FM</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:radio.fm.title</title>
                 </val>
                 <val value="am">
-                    <title>AM</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:radio.am.title</title>
                 </val>
                 <val value="no">
-                    <title>не используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:radio.no.title</title>
                 </val>
                 <val value="dav">
-                    <title>DAB</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:radio.dav.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Телевещание</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.communication_tower.more_tags.communication:television.title</title>
                 <key>communication:television</key>
                 <val value="yes">
-                    <title>используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:television.yes.title</title>
                 </val>
                 <val value="dvb-t">
-                    <title>DVB-T</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:television.dvb-t.title</title>
                 </val>
                 <val value="no">
-                    <title>не используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:television.no.title</title>
                 </val>
                 <val value="analogue">
-                    <title>аналоговое</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:television.analogue.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сотовая связь</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.title</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
-                    <title>используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.yes.title</title>
                 </val>
                 <val value="cdma">
-                    <title>CDMA</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.cdma.title</title>
                 </val>
                 <val value="umts">
-                    <title>UMTS</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.umts.title</title>
                 </val>
                 <val value="no">
-                    <title>не используется</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.no.title</title>
                 </val>
                 <val value="gsm">
-                    <title>GSM</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.gsm.title</title>
                 </val>
                 <val value="lte">
-                    <title>LTE</title>
+                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.lte.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Высота над уровнем моря (м)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.communication_tower.more_tags.ele.title</title>
                 <key>ele</key>
             </tag>
         </more-tags>

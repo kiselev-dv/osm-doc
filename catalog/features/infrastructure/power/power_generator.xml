@@ -1,142 +1,142 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="power_generator">
-        <title>Генератор</title>
+        <title>l10n.feature.power_generator.title</title>
         <tags>
             <tag>
                 <key>power</key>
                 <val value="generator"/>
             </tag>
             <tag>
-                <key xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:match="any">generator:output:electricity</key>
+                <key match="any">generator:output:electricity</key>
                 <val value="*"/>
             </tag>
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка холодной воды</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:cold_water.title</title>
                 <key>generator:output:cold_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Источник энергии/топливо</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.power_generator.more_tags.generator:source.title</title>
                 <key>generator:source</key>
                 <val value="waste">
-                    <title>мусор, отходы</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.waste.title</title>
                 </val>
                 <val value="wind">
-                    <title>ветряная энергия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.wind.title</title>
                 </val>
                 <val value="biomass">
-                    <title>биомасса</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.biomass.title</title>
                 </val>
                 <val value="gasoline">
-                    <title>безнзин</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.gasoline.title</title>
                 </val>
                 <val value="biogas">
-                    <title>биогаз</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.biogas.title</title>
                 </val>
                 <val value="biofuel">
-                    <title>биотопливо</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.biofuel.title</title>
                 </val>
                 <val value="osmotic">
-                    <title>осмотическая энегрия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.osmotic.title</title>
                 </val>
                 <val value="solar">
-                    <title>солнечная энергия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.solar.title</title>
                 </val>
                 <val value="hydro">
-                    <title>гидроэнегрия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.hydro.title</title>
                 </val>
                 <val value="oil">
-                    <title>мазут</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.oil.title</title>
                 </val>
                 <val value="gas">
-                    <title>природный газ</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.gas.title</title>
                 </val>
                 <val value="diesel">
-                    <title>дизльное топливо</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.diesel.title</title>
                 </val>
                 <val value="nuclear">
-                    <title>ядерная энегрия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.nuclear.title</title>
                 </val>
                 <val value="coal">
-                    <title>уголь</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.coal.title</title>
                 </val>
                 <val value="geothermal">
-                    <title>геотермальная энегрия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.geothermal.title</title>
                 </val>
                 <val value="wave">
-                    <title>приливная энегрия</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:source.wave.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка пара</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:steam.title</title>
                 <key>generator:output:steam</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка вакуума</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:vacuum.title</title>
                 <key>generator:output:vacuum</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка сжатого воздуха</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:compressed_air.title</title>
                 <key>generator:output:compressed_air</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка электроэнергии</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:electricity.title</title>
                 <key>generator:output:electricity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Способ получения энергии</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.power_generator.more_tags.generator:method.title</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">
-                    <title>фотовольтаика</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.photovoltaic.title</title>
                 </val>
                 <val value="stream">
-                    <title>использование приливных течений</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.stream.title</title>
                 </val>
                 <val value="thermal">
-                    <title>нагрев солнцем</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.thermal.title</title>
                 </val>
                 <val value="fusion">
-                    <title>ядерный синтез</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.fusion.title</title>
                 </val>
                 <val value="water-pumped-storage">
-                    <title>использование водохранилища с закачкой воды (ГАЭС)</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.water-pumped-storage.title</title>
                 </val>
                 <val value="combustion">
-                    <title>сжигание топлива</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.combustion.title</title>
                 </val>
                 <val value="run-of-the-river">
-                    <title>использование течения реки</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.run-of-the-river.title</title>
                 </val>
                 <val value="fission">
-                    <title>ядерный распад</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.fission.title</title>
                 </val>
                 <val value="gasification">
-                    <title>газификация</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.gasification.title</title>
                 </val>
                 <val value="barrage">
-                    <title>использование изменений уровня водной поверхности</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.barrage.title</title>
                 </val>
                 <val value="water-storage">
-                    <title>использование водохранилища</title>
+                    <title>l10n.feature.power_generator.more_tags.generator:method.water-storage.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка горячей воды</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:hot_water.title</title>
                 <key>generator:output:hot_water</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип генератора</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.power_generator.more_tags.generator:type.title</title>
                 <key>generator:type</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка холодного воздуха</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:cold_air.title</title>
                 <key>generator:output:cold_air</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Выработка горячего воздуха</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.power_generator.more_tags.generator:output:hot_air.title</title>
                 <key>generator:output:hot_air</key>
             </tag>
         </more-tags>

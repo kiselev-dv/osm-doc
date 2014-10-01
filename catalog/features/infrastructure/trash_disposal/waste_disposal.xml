@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="waste_disposal">
-        <title>Мусорный контейнер</title>
+        <title>l10n.feature.waste_disposal.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,8 +10,8 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="period">
-                <title>Время вывоза мусора</title>
+            <tag tag-value-type="period">
+                <title>l10n.feature.waste_disposal.more_tags.collection_times.title</title>
                 <key>collection_times</key>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="subway_entrance">
-        <title>Вход в метро</title>
+        <title>l10n.feature.subway_entrance.title</title>
         <tags>
             <tag>
                 <key>railway</key>
@@ -10,34 +10,34 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Доступ на инвалидной коляске</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.subway_entrance.more_tags.wheelchair.title</title>
                 <key>wheelchair</key>
                 <val value="yes">
-                    <title>есть</title>
+                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.yes.title</title>
                 </val>
                 <val value="limited">
-                    <title>ограниченный</title>
+                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.limited.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.no.title</title>
                 </val>
                 <val value="designated">
-                    <title>специально предназначено</title>
+                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.designated.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Дата открытия</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.subway_entrance.more_tags.start_date.title</title>
                 <key>start_date</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Проход с велосипедом</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.subway_entrance.more_tags.bicycle.title</title>
                 <key>bicycle</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.subway_entrance.more_tags.bicycle.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.subway_entrance.more_tags.bicycle.no.title</title>
                 </val>
             </tag>
         </more-tags>

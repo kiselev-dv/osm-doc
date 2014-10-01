@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="optician_craft">
-        <title>Изготовление, подгонка очков, линз</title>
+        <title>l10n.feature.optician_craft.title</title>
         <tags>
             <tag>
                 <key>craft</key>

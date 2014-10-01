@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="prosecutor">
-        <title>Прокуратура</title>
+        <title>l10n.feature.prosecutor.title</title>
         <tags>
             <tag>
                 <key>office</key>

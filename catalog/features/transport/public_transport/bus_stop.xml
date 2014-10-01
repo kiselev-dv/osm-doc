@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bus_stop">
-        <title>Остановка автобуса</title>
+        <title>l10n.feature.bus_stop.title</title>
         <tags>
             <tag>
                 <key>highway</key>
@@ -10,56 +10,56 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Номера маршрутов</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.bus_stop.more_tags.route_ref.title</title>
                 <key>route_ref</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Навес</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bus_stop.more_tags.shelter.title</title>
                 <key>shelter</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.shelter.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.shelter.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.shelter.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.shelter.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Скамейка</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bus_stop.more_tags.bench.title</title>
                 <key>bench</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.bench.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.bench.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.bench.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.bench.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Урна для мусора</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bus_stop.more_tags.bin.title</title>
                 <key>bin</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.bin.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.bin.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bus_stop.more_tags.bin.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bus_stop.more_tags.bin.false.title</title>
                 </val>
             </tag>
         </more-tags>

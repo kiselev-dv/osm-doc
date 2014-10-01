@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="embassy">
-        <title>Посольство</title>
+        <title>l10n.feature.embassy.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,752 +10,752 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Страна</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.embassy.more_tags.country.title</title>
                 <key>country</key>
                 <val value="VU">
-                    <title>Вануату</title>
+                    <title>l10n.feature.embassy.more_tags.country.VU.title</title>
                 </val>
                 <val value="VN">
-                    <title>Вьетнам</title>
+                    <title>l10n.feature.embassy.more_tags.country.VN.title</title>
                 </val>
                 <val value="EC">
-                    <title>Эквадор</title>
+                    <title>l10n.feature.embassy.more_tags.country.EC.title</title>
                 </val>
                 <val value="VI">
-                    <title>Американские Виргинские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.VI.title</title>
                 </val>
                 <val value="DZ">
-                    <title>Алжир</title>
+                    <title>l10n.feature.embassy.more_tags.country.DZ.title</title>
                 </val>
                 <val value="VG">
-                    <title>Британские Виргинские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.VG.title</title>
                 </val>
                 <val value="VE">
-                    <title>Венесуэла</title>
+                    <title>l10n.feature.embassy.more_tags.country.VE.title</title>
                 </val>
                 <val value="DM">
-                    <title>Доминика</title>
+                    <title>l10n.feature.embassy.more_tags.country.DM.title</title>
                 </val>
                 <val value="VC">
-                    <title>Сент-Винсент и Гренадины</title>
+                    <title>l10n.feature.embassy.more_tags.country.VC.title</title>
                 </val>
                 <val value="DO">
-                    <title>Доминикана</title>
+                    <title>l10n.feature.embassy.more_tags.country.DO.title</title>
                 </val>
                 <val value="VA">
-                    <title>Ватикан</title>
+                    <title>l10n.feature.embassy.more_tags.country.VA.title</title>
                 </val>
                 <val value="DE">
-                    <title>Германия</title>
+                    <title>l10n.feature.embassy.more_tags.country.DE.title</title>
                 </val>
                 <val value="UZ">
-                    <title>Узбекистан</title>
+                    <title>l10n.feature.embassy.more_tags.country.UZ.title</title>
                 </val>
                 <val value="UY">
-                    <title>Уругвай</title>
+                    <title>l10n.feature.embassy.more_tags.country.UY.title</title>
                 </val>
                 <val value="DK">
-                    <title>Дания</title>
+                    <title>l10n.feature.embassy.more_tags.country.DK.title</title>
                 </val>
                 <val value="DJ">
-                    <title>Джибути</title>
+                    <title>l10n.feature.embassy.more_tags.country.DJ.title</title>
                 </val>
                 <val value="US">
-                    <title>США</title>
+                    <title>l10n.feature.embassy.more_tags.country.US.title</title>
                 </val>
                 <val value="UM">
-                    <title>Внешние малые острова США</title>
+                    <title>l10n.feature.embassy.more_tags.country.UM.title</title>
                 </val>
                 <val value="UG">
-                    <title>Уганда</title>
+                    <title>l10n.feature.embassy.more_tags.country.UG.title</title>
                 </val>
                 <val value="UA">
-                    <title>Украина</title>
+                    <title>l10n.feature.embassy.more_tags.country.UA.title</title>
                 </val>
                 <val value="ET">
-                    <title>Эфиопия</title>
+                    <title>l10n.feature.embassy.more_tags.country.ET.title</title>
                 </val>
                 <val value="ES">
-                    <title>Испания</title>
+                    <title>l10n.feature.embassy.more_tags.country.ES.title</title>
                 </val>
                 <val value="ER">
-                    <title>Эритрея</title>
+                    <title>l10n.feature.embassy.more_tags.country.ER.title</title>
                 </val>
                 <val value="EH">
-                    <title>Западная Сахара</title>
+                    <title>l10n.feature.embassy.more_tags.country.EH.title</title>
                 </val>
                 <val value="EG">
-                    <title>Египет</title>
+                    <title>l10n.feature.embassy.more_tags.country.EG.title</title>
                 </val>
                 <val value="TZ">
-                    <title>Танзания</title>
+                    <title>l10n.feature.embassy.more_tags.country.TZ.title</title>
                 </val>
                 <val value="EE">
-                    <title>Эстония</title>
+                    <title>l10n.feature.embassy.more_tags.country.EE.title</title>
                 </val>
                 <val value="TT">
-                    <title>Тринидад и Тобаго</title>
+                    <title>l10n.feature.embassy.more_tags.country.TT.title</title>
                 </val>
                 <val value="TW">
-                    <title>Тайвань</title>
+                    <title>l10n.feature.embassy.more_tags.country.TW.title</title>
                 </val>
                 <val value="TV">
-                    <title>Тувалу</title>
+                    <title>l10n.feature.embassy.more_tags.country.TV.title</title>
                 </val>
                 <val value="GD">
-                    <title>Гренада</title>
+                    <title>l10n.feature.embassy.more_tags.country.GD.title</title>
                 </val>
                 <val value="GE">
-                    <title>Грузия</title>
+                    <title>l10n.feature.embassy.more_tags.country.GE.title</title>
                 </val>
                 <val value="GF">
-                    <title>Французская Гвиана</title>
+                    <title>l10n.feature.embassy.more_tags.country.GF.title</title>
                 </val>
                 <val value="GA">
-                    <title>Габон</title>
+                    <title>l10n.feature.embassy.more_tags.country.GA.title</title>
                 </val>
                 <val value="GB">
-                    <title>Великобритания</title>
+                    <title>l10n.feature.embassy.more_tags.country.GB.title</title>
                 </val>
                 <val value="FR">
-                    <title>Франция</title>
+                    <title>l10n.feature.embassy.more_tags.country.FR.title</title>
                 </val>
                 <val value="FO">
-                    <title>Фарерские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.FO.title</title>
                 </val>
                 <val value="FK">
-                    <title>Фолклендские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.FK.title</title>
                 </val>
                 <val value="FJ">
-                    <title>Фиджи</title>
+                    <title>l10n.feature.embassy.more_tags.country.FJ.title</title>
                 </val>
                 <val value="FM">
-                    <title>Микронезия</title>
+                    <title>l10n.feature.embassy.more_tags.country.FM.title</title>
                 </val>
                 <val value="FI">
-                    <title>Финляндия</title>
+                    <title>l10n.feature.embassy.more_tags.country.FI.title</title>
                 </val>
                 <val value="WS">
-                    <title>Самоа</title>
+                    <title>l10n.feature.embassy.more_tags.country.WS.title</title>
                 </val>
                 <val value="GY">
-                    <title>Гайана</title>
+                    <title>l10n.feature.embassy.more_tags.country.GY.title</title>
                 </val>
                 <val value="GW">
-                    <title>Гвинея-Бисау</title>
+                    <title>l10n.feature.embassy.more_tags.country.GW.title</title>
                 </val>
                 <val value="GU">
-                    <title>Гуам</title>
+                    <title>l10n.feature.embassy.more_tags.country.GU.title</title>
                 </val>
                 <val value="GT">
-                    <title>Гватемала</title>
+                    <title>l10n.feature.embassy.more_tags.country.GT.title</title>
                 </val>
                 <val value="GS">
-                    <title>Южная Георгия и Южные Сандвичевы острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.GS.title</title>
                 </val>
                 <val value="GR">
-                    <title>Греция</title>
+                    <title>l10n.feature.embassy.more_tags.country.GR.title</title>
                 </val>
                 <val value="GQ">
-                    <title>Экваториальная Гвинея</title>
+                    <title>l10n.feature.embassy.more_tags.country.GQ.title</title>
                 </val>
                 <val value="WF">
-                    <title>Уоллис и Футуна</title>
+                    <title>l10n.feature.embassy.more_tags.country.WF.title</title>
                 </val>
                 <val value="GP">
-                    <title>Гваделупа</title>
+                    <title>l10n.feature.embassy.more_tags.country.GP.title</title>
                 </val>
                 <val value="GN">
-                    <title>Гвинея</title>
+                    <title>l10n.feature.embassy.more_tags.country.GN.title</title>
                 </val>
                 <val value="GM">
-                    <title>Гамбия</title>
+                    <title>l10n.feature.embassy.more_tags.country.GM.title</title>
                 </val>
                 <val value="GL">
-                    <title>Гренландия</title>
+                    <title>l10n.feature.embassy.more_tags.country.GL.title</title>
                 </val>
                 <val value="GI">
-                    <title>Гибралтар</title>
+                    <title>l10n.feature.embassy.more_tags.country.GI.title</title>
                 </val>
                 <val value="GH">
-                    <title>Гана</title>
+                    <title>l10n.feature.embassy.more_tags.country.GH.title</title>
                 </val>
                 <val value="GG">
-                    <title>Гернси</title>
+                    <title>l10n.feature.embassy.more_tags.country.GG.title</title>
                 </val>
                 <val value="RE">
-                    <title>Реюньон</title>
+                    <title>l10n.feature.embassy.more_tags.country.RE.title</title>
                 </val>
                 <val value="RO">
-                    <title>Румыния</title>
+                    <title>l10n.feature.embassy.more_tags.country.RO.title</title>
                 </val>
                 <val value="AT">
-                    <title>Австрия</title>
+                    <title>l10n.feature.embassy.more_tags.country.AT.title</title>
                 </val>
                 <val value="AS">
-                    <title>Американское Самоа</title>
+                    <title>l10n.feature.embassy.more_tags.country.AS.title</title>
                 </val>
                 <val value="AR">
-                    <title>Аргентина</title>
+                    <title>l10n.feature.embassy.more_tags.country.AR.title</title>
                 </val>
                 <val value="AQ">
-                    <title>Антарктика</title>
+                    <title>l10n.feature.embassy.more_tags.country.AQ.title</title>
                 </val>
                 <val value="AX">
-                    <title>Аландские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.AX.title</title>
                 </val>
                 <val value="AW">
-                    <title>Аруба</title>
+                    <title>l10n.feature.embassy.more_tags.country.AW.title</title>
                 </val>
                 <val value="QA">
-                    <title>Катар</title>
+                    <title>l10n.feature.embassy.more_tags.country.QA.title</title>
                 </val>
                 <val value="AU">
-                    <title>Австралия</title>
+                    <title>l10n.feature.embassy.more_tags.country.AU.title</title>
                 </val>
                 <val value="AZ">
-                    <title>Азербайджан</title>
+                    <title>l10n.feature.embassy.more_tags.country.AZ.title</title>
                 </val>
                 <val value="BA">
-                    <title>Босния и Герцеговина</title>
+                    <title>l10n.feature.embassy.more_tags.country.BA.title</title>
                 </val>
                 <val value="PT">
-                    <title>Португалия</title>
+                    <title>l10n.feature.embassy.more_tags.country.PT.title</title>
                 </val>
                 <val value="AD">
-                    <title>Андорра</title>
+                    <title>l10n.feature.embassy.more_tags.country.AD.title</title>
                 </val>
                 <val value="PW">
-                    <title>Палау</title>
+                    <title>l10n.feature.embassy.more_tags.country.PW.title</title>
                 </val>
                 <val value="AG">
-                    <title>Антигуа и Барбуда</title>
+                    <title>l10n.feature.embassy.more_tags.country.AG.title</title>
                 </val>
                 <val value="AE">
-                    <title>Объединённые Арабские Эмираты</title>
+                    <title>l10n.feature.embassy.more_tags.country.AE.title</title>
                 </val>
                 <val value="PR">
-                    <title>Пуэрто-Рико</title>
+                    <title>l10n.feature.embassy.more_tags.country.PR.title</title>
                 </val>
                 <val value="AF">
-                    <title>Афганистан</title>
+                    <title>l10n.feature.embassy.more_tags.country.AF.title</title>
                 </val>
                 <val value="PS">
-                    <title>Палестина</title>
+                    <title>l10n.feature.embassy.more_tags.country.PS.title</title>
                 </val>
                 <val value="AL">
-                    <title>Албания</title>
+                    <title>l10n.feature.embassy.more_tags.country.AL.title</title>
                 </val>
                 <val value="AI">
-                    <title>Ангилья</title>
+                    <title>l10n.feature.embassy.more_tags.country.AI.title</title>
                 </val>
                 <val value="AO">
-                    <title>Ангола</title>
+                    <title>l10n.feature.embassy.more_tags.country.AO.title</title>
                 </val>
                 <val value="PY">
-                    <title>Парагвай</title>
+                    <title>l10n.feature.embassy.more_tags.country.PY.title</title>
                 </val>
                 <val value="AM">
-                    <title>Армения</title>
+                    <title>l10n.feature.embassy.more_tags.country.AM.title</title>
                 </val>
                 <val value="TG">
-                    <title>Того</title>
+                    <title>l10n.feature.embassy.more_tags.country.TG.title</title>
                 </val>
                 <val value="BW">
-                    <title>Ботсвана</title>
+                    <title>l10n.feature.embassy.more_tags.country.BW.title</title>
                 </val>
                 <val value="TF">
-                    <title>Французские Южные и Антарктические территории</title>
+                    <title>l10n.feature.embassy.more_tags.country.TF.title</title>
                 </val>
                 <val value="BV">
-                    <title>Остров Буве</title>
+                    <title>l10n.feature.embassy.more_tags.country.BV.title</title>
                 </val>
                 <val value="BY">
-                    <title>Белоруссия</title>
+                    <title>l10n.feature.embassy.more_tags.country.BY.title</title>
                 </val>
                 <val value="TD">
-                    <title>Чад</title>
+                    <title>l10n.feature.embassy.more_tags.country.TD.title</title>
                 </val>
                 <val value="TK">
-                    <title>Токелау</title>
+                    <title>l10n.feature.embassy.more_tags.country.TK.title</title>
                 </val>
                 <val value="BS">
-                    <title>Содружество Багамских островов</title>
+                    <title>l10n.feature.embassy.more_tags.country.BS.title</title>
                 </val>
                 <val value="TJ">
-                    <title>Таджикистан</title>
+                    <title>l10n.feature.embassy.more_tags.country.TJ.title</title>
                 </val>
                 <val value="BR">
-                    <title>Бразилия</title>
+                    <title>l10n.feature.embassy.more_tags.country.BR.title</title>
                 </val>
                 <val value="TH">
-                    <title>Тайланд</title>
+                    <title>l10n.feature.embassy.more_tags.country.TH.title</title>
                 </val>
                 <val value="BT">
-                    <title>Бутан</title>
+                    <title>l10n.feature.embassy.more_tags.country.BT.title</title>
                 </val>
                 <val value="TO">
-                    <title>Тонга</title>
+                    <title>l10n.feature.embassy.more_tags.country.TO.title</title>
                 </val>
                 <val value="TN">
-                    <title>Тунис</title>
+                    <title>l10n.feature.embassy.more_tags.country.TN.title</title>
                 </val>
                 <val value="TM">
-                    <title>Туркмения</title>
+                    <title>l10n.feature.embassy.more_tags.country.TM.title</title>
                 </val>
                 <val value="TL">
-                    <title>Восточный Тимор</title>
+                    <title>l10n.feature.embassy.more_tags.country.TL.title</title>
                 </val>
                 <val value="CA">
-                    <title>Канада</title>
+                    <title>l10n.feature.embassy.more_tags.country.CA.title</title>
                 </val>
                 <val value="TR">
-                    <title>Турция</title>
+                    <title>l10n.feature.embassy.more_tags.country.TR.title</title>
                 </val>
                 <val value="BZ">
-                    <title>Белиз</title>
+                    <title>l10n.feature.embassy.more_tags.country.BZ.title</title>
                 </val>
                 <val value="BF">
-                    <title>Буркина-Фасо</title>
+                    <title>l10n.feature.embassy.more_tags.country.BF.title</title>
                 </val>
                 <val value="SV">
-                    <title>Сальвадор</title>
+                    <title>l10n.feature.embassy.more_tags.country.SV.title</title>
                 </val>
                 <val value="BG">
-                    <title>Болгария</title>
+                    <title>l10n.feature.embassy.more_tags.country.BG.title</title>
                 </val>
                 <val value="SS">
-                    <title>Южный Судан</title>
+                    <title>l10n.feature.embassy.more_tags.country.SS.title</title>
                 </val>
                 <val value="BH">
-                    <title>Бахрейн</title>
+                    <title>l10n.feature.embassy.more_tags.country.BH.title</title>
                 </val>
                 <val value="ST">
-                    <title>Сан-Томе и Принсипи</title>
+                    <title>l10n.feature.embassy.more_tags.country.ST.title</title>
                 </val>
                 <val value="BI">
-                    <title>Бурунди</title>
+                    <title>l10n.feature.embassy.more_tags.country.BI.title</title>
                 </val>
                 <val value="SY">
-                    <title>Сирия</title>
+                    <title>l10n.feature.embassy.more_tags.country.SY.title</title>
                 </val>
                 <val value="BB">
-                    <title>Барбадос</title>
+                    <title>l10n.feature.embassy.more_tags.country.BB.title</title>
                 </val>
                 <val value="SZ">
-                    <title>Свазиленд</title>
+                    <title>l10n.feature.embassy.more_tags.country.SZ.title</title>
                 </val>
                 <val value="BD">
-                    <title>Бангладеш</title>
+                    <title>l10n.feature.embassy.more_tags.country.BD.title</title>
                 </val>
                 <val value="SX">
-                    <title>Синт-Мартен</title>
+                    <title>l10n.feature.embassy.more_tags.country.SX.title</title>
                 </val>
                 <val value="BE">
-                    <title>Бельгия</title>
+                    <title>l10n.feature.embassy.more_tags.country.BE.title</title>
                 </val>
                 <val value="BN">
-                    <title>Бруней</title>
+                    <title>l10n.feature.embassy.more_tags.country.BN.title</title>
                 </val>
                 <val value="BO">
-                    <title>Боливия</title>
+                    <title>l10n.feature.embassy.more_tags.country.BO.title</title>
                 </val>
                 <val value="BQ">
-                    <title>Синт-Эстатиус</title>
+                    <title>l10n.feature.embassy.more_tags.country.BQ.title</title>
                 </val>
                 <val value="BJ">
-                    <title>Бенин</title>
+                    <title>l10n.feature.embassy.more_tags.country.BJ.title</title>
                 </val>
                 <val value="TC">
-                    <title>Тёркс и Кайкос</title>
+                    <title>l10n.feature.embassy.more_tags.country.TC.title</title>
                 </val>
                 <val value="BL">
-                    <title>Сен-Бартелеми </title>
+                    <title>l10n.feature.embassy.more_tags.country.BL.title</title>
                 </val>
                 <val value="BM">
-                    <title>Бермудские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.BM.title</title>
                 </val>
                 <val value="SD">
-                    <title>Судан</title>
+                    <title>l10n.feature.embassy.more_tags.country.SD.title</title>
                 </val>
                 <val value="CZ">
-                    <title>Чехия</title>
+                    <title>l10n.feature.embassy.more_tags.country.CZ.title</title>
                 </val>
                 <val value="SC">
-                    <title>Сейшельские Острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.SC.title</title>
                 </val>
                 <val value="CY">
-                    <title>Республика Кипр</title>
+                    <title>l10n.feature.embassy.more_tags.country.CY.title</title>
                 </val>
                 <val value="CX">
-                    <title>Остров Рождества</title>
+                    <title>l10n.feature.embassy.more_tags.country.CX.title</title>
                 </val>
                 <val value="SE">
-                    <title>Швеция</title>
+                    <title>l10n.feature.embassy.more_tags.country.SE.title</title>
                 </val>
                 <val value="CW">
-                    <title>Кюрасао</title>
+                    <title>l10n.feature.embassy.more_tags.country.CW.title</title>
                 </val>
                 <val value="SH">
-                    <title>Острова Святой Елены, Вознесения и Тристан-да-Кунья</title>
+                    <title>l10n.feature.embassy.more_tags.country.SH.title</title>
                 </val>
                 <val value="CV">
-                    <title>Кабо-Верде</title>
+                    <title>l10n.feature.embassy.more_tags.country.CV.title</title>
                 </val>
                 <val value="SG">
-                    <title>Сингапур</title>
+                    <title>l10n.feature.embassy.more_tags.country.SG.title</title>
                 </val>
                 <val value="CU">
-                    <title>Куба</title>
+                    <title>l10n.feature.embassy.more_tags.country.CU.title</title>
                 </val>
                 <val value="SJ">
-                    <title>Шпицберген и Ян-Майен</title>
+                    <title>l10n.feature.embassy.more_tags.country.SJ.title</title>
                 </val>
                 <val value="SI">
-                    <title>Словения</title>
+                    <title>l10n.feature.embassy.more_tags.country.SI.title</title>
                 </val>
                 <val value="SL">
-                    <title>Сьерра-Леоне</title>
+                    <title>l10n.feature.embassy.more_tags.country.SL.title</title>
                 </val>
                 <val value="SK">
-                    <title>Словакия</title>
+                    <title>l10n.feature.embassy.more_tags.country.SK.title</title>
                 </val>
                 <val value="SN">
-                    <title>Сенегал</title>
+                    <title>l10n.feature.embassy.more_tags.country.SN.title</title>
                 </val>
                 <val value="SM">
-                    <title>Сан-Марино</title>
+                    <title>l10n.feature.embassy.more_tags.country.SM.title</title>
                 </val>
                 <val value="SO">
-                    <title>Сомали</title>
+                    <title>l10n.feature.embassy.more_tags.country.SO.title</title>
                 </val>
                 <val value="SR">
-                    <title>Суринам</title>
+                    <title>l10n.feature.embassy.more_tags.country.SR.title</title>
                 </val>
                 <val value="CI">
-                    <title>Кот-д’Ивуар</title>
+                    <title>l10n.feature.embassy.more_tags.country.CI.title</title>
                 </val>
                 <val value="RS">
-                    <title>Сербия</title>
+                    <title>l10n.feature.embassy.more_tags.country.RS.title</title>
                 </val>
                 <val value="CG">
-                    <title>Республика Конго</title>
+                    <title>l10n.feature.embassy.more_tags.country.CG.title</title>
                 </val>
                 <val value="CH">
-                    <title>Швейцария</title>
+                    <title>l10n.feature.embassy.more_tags.country.CH.title</title>
                 </val>
                 <val value="RU">
-                    <title>Россия</title>
+                    <title>l10n.feature.embassy.more_tags.country.RU.title</title>
                 </val>
                 <val value="CF">
-                    <title>Центральноафриканская Республика</title>
+                    <title>l10n.feature.embassy.more_tags.country.CF.title</title>
                 </val>
                 <val value="RW">
-                    <title>Руанда</title>
+                    <title>l10n.feature.embassy.more_tags.country.RW.title</title>
                 </val>
                 <val value="CC">
-                    <title>Кокосовые острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.CC.title</title>
                 </val>
                 <val value="CD">
-                    <title>Демократическая Республика Конго</title>
+                    <title>l10n.feature.embassy.more_tags.country.CD.title</title>
                 </val>
                 <val value="CR">
-                    <title>Коста Рика</title>
+                    <title>l10n.feature.embassy.more_tags.country.CR.title</title>
                 </val>
                 <val value="CO">
-                    <title>Колумбия</title>
+                    <title>l10n.feature.embassy.more_tags.country.CO.title</title>
                 </val>
                 <val value="CM">
-                    <title>Камерун</title>
+                    <title>l10n.feature.embassy.more_tags.country.CM.title</title>
                 </val>
                 <val value="CN">
-                    <title>Китай</title>
+                    <title>l10n.feature.embassy.more_tags.country.CN.title</title>
                 </val>
                 <val value="CK">
-                    <title>Острова Кука</title>
+                    <title>l10n.feature.embassy.more_tags.country.CK.title</title>
                 </val>
                 <val value="SA">
-                    <title>Саудовская Аравия</title>
+                    <title>l10n.feature.embassy.more_tags.country.SA.title</title>
                 </val>
                 <val value="SB">
-                    <title>Соломоновы острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.SB.title</title>
                 </val>
                 <val value="CL">
-                    <title>Чили</title>
+                    <title>l10n.feature.embassy.more_tags.country.CL.title</title>
                 </val>
                 <val value="LV">
-                    <title>Латвия</title>
+                    <title>l10n.feature.embassy.more_tags.country.LV.title</title>
                 </val>
                 <val value="LU">
-                    <title>Люксембург</title>
+                    <title>l10n.feature.embassy.more_tags.country.LU.title</title>
                 </val>
                 <val value="LT">
-                    <title>Литва</title>
+                    <title>l10n.feature.embassy.more_tags.country.LT.title</title>
                 </val>
                 <val value="LY">
-                    <title>Ливия</title>
+                    <title>l10n.feature.embassy.more_tags.country.LY.title</title>
                 </val>
                 <val value="LS">
-                    <title>Лесото</title>
+                    <title>l10n.feature.embassy.more_tags.country.LS.title</title>
                 </val>
                 <val value="LR">
-                    <title>Либерия</title>
+                    <title>l10n.feature.embassy.more_tags.country.LR.title</title>
                 </val>
                 <val value="MG">
-                    <title>Мадагаскар</title>
+                    <title>l10n.feature.embassy.more_tags.country.MG.title</title>
                 </val>
                 <val value="MH">
-                    <title>Маршалловы Острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.MH.title</title>
                 </val>
                 <val value="ME">
-                    <title>Черногория</title>
+                    <title>l10n.feature.embassy.more_tags.country.ME.title</title>
                 </val>
                 <val value="MF">
-                    <title>Сен-Мартен</title>
+                    <title>l10n.feature.embassy.more_tags.country.MF.title</title>
                 </val>
                 <val value="MK">
-                    <title>Македония</title>
+                    <title>l10n.feature.embassy.more_tags.country.MK.title</title>
                 </val>
                 <val value="ML">
-                    <title>Мали</title>
+                    <title>l10n.feature.embassy.more_tags.country.ML.title</title>
                 </val>
                 <val value="MC">
-                    <title>Монако</title>
+                    <title>l10n.feature.embassy.more_tags.country.MC.title</title>
                 </val>
                 <val value="MD">
-                    <title>Молдавия</title>
+                    <title>l10n.feature.embassy.more_tags.country.MD.title</title>
                 </val>
                 <val value="MA">
-                    <title>Марокко</title>
+                    <title>l10n.feature.embassy.more_tags.country.MA.title</title>
                 </val>
                 <val value="MV">
-                    <title>Мальдивы</title>
+                    <title>l10n.feature.embassy.more_tags.country.MV.title</title>
                 </val>
                 <val value="MU">
-                    <title>Маврикий</title>
+                    <title>l10n.feature.embassy.more_tags.country.MU.title</title>
                 </val>
                 <val value="MX">
-                    <title>Мексика</title>
+                    <title>l10n.feature.embassy.more_tags.country.MX.title</title>
                 </val>
                 <val value="MW">
-                    <title>Малави</title>
+                    <title>l10n.feature.embassy.more_tags.country.MW.title</title>
                 </val>
                 <val value="MZ">
-                    <title>Мозамбик</title>
+                    <title>l10n.feature.embassy.more_tags.country.MZ.title</title>
                 </val>
                 <val value="MY">
-                    <title>Малайзия</title>
+                    <title>l10n.feature.embassy.more_tags.country.MY.title</title>
                 </val>
                 <val value="MN">
-                    <title>Монголия</title>
+                    <title>l10n.feature.embassy.more_tags.country.MN.title</title>
                 </val>
                 <val value="MM">
-                    <title>Мьянма</title>
+                    <title>l10n.feature.embassy.more_tags.country.MM.title</title>
                 </val>
                 <val value="MP">
-                    <title>Северные Марианские острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.MP.title</title>
                 </val>
                 <val value="MO">
-                    <title>Макао</title>
+                    <title>l10n.feature.embassy.more_tags.country.MO.title</title>
                 </val>
                 <val value="MR">
-                    <title>Мавритания</title>
+                    <title>l10n.feature.embassy.more_tags.country.MR.title</title>
                 </val>
                 <val value="MQ">
-                    <title>Мартиника</title>
+                    <title>l10n.feature.embassy.more_tags.country.MQ.title</title>
                 </val>
                 <val value="MT">
-                    <title>Мальта</title>
+                    <title>l10n.feature.embassy.more_tags.country.MT.title</title>
                 </val>
                 <val value="MS">
-                    <title>Монтсеррат</title>
+                    <title>l10n.feature.embassy.more_tags.country.MS.title</title>
                 </val>
                 <val value="NF">
-                    <title>Норфолк</title>
+                    <title>l10n.feature.embassy.more_tags.country.NF.title</title>
                 </val>
                 <val value="NG">
-                    <title>Нигерия</title>
+                    <title>l10n.feature.embassy.more_tags.country.NG.title</title>
                 </val>
                 <val value="NI">
-                    <title>Никарагуа</title>
+                    <title>l10n.feature.embassy.more_tags.country.NI.title</title>
                 </val>
                 <val value="NL">
-                    <title>Нидерланды</title>
+                    <title>l10n.feature.embassy.more_tags.country.NL.title</title>
                 </val>
                 <val value="NA">
-                    <title>Намибия</title>
+                    <title>l10n.feature.embassy.more_tags.country.NA.title</title>
                 </val>
                 <val value="NC">
-                    <title>Новая Каледония</title>
+                    <title>l10n.feature.embassy.more_tags.country.NC.title</title>
                 </val>
                 <val value="NE">
-                    <title>Нигер</title>
+                    <title>l10n.feature.embassy.more_tags.country.NE.title</title>
                 </val>
                 <val value="NZ">
-                    <title>Новая Зеландия</title>
+                    <title>l10n.feature.embassy.more_tags.country.NZ.title</title>
                 </val>
                 <val value="NU">
-                    <title>Ниуэ</title>
+                    <title>l10n.feature.embassy.more_tags.country.NU.title</title>
                 </val>
                 <val value="NR">
-                    <title>Науру</title>
+                    <title>l10n.feature.embassy.more_tags.country.NR.title</title>
                 </val>
                 <val value="NP">
-                    <title>Непал</title>
+                    <title>l10n.feature.embassy.more_tags.country.NP.title</title>
                 </val>
                 <val value="NO">
-                    <title>Норвегия</title>
+                    <title>l10n.feature.embassy.more_tags.country.NO.title</title>
                 </val>
                 <val value="OM">
-                    <title>Оман</title>
+                    <title>l10n.feature.embassy.more_tags.country.OM.title</title>
                 </val>
                 <val value="PL">
-                    <title>Польша</title>
+                    <title>l10n.feature.embassy.more_tags.country.PL.title</title>
                 </val>
                 <val value="PM">
-                    <title>Сен-Пьер и Микелон</title>
+                    <title>l10n.feature.embassy.more_tags.country.PM.title</title>
                 </val>
                 <val value="PN">
-                    <title>Острова Питкэрн</title>
+                    <title>l10n.feature.embassy.more_tags.country.PN.title</title>
                 </val>
                 <val value="PH">
-                    <title>Филиппины</title>
+                    <title>l10n.feature.embassy.more_tags.country.PH.title</title>
                 </val>
                 <val value="PK">
-                    <title>Пакистан</title>
+                    <title>l10n.feature.embassy.more_tags.country.PK.title</title>
                 </val>
                 <val value="PE">
-                    <title>Перу</title>
+                    <title>l10n.feature.embassy.more_tags.country.PE.title</title>
                 </val>
                 <val value="PF">
-                    <title>Французская Полинезия</title>
+                    <title>l10n.feature.embassy.more_tags.country.PF.title</title>
                 </val>
                 <val value="PG">
-                    <title>Папуа-Новая Гвинея</title>
+                    <title>l10n.feature.embassy.more_tags.country.PG.title</title>
                 </val>
                 <val value="PA">
-                    <title>Панама</title>
+                    <title>l10n.feature.embassy.more_tags.country.PA.title</title>
                 </val>
                 <val value="HK">
-                    <title>Гонконг</title>
+                    <title>l10n.feature.embassy.more_tags.country.HK.title</title>
                 </val>
                 <val value="ZA">
-                    <title>Южно-Африканская Республика</title>
+                    <title>l10n.feature.embassy.more_tags.country.ZA.title</title>
                 </val>
                 <val value="HN">
-                    <title>Гондурас</title>
+                    <title>l10n.feature.embassy.more_tags.country.HN.title</title>
                 </val>
                 <val value="HM">
-                    <title>Остров Херд и острова Макдональд</title>
+                    <title>l10n.feature.embassy.more_tags.country.HM.title</title>
                 </val>
                 <val value="HR">
-                    <title>Хорватия</title>
+                    <title>l10n.feature.embassy.more_tags.country.HR.title</title>
                 </val>
                 <val value="HT">
-                    <title>Гаити</title>
+                    <title>l10n.feature.embassy.more_tags.country.HT.title</title>
                 </val>
                 <val value="HU">
-                    <title>Венгрия</title>
+                    <title>l10n.feature.embassy.more_tags.country.HU.title</title>
                 </val>
                 <val value="ZM">
-                    <title>Замбия</title>
+                    <title>l10n.feature.embassy.more_tags.country.ZM.title</title>
                 </val>
                 <val value="ZW">
-                    <title>Зимбабве</title>
+                    <title>l10n.feature.embassy.more_tags.country.ZW.title</title>
                 </val>
                 <val value="ID">
-                    <title>Индонезия</title>
+                    <title>l10n.feature.embassy.more_tags.country.ID.title</title>
                 </val>
                 <val value="IE">
-                    <title>Ирландия</title>
+                    <title>l10n.feature.embassy.more_tags.country.IE.title</title>
                 </val>
                 <val value="IL">
-                    <title>Израиль</title>
+                    <title>l10n.feature.embassy.more_tags.country.IL.title</title>
                 </val>
                 <val value="IM">
-                    <title>Остров Мэн</title>
+                    <title>l10n.feature.embassy.more_tags.country.IM.title</title>
                 </val>
                 <val value="IN">
-                    <title>Индия</title>
+                    <title>l10n.feature.embassy.more_tags.country.IN.title</title>
                 </val>
                 <val value="IO">
-                    <title>Британская территория в Индийском океане</title>
+                    <title>l10n.feature.embassy.more_tags.country.IO.title</title>
                 </val>
                 <val value="IQ">
-                    <title>Ирак</title>
+                    <title>l10n.feature.embassy.more_tags.country.IQ.title</title>
                 </val>
                 <val value="IR">
-                    <title>Иран</title>
+                    <title>l10n.feature.embassy.more_tags.country.IR.title</title>
                 </val>
                 <val value="YE">
-                    <title>Йемен</title>
+                    <title>l10n.feature.embassy.more_tags.country.YE.title</title>
                 </val>
                 <val value="IS">
-                    <title>Исландия</title>
+                    <title>l10n.feature.embassy.more_tags.country.IS.title</title>
                 </val>
                 <val value="IT">
-                    <title>Италия</title>
+                    <title>l10n.feature.embassy.more_tags.country.IT.title</title>
                 </val>
                 <val value="JE">
-                    <title>Джерси</title>
+                    <title>l10n.feature.embassy.more_tags.country.JE.title</title>
                 </val>
                 <val value="YT">
-                    <title>Майотта</title>
+                    <title>l10n.feature.embassy.more_tags.country.YT.title</title>
                 </val>
                 <val value="JP">
-                    <title>Япония</title>
+                    <title>l10n.feature.embassy.more_tags.country.JP.title</title>
                 </val>
                 <val value="JO">
-                    <title>Иордания</title>
+                    <title>l10n.feature.embassy.more_tags.country.JO.title</title>
                 </val>
                 <val value="KI">
-                    <title>Кирибати</title>
+                    <title>l10n.feature.embassy.more_tags.country.KI.title</title>
                 </val>
                 <val value="KH">
-                    <title>Камбоджа</title>
+                    <title>l10n.feature.embassy.more_tags.country.KH.title</title>
                 </val>
                 <val value="KG">
-                    <title>Киргизия</title>
+                    <title>l10n.feature.embassy.more_tags.country.KG.title</title>
                 </val>
                 <val value="KE">
-                    <title>Кения</title>
+                    <title>l10n.feature.embassy.more_tags.country.KE.title</title>
                 </val>
                 <val value="KP">
-                    <title>Корейская Народно-Демократическая Республика</title>
+                    <title>l10n.feature.embassy.more_tags.country.KP.title</title>
                 </val>
                 <val value="KR">
-                    <title>Республика Корея</title>
+                    <title>l10n.feature.embassy.more_tags.country.KR.title</title>
                 </val>
                 <val value="KM">
-                    <title>Коморы</title>
+                    <title>l10n.feature.embassy.more_tags.country.KM.title</title>
                 </val>
                 <val value="KN">
-                    <title>Сент-Китс и Невис</title>
+                    <title>l10n.feature.embassy.more_tags.country.KN.title</title>
                 </val>
                 <val value="KW">
-                    <title>Кувейт</title>
+                    <title>l10n.feature.embassy.more_tags.country.KW.title</title>
                 </val>
                 <val value="KY">
-                    <title>Каймановы острова</title>
+                    <title>l10n.feature.embassy.more_tags.country.KY.title</title>
                 </val>
                 <val value="KZ">
-                    <title>Казахстан</title>
+                    <title>l10n.feature.embassy.more_tags.country.KZ.title</title>
                 </val>
                 <val value="LA">
-                    <title>Лаос</title>
+                    <title>l10n.feature.embassy.more_tags.country.LA.title</title>
                 </val>
                 <val value="LC">
-                    <title>Сент-Люсия</title>
+                    <title>l10n.feature.embassy.more_tags.country.LC.title</title>
                 </val>
                 <val value="LB">
-                    <title>Ливан</title>
+                    <title>l10n.feature.embassy.more_tags.country.LB.title</title>
                 </val>
                 <val value="LI">
-                    <title>Лихтенштейн</title>
+                    <title>l10n.feature.embassy.more_tags.country.LI.title</title>
                 </val>
                 <val value="LK">
-                    <title>Шри-Ланка</title>
+                    <title>l10n.feature.embassy.more_tags.country.LK.title</title>
                 </val>
             </tag>
         </more-tags>

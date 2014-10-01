@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="toilets">
-        <title>Туалет</title>
+        <title>l10n.feature.toilets.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,14 +10,14 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.toilets.more_tags.fee.title</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title>l10n.feature.toilets.more_tags.fee.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title>l10n.feature.toilets.more_tags.fee.no.title</title>
                 </val>
             </tag>
         </more-tags>

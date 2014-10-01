@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cinema">
-        <title>Кинотеатр</title>
+        <title>l10n.feature.cinema.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,20 +10,20 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Обслуживание не выходя из машины</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.cinema.more_tags.drive_in.title</title>
                 <key>drive_in</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.cinema.more_tags.drive_in.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.cinema.more_tags.drive_in.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.cinema.more_tags.drive_in.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.cinema.more_tags.drive_in.false.title</title>
                 </val>
             </tag>
         </more-tags>

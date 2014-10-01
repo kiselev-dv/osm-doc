@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="information">
-        <title>Информационный стенд</title>
+        <title>l10n.feature.information.title</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -10,32 +10,32 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип стенда</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.information.more_tags.information.title</title>
                 <key>information</key>
                 <val value="office">
-                    <title>Офис</title>
+                    <title>l10n.feature.information.more_tags.information.office.title</title>
                 </val>
                 <val value="guidepost">
-                    <title>Указатель направления</title>
+                    <title>l10n.feature.information.more_tags.information.guidepost.title</title>
                 </val>
                 <val value="audioguide">
-                    <title>Аудиогид</title>
+                    <title>l10n.feature.information.more_tags.information.audioguide.title</title>
                 </val>
                 <val value="terminal">
-                    <title>Терминал</title>
+                    <title>l10n.feature.information.more_tags.information.terminal.title</title>
                 </val>
                 <val value="tactile_model">
-                    <title>Тактильная модель</title>
+                    <title>l10n.feature.information.more_tags.information.tactile_model.title</title>
                 </val>
                 <val value="map">
-                    <title>Карта</title>
+                    <title>l10n.feature.information.more_tags.information.map.title</title>
                 </val>
                 <val value="tactile_map">
-                    <title>Тактильная карта</title>
+                    <title>l10n.feature.information.more_tags.information.tactile_map.title</title>
                 </val>
                 <val value="board">
-                    <title>Щит</title>
+                    <title>l10n.feature.information.more_tags.information.board.title</title>
                 </val>
             </tag>
         </more-tags>

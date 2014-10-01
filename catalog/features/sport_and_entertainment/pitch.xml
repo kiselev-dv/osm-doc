@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="pitch">
-        <title>Спортивная площадка, поле, корт</title>
+        <title>l10n.feature.pitch.title</title>
         <tags>
             <tag>
                 <key>leisure</key>
@@ -10,316 +10,316 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.pitch.more_tags.fee.title</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title>l10n.feature.pitch.more_tags.fee.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title>l10n.feature.pitch.more_tags.fee.no.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Покрытие</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.pitch.more_tags.surface.title</title>
                 <key>surface</key>
                 <val value="paving_stones">
-                    <title>Тротуарная плитка</title>
+                    <title>l10n.feature.pitch.more_tags.surface.paving_stones.title</title>
                 </val>
                 <val value="sand">
-                    <title>Песок</title>
+                    <title>l10n.feature.pitch.more_tags.surface.sand.title</title>
                 </val>
                 <val value="asphalt">
-                    <title>Асфальт</title>
+                    <title>l10n.feature.pitch.more_tags.surface.asphalt.title</title>
                 </val>
                 <val value="wood">
-                    <title>Дерево</title>
+                    <title>l10n.feature.pitch.more_tags.surface.wood.title</title>
                 </val>
                 <val value="grass">
-                    <title>Трава</title>
+                    <title>l10n.feature.pitch.more_tags.surface.grass.title</title>
                 </val>
                 <val value="paved">
-                    <title>С покрытием</title>
+                    <title>l10n.feature.pitch.more_tags.surface.paved.title</title>
                 </val>
                 <val value="ground">
-                    <title>Земля</title>
+                    <title>l10n.feature.pitch.more_tags.surface.ground.title</title>
                 </val>
                 <val value="gravel">
-                    <title>Гравий</title>
+                    <title>l10n.feature.pitch.more_tags.surface.gravel.title</title>
                 </val>
                 <val value="concrete">
-                    <title>Бетон</title>
+                    <title>l10n.feature.pitch.more_tags.surface.concrete.title</title>
                 </val>
                 <val value="unpaved">
-                    <title>Без покрытия</title>
+                    <title>l10n.feature.pitch.more_tags.surface.unpaved.title</title>
                 </val>
                 <val value="metal">
-                    <title>Металл</title>
+                    <title>l10n.feature.pitch.more_tags.surface.metal.title</title>
                 </val>
                 <val value="concrete:plates">
-                    <title>Бетонные плиты</title>
+                    <title>l10n.feature.pitch.more_tags.surface.concrete:plates.title</title>
                 </val>
                 <val value="ice">
-                    <title>Лед</title>
+                    <title>l10n.feature.pitch.more_tags.surface.ice.title</title>
                 </val>
                 <val value="concrete:lanes">
-                    <title>Бетонные плитки</title>
+                    <title>l10n.feature.pitch.more_tags.surface.concrete:lanes.title</title>
                 </val>
                 <val value="earth">
-                    <title>Земля</title>
+                    <title>l10n.feature.pitch.more_tags.surface.earth.title</title>
                 </val>
                 <val value="tartan">
-                    <title>Тартан</title>
+                    <title>l10n.feature.pitch.more_tags.surface.tartan.title</title>
                 </val>
                 <val value="pebblestone">
-                    <title>Галька</title>
+                    <title>l10n.feature.pitch.more_tags.surface.pebblestone.title</title>
                 </val>
                 <val value="artificial_turf">
-                    <title>Искусственная трава</title>
+                    <title>l10n.feature.pitch.more_tags.surface.artificial_turf.title</title>
                 </val>
                 <val value="dirt">
-                    <title>Грязь</title>
+                    <title>l10n.feature.pitch.more_tags.surface.dirt.title</title>
                 </val>
                 <val value="cobblestone">
-                    <title>Булыжник</title>
+                    <title>l10n.feature.pitch.more_tags.surface.cobblestone.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сезонный</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.pitch.more_tags.seasonal.title</title>
                 <key>seasonal</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.pitch.more_tags.seasonal.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.pitch.more_tags.seasonal.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.pitch.more_tags.seasonal.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.pitch.more_tags.seasonal.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Виды спорта</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.pitch.more_tags.sport.title</title>
                 <key>sport</key>
                 <val value="basketball">
-                    <title>Баскетбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.basketball.title</title>
                 </val>
                 <val value="9pin">
-                    <title>Кегельбан</title>
+                    <title>l10n.feature.pitch.more_tags.sport.9pin.title</title>
                 </val>
                 <val value="cycling">
-                    <title>Велоспорт</title>
+                    <title>l10n.feature.pitch.more_tags.sport.cycling.title</title>
                 </val>
                 <val value="horseshoes">
-                    <title>Метание подковы</title>
+                    <title>l10n.feature.pitch.more_tags.sport.horseshoes.title</title>
                 </val>
                 <val value="table_tennis">
-                    <title>Настольный теннис</title>
+                    <title>l10n.feature.pitch.more_tags.sport.table_tennis.title</title>
                 </val>
                 <val value="karting">
-                    <title>Картинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.karting.title</title>
                 </val>
                 <val value="curling">
-                    <title>Кёрлинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.curling.title</title>
                 </val>
                 <val value="baseball">
-                    <title>Бейсбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.baseball.title</title>
                 </val>
                 <val value="archery">
-                    <title>Стрельбы из лука</title>
+                    <title>l10n.feature.pitch.more_tags.sport.archery.title</title>
                 </val>
                 <val value="american_football">
-                    <title>Американский футбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.american_football.title</title>
                 </val>
                 <val value="tennis">
-                    <title>Большой теннис</title>
+                    <title>l10n.feature.pitch.more_tags.sport.tennis.title</title>
                 </val>
                 <val value="rugby_league">
-                    <title>Регбилиг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.rugby_league.title</title>
                 </val>
                 <val value="volleyball">
-                    <title>Волейбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.volleyball.title</title>
                 </val>
                 <val value="racquet">
-                    <title>Бадминтон, сквош</title>
+                    <title>l10n.feature.pitch.more_tags.sport.racquet.title</title>
                 </val>
                 <val value="orienteering">
-                    <title>Спортивное ориентирование</title>
+                    <title>l10n.feature.pitch.more_tags.sport.orienteering.title</title>
                 </val>
                 <val value="taekwondo">
-                    <title>Тхэквондо</title>
+                    <title>l10n.feature.pitch.more_tags.sport.taekwondo.title</title>
                 </val>
                 <val value="korfball">
-                    <title>Корфбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.korfball.title</title>
                 </val>
                 <val value="equestrian">
-                    <title>Конный спорт</title>
+                    <title>l10n.feature.pitch.more_tags.sport.equestrian.title</title>
                 </val>
                 <val value="climbing">
-                    <title>Альпинизм</title>
+                    <title>l10n.feature.pitch.more_tags.sport.climbing.title</title>
                 </val>
                 <val value="BASE">
-                    <title>Бейсджампинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.BASE.title</title>
                 </val>
                 <val value="free_flying">
-                    <title>Фрифлай</title>
+                    <title>l10n.feature.pitch.more_tags.sport.free_flying.title</title>
                 </val>
                 <val value="toboggan">
-                    <title>Тобогган</title>
+                    <title>l10n.feature.pitch.more_tags.sport.toboggan.title</title>
                 </val>
                 <val value="bmx">
-                    <title>BMX</title>
+                    <title>l10n.feature.pitch.more_tags.sport.bmx.title</title>
                 </val>
                 <val value="multi">
-                    <title>Различные виды</title>
+                    <title>l10n.feature.pitch.more_tags.sport.multi.title</title>
                 </val>
                 <val value="boxing">
-                    <title>Бокс</title>
+                    <title>l10n.feature.pitch.more_tags.sport.boxing.title</title>
                 </val>
                 <val value="10pin">
-                    <title>Боулинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.10pin.title</title>
                 </val>
                 <val value="diving">
-                    <title>Прыжки в воду</title>
+                    <title>l10n.feature.pitch.more_tags.sport.diving.title</title>
                 </val>
                 <val value="gymnastics">
-                    <title>Спортивная гимнастика</title>
+                    <title>l10n.feature.pitch.more_tags.sport.gymnastics.title</title>
                 </val>
                 <val value="bowls">
-                    <title>Игра в шары на траве</title>
+                    <title>l10n.feature.pitch.more_tags.sport.bowls.title</title>
                 </val>
                 <val value="skiing">
-                    <title>Лыжный спорт, сноуборд</title>
+                    <title>l10n.feature.pitch.more_tags.sport.skiing.title</title>
                 </val>
                 <val value="hockey">
-                    <title>Хоккей</title>
+                    <title>l10n.feature.pitch.more_tags.sport.hockey.title</title>
                 </val>
                 <val value="athletics">
-                    <title>Лёгкая атлетика</title>
+                    <title>l10n.feature.pitch.more_tags.sport.athletics.title</title>
                 </val>
                 <val value="dog_racing">
-                    <title>Собачьи бега</title>
+                    <title>l10n.feature.pitch.more_tags.sport.dog_racing.title</title>
                 </val>
                 <val value="rowing">
-                    <title>Академическая гребля</title>
+                    <title>l10n.feature.pitch.more_tags.sport.rowing.title</title>
                 </val>
                 <val value="water_ski">
-                    <title>Водные лыжи</title>
+                    <title>l10n.feature.pitch.more_tags.sport.water_ski.title</title>
                 </val>
                 <val value="chess">
-                    <title>Шахматы</title>
+                    <title>l10n.feature.pitch.more_tags.sport.chess.title</title>
                 </val>
                 <val value="canoe">
-                    <title>Гребля на байдарках (каяках)</title>
+                    <title>l10n.feature.pitch.more_tags.sport.canoe.title</title>
                 </val>
                 <val value="pelota">
-                    <title>Пелота</title>
+                    <title>l10n.feature.pitch.more_tags.sport.pelota.title</title>
                 </val>
                 <val value="ice_stock">
-                    <title>Айсшток</title>
+                    <title>l10n.feature.pitch.more_tags.sport.ice_stock.title</title>
                 </val>
                 <val value="paddle_tennis">
-                    <title>Настольный теннис</title>
+                    <title>l10n.feature.pitch.more_tags.sport.paddle_tennis.title</title>
                 </val>
                 <val value="running">
-                    <title>Бег</title>
+                    <title>l10n.feature.pitch.more_tags.sport.running.title</title>
                 </val>
                 <val value="swimming">
-                    <title>Плавание</title>
+                    <title>l10n.feature.pitch.more_tags.sport.swimming.title</title>
                 </val>
                 <val value="fencing">
-                    <title>Фехтование</title>
+                    <title>l10n.feature.pitch.more_tags.sport.fencing.title</title>
                 </val>
                 <val value="paragliding">
-                    <title>Парапланеризм</title>
+                    <title>l10n.feature.pitch.more_tags.sport.paragliding.title</title>
                 </val>
                 <val value="horse_racing">
-                    <title>Лошадиные скачки</title>
+                    <title>l10n.feature.pitch.more_tags.sport.horse_racing.title</title>
                 </val>
                 <val value="surfing">
-                    <title>Сёрфинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.surfing.title</title>
                 </val>
                 <val value="motor">
-                    <title>Автомотоспорт</title>
+                    <title>l10n.feature.pitch.more_tags.sport.motor.title</title>
                 </val>
                 <val value="team_handball">
-                    <title>Гандбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.team_handball.title</title>
                 </val>
                 <val value="golf">
-                    <title>Гольф</title>
+                    <title>l10n.feature.pitch.more_tags.sport.golf.title</title>
                 </val>
                 <val value="soccer">
-                    <title>Футбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.soccer.title</title>
                 </val>
                 <val value="scuba_diving">
-                    <title>Дайвинг</title>
+                    <title>l10n.feature.pitch.more_tags.sport.scuba_diving.title</title>
                 </val>
                 <val value="canadian_football">
-                    <title>Канадский футбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.canadian_football.title</title>
                 </val>
                 <val value="badminton">
-                    <title>Бадминтон</title>
+                    <title>l10n.feature.pitch.more_tags.sport.badminton.title</title>
                 </val>
                 <val value="wrestling">
-                    <title>Борьба</title>
+                    <title>l10n.feature.pitch.more_tags.sport.wrestling.title</title>
                 </val>
                 <val value="judo">
-                    <title>Дзюдо</title>
+                    <title>l10n.feature.pitch.more_tags.sport.judo.title</title>
                 </val>
                 <val value="skating">
-                    <title>Бег на коньках</title>
+                    <title>l10n.feature.pitch.more_tags.sport.skating.title</title>
                 </val>
                 <val value="rugby_union">
-                    <title>Регби</title>
+                    <title>l10n.feature.pitch.more_tags.sport.rugby_union.title</title>
                 </val>
                 <val value="skateboard">
-                    <title>Скейтборд</title>
+                    <title>l10n.feature.pitch.more_tags.sport.skateboard.title</title>
                 </val>
                 <val value="gaelic_games">
-                    <title>Гэльские игры</title>
+                    <title>l10n.feature.pitch.more_tags.sport.gaelic_games.title</title>
                 </val>
                 <val value="australian_football">
-                    <title>Австралийский футбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.australian_football.title</title>
                 </val>
                 <val value="beachvolleyball">
-                    <title>Пляжный волейбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.beachvolleyball.title</title>
                 </val>
                 <val value="football">
-                    <title>Футбол</title>
+                    <title>l10n.feature.pitch.more_tags.sport.football.title</title>
                 </val>
                 <val value="motocross">
-                    <title>Мотокросс</title>
+                    <title>l10n.feature.pitch.more_tags.sport.motocross.title</title>
                 </val>
                 <val value="boules">
-                    <title>Игра в шары (французская)</title>
+                    <title>l10n.feature.pitch.more_tags.sport.boules.title</title>
                 </val>
                 <val value="weightlifting">
-                    <title>Тяжёлая атлетика</title>
+                    <title>l10n.feature.pitch.more_tags.sport.weightlifting.title</title>
                 </val>
                 <val value="shooting">
-                    <title>Спортивная стрельба, тир</title>
+                    <title>l10n.feature.pitch.more_tags.sport.shooting.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Число баскетбольных колец</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.pitch.more_tags.hoops.title</title>
                 <key>hoops</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Крытый</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.pitch.more_tags.covered.title</title>
                 <key>covered</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.pitch.more_tags.covered.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.pitch.more_tags.covered.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.pitch.more_tags.covered.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.pitch.more_tags.covered.false.title</title>
                 </val>
             </tag>
         </more-tags>

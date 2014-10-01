@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="water_tower">
-        <title>Водонапорная башня</title>
+        <title>l10n.feature.water_tower.title</title>
         <tags>
             <tag>
                 <key>man_made</key>
@@ -10,12 +10,12 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Высота (м)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.water_tower.more_tags.height.title</title>
                 <key>height</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Вместимость (м³)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.water_tower.more_tags.capacity.title</title>
                 <key>capacity</key>
             </tag>
         </more-tags>

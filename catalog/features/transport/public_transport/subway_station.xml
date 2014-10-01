@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="subway_station">
-        <title>Станция метро</title>
+        <title>l10n.feature.subway_station.title</title>
         <tags>
             <tag>
                 <key>railway</key>

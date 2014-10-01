@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cemetery">
-        <title>Кладбище</title>
+        <title>l10n.feature.cemetery.title</title>
         <tags>
             <tag>
                 <key>landuse</key>
@@ -10,84 +10,84 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Религия</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.cemetery.more_tags.religion.title</title>
                 <key>religion</key>
                 <val value="muslim">
-                    <title>Мусульманство (Ислам)</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.muslim.title</title>
                 </val>
                 <val value="sikh">
-                    <title>Сикхизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.sikh.title</title>
                 </val>
                 <val value="christian">
-                    <title>Христианство</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.christian.title</title>
                 </val>
                 <val value="jewish">
-                    <title>Иудаизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.jewish.title</title>
                 </val>
                 <val value="buddhist">
-                    <title>Буддизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.buddhist.title</title>
                 </val>
                 <val value="jain">
-                    <title>Джайнизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.jain.title</title>
                 </val>
                 <val value="shinto">
-                    <title>Синтоизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.shinto.title</title>
                 </val>
                 <val value="bahai">
-                    <title>Бахаи</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.bahai.title</title>
                 </val>
                 <val value="zoroastrian">
-                    <title>Зороастризм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.zoroastrian.title</title>
                 </val>
                 <val value="hindu">
-                    <title>Индуизм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.hindu.title</title>
                 </val>
                 <val value="scientologist">
-                    <title>Сайентология</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.scientologist.title</title>
                 </val>
                 <val value="unitarianist">
-                    <title>Унитаризм</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.unitarianist.title</title>
                 </val>
                 <val value="pastafarian">
-                    <title>Пастафарианство</title>
+                    <title>l10n.feature.cemetery.more_tags.religion.pastafarian.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Конфессия</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.cemetery.more_tags.denomination.title</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
-                    <title>Армянская Григорианская церковь</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.armenian_apostolic.title</title>
                 </val>
                 <val value="catholic">
-                    <title>Римская католическая церковь</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.catholic.title</title>
                 </val>
                 <val value="russian_orthodox">
-                    <title>Русское православие</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.russian_orthodox.title</title>
                 </val>
                 <val value="baptist">
-                    <title>Баптизм</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.baptist.title</title>
                 </val>
                 <val value="orthodox">
-                    <title>Православие</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.orthodox.title</title>
                 </val>
                 <val value="old_believers">
-                    <title>Старообрядчество</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.old_believers.title</title>
                 </val>
                 <val value="pentecostal">
-                    <title>Пятидесятничество</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.pentecostal.title</title>
                 </val>
                 <val value="lutheran">
-                    <title>Лютеранство</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.lutheran.title</title>
                 </val>
                 <val value="greek_orthodox">
-                    <title>Греческое православие</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.greek_orthodox.title</title>
                 </val>
                 <val value="anglican">
-                    <title>Англиканство</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.anglican.title</title>
                 </val>
                 <val value="assyrian">
-                    <title>Ассирийская церковь Востока</title>
+                    <title>l10n.feature.cemetery.more_tags.denomination.assyrian.title</title>
                 </val>
             </tag>
         </more-tags>

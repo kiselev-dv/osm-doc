@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bar">
-        <title>Бар</title>
+        <title>l10n.feature.bar.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,187 +10,187 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Обслуживание не выходя из машины</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bar.more_tags.drive_in.title</title>
                 <key>drive_in</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bar.more_tags.drive_in.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bar.more_tags.drive_in.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bar.more_tags.drive_in.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bar.more_tags.drive_in.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Кухня</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bar.more_tags.cuisine.title</title>
                 <key>cuisine</key>
                 <val value="burger">
-                    <title>Бургеры</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.burger.title</title>
                 </val>
                 <val value="italian">
-                    <title>Итальянская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.italian.title</title>
                 </val>
                 <val value="fish">
-                    <title>Рыбная</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.fish.title</title>
                 </val>
                 <val value="vietnamese">
-                    <title>Вьетнамская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.vietnamese.title</title>
                 </val>
                 <val value="thai">
-                    <title>Тайская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.thai.title</title>
                 </val>
                 <val value="french">
-                    <title>Французская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.french.title</title>
                 </val>
                 <val value="chinese">
-                    <title>Китайская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.chinese.title</title>
                 </val>
                 <val value="asian">
-                    <title>Азиатская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.asian.title</title>
                 </val>
                 <val value="chicken">
-                    <title>Цыплёнок</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.chicken.title</title>
                 </val>
                 <val value="sushi">
-                    <title>Суши</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.sushi.title</title>
                 </val>
                 <val value="american">
-                    <title>Американская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.american.title</title>
                 </val>
                 <val value="vegetarian">
-                    <title>Вегетарианская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.vegetarian.title</title>
                 </val>
                 <val value="kebab">
-                    <title>Кебабы</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.kebab.title</title>
                 </val>
                 <val value="ice_cream">
-                    <title>Мороженое</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.ice_cream.title</title>
                 </val>
                 <val value="georgian">
-                    <title>Грузинская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.georgian.title</title>
                 </val>
                 <val value="spanish">
-                    <title>Испанская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.spanish.title</title>
                 </val>
                 <val value="greek">
-                    <title>Греческая</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.greek.title</title>
                 </val>
                 <val value="fish_and_chips">
-                    <title>Fish and chips</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.fish_and_chips.title</title>
                 </val>
                 <val value="mexican">
-                    <title>Мексиканская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.mexican.title</title>
                 </val>
                 <val value="german">
-                    <title>Немецкая</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.german.title</title>
                 </val>
                 <val value="international">
-                    <title>Интернациональная</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.international.title</title>
                 </val>
                 <val value="indian">
-                    <title>Индийская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.indian.title</title>
                 </val>
                 <val value="japanese">
-                    <title>Японская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.japanese.title</title>
                 </val>
                 <val value="coffee_shop">
-                    <title>Кофейня</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.coffee_shop.title</title>
                 </val>
                 <val value="turkish">
-                    <title>Турецкая</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.turkish.title</title>
                 </val>
                 <val value="korean">
-                    <title>Корейская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.korean.title</title>
                 </val>
                 <val value="steak_house">
-                    <title>Стейк хаус</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.steak_house.title</title>
                 </val>
                 <val value="sandwich">
-                    <title>Сэндвичи</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.sandwich.title</title>
                 </val>
                 <val value="russian">
-                    <title>Русская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.russian.title</title>
                 </val>
                 <val value="seafood">
-                    <title>Морепродукты</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.seafood.title</title>
                 </val>
                 <val value="regional">
-                    <title>Национальная</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.regional.title</title>
                 </val>
                 <val value="pizza">
-                    <title>Пицца</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.pizza.title</title>
                 </val>
                 <val value="barbecue">
-                    <title>Барбекю</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.barbecue.title</title>
                 </val>
                 <val value="bavarian">
-                    <title>Баварская</title>
+                    <title>l10n.feature.bar.more_tags.cuisine.bavarian.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Доступ в интернет</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bar.more_tags.internet_access.title</title>
                 <key>internet_access</key>
                 <val value="yes">
-                    <title>Есть</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.yes.title</title>
                 </val>
                 <val value="wlan">
-                    <title>WiFi</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.wlan.title</title>
                 </val>
                 <val value="terminal">
-                    <title>Терминал</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.terminal.title</title>
                 </val>
                 <val value="no">
-                    <title>Нет</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.no.title</title>
                 </val>
                 <val value="wired">
-                    <title>Проводное подключение</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.wired.title</title>
                 </val>
                 <val value="public">
-                    <title>Есть</title>
+                    <title>l10n.feature.bar.more_tags.internet_access.public.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Курение</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bar.more_tags.smoking.title</title>
                 <key>smoking</key>
                 <val value="yes">
-                    <title>Разрешено</title>
+                    <title>l10n.feature.bar.more_tags.smoking.yes.title</title>
                 </val>
                 <val value="isolated">
-                    <title>Изолированное помещение</title>
+                    <title>l10n.feature.bar.more_tags.smoking.isolated.title</title>
                 </val>
                 <val value="no">
-                    <title>Запрещено</title>
+                    <title>l10n.feature.bar.more_tags.smoking.no.title</title>
                 </val>
                 <val value="dedicated">
-                    <title>Заведение предназначено для курильщиков</title>
+                    <title>l10n.feature.bar.more_tags.smoking.dedicated.title</title>
                 </val>
                 <val value="separated">
-                    <title>Выделенная зона</title>
+                    <title>l10n.feature.bar.more_tags.smoking.separated.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Оператор доступа в интернет</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.bar.more_tags.internet_access:operator.title</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Плата за доступ в интернет</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bar.more_tags.internet_access:fee.title</title>
                 <key>internet_access:fee</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bar.more_tags.internet_access:fee.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bar.more_tags.internet_access:fee.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bar.more_tags.internet_access:fee.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bar.more_tags.internet_access:fee.false.title</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fountain">
-        <title>Фонтан</title>
+        <title>l10n.feature.fountain.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,17 +10,17 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Можно пить</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.fountain.more_tags.drinkable.title</title>
                 <key>drinkable</key>
                 <val value="yes">
-                    <title>Да</title>
+                    <title>l10n.feature.fountain.more_tags.drinkable.yes.title</title>
                 </val>
                 <val value="mineral">
-                    <title>Да, минеральная вода</title>
+                    <title>l10n.feature.fountain.more_tags.drinkable.mineral.title</title>
                 </val>
                 <val value="no">
-                    <title>Нет</title>
+                    <title>l10n.feature.fountain.more_tags.drinkable.no.title</title>
                 </val>
             </tag>
         </more-tags>

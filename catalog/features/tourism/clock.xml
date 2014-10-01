@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="clock">
-        <title>Часы</title>
+        <title>l10n.feature.clock.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,117 +10,117 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Видимость</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.visibility.title</title>
                 <key>visibility</key>
                 <val value="area">
-                    <title>с большого расстояния</title>
+                    <title>l10n.feature.clock.more_tags.visibility.area.title</title>
                 </val>
                 <val value="street">
-                    <title>в пределах улицы</title>
+                    <title>l10n.feature.clock.more_tags.visibility.street.title</title>
                 </val>
                 <val value="house">
-                    <title>в пределах нескольких метров</title>
+                    <title>l10n.feature.clock.more_tags.visibility.house.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Метод отображения</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.display.title</title>
                 <key>display</key>
                 <val value="sundial">
-                    <title>солнечные часы</title>
+                    <title>l10n.feature.clock.more_tags.display.sundial.title</title>
                 </val>
                 <val value="unorthodox">
-                    <title>нестандартный</title>
+                    <title>l10n.feature.clock.more_tags.display.unorthodox.title</title>
                 </val>
                 <val value="analog">
-                    <title>аналоговый (стрелки)</title>
+                    <title>l10n.feature.clock.more_tags.display.analog.title</title>
                 </val>
                 <val value="digital">
-                    <title>цифровой</title>
+                    <title>l10n.feature.clock.more_tags.display.digital.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Число циферблатов</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.clock.more_tags.faces.title</title>
                 <key>faces</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Показывает влажность</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.hygrometer.title</title>
                 <key>hygrometer</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.hygrometer.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.hygrometer.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.hygrometer.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.hygrometer.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Метод установки</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.support.title</title>
                 <key>support</key>
                 <val value="pole">
-                    <title>крепление на столб</title>
+                    <title>l10n.feature.clock.more_tags.support.pole.title</title>
                 </val>
                 <val value="wall_mounted">
-                    <title>крепление на стену</title>
+                    <title>l10n.feature.clock.more_tags.support.wall_mounted.title</title>
                 </val>
                 <val value="ground">
-                    <title>на земле</title>
+                    <title>l10n.feature.clock.more_tags.support.ground.title</title>
                 </val>
                 <val value="billboard">
-                    <title>информационный щит</title>
+                    <title>l10n.feature.clock.more_tags.support.billboard.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Показывает дату</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.date.title</title>
                 <key>date</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.date.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.date.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.date.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.date.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Показывает давление</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.barometer.title</title>
                 <key>barometer</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.barometer.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.barometer.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.barometer.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.barometer.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Показывает температуру</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.thermometer.title</title>
                 <key>thermometer</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.thermometer.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.thermometer.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.clock.more_tags.thermometer.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.clock.more_tags.thermometer.false.title</title>
                 </val>
             </tag>
         </more-tags>

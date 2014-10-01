@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bank">
-        <title>Банк</title>
+        <title>l10n.feature.bank.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,32 +10,32 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие банкомата</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bank.more_tags.atm.title</title>
                 <key>atm</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bank.more_tags.atm.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bank.more_tags.atm.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.bank.more_tags.atm.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.bank.more_tags.atm.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Отделение</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.bank.more_tags.department.title</title>
                 <key>department</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Номер филиала</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.bank.more_tags.ref.title</title>
                 <key>ref</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Отделение</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.bank.more_tags.branch.title</title>
                 <key>branch</key>
             </tag>
         </more-tags>

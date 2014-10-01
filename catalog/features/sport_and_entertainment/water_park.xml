@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="water_park">
-        <title>Аквапарк</title>
+        <title>l10n.feature.water_park.title</title>
         <tags>
             <tag>
                 <key>leisure</key>
@@ -10,36 +10,36 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Сезонный</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.water_park.more_tags.seasonal.title</title>
                 <key>seasonal</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.water_park.more_tags.seasonal.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.water_park.more_tags.seasonal.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.water_park.more_tags.seasonal.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.water_park.more_tags.seasonal.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Крытый</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.water_park.more_tags.covered.title</title>
                 <key>covered</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.water_park.more_tags.covered.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.water_park.more_tags.covered.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.water_park.more_tags.covered.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.water_park.more_tags.covered.false.title</title>
                 </val>
             </tag>
         </more-tags>

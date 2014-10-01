@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="railway_station">
-        <title>Ж/д станция</title>
+        <title>l10n.feature.railway_station.title</title>
         <tags>
             <tag>
                 <key>railway</key>
@@ -10,36 +10,36 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие билетной кассы</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.railway_station.more_tags.ticket_office.title</title>
                 <key>ticket_office</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.railway_station.more_tags.ticket_office.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.railway_station.more_tags.ticket_office.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.railway_station.more_tags.ticket_office.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.railway_station.more_tags.ticket_office.false.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Не используется</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.railway_station.more_tags.disused.title</title>
                 <key>disused</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.railway_station.more_tags.disused.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.railway_station.more_tags.disused.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.railway_station.more_tags.disused.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.railway_station.more_tags.disused.false.title</title>
                 </val>
             </tag>
         </more-tags>

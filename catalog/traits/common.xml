@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+	
+	<trait name="poi">
+		<title>l10n.trait.poi.title</title>
+		<description>l10n.trait.poi.description</description>
+		<extends>named</extends>
+		<extends>addressed</extends>
+		<extends>working-hours</extends>
+		<extends>contacts</extends>
+	</trait>
+	
+	<trait name="named">
+		<title>l10n.trait.named.title</title>
+		<description>l10n.trait.named.description</description>
+		<tags>
+			
+			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.named.tag.name.title</title>
+				<description>l10n.trait.named.tag.name.description</description>
+				<key d:match="with-namespace">name</key>
+			</tag>
+			
+		</tags>
+	</trait>
+
+	<trait name="addressed">
+		<title>l10n.trait.addressed.title</title>
+		<description>l10n.trait.addressed.description</description>
+		<tags>
+			<tag>
+				<title>l10n.trait.addressed.tag.addr-housenumber.title</title>
+				<description>l10n.trait.addressed.tag.addr-housenumber.title</description>
+				<key>addr:housenumber</key>
+			</tag>
+			<tag>
+				<title>l10n.trait.addressed.tag.addr-street.title</title>
+				<description>l10n.trait.addressed.tag.addr-street.description</description>
+				<key>addr:street</key>
+			</tag>
+			<tag>
+				<title>l10n.trait.addressed.tag.addr-city.title</title>
+				<description>l10n.trait.addressed.tag.addr-city.description</description>
+				<key>addr:city</key>
+			</tag>
+			<tag>
+				<title>l10n.trait.addressed.tag.addr-housename.title</title>
+				<description>l10n.trait.addressed.tag.addr-housename.description</description>
+				<key>addr:housename</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	<trait name="working-hours">
+		<title>l10n.trait.working-hours.title</title>
+		<tags>
+			<tag d:tag-value-type="openHours">
+				<title>l10n.trait.working-hours.tag.opening_hours.title</title>
+				<description>l10n.trait.working-hours.tag.opening_hours.description</description>
+				<key>opening_hours</key>
+			</tag>
+		</tags>
+	</trait>
+	
+	
+</doc-part>

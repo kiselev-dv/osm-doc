@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bookshop">
-        <title>Книжный</title>
+        <title>l10n.feature.bookshop.title</title>
         <tags>
             <tag>
                 <key>shop</key>
@@ -10,17 +10,17 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Продажа б/у</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.bookshop.more_tags.second_hand.title</title>
                 <key>second_hand</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.bookshop.more_tags.second_hand.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.bookshop.more_tags.second_hand.no.title</title>
                 </val>
                 <val value="only">
-                    <title>только б/у</title>
+                    <title>l10n.feature.bookshop.more_tags.second_hand.only.title</title>
                 </val>
             </tag>
         </more-tags>

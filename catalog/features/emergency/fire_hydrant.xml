@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="fire_hydrant">
-        <title>Пожарный гидрант</title>
+        <title>l10n.feature.fire_hydrant.title</title>
         <tags>
             <tag>
-                <title>Неотложная помощь</title>
+                <title>l10n.feature.fire_hydrant.tags.emergency.title</title>
                 <key>emergency</key>
                 <val value="fire_hydrant"/>
             </tag>
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип гидранта</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.title</title>
                 <key>fire_hydrant:type</key>
                 <val value="pillar">
-                    <title>Столб</title>
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pillar.title</title>
                 </val>
                 <val value="underground">
-                    <title>Подземный</title>
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.underground.title</title>
                 </val>
                 <val value="pond">
-                    <title>Пруд</title>
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pond.title</title>
                 </val>
                 <val value="wall">
-                    <title>Настенный</title>
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.wall.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Число гидрантов</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:count.title</title>
                 <key>fire_hydrant:count</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Диаметр отверстия</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:diameter.title</title>
                 <key>fire_hydrant:diameter</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Давление (атм.)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:pressure.title</title>
                 <key>fire_hydrant:pressure</key>
             </tag>
         </more-tags>

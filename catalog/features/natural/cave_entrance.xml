@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cave_entrance">
-        <title>Вход в пещеру</title>
+        <title>l10n.feature.cave_entrance.title</title>
         <tags>
             <tag>
                 <key>natural</key>
@@ -10,18 +10,18 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.cave_entrance.more_tags.fee.title</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title>l10n.feature.cave_entrance.more_tags.fee.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title>l10n.feature.cave_entrance.more_tags.fee.no.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Высота над уровнем моря (м)</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.cave_entrance.more_tags.ele.title</title>
                 <key>ele</key>
             </tag>
         </more-tags>

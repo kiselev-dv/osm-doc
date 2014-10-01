@@ -171,7 +171,7 @@ public class ExpStrings {
 		KeyType key = tag.getKey();
 		
 		String title = tag.getTitle();
-		if(!title.startsWith(L10N_PREFIX)) {
+		if(title!= null && !title.startsWith(L10N_PREFIX)) {
 			String i18nKey = L10N_PREFIX + "feature." + name + "." + tagI18nKey + "." + key.getValue() + ".title";
 			properties.setProperty(i18nKey, title);
 			
@@ -191,7 +191,7 @@ public class ExpStrings {
 			String valTitle = val.getTitle();
 			String valDesc = val.getDescription();
 			
-			if(!valTitle.startsWith(L10N_PREFIX)) {
+			if(valTitle != null && !valTitle.startsWith(L10N_PREFIX)) {
 				String i18nKey = L10N_PREFIX + "feature." + name + "." + tagI18nKey + "."+ key.getValue() + "." + valueKey + ".title";
 				properties.setProperty(i18nKey, valTitle);
 				val.setTitle(i18nKey);

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="parking">
-        <title>Парковка</title>
+        <title>l10n.feature.parking.title</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,82 +10,82 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Наличие платы</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.parking.more_tags.fee.title</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>платный</title>
+                    <title>l10n.feature.parking.more_tags.fee.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>бесплатный</title>
+                    <title>l10n.feature.parking.more_tags.fee.no.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Тип парковки</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.parking.more_tags.parking.title</title>
                 <key>parking</key>
                 <val value="garage_boxes">
-                    <title>гаражи</title>
+                    <title>l10n.feature.parking.more_tags.parking.garage_boxes.title</title>
                 </val>
                 <val value="surface">
-                    <title>открытая</title>
+                    <title>l10n.feature.parking.more_tags.parking.surface.title</title>
                 </val>
                 <val value="carports">
-                    <title>навесы</title>
+                    <title>l10n.feature.parking.more_tags.parking.carports.title</title>
                 </val>
                 <val value="sheds">
-                    <title>ракушки и пеналы</title>
+                    <title>l10n.feature.parking.more_tags.parking.sheds.title</title>
                 </val>
                 <val value="underground">
-                    <title>подземная</title>
+                    <title>l10n.feature.parking.more_tags.parking.underground.title</title>
                 </val>
                 <val value="multi-storey">
-                    <title>многоэтажная</title>
+                    <title>l10n.feature.parking.more_tags.parking.multi-storey.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Ограничение по времени стоянки</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.parking.more_tags.maystay.title</title>
                 <key>maystay</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Перехватывающая парковка</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.parking.more_tags.park_ride.title</title>
                 <key>park_ride</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.yes.title</title>
                 </val>
                 <val value="bus">
-                    <title>пересадка на автобус</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.bus.title</title>
                 </val>
                 <val value="ferry">
-                    <title>пересадка на паром</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.ferry.title</title>
                 </val>
                 <val value="metro">
-                    <title>пересадка на метро</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.metro.title</title>
                 </val>
                 <val value="train">
-                    <title>пересадка на поезд</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.train.title</title>
                 </val>
                 <val value="tram">
-                    <title>пересадка на трамвай</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.tram.title</title>
                 </val>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="number">
-                <title>Количество машиномест</title>
+            <tag tag-value-type="number">
+                <title>l10n.feature.parking.more_tags.capacity.title</title>
                 <key>capacity</key>
             </tag>
-            <tag xmlns:ns0="http://map.osm.me/osm-doc-part" ns0:tag-value-type="enum">
-                <title>Крытый</title>
+            <tag tag-value-type="enum">
+                <title>l10n.feature.parking.more_tags.covered.title</title>
                 <key>covered</key>
                 <val value="yes">
-                    <title>да</title>
+                    <title>l10n.feature.parking.more_tags.covered.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>нет</title>
+                    <title>l10n.feature.parking.more_tags.covered.no.title</title>
                 </val>
                 <val value="true">
-                    <title>да</title>
+                    <title>l10n.feature.parking.more_tags.covered.true.title</title>
                 </val>
                 <val value="false">
-                    <title>нет</title>
+                    <title>l10n.feature.parking.more_tags.covered.false.title</title>
                 </val>
             </tag>
         </more-tags>
