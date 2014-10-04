@@ -166,6 +166,8 @@ public class OSMDocFacade {
 			childFeature.put("icon", feature.getIcon());
 			childFeature.put("title", tr(feature.getTitle(), lang));
 			childFeature.put("description", tr(feature.getDescription(), lang));
+			
+			childFeatures.add(childFeature);
 		}
 		
 		gjs.put("features", new JSONArray(childFeatures));
