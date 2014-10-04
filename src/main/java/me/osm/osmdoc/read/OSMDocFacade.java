@@ -148,6 +148,7 @@ public class OSMDocFacade {
 		
 		for(Group g : groups) {
 			JSONObject childG = new JSONObject();
+			childG.put("type", "group");
 			childG.put("name", g.getName());
 			childG.put("icon", g.getIcon());
 			childG.put("title", tr(g.getTitle(), lang));
@@ -162,6 +163,7 @@ public class OSMDocFacade {
 		for(Fref f : fref) {
 			Feature feature = getFeature(f.getRef());
 			JSONObject childFeature = new JSONObject();
+			childFeature.put("type", "feature");
 			childFeature.put("name", feature.getName());
 			childFeature.put("icon", feature.getIcon());
 			childFeature.put("title", tr(feature.getTitle(), lang));
