@@ -10,12 +10,18 @@ import java.util.Set;
 
 import me.osm.osmdoc.localization.L10n;
 import me.osm.osmdoc.model.Feature;
+import me.osm.osmdoc.model.Fref;
+import me.osm.osmdoc.model.Group;
+import me.osm.osmdoc.model.Hierarchy;
 import me.osm.osmdoc.model.Tag;
 import me.osm.osmdoc.model.Tag.Val;
 import me.osm.osmdoc.model.Tags;
 
 import org.apache.commons.lang3.StringUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import static me.osm.osmdoc.localization.L10n.tr;
 
 public class OSMDocFacade {
 	
@@ -109,6 +115,61 @@ public class OSMDocFacade {
 			}
 		}
 		return result;
+	}
+	
+	public JSONObject getHierarchyJSON(String hierarchy, Locale lang) {
+
+		Hierarchy h = docReader.getHierarchy(hierarchy);
+		
+		if(h != null) {
+			JSONObject result = new JSONObject();
+			List<JSONObject> groups = new ArrayList<JSONObject>();
+			for(Group g : h.getGroup()) {
+				JSONObject gjs = new JSONObject();
+				gjs.put("name", g.getName());
+				gjs.put("icon", g.getIcon());
+				gjs.put("title", tr(g.getTitle(), lang));
+				groups.add(gjs);
+				
+				dfsGroup(gjs, g.getGroup(), g.getFref(), lang);
+			}
+			
+			result.put("groups", new JSONArray(groups));
+			return result;
+		}
+		
+		return null;
+		
+	}
+
+	private void dfsGroup(JSONObject gjs, List<Group> groups, List<Fref> fref, Locale lang) {
+		
+		List<JSONObject> childGroups = new ArrayList<JSONObject>();
+		
+		for(Group g : groups) {
+			JSONObject childG = new JSONObject();
+			childG.put("name", g.getName());
+			childG.put("icon", g.getIcon());
+			childG.put("title", tr(g.getTitle(), lang));
+			childGroups.add(childG);
+
+			dfsGroup(childG, g.getGroup(), g.getFref(), lang);
+		}
+		
+		gjs.put("groups", new JSONArray(childGroups));
+		
+		List<JSONObject> childFeatures = new ArrayList<JSONObject>();
+		for(Fref f : fref) {
+			Feature feature = getFeature(f.getRef());
+			JSONObject childFeature = new JSONObject();
+			childFeature.put("name", feature.getName());
+			childFeature.put("icon", feature.getIcon());
+			childFeature.put("title", tr(feature.getTitle(), lang));
+			childFeature.put("description", tr(feature.getDescription(), lang));
+		}
+		
+		gjs.put("features", new JSONArray(childFeatures));
+		
 	}
 
 	public TagsDecisionTreeImpl getPoiClassificator() {

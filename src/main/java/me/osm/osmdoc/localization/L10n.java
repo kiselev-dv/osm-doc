@@ -14,7 +14,7 @@ public class L10n {
 	}
 	
 	private L10n(Locale locale) {
-		rbundle = ResourceBundle.getBundle("localization.strings");
+		rbundle = ResourceBundle.getBundle("localization.strings", locale);
 	}
 
 	private ResourceBundle rbundle;
@@ -27,7 +27,7 @@ public class L10n {
 			locale = Locale.getDefault();
 		}
 		
-		if(key.startsWith(L10N_PREFIX)) {
+		if(key != null && key.startsWith(L10N_PREFIX)) {
 			
 			if(instances.get(locale.getDisplayName()) == null) {
 				synchronized (instances) {

@@ -15,4 +15,7 @@ public interface DOCReader {
 
 	public abstract List<Hierarchy> listHierarchies();
 
+	public abstract Hierarchy getHierarchy(String name);
+	
+
 }

@@ -86,4 +86,13 @@ public class DOCFolderReader extends AbstractReader {
 		return new ArrayList<Hierarchy>(hierarchies.values());
 	}
 
+	@Override
+	public Hierarchy getHierarchy(String name) {
+		
+		if(name==null && hierarchies.size() == 1) {
+			return hierarchies.entrySet().iterator().next().getValue();
+		}
+		
+		return hierarchies.get(name);
+	}
 }

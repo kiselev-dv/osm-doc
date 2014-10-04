@@ -23,6 +23,8 @@ public class DOCFileReader extends AbstractReader {
 	private DocPart doc;
 
 	private Map<String, Feature> featureByName = new HashMap<String, Feature>();
+
+	private Map<String, Hierarchy> hierarchy2Name;
 	
 	public DOCFileReader(String osmDocXML) {
 		try {
@@ -44,6 +46,11 @@ public class DOCFileReader extends AbstractReader {
 			
 			for(Feature f : doc.getFeature()) {
 				featureByName.put(f.getName(), f);
+			}
+			
+			hierarchy2Name = new HashMap<String, Hierarchy>();
+			for(Hierarchy h : doc.getHierarchy()) {
+				hierarchy2Name.put(h.getName(), h);
 			}
 			
 		}
@@ -73,11 +80,6 @@ public class DOCFileReader extends AbstractReader {
 		
 		Set<String> excluded = new HashSet<String>();
 		
-		Map<String, Hierarchy> hierarchy2Name = new HashMap<String, Hierarchy>();
-		for(Hierarchy h : doc.getHierarchy()) {
-			hierarchy2Name.put(h.getName(), h);
-		}
-		
 		Hierarchy hierarchy = hierarchy2Name.get(hierarchyName);
 		
 		return getHierarcyBranch(branch, excluded, hierarchy, featureByName);
@@ -87,4 +89,15 @@ public class DOCFileReader extends AbstractReader {
 	public List<Hierarchy> listHierarchies() {
 		return getDoc().getHierarchy();
 	}
+
+	@Override
+	public Hierarchy getHierarchy(String name) {
+		
+		if(name==null && hierarchy2Name.size() == 1) {
+			return hierarchy2Name.entrySet().iterator().next().getValue();
+		}
+		
+		return hierarchy2Name.get(name);
+	}
+
 }
