@@ -80,7 +80,7 @@ public class DOCFileReader extends AbstractReader {
 		
 		Set<String> excluded = new HashSet<String>();
 		
-		Hierarchy hierarchy = hierarchy2Name.get(hierarchyName);
+		Hierarchy hierarchy = getHierarchy(hierarchyName);
 		
 		return getHierarcyBranch(branch, excluded, hierarchy, featureByName);
 	}

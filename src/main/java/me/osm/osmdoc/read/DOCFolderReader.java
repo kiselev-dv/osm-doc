@@ -76,7 +76,7 @@ public class DOCFolderReader extends AbstractReader {
 			String hierarchyName, String branch) {
 		
 		Set<String> excluded = new HashSet<String>();
-		Hierarchy hierarchy = hierarchies.get(hierarchyName);
+		Hierarchy hierarchy = getHierarchy(hierarchyName);
 		
 		return getHierarcyBranch(branch, excluded, hierarchy, featureByName);
 	}
