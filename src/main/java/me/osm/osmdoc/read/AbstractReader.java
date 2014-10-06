@@ -23,10 +23,10 @@ public abstract class AbstractReader implements DOCReader {
 				excluded.add(ref);
 				break;
 			}
-			
-			for(Group g : hierarchy.getGroup()) {
-				traverseGroup(branch, g, excluded, g.getName().equals(branch));
-			}
+		}
+
+		for(Group g : hierarchy.getGroup()) {
+			traverseGroup(branch, g, excluded, g.getName().equals(branch));
 		}
 		
 		Set<Feature> result = new HashSet<Feature>();
