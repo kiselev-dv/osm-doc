@@ -23,25 +23,82 @@
 	<element name="feature" type="osmdoc:feature" />
 
 	<complexType name="feature">
+		
+		<annotation>
+			<documentation>
+				Основной элемент описывающий определенный тип объектов в OSM.				
+			</documentation>
+		</annotation>
+	
 		<sequence>
 			<group ref="osmdoc:titleDescription" />
-<!-- 			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" /> -->
-			<element ref="osmdoc:tags" maxOccurs="unbounded">
+
+			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" >
 				<annotation>
 					<documentation>
-						Tags can be specified many times for one, feature.
-						Used for old, deprecated synonyms.
+						Можно указать любое количество псевдонимов. Псевдонимы, в отличае от
+						названия и описания - не переводятся. Псевдоним задается сразу 
+						для определеннго языка. Псевдонимы не переводятся, т.к. псевдонимы 
+						специфичны для языка и не обязательно имеют перевод в других языках. 
 					</documentation>
 				</annotation>
 			</element>
+			
+			<element ref="osmdoc:tags" maxOccurs="unbounded">
+				<annotation>
+					<documentation>
+						Теги по которым определяется принадлежность объекта осм данному типу.
+						Например:
+						[tags]
+							[tag]
+								[tag]some-key[/tag]
+							[/tag]
+							[tag]
+								[tag]another-key[/tag]
+								[val value="some-value"/]
+							[/tag]
+						[/tags]
+						В данном примере будут выбраны все объекты с тегом "some-key" вне зависимости
+						от значения, и тегом "another-key" со значением "some-value".
+						Т.е. элементы tag внутри элемента tags объединяются через И.
+						
+						Количество элементов tags не ограничено. Элементы Tags объединяются через ИЛИ.
+						Тоесть для описания 
+						[tags deprecated="true"]
+							[tag]
+								[tag]shop[/tag]
+								[val value="car_repair"/]
+							[/tag]
+						[/tags]
+						[tags]
+							[tag]
+								[tag]craft[/tag]
+								[val value="car_repair"/]
+							[/tag]
+						[/tags]
+						В выборку попадут как shop=car_repair так и craft=car_repair.
+						При этом, deprecated="true" указывает какую комбинацию тегов использовать
+						при записи данных (например в персетах JOSM)   
+					</documentation>
+				</annotation>
+			</element>
+			
 			<element name="trait" minOccurs="0" maxOccurs="unbounded"
-				type="string" />
+				type="string" >
+				
+				<annotation>
+					<documentation>
+						Ссылка на trait'ы данного типа.
+						Trait - набор тегов, не привязанный к опередленному типу.
+						Теги trait'ов интерпретируются так же как more-tags.		
+					</documentation>
+				</annotation>
+			</element>
+				
 			<element ref="osmdoc:more-tags" minOccurs="0" >
 				<annotation>
 					<documentation>
-						Additional tags. They don't specify particular
-						feature class, but allow to set oftenly used tags.
-						as trait but in simplier way.						    
+						Дополнительные теги объекта. Такие как например кухня для ресторана.					    
 					</documentation>
 				</annotation>
 			</element>	
@@ -116,10 +173,13 @@
 	<group name="titleDescription">
 		<sequence>
 			<element name="title" type="string" />
-			<element name="alias" type="string" minOccurs="0" maxOccurs="unbounded" />
 			<element name="description" minOccurs="0" type="string" />
 		</sequence>
 	</group>
+	
+	<complexType name="langString">
+		<attribute name="lang" type="string" use="required"	/>
+	</complexType>
 	
 	<element name="tags">
 		<complexType>
