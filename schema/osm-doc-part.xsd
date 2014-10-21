@@ -178,7 +178,11 @@
 	</group>
 	
 	<complexType name="langString">
-		<attribute name="lang" type="string" use="required"	/>
+		<simpleContent>
+			<extension base="string">
+				<attribute name="lang" type="string" use="required"	/>
+			</extension>
+		</simpleContent>
 	</complexType>
 	
 	<element name="tags">
