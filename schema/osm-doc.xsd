@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://map.osm.me/osm-doc"
+	elementFormDefault="qualified"
+	xmlns:osmdoc="http://map.osm.me/osm-doc" 
+	xmlns:part="http://map.osm.me/osm-doc-part"
+	xmlns:xi="http://www.w3.org/2001/XInclude"
+	>
+
+	<import namespace="http://www.w3.org/2001/XInclude" />
+	<import namespace="http://map.osm.me/osm-doc-part" />
+
+	<element name="doc">
+		<complexType>
+			<sequence>
+				<!-- minOccurs="0" used for xml modularity -->
+				<element ref="part:feature" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="part:trait" minOccurs="0" maxOccurs="unbounded"/>
+				<element ref="part:hierarchy" minOccurs="0" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+		<key name="featureKey">
+			<selector xpath="./feature" />
+			<field xpath="@name" />
+		</key>
+		<key name="traitKey">
+			<selector xpath="./trait"/>
+			<field xpath="@name"/>
+		</key>
+		<key name="groupKey">
+			<selector xpath=".//group"/>
+			<field xpath="@name"/>
+		</key>
+		<keyref name="featureToTraitRef" refer="osmdoc:traitKey">
+			<selector xpath="./feature/trait"/>
+			<field xpath="."/>
+		</keyref>
+		<keyref name="traitToParent" refer="osmdoc:traitKey">
+			<selector xpath="./trait/extends"/>
+			<field xpath="."/>
+		</keyref>
+		<keyref name="featureInHierarchy" refer="osmdoc:featureKey">
+			<selector xpath=".//fref"/>
+			<field xpath="@ref"/>
+		</keyref>
+		<keyref name="synonym" refer="osmdoc:featureKey">
+			<selector xpath=".//fref/synonym"/>
+			<field xpath="."/>
+		</keyref>
+		<keyref name="seeAlsoGroup" refer="osmdoc:groupKey">
+			<selector xpath=".//fref/seeAlso/g"/>
+			<field xpath="." />
+		</keyref>
+		<keyref name="seeAlsoFeature" refer="osmdoc:featureKey">
+			<selector xpath=".//fref/seeAlso/f"/>
+			<field xpath="." />
+		</keyref>
+	</element>
+
+</schema>

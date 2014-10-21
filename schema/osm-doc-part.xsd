@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://map.osm.me/osm-doc-part"
+	xmlns:osmdoc="http://map.osm.me/osm-doc-part" xmlns:xi="http://www.w3.org/2001/XInclude"
+	elementFormDefault="qualified">
+
+	<import namespace="http://www.w3.org/2001/XInclude" />
+
+	<element name="doc-part">
+		<complexType>
+			<sequence>
+				<element ref="osmdoc:feature" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:trait" minOccurs="0"  maxOccurs="unbounded" />
+				<element ref="osmdoc:hierarchy" minOccurs="0" maxOccurs="unbounded" />
+
+				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
+
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="feature" type="osmdoc:feature" />
+
+	<complexType name="feature">
+		<sequence>
+			<group ref="osmdoc:titleDescription" />
+<!-- 			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" /> -->
+			<element ref="osmdoc:tags" maxOccurs="unbounded">
+				<annotation>
+					<documentation>
+						Tags can be specified many times for one, feature.
+						Used for old, deprecated synonyms.
+					</documentation>
+				</annotation>
+			</element>
+			<element name="trait" minOccurs="0" maxOccurs="unbounded"
+				type="string" />
+			<element ref="osmdoc:more-tags" minOccurs="0" >
+				<annotation>
+					<documentation>
+						Additional tags. They don't specify particular
+						feature class, but allow to set oftenly used tags.
+						as trait but in simplier way.						    
+					</documentation>
+				</annotation>
+			</element>	
+			<group ref="osmdoc:iconsWikiNote" />
+			<element name="applyed-to" type="osmdoc:applyedTo" />
+		</sequence>
+		<attribute name="name" type="string" use="required" />
+	</complexType>
+
+
+	<element name="hierarchy">
+		<complexType>
+			<sequence>
+				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="name" />
+		</complexType>
+	</element>
+
+	<element name="group">
+		<complexType>
+			<sequence>
+				<group ref="osmdoc:titleDescription" />
+				<group ref="osmdoc:iconsWikiNote" />
+				<element ref="osmdoc:group" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:fref" minOccurs="0" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="name" />
+		</complexType>
+	</element>
+
+	<element name="fref">
+		<complexType>
+			<sequence>
+				<element name="synonym" minOccurs="0" maxOccurs="unbounded" />
+				<element name="seeAlso" minOccurs="0" maxOccurs="1">
+					<complexType>
+						<sequence>
+							<element name="g" type="string" minOccurs="0" maxOccurs="unbounded" />
+							<element name="f" type="string" minOccurs="0" maxOccurs="unbounded" />
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+			<attribute name="ref" use="required" type="string" />
+		</complexType>
+	</element>
+
+	<element name="trait">
+		<complexType>
+			<sequence>
+				<group ref="osmdoc:titleDescription" />
+				<element name="extends" type="string" minOccurs="0"
+					maxOccurs="unbounded" />
+				<element ref="osmdoc:tags" minOccurs="0" maxOccurs="unbounded" />
+<!-- 				<element ref="osmdoc:relMemberParser" minOccurs="0" maxOccurs="unbounded" /> -->
+			</sequence>
+			<attribute name="name" type="string" use="required" />
+		</complexType>
+	</element>
+
+	<group name="iconsWikiNote">
+		<sequence>
+			<element name="icon" minOccurs="0" maxOccurs="unbounded"
+				type="string" />
+			<element name="wiki" type="anyURI" minOccurs="0" maxOccurs="unbounded" />
+			<element name="note" type="string" minOccurs="0" maxOccurs="1" />
+		</sequence>
+	</group>
+
+	<group name="titleDescription">
+		<sequence>
+			<element name="title" type="string" />
+			<element name="alias" type="string" minOccurs="0" maxOccurs="unbounded" />
+			<element name="description" minOccurs="0" type="string" />
+		</sequence>
+	</group>
+	
+	<element name="tags">
+		<complexType>
+			<sequence>
+				<element ref="osmdoc:tag" minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+			<attribute name="deprecated" type="boolean" use="optional"
+				default="false" />
+		</complexType>
+	</element>
+
+	<element name="more-tags">
+		<complexType>
+			<sequence>
+				<element ref="osmdoc:tag" minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name="tag">
+		<complexType>
+			<sequence>
+				<group minOccurs="0" ref="osmdoc:titleDescription" />
+				<element name="key" type="osmdoc:keyType"/>
+				<element name="val" minOccurs="0" maxOccurs="unbounded">
+					<complexType>
+						<group minOccurs="0" ref="osmdoc:titleDescription" />
+						<attribute name="value" use="required" />
+						<attribute ref="osmdoc:match" use="optional" />
+					</complexType>
+				</element>
+			</sequence>
+			<attribute ref="osmdoc:tag-value-type" use="optional" />
+			<attribute name="exclude" type="boolean" default="false" />
+		</complexType>
+	</element>
+
+	<simpleType name="applyedTo">
+		<restriction>
+			<simpleType>
+				<list>
+					<simpleType>
+						<restriction base="string" >
+							<enumeration value="node" />
+							<enumeration value="area" />
+							<enumeration value="way" />
+							<enumeration value="relation" />
+							<enumeration value="relation-member" />
+						</restriction>
+					</simpleType>
+				</list>
+			</simpleType>
+			<minLength value="1" />
+		</restriction>
+	</simpleType>
+
+	<complexType name="keyType">
+		<simpleContent>
+			<extension base="string">
+				<attribute use="optional" ref="osmdoc:match" />
+			</extension>
+		</simpleContent>
+	</complexType>
+
+	<attribute name="match" default="exact">
+		<simpleType>
+			<restriction base="string">
+				
+				<enumeration value="any">
+					<annotation>
+						<documentation>No actual checking for value, except "no"</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="exact">
+					<annotation>
+						<documentation>Exactly match (deaflult)</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="with-namespace">
+					<annotation>
+						<documentation>Match with namespace prefix/postfix ru:urban</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="contains">
+					<annotation>
+						<documentation>Check is value of tag substring of object tag value</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="regexp">
+					<annotation>
+						<documentation>This is regexp pattern</documentation>
+					</annotation>
+				</enumeration>
+				
+			</restriction>
+		</simpleType>
+	</attribute>
+
+	<attribute name="tag-value-type" default="anyString">
+		<simpleType>
+			<restriction base="string">
+				
+				<enumeration value="anyString" >
+					<annotation>
+						<documentation>Any string without restrictions</documentation>
+					</annotation>
+				</enumeration>
+
+				<enumeration value="enum" >
+					<annotation>
+						<documentation>Possible values and their translations are restricted by val tags</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="measure" >
+					<annotation>
+						<documentation>Measured value. As 100mph</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="number" >
+					<annotation>
+						<documentation>Any number</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="openHours" >
+					<annotation>
+						<documentation>Open hours string.</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="phone" >
+					<annotation>
+						<documentation>Phone number string</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="mail" >
+					<annotation>
+						<documentation>Email string</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="url" >
+					<annotation>
+						<documentation>Url. Like http://flick.com/12345657</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="wiki" >
+					<annotation>
+						<documentation>Wiki link: ru:Екатеринбург</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="boolean" >
+					<annotation>
+						<documentation>yes/no, true/false, 1/0</documentation>
+					</annotation>
+				</enumeration>
+				
+				<enumeration value="period" >
+					<annotation>
+						<documentation>Eg. 18:00-19:30</documentation>
+					</annotation>
+				</enumeration>
+			</restriction>
+		</simpleType>
+	</attribute>
+	
+</schema>

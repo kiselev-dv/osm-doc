@@ -9,6 +9,9 @@
             </tag>
             <tag exclude="true">
                 <key>religion</key>
+                <val value="muslim"/>
+                <val value="christian"/>
+                <val value="jewish"/>
             </tag>
         </tags>
         <trait>poi</trait>

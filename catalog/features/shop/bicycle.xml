@@ -10,116 +10,74 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.title</title>
                 <key>service:bicycle:retail</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.title</title>
                 <key>service:bicycle:pump</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.title</title>
                 <key>service:bicycle:second_hand</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.title</title>
                 <key>service:bicycle:cleaning</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.title</title>
                 <key>service:bicycle:repair</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.title</title>
                 <key>service:bicycle:rental</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.title</title>
                 <key>service:bicycle:diy</key>
-                <val value="yes">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.true.title</title>
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.false.title</title>
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
                 </val>
             </tag>
         </more-tags>
