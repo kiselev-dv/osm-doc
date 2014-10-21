@@ -10,68 +10,44 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.anime.more_tags.anime:gift.title</title>
                 <key>anime:gift</key>
-                <val value="yes">
-                    <title>l10n.feature.anime.more_tags.anime:gift.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.anime.more_tags.anime:gift.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.anime:gift.true.title</title>
+                    <title>l10n.feature.anime.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.anime:gift.false.title</title>
+                    <title>l10n.feature.anime.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.anime.more_tags.anime:manga.title</title>
                 <key>anime:manga</key>
-                <val value="yes">
-                    <title>l10n.feature.anime.more_tags.anime:manga.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.anime.more_tags.anime:manga.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.anime:manga.true.title</title>
+                    <title>l10n.feature.anime.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.anime:manga.false.title</title>
+                    <title>l10n.feature.anime.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.anime.more_tags.anime:costume.title</title>
                 <key>anime:costume</key>
-                <val value="yes">
-                    <title>l10n.feature.anime.more_tags.anime:costume.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.anime.more_tags.anime:costume.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.anime:costume.true.title</title>
+                    <title>l10n.feature.anime.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.anime:costume.false.title</title>
+                    <title>l10n.feature.anime.more_tags.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.anime.more_tags.anime:video.title</title>
                 <key>anime:video</key>
-                <val value="yes">
-                    <title>l10n.feature.anime.more_tags.anime:video.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.anime.more_tags.anime:video.no.title</title>
-                </val>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.anime:video.true.title</title>
+                    <title>l10n.feature.anime.more_tags.true.title</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.anime:video.false.title</title>
+                    <title>l10n.feature.anime.more_tags.false.title</title>
                 </val>
             </tag>
         </more-tags>

@@ -36,7 +36,7 @@
 			</element>
 			<element name="trait" minOccurs="0" maxOccurs="unbounded"
 				type="string" />
-			<element ref="osmdoc:more-tags" minOccurs="0" maxOccurs="unbounded" >
+			<element ref="osmdoc:more-tags" minOccurs="0" >
 				<annotation>
 					<documentation>
 						Additional tags. They don't specify particular
@@ -136,8 +136,6 @@
 			<sequence>
 				<element ref="osmdoc:tag" minOccurs="1" maxOccurs="unbounded" />
 			</sequence>
-			<attribute name="deprecated" type="boolean" use="optional"
-				default="false" />
 		</complexType>
 	</element>
 
