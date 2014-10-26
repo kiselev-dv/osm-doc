@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <hierarchy name="osm-me">
+    	<group name="foodndrinks">
+    		<title>Еда</title>
+    		
+    	</group>
+    	<group name="accomodation">
+    		<title>Ночлег</title>
+    	</group>
+    	<group name="tourism">
+    		<title>Туризм</title>
+    	</group>
+    	<group name="shops">
+    		<title>Магазины</title>
+    	</group>
+    	<group name="craft">
+    		<title>Услуги и мастерские</title>
+    	</group>
+    	<group name="shops">
+    		<title>Экстренные службы</title>
+    	</group>
+    </hierarchy>
+</doc-part>
