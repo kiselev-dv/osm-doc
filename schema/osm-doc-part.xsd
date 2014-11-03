@@ -180,7 +180,7 @@
 				<group ref="osmdoc:titleDescription" />
 				<element name="extends" type="string" minOccurs="0"
 					maxOccurs="unbounded" />
-				<element ref="osmdoc:more-tags" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:more-tags" minOccurs="0"/>
 			</sequence>
 			<attribute name="name" type="string" use="required" />
 		</complexType>
@@ -223,8 +223,18 @@
 	<element name="more-tags">
 		<complexType>
 			<sequence>
+				<element ref="osmdoc:tag" minOccurs="0" maxOccurs="unbounded" />
+				<element ref="osmdoc:choise" minOccurs="0" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<element name="choise">
+		<complexType>
+			<sequence>
 				<element ref="osmdoc:tag" minOccurs="1" maxOccurs="unbounded" />
 			</sequence>
+			<attribute name="primary-key" type="string" use="optional" />
 		</complexType>
 	</element>
 

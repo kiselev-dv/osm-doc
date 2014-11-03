@@ -5,63 +5,81 @@
 	<trait name="poi">
 		<title>l10n.trait.poi.title</title>
 		<description>l10n.trait.poi.description</description>
-		<extends>named</extends>
-		<extends>addressed</extends>
 		<extends>working-hours</extends>
 		<extends>contacts</extends>
+		<extends>trade-networks</extends>
 	</trait>
 	
-	<trait name="named">
-		<title>l10n.trait.named.title</title>
-		<description>l10n.trait.named.description</description>
-		<tags>
-			
+	<trait name="trade-networks">
+		<title>l10n.trait.trade-networks.title</title>
+		<more-tags>
 			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.named.tag.name.title</title>
-				<description>l10n.trait.named.tag.name.description</description>
-				<key d:match="with-namespace">name</key>
+				<title>l10n.trait.trade-networks.tag.brand.title</title>
+				<key>brand</key>
 			</tag>
-			
-		</tags>
-	</trait>
-
-	<trait name="addressed">
-		<title>l10n.trait.addressed.title</title>
-		<description>l10n.trait.addressed.description</description>
-		<tags>
-			<tag>
-				<title>l10n.trait.addressed.tag.addr-housenumber.title</title>
-				<description>l10n.trait.addressed.tag.addr-housenumber.title</description>
-				<key>addr:housenumber</key>
+			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.trade-networks.tag.operator.title</title>
+				<key>operator</key>
 			</tag>
-			<tag>
-				<title>l10n.trait.addressed.tag.addr-street.title</title>
-				<description>l10n.trait.addressed.tag.addr-street.description</description>
-				<key>addr:street</key>
+			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.trade-networks.tag.banch.title</title>
+				<key>branch</key>
 			</tag>
-			<tag>
-				<title>l10n.trait.addressed.tag.addr-city.title</title>
-				<description>l10n.trait.addressed.tag.addr-city.description</description>
-				<key>addr:city</key>
+			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.trade-networks.tag.network.title</title>
+				<key>network</key>
 			</tag>
-			<tag>
-				<title>l10n.trait.addressed.tag.addr-housename.title</title>
-				<description>l10n.trait.addressed.tag.addr-housename.description</description>
-				<key>addr:housename</key>
+			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.trade-networks.tag.ref.title</title>
+				<key>ref</key>
 			</tag>
-		</tags>
+		</more-tags>
 	</trait>
 	
 	<trait name="working-hours">
 		<title>l10n.trait.working-hours.title</title>
-		<tags>
+		<more-tags>
 			<tag d:tag-value-type="openHours">
 				<title>l10n.trait.working-hours.tag.opening_hours.title</title>
 				<description>l10n.trait.working-hours.tag.opening_hours.description</description>
 				<key>opening_hours</key>
 			</tag>
-		</tags>
+		</more-tags>
 	</trait>
 	
-	
+	<trait name="contacts">
+		<title>l10n.trait.contacts.title</title>
+		<more-tags>
+			<choise primary-key="contact:phone">
+				<tag d:tag-value-type="phone">
+					<title>l10n.trait.contacts.tag.phone.title</title>
+					<key>contact:phone</key>
+				</tag>
+				<tag d:tag-value-type="phone">
+					<title>l10n.trait.contacts.tag.phone.title</title>
+					<key>phone</key>
+				</tag>
+			</choise>
+			<choise primary-key="contact:website">
+				<tag d:tag-value-type="url">
+					<title>l10n.trait.contacts.tag.website.title</title>
+					<key>contact:website</key>
+				</tag>
+				<tag d:tag-value-type="url">
+					<title>l10n.trait.contacts.tag.website.title</title>
+					<key>website</key>
+				</tag>
+			</choise>
+			<choise primary-key="contact:email">
+				<tag d:tag-value-type="mail">
+					<title>l10n.trait.contacts.tag.mail.title</title>
+					<key>contact:email</key>
+				</tag>
+				<tag d:tag-value-type="mail">
+					<title>l10n.trait.contacts.tag.mail.title</title>
+					<key>email</key>
+				</tag>
+			</choise>
+		</more-tags>
+	</trait>
 </doc-part>

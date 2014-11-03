@@ -8,21 +8,14 @@
                 <val value="bus_stop"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <more-tags>
             <tag tag-value-type="number">
                 <title>l10n.feature.bus_stop.more_tags.route_ref.title</title>
                 <key>route_ref</key>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bus_stop.more_tags.shelter.title</title>
                 <key>shelter</key>
-                <val value="yes">
-                    <title>l10n.feature.bus_stop.more_tags.shelter.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bus_stop.more_tags.shelter.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.bus_stop.more_tags.shelter.true.title</title>
                 </val>
@@ -30,15 +23,9 @@
                     <title>l10n.feature.bus_stop.more_tags.shelter.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bus_stop.more_tags.bench.title</title>
                 <key>bench</key>
-                <val value="yes">
-                    <title>l10n.feature.bus_stop.more_tags.bench.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bus_stop.more_tags.bench.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.bus_stop.more_tags.bench.true.title</title>
                 </val>
@@ -46,15 +33,9 @@
                     <title>l10n.feature.bus_stop.more_tags.bench.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag tag-value-type="boolean">
                 <title>l10n.feature.bus_stop.more_tags.bin.title</title>
                 <key>bin</key>
-                <val value="yes">
-                    <title>l10n.feature.bus_stop.more_tags.bin.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.bus_stop.more_tags.bin.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.bus_stop.more_tags.bin.true.title</title>
                 </val>
