@@ -9,7 +9,6 @@
                 <val value="phone"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <icon>emergency_phone.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

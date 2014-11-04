@@ -9,7 +9,6 @@
                 <val value="fire_water_pond"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <applyed-to>node area</applyed-to>
     </feature>
 </doc-part>
