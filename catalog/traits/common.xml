@@ -26,6 +26,10 @@
 				<key>branch</key>
 			</tag>
 			<tag d:tag-value-type="anyString">
+				<title>l10n.trait.trade-networks.tag.department.title</title>
+				<key>department</key>
+			</tag>
+			<tag d:tag-value-type="anyString">
 				<title>l10n.trait.trade-networks.tag.network.title</title>
 				<key>network</key>
 			</tag>
