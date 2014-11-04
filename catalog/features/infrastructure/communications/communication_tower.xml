@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="communication_tower">
         <title>l10n.feature.communication_tower.title</title>
         <tags>
@@ -14,15 +14,15 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.communication_tower.more_tags.ref.title</title>
                 <key>ref</key>
             </tag>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.communication_tower.more_tags.height.title</title>
                 <key>height</key>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.communication_tower.more_tags.communication:radio.title</title>
                 <key>communication:radio</key>
                 <val value="yes">
@@ -41,7 +41,7 @@
                     <title>l10n.feature.communication_tower.more_tags.communication:radio.dav.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.communication_tower.more_tags.communication:television.title</title>
                 <key>communication:television</key>
                 <val value="yes">
@@ -57,7 +57,7 @@
                     <title>l10n.feature.communication_tower.more_tags.communication:television.analogue.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.title</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
@@ -79,7 +79,7 @@
                     <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.lte.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.communication_tower.more_tags.ele.title</title>
                 <key>ele</key>
             </tag>
