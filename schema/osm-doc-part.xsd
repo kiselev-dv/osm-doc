@@ -414,6 +414,12 @@
 						<documentation>Eg. 18:00-19:30</documentation>
 					</annotation>
 				</enumeration>
+
+				<enumeration value="date" >
+					<annotation>
+						<documentation>Eg. 2014-11-04</documentation>
+					</annotation>
+				</enumeration>
 			</restriction>
 		</simpleType>
 	</attribute>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="hotel">
         <title>l10n.feature.hotel.title</title>
         <tags>
@@ -9,107 +9,15 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>stars</trait>
+        <trait>internet-access</trait>
+        <trait>smoking</trait>
         <more-tags>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.hotel.more_tags.beds.title</title>
                 <key>beds</key>
             </tag>
-            <tag tag-value-type="enum">
-                <title>l10n.feature.hotel.more_tags.internet_access.title</title>
-                <key>internet_access</key>
-                <val value="yes">
-                    <title>l10n.feature.hotel.more_tags.internet_access.yes.title</title>
-                </val>
-                <val value="wlan">
-                    <title>l10n.feature.hotel.more_tags.internet_access.wlan.title</title>
-                </val>
-                <val value="terminal">
-                    <title>l10n.feature.hotel.more_tags.internet_access.terminal.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.hotel.more_tags.internet_access.no.title</title>
-                </val>
-                <val value="wired">
-                    <title>l10n.feature.hotel.more_tags.internet_access.wired.title</title>
-                </val>
-                <val value="public">
-                    <title>l10n.feature.hotel.more_tags.internet_access.public.title</title>
-                </val>
-            </tag>
-            <tag tag-value-type="enum">
-                <title>l10n.feature.hotel.more_tags.stars.title</title>
-                <key>stars</key>
-                <val value="3">
-                    <title>l10n.feature.hotel.more_tags.stars.3.title</title>
-                </val>
-                <val value="2">
-                    <title>l10n.feature.hotel.more_tags.stars.2.title</title>
-                </val>
-                <val value="1">
-                    <title>l10n.feature.hotel.more_tags.stars.1.title</title>
-                </val>
-                <val value="3S">
-                    <title>l10n.feature.hotel.more_tags.stars.3S.title</title>
-                </val>
-                <val value="5">
-                    <title>l10n.feature.hotel.more_tags.stars.5.title</title>
-                </val>
-                <val value="4">
-                    <title>l10n.feature.hotel.more_tags.stars.4.title</title>
-                </val>
-                <val value="5S">
-                    <title>l10n.feature.hotel.more_tags.stars.5S.title</title>
-                </val>
-                <val value="1S">
-                    <title>l10n.feature.hotel.more_tags.stars.1S.title</title>
-                </val>
-                <val value="4S">
-                    <title>l10n.feature.hotel.more_tags.stars.4S.title</title>
-                </val>
-                <val value="2S">
-                    <title>l10n.feature.hotel.more_tags.stars.2S.title</title>
-                </val>
-            </tag>
-            <tag tag-value-type="enum">
-                <title>l10n.feature.hotel.more_tags.smoking.title</title>
-                <key>smoking</key>
-                <val value="yes">
-                    <title>l10n.feature.hotel.more_tags.smoking.yes.title</title>
-                </val>
-                <val value="isolated">
-                    <title>l10n.feature.hotel.more_tags.smoking.isolated.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.hotel.more_tags.smoking.no.title</title>
-                </val>
-                <val value="dedicated">
-                    <title>l10n.feature.hotel.more_tags.smoking.dedicated.title</title>
-                </val>
-                <val value="separated">
-                    <title>l10n.feature.hotel.more_tags.smoking.separated.title</title>
-                </val>
-            </tag>
-            <tag tag-value-type="number">
-                <title>l10n.feature.hotel.more_tags.internet_access:operator.title</title>
-                <key>internet_access:operator</key>
-            </tag>
-            <tag tag-value-type="enum">
-                <title>l10n.feature.hotel.more_tags.internet_access:fee.title</title>
-                <key>internet_access:fee</key>
-                <val value="yes">
-                    <title>l10n.feature.hotel.more_tags.internet_access:fee.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.hotel.more_tags.internet_access:fee.no.title</title>
-                </val>
-                <val value="true">
-                    <title>l10n.feature.hotel.more_tags.internet_access:fee.true.title</title>
-                </val>
-                <val value="false">
-                    <title>l10n.feature.hotel.more_tags.internet_access:fee.false.title</title>
-                </val>
-            </tag>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.hotel.more_tags.rooms.title</title>
                 <key>rooms</key>
             </tag>

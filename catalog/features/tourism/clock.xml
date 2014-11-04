@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="clock">
         <title>l10n.feature.clock.title</title>
         <tags>
@@ -10,7 +10,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.clock.more_tags.visibility.title</title>
                 <key>visibility</key>
                 <val value="area">
@@ -23,7 +23,7 @@
                     <title>l10n.feature.clock.more_tags.visibility.house.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.clock.more_tags.display.title</title>
                 <key>display</key>
                 <val value="sundial">
@@ -39,19 +39,13 @@
                     <title>l10n.feature.clock.more_tags.display.digital.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.clock.more_tags.faces.title</title>
                 <key>faces</key>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.clock.more_tags.hygrometer.title</title>
                 <key>hygrometer</key>
-                <val value="yes">
-                    <title>l10n.feature.clock.more_tags.hygrometer.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.clock.more_tags.hygrometer.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.clock.more_tags.hygrometer.true.title</title>
                 </val>
@@ -59,7 +53,7 @@
                     <title>l10n.feature.clock.more_tags.hygrometer.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.clock.more_tags.support.title</title>
                 <key>support</key>
                 <val value="pole">
@@ -75,15 +69,9 @@
                     <title>l10n.feature.clock.more_tags.support.billboard.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.clock.more_tags.date.title</title>
                 <key>date</key>
-                <val value="yes">
-                    <title>l10n.feature.clock.more_tags.date.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.clock.more_tags.date.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.clock.more_tags.date.true.title</title>
                 </val>
@@ -91,15 +79,9 @@
                     <title>l10n.feature.clock.more_tags.date.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.clock.more_tags.barometer.title</title>
                 <key>barometer</key>
-                <val value="yes">
-                    <title>l10n.feature.clock.more_tags.barometer.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.clock.more_tags.barometer.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.clock.more_tags.barometer.true.title</title>
                 </val>
@@ -107,15 +89,9 @@
                     <title>l10n.feature.clock.more_tags.barometer.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.clock.more_tags.thermometer.title</title>
                 <key>thermometer</key>
-                <val value="yes">
-                    <title>l10n.feature.clock.more_tags.thermometer.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.clock.more_tags.thermometer.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.clock.more_tags.thermometer.true.title</title>
                 </val>

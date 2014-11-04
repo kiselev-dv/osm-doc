@@ -10,15 +10,15 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="number">
+            <tag>
                 <title>l10n.feature.artwork.more_tags.artist_name.title</title>
                 <key>artist_name</key>
             </tag>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="date">
                 <title>l10n.feature.artwork.more_tags.start_date.title</title>
                 <key>start_date</key>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.artwork.more_tags.artwork_type.title</title>
                 <key>artwork_type</key>
                 <val value="sculpture">
