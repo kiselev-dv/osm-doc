@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="doctors">
         <title>l10n.feature.doctors.title</title>
         <tags>
@@ -10,15 +10,9 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.doctors.more_tags.emergency.title</title>
                 <key>emergency</key>
-                <val value="yes">
-                    <title>l10n.feature.doctors.more_tags.emergency.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.doctors.more_tags.emergency.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.doctors.more_tags.emergency.true.title</title>
                 </val>
