@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+
+<!-- TODO: add water=yes/no elctricity=yes/no e.t.c, move to infrastructure -->
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="marina">
         <title>l10n.feature.marina.title</title>
         <tags>
@@ -10,7 +12,7 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="number">
                 <title>l10n.feature.marina.more_tags.capacity.title</title>
                 <key>capacity</key>
             </tag>
