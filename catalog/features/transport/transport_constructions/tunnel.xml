@@ -8,7 +8,6 @@
                 <val value="tunnel"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <icon>tunnel.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

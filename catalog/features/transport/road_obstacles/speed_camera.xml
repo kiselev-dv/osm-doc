@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="speed_camera">
         <title>l10n.feature.speed_camera.title</title>
         <tags>
@@ -8,9 +8,8 @@
                 <val value="speed_camera"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="number">
+            <tag d:tag-value-type="measure">
                 <title>l10n.feature.speed_camera.more_tags.maxspeed.title</title>
                 <key>maxspeed</key>
             </tag>

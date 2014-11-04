@@ -11,7 +11,6 @@
                 <key>traffic_calming</key>
             </tag>
         </tags>
-        <trait>poi</trait>
         <icon>bump.png</icon>
         <applyed-to>node</applyed-to>
     </feature>

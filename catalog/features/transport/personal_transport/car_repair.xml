@@ -7,8 +7,10 @@
                 <key>shop</key>
                 <val value="car_repair"/>
             </tag>
+            <!-- Не знаю исключать или не стоит -->
             <tag exclude="true">
                 <key>service</key>
+                <val value="tyres"/>
             </tag>
         </tags>
         <trait>poi</trait>

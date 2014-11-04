@@ -8,7 +8,6 @@
                 <val value="lift_gate"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <applyed-to>node</applyed-to>
     </feature>
 </doc-part>

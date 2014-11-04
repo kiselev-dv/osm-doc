@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="railway_halt">
         <title>l10n.feature.railway_halt.title</title>
         <tags>
@@ -10,15 +10,9 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.railway_halt.more_tags.ticket_office.title</title>
                 <key>ticket_office</key>
-                <val value="yes">
-                    <title>l10n.feature.railway_halt.more_tags.ticket_office.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.railway_halt.more_tags.ticket_office.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.railway_halt.more_tags.ticket_office.true.title</title>
                 </val>
@@ -26,15 +20,9 @@
                     <title>l10n.feature.railway_halt.more_tags.ticket_office.false.title</title>
                 </val>
             </tag>
-            <tag tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.railway_halt.more_tags.disused.title</title>
                 <key>disused</key>
-                <val value="yes">
-                    <title>l10n.feature.railway_halt.more_tags.disused.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.railway_halt.more_tags.disused.no.title</title>
-                </val>
                 <val value="true">
                     <title>l10n.feature.railway_halt.more_tags.disused.true.title</title>
                 </val>

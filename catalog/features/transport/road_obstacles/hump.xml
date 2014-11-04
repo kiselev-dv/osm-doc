@@ -8,7 +8,6 @@
                 <val value="hump"/>
             </tag>
         </tags>
-        <trait>poi</trait>
         <icon>hump.png</icon>
         <applyed-to>node</applyed-to>
     </feature>
