@@ -9,6 +9,7 @@
             </tag>
             <tag exclude="true">
                 <key>lawyer</key>
+                <val value="notary"/>
             </tag>
         </tags>
         <trait>poi</trait>
