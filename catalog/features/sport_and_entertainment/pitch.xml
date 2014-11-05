@@ -9,29 +9,11 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>fee</trait>
         <trait>sport</trait>
         <trait>surface</trait>
         <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.pitch.more_tags.fee.title</title>
-                <key>fee</key>
-                <val value="true">
-                    <title>l10n.feature.pitch.more_tags.fee.yes.title</title>
-                </val>
-                <val value="false">
-                    <title>l10n.feature.pitch.more_tags.fee.no.title</title>
-                </val>
-            </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.pitch.more_tags.seasonal.title</title>
-                <key>seasonal</key>
-                <val value="true">
-                    <title>l10n.feature.pitch.more_tags.seasonal.true.title</title>
-                </val>
-                <val value="false">
-                    <title>l10n.feature.pitch.more_tags.seasonal.false.title</title>
-                </val>
-            </tag>
             <tag d:tag-value-type="number">
                 <title>l10n.feature.pitch.more_tags.hoops.title</title>
                 <key>hoops</key>

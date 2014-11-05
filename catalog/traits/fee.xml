@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="fee">
+		<title>l10n.trait.fee.title</title>	
+		<!-- If we have fee, so we have payment methods -->
+		<extends>payment</extends>
+		<more-tags>			
+			<tag d:tag-value-type="boolean">
+                <title>l10n.feature.dance.more_tags.fee.title</title>
+                <key>fee</key>
+                <val value="true">
+                    <title>l10n.feature.dance.more_tags.fee.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.dance.more_tags.fee.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+	
+	<trait name="payment">
+		<title>l10n.trait.payment.title</title>	
+		<more-tags>			
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-coins.title</title>
+                <key>payment:coins</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-telephone_cards.title</title>
+                <key>payment:telephone_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-telephone_cards.title</title>
+                <key>payment:telephone_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-notes.title</title>
+                <key>payment:notes</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-credit_cards.title</title>
+                <key>payment:credit_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-electronic_purses.title</title>
+                <key>payment:electronic_purses</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-bitcoin.title</title>
+                <key>payment:bitcoin</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-debit_cards.title</title>
+                <key>payment:debit_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-cash.title</title>
+                <key>payment:cash</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-account_cards.title</title>
+                <key>payment:account_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-account_cards.title</title>
+                <key>payment:account_cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-visas.title</title>
+                <key>payment:visa</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-mastercard.title</title>
+                <key>payment:mastercard</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-maestro.title</title>
+                <key>payment:maestro</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-cards.title</title>
+                <key>payment:cards</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-amex.title</title>
+                <key>payment:amex</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-american_express.title</title>
+                <key>payment:american_express</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-litecoin.title</title>
+                <key>payment:litecoin</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-diners_club.title</title>
+                <key>payment:diners_club</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-girocard.title</title>
+                <key>payment:girocard</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-pikepass.title</title>
+                <key>payment:pikepass</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-discover_card.title</title>
+                <key>payment:discover_card</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-dkv.title</title>
+                <key>payment:dkv</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.trait.payment.more_tags.payment-cheque.title</title>
+                <key>payment:cheque</key>
+                <val value="true">
+                    <title>l10n.trait.payment.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.trait.payment.more_tags.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

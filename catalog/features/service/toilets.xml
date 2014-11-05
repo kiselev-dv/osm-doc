@@ -9,18 +9,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
-        <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.toilets.more_tags.fee.title</title>
-                <key>fee</key>
-                <val value="true">
-                    <title>l10n.feature.toilets.more_tags.fee.yes.title</title>
-                </val>
-                <val value="false">
-                    <title>l10n.feature.toilets.more_tags.fee.no.title</title>
-                </val>
-            </tag>
-        </more-tags>
+        <trait>fee</trait>
         <icon>toilets.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

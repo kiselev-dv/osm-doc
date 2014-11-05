@@ -10,17 +10,8 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>fee</trait>
         <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.beach_resort.more_tags.fee.title</title>
-                <key>fee</key>
-                <val value="yes">
-                    <title>l10n.feature.beach_resort.more_tags.fee.yes.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.beach_resort.more_tags.fee.no.title</title>
-                </val>
-            </tag>
             <tag d:tag-value-type="enum">
                 <title>l10n.feature.beach_resort.more_tags.nudism.title</title>
                 <key>nudism</key>

@@ -5,6 +5,7 @@
 	<trait name="poi">
 		<title>l10n.trait.poi.title</title>
 		<description>l10n.trait.poi.description</description>
+		<extends>payment</extends>
 		<extends>working-hours</extends>
 		<extends>contacts</extends>
 		<extends>trade-networks</extends>

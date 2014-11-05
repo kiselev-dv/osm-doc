@@ -38,3 +38,6 @@
                     <title>l10n.feature.hotel.more_tags.stars.2S.title</title>
                 </val>
             </tag>
+        </more-tags>
+    </trait>
+</doc-part>
