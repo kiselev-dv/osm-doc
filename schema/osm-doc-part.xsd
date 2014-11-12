@@ -245,7 +245,10 @@
 				<element name="key" type="osmdoc:keyType"/>
 				<element name="val" minOccurs="0" maxOccurs="unbounded">
 					<complexType>
-						<group minOccurs="0" ref="osmdoc:titleDescription" />
+						<sequence>
+							<group minOccurs="0" maxOccurs="unbounded" ref="osmdoc:titleDescription" />
+							<element minOccurs="0" name="alias" type="osmdoc:langString"/>
+						</sequence>
 						<attribute name="value" use="required" >
 							<annotation>
 								<documentation>
@@ -269,6 +272,14 @@
 									в то время как объекты с одинаковым name - редко.
 									name - высокоселективен, brand - наоборот низкоселективен, и потому
 									хорошо подходит для группировки объектов по значению тега.
+								</documentation>
+							</annotation>
+						</attribute>
+						<attribute name="use-as-keyword" type="boolean" default="true" use="optional">
+							<annotation>
+								<documentation>
+									Использовать ли перевод значения тега как keyword для тех пои, для
+									которых эта комбинация тегов была сопоставлена.
 								</documentation>
 							</annotation>
 						</attribute>
