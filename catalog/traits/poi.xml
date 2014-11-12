@@ -23,7 +23,7 @@
 				<key>operator</key>
 			</tag>
 			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.banch.title</title>
+				<title>l10n.trait.trade-networks.tag.branch.title</title>
 				<key>branch</key>
 			</tag>
 			<tag d:tag-value-type="anyString">
