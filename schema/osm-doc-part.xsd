@@ -35,17 +35,12 @@
 		<sequence>
 			<group ref="osmdoc:titleDescription" />
 
-			<element name="alias" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" >
+			<element name="keyword" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" >
 				<annotation>
 					<documentation>
-						Можно указать любое количество псевдонимов. Псевдонимы, в отличае от
-						названия и описания - не переводятся. Псевдоним задается сразу 
-						для определеннго языка. Псевдонимы не переводятся, т.к. псевдонимы 
-						специфичны для языка и не обязательно имеют перевод в других языках.
+						Ключевые слова используемые для поиска объектов данной категории.
 						
-						You may specify as many aliases as you wish. Aliases are not translated via
-						i18n resource files. Every alias already translated. Language specified
-						in 'lang' attribute. 
+						Keywords set, useful for search.						
 					</documentation>
 				</annotation>
 			</element>
@@ -205,7 +200,7 @@
 	<complexType name="langString">
 		<simpleContent>
 			<extension base="string">
-				<attribute name="lang" type="string" use="required"	/>
+				<attribute name="lang" type="string" use="optional"	/>
 			</extension>
 		</simpleContent>
 	</complexType>
@@ -247,7 +242,22 @@
 					<complexType>
 						<sequence>
 							<group minOccurs="0" maxOccurs="unbounded" ref="osmdoc:titleDescription" />
-							<element minOccurs="0" name="alias" type="osmdoc:langString"/>
+							<element minOccurs="0" maxOccurs="unbounded" name="keyword" type="osmdoc:langString">
+								<annotation>
+									<documentation>
+										Набор ключевых слов по которым будет осуществлятся поиск
+										ПОИ, добавляются для совпавших значений тегов.
+										
+										Например, для cuisine=chineeze, для РФ - суши, роллы.
+										
+										lang теперь не обязателен, если он указан, то keyword
+										трактуется как специфический для определенного языка.
+										
+										Внутри keyword поддерживается L10n. префиксы для
+										интернационализации.
+									</documentation>
+								</annotation>
+							</element>
 						</sequence>
 						<attribute name="value" use="required" >
 							<annotation>
