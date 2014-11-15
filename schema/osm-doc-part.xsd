@@ -241,7 +241,7 @@
 				<element name="val" minOccurs="0" maxOccurs="unbounded">
 					<complexType>
 						<sequence>
-							<group minOccurs="0" maxOccurs="unbounded" ref="osmdoc:titleDescription" />
+							<group minOccurs="0" ref="osmdoc:titleDescription" />
 							<element minOccurs="0" maxOccurs="unbounded" name="keyword" type="osmdoc:langString">
 								<annotation>
 									<documentation>
