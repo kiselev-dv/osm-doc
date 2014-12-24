@@ -109,6 +109,9 @@
                 <val value="bavarian">
                     <title>l10n.feature.bar.more_tags.cuisine.bavarian.title</title>
                 </val>
+                <val value="ukrainian">
+                    <title>l10n.feature.bar.more_tags.cuisine.ukrainian.title</title>
+                </val>
             </tag>
          </more-tags>
      </trait>
