@@ -9,7 +9,7 @@
             </tag>
         </tags>
         <more-tags>
-            <tag>
+            <tag d:tag-value-type="anyString">
                 <title>l10n.feature.bus_stop.more_tags.route_ref.title</title>
                 <key>route_ref</key>
             </tag>
