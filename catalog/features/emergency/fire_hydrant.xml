@@ -27,7 +27,7 @@
                 </val>
             </tag>
             <tag d:tag-value-type="anyString">
-                <title>Номер (код)</title>
+                <title>l10n.feature.fire_hydrant.more_tags.ref</title>
                 <key>ref</key>
             </tag>
             <tag d:tag-value-type="number">
