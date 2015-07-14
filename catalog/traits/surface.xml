@@ -5,67 +5,70 @@
 		<title>l10n.trait.surface.title</title>	
 		<more-tags>			
 			<tag d:tag-value-type="enum">
-                <title>l10n.feature.beach.more_tags.surface.title</title>
+                <title>l10n.trait.surface.more_tags.surface.title</title>
                 <key>surface</key>
                 <val value="paving_stones">
-                    <title>l10n.feature.beach.more_tags.surface.paving_stones.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.paving_stones.title</title>
                 </val>
                 <val value="sand">
-                    <title>l10n.feature.beach.more_tags.surface.sand.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.sand.title</title>
                 </val>
                 <val value="asphalt">
-                    <title>l10n.feature.beach.more_tags.surface.asphalt.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.asphalt.title</title>
                 </val>
                 <val value="wood">
-                    <title>l10n.feature.beach.more_tags.surface.wood.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.wood.title</title>
                 </val>
                 <val value="grass">
-                    <title>l10n.feature.beach.more_tags.surface.grass.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.grass.title</title>
                 </val>
                 <val value="paved">
-                    <title>l10n.feature.beach.more_tags.surface.paved.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.paved.title</title>
                 </val>
                 <val value="ground">
-                    <title>l10n.feature.beach.more_tags.surface.ground.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.ground.title</title>
                 </val>
                 <val value="gravel">
-                    <title>l10n.feature.beach.more_tags.surface.gravel.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.gravel.title</title>
                 </val>
                 <val value="concrete">
-                    <title>l10n.feature.beach.more_tags.surface.concrete.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.concrete.title</title>
                 </val>
                 <val value="unpaved">
-                    <title>l10n.feature.beach.more_tags.surface.unpaved.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.unpaved.title</title>
                 </val>
                 <val value="metal">
-                    <title>l10n.feature.beach.more_tags.surface.metal.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.metal.title</title>
                 </val>
                 <val value="concrete:plates">
-                    <title>l10n.feature.beach.more_tags.surface.concrete:plates.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.concrete:plates.title</title>
                 </val>
                 <val value="ice">
-                    <title>l10n.feature.beach.more_tags.surface.ice.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.ice.title</title>
                 </val>
                 <val value="concrete:lanes">
-                    <title>l10n.feature.beach.more_tags.surface.concrete:lanes.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.concrete:lanes.title</title>
                 </val>
                 <val value="earth">
-                    <title>l10n.feature.beach.more_tags.surface.earth.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.earth.title</title>
                 </val>
                 <val value="tartan">
-                    <title>l10n.feature.beach.more_tags.surface.tartan.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.tartan.title</title>
                 </val>
                 <val value="pebblestone">
-                    <title>l10n.feature.beach.more_tags.surface.pebblestone.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.pebblestone.title</title>
                 </val>
                 <val value="artificial_turf">
-                    <title>l10n.feature.beach.more_tags.surface.artificial_turf.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.artificial_turf.title</title>
                 </val>
                 <val value="dirt">
-                    <title>l10n.feature.beach.more_tags.surface.dirt.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.dirt.title</title>
                 </val>
                 <val value="cobblestone">
-                    <title>l10n.feature.beach.more_tags.surface.cobblestone.title</title>
+                    <title>l10n.trait.surface.more_tags.surface.cobblestone.title</title>
+                </val>
+                <val value="clay">
+                    <title>l10n.trait.surface.more_tags.surface.clay.title</title>
                 </val>
             </tag>
         </more-tags>

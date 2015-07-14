@@ -22,6 +22,9 @@
                 <val value="separated">
                     <title>l10n.feature.bar.more_tags.smoking.separated.title</title>
                 </val>
+                <val value="outside">
+                    <title>l10n.feature.bar.more_tags.smoking.outside.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
