@@ -758,7 +758,7 @@
                     <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.false.title</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
+            <tag d:tag-value-type="enum">
                 <title>l10n.feature.recycling.more_tags.recycling_type.title</title>
                 <key>recycling_type</key>
                 <val value="center">
