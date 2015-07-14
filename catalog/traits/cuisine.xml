@@ -115,6 +115,15 @@
                 <val value="portuguese">
                     <title>l10n.trait.cuisine.more_tags.cuisine.portuguese.title</title>
                 </val>
+                <val value="czech">
+                    <title>l10n.trait.cuisine.more_tags.cuisine.czech.title</title>
+                </val>
+                <val value="balkan">
+                    <title>l10n.trait.cuisine.more_tags.cuisine.balkan.title</title>
+                </val>
+                <val value="african">
+                    <title>l10n.trait.cuisine.more_tags.cuisine.african.title</title>
+                </val>
             </tag>
          </more-tags>
      </trait>
