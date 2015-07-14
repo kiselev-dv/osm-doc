@@ -22,6 +22,9 @@
                 <val value="public">
                     <title>l10n.trait.parking.more_tags.parking.public.title</title>
                 </val>
+                <val value="lane">
+                    <title>l10n.trait.parking.more_tags.parking.lane.title</title>
+                </val>
                  <val value="garage_boxes">
                     <title>l10n.trait.parking.more_tags.parking.garage_boxes.title</title>
                 </val>

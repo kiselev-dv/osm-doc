@@ -205,6 +205,9 @@
                 <val value="shooting">
                     <title>l10n.feature.bicycle_track.more_tags.sport.shooting.title</title>
                 </val>
+                <val value="fitness">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.fitness.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
