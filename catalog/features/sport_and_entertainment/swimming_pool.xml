@@ -12,7 +12,7 @@
         <trait>seasonal</trait>
         <trait>sports</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
+            <tag d:tag-value-type="boolean">
                 <title>l10n.feature.swimming_pool.more_tags.covered.title</title>
                 <key>covered</key>
                 <val value="true">
