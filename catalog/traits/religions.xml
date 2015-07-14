@@ -89,6 +89,9 @@
                 <val value="jehovahs_witness">
                     <title>l10n.feature.cemetery.more_tags.denomination.jehovahs_witness.title</title>
                 </val>
+                <val value="protestant">
+                    <title>l10n.feature.cemetery.more_tags.denomination.protestant.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
