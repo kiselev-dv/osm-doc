@@ -112,6 +112,9 @@
                 <val value="ukrainian">
                     <title>l10n.trait.cuisine.more_tags.cuisine.ukrainian.title</title>
                 </val>
+                <val value="portuguese">
+                    <title>l10n.trait.cuisine.more_tags.cuisine.portuguese.title</title>
+                </val>
             </tag>
          </more-tags>
      </trait>

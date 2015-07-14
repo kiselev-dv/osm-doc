@@ -83,6 +83,9 @@
                 <val value="assyrian">
                     <title>l10n.feature.cemetery.more_tags.denomination.assyrian.title</title>
                 </val>
+                <val value="sunni">
+                    <title>l10n.feature.cemetery.more_tags.denomination.sunni.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
