@@ -9,6 +9,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>parking</trait>
         <icon>supermarket.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

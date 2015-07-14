@@ -9,7 +9,10 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>parking</trait>
+        
         <icon>parking_entrance.png</icon>
+        
         <applyed-to>node</applyed-to>
     </feature>
 </doc-part>

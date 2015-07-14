@@ -12,6 +12,7 @@
         <trait>stars</trait>
         <trait>internet-access</trait>
         <trait>smoking</trait>
+        <trait>parking</trait>
         <more-tags>
             <tag d:tag-value-type="number">
                 <title>l10n.feature.hotel.more_tags.beds.title</title>

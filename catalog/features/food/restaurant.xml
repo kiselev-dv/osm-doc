@@ -14,6 +14,7 @@
         <trait>cuisine</trait>
         <trait>internet-access</trait>
         <trait>smoking</trait>
+        <trait>parking</trait>
         <more-tags>
             <tag d:tag-value-type="enum">
                 <title>l10n.feature.biergarten.more_tags.drive_in.title</title>
