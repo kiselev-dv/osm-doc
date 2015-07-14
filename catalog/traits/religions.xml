@@ -92,6 +92,9 @@
                 <val value="protestant">
                     <title>l10n.feature.cemetery.more_tags.denomination.protestant.title</title>
                 </val>
+                <val value="roman_catholic">
+                    <title>l10n.feature.cemetery.more_tags.denomination.roman_catholic.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
