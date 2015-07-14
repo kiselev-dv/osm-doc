@@ -86,6 +86,9 @@
                 <val value="sunni">
                     <title>l10n.feature.cemetery.more_tags.denomination.sunni.title</title>
                 </val>
+                <val value="jehovahs_witness">
+                    <title>l10n.feature.cemetery.more_tags.denomination.jehovahs_witness.title</title>
+                </val>
             </tag>
         </more-tags>
     </trait>
