@@ -4,7 +4,7 @@
         <group name="shop">
             <title>l10n.group.osm-ru.shop.title</title>
             <group name="shop_food">
-                <title>Продукты</title>
+                <title>l10n.group.osm-ru.shop_food.title</title>
                 <fref ref="bakery"/>
                 <fref ref="alcohol"/>
                 <fref ref="convenience"/>
@@ -207,7 +207,7 @@
         <group name="transport">
             <title>l10n.group.osm-ru.transport.title</title>
             <group name="road_obstacles">
-                <title>Препятствия на дороге</title>
+                <title>l10n.group.osm-ru.road_obstacles.title</title>
                 <fref ref="ford"/>
                 <fref ref="mountain_pass"/>
                 <fref ref="gate"/>
@@ -220,7 +220,7 @@
                 <fref ref="speed_camera"/>
             </group>
             <group name="personal_transport">
-                <title>Личный автотранспорт</title>
+                <title>l10n.group.osm-ru.personal_transport.title</title>
                 <fref ref="car_repair"/>
                 <fref ref="car_repair_tyres"/>
                 <fref ref="vehicle_inspection"/>
@@ -234,7 +234,7 @@
                 <fref ref="speed_camera"/>
             </group>
             <group name="public_transport">
-                <title>Общественный транспорт</title>
+                <title>l10n.group.osm-ru.public_transport.title</title>
                 <fref ref="bus_station"/>
                 <fref ref="subway_entrance"/>
                 <fref ref="railway_station"/>
@@ -246,28 +246,30 @@
                 <fref ref="funicular"/>
             </group>
             <group name="air_transport">
-                <title>Воздушный транспорт</title>
+                <title>l10n.group.osm-ru.air_transport.title</title>
                 <fref ref="airport"/>
                 <fref ref="helipad"/>
             </group>
             <group name="water_transport">
-                <title>Водный транспорт</title>
+                <title>l10n.group.osm-ru.water_transport.title</title>
+                <!-- Switch off, I don't think thats neeaded in common categoryes 
                 <group name="ship_navigation">
-                    <title>Судоходная навигация</title>
+                    <title>l10n.group.osm-ru.ship_navigation.title</title>
                     <fref ref="leading_beacon"/>
                     <fref ref="lateral_buoy"/>
                     <fref ref="lighthouse"/>
                 </group>
+                 -->
                 <fref ref="slipway"/>
                 <fref ref="ferry_terminal"/>
             </group>
             <group name="bicycle_transport">
-                <title>Велосипеды</title>
+                <title>l10n.group.osm-ru.bicycle_transport.title</title>
                 <fref ref="bicycle_rental"/>
                 <fref ref="bicycle_parking"/>
             </group>
             <group name="transport_constructions">
-                <title>Транспортные сооружения</title>
+                <title>l10n.group.osm-ru.transport_constructions.title</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
@@ -347,7 +349,7 @@
         <group name="tourism">
             <title>l10n.group.osm-ru.tourism.title</title>
             <group name="sights">
-                <title>Достопримечательности</title>
+                <title>l10n.group.osm-ru.sights.title</title>
                 <fref ref="museum"/>
                 <fref ref="attraction"/>
                 <fref ref="memorial"/>
@@ -370,7 +372,7 @@
                 <fref ref="lighthouse"/>
             </group>
             <group name="lodging">
-                <title>Проживание</title>
+                <title>l10n.group.osm-ru.lodging.title</title>
                 <fref ref="hotel"/>
                 <fref ref="guest_house"/>
                 <fref ref="hostel"/>
@@ -391,7 +393,7 @@
         <group name="culture">
             <title>l10n.group.osm-ru.culture.title</title>
             <group name="clubs">
-                <title>Клубы по интересам, кружки</title>
+                <title>l10n.group.osm-ru.clubs.title</title>
                 <fref ref="club_art"/>
                 <fref ref="club_astronomy"/>
                 <fref ref="club_computer"/>
@@ -468,26 +470,12 @@
         <group name="infrastructure">
             <title>l10n.group.osm-ru.infrastructure.title</title>
             <group name="transport_constructions">
-                <title>Транспортные сооружения</title>
+                <title>l10n.group.osm-ru.transport_constructions.title</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
-            <group name="water_supply">
-                <title>Водоснабжение</title>
-                <fref ref="water_well"/>
-                <fref ref="water_works"/>
-                <fref ref="wastewater_plant"/>
-                <fref ref="water_tower"/>
-            </group>
-            <group name="power">
-                <title>Электроснабжение</title>
-                <fref ref="substation"/>
-                <fref ref="transformer"/>
-                <fref ref="power_plant"/>
-                <fref ref="power_generator"/>
-            </group>
             <group name="communications">
-                <title>Связь</title>
+                <title>l10n.group.osm-ru.communications.title</title>
                 <fref ref="post_office"/>
                 <fref ref="post_box"/>
                 <fref ref="telephone"/>
@@ -496,13 +484,13 @@
                 <fref ref="telephone_exchange"/>
             </group>
             <group name="trash_disposal">
-                <title>Утилизация мусора</title>
+                <title>l10n.group.osm-ru.trash_disposal.title</title>
                 <fref ref="recycling"/>
                 <fref ref="landfill"/>
                 <fref ref="waste_disposal"/>
             </group>
             <group name="advertising">
-                <title>Реклама</title>
+                <title>l10n.group.osm-ru.advertising.title</title>
                 <fref ref="advertising_billboard"/>
                 <fref ref="advertising_column"/>
                 <fref ref="advertising_flag"/>
@@ -510,6 +498,20 @@
                 <fref ref="advertising_screen"/>
                 <fref ref="advertising_sculpture"/>
                 <fref ref="advertising_wall_painting"/>
+            </group>
+            <group name="water_supply">
+                <title>l10n.group.osm-ru.water_supply.title</title>
+                <fref ref="water_well"/>
+                <fref ref="water_works"/>
+                <fref ref="wastewater_plant"/>
+                <fref ref="water_tower"/>
+            </group>
+            <group name="power">
+                <title>l10n.group.osm-ru.power.title</title>
+                <fref ref="substation"/>
+                <fref ref="transformer"/>
+                <fref ref="power_plant"/>
+                <fref ref="power_generator"/>
             </group>
             <fref ref="surveillance"/>
             <fref ref="construction"/>
