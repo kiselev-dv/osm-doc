@@ -8,7 +8,7 @@
                 <title>l10n.trait.internet-access.more_tags.internet_access.title</title>
                 <key>internet_access</key>
                 <val value="yes">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="wlan">
                     <title>l10n.trait.internet-access.more_tags.internet_access.wlan.title</title>

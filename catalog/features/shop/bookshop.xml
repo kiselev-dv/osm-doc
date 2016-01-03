@@ -14,10 +14,10 @@
                 <title>l10n.feature.bookshop.more_tags.second_hand.title</title>
                 <key>second_hand</key>
                 <val value="yes">
-                    <title>l10n.feature.bookshop.more_tags.second_hand.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.bookshop.more_tags.second_hand.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="only">
                     <title>l10n.feature.bookshop.more_tags.second_hand.only.title</title>

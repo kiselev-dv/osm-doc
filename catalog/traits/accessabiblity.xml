@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="accessability">
+		<title>l10n.trait.accessability.title</title>	
+		<more-tags>				
+            <tag d:tag-value-type="enum">
+                <title>l10n.trait.accessability.more_tags.wheelchair.title</title>
+                <key>wheelchair</key>
+                <val value="yes">
+                    <title>l10n.trait.accessability.more_tags.wheelchair.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.trait.accessability.more_tags.wheelchair.no.title</title>
+                </val>
+                <val value="limited">
+                    <title>l10n.trait.accessability.more_tags.wheelchair.limited.title</title>
+                </val>
+                <val value="designated">
+                    <title>l10n.trait.accessability.more_tags.wheelchair.designated.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>			
+			

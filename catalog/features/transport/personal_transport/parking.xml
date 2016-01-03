@@ -23,7 +23,7 @@
                     <title>l10n.feature.parking.more_tags.park_ride.yes.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.traits.more_tags.false</title>
+                    <title>l10n.feature.parking.more_tags.park_ride.no.title</title>
                 </val>
                 <val value="bus">
                     <title>l10n.feature.parking.more_tags.park_ride.bus.title</title>

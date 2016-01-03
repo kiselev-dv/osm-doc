@@ -8,10 +8,10 @@
                 <title>l10n.trait.seasonal.more_tags.seasonal.title</title>
                 <key>seasonal</key>
                 <val value="yes">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="no">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="summer">
                     <title>l10n.trait.seasonal.more_tags.seasonal.summer.title</title>

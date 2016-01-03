@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <hierarchy name="osm-ru">
+    	<group name="public_transport">
+            <title>l10n.group.osm-ru.public_transport.title</title>
+            <fref ref="bus_stop"/>
+            <fref ref="tram_stop"/>
+            <fref ref="subway_entrance"/>
+            <fref ref="subway_station"/>
+            <fref ref="bus_station"/>
+            <fref ref="railway_station"/>
+            <fref ref="railway_halt"/>
+            <fref ref="taxi"/>
+            <fref ref="funicular"/>
+        </group>
         <group name="shop">
             <title>l10n.group.osm-ru.shop.title</title>
             <group name="shop_food">
@@ -233,18 +245,6 @@
                 <fref ref="garages"/>
                 <fref ref="speed_camera"/>
             </group>
-            <group name="public_transport">
-                <title>l10n.group.osm-ru.public_transport.title</title>
-                <fref ref="bus_station"/>
-                <fref ref="subway_entrance"/>
-                <fref ref="railway_station"/>
-                <fref ref="railway_halt"/>
-                <fref ref="subway_station"/>
-                <fref ref="bus_stop"/>
-                <fref ref="tram_stop"/>
-                <fref ref="taxi"/>
-                <fref ref="funicular"/>
-            </group>
             <group name="air_transport">
                 <title>l10n.group.osm-ru.air_transport.title</title>
                 <fref ref="airport"/>
@@ -252,14 +252,12 @@
             </group>
             <group name="water_transport">
                 <title>l10n.group.osm-ru.water_transport.title</title>
-                <!-- Switch off, I don't think thats neeaded in common categoryes 
                 <group name="ship_navigation">
                     <title>l10n.group.osm-ru.ship_navigation.title</title>
                     <fref ref="leading_beacon"/>
                     <fref ref="lateral_buoy"/>
                     <fref ref="lighthouse"/>
                 </group>
-                 -->
                 <fref ref="slipway"/>
                 <fref ref="ferry_terminal"/>
             </group>

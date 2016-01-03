@@ -9,6 +9,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>accessability</trait>
         <icon>club_shooting.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

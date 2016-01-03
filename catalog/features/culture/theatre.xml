@@ -12,6 +12,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>accessability</trait>
         <more-tags>
             <tag d:tag-value-type="enum">
                 <title>l10n.feature.theatre.more_tags.theatre:genre.title</title>

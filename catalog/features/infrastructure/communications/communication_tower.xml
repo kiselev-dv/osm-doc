@@ -26,7 +26,7 @@
                 <title>l10n.feature.communication_tower.more_tags.communication:radio.title</title>
                 <key>communication:radio</key>
                 <val value="yes">
-                    <title>l10n.feature.communication_tower.more_tags.communication:radio.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="fm">
                     <title>l10n.feature.communication_tower.more_tags.communication:radio.fm.title</title>
@@ -35,7 +35,7 @@
                     <title>l10n.feature.communication_tower.more_tags.communication:radio.am.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.communication_tower.more_tags.communication:radio.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="dav">
                     <title>l10n.feature.communication_tower.more_tags.communication:radio.dav.title</title>
@@ -45,13 +45,13 @@
                 <title>l10n.feature.communication_tower.more_tags.communication:television.title</title>
                 <key>communication:television</key>
                 <val value="yes">
-                    <title>l10n.feature.communication_tower.more_tags.communication:television.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="dvb-t">
                     <title>l10n.feature.communication_tower.more_tags.communication:television.dvb-t.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.communication_tower.more_tags.communication:television.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="analogue">
                     <title>l10n.feature.communication_tower.more_tags.communication:television.analogue.title</title>
@@ -61,7 +61,7 @@
                 <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.title</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="cdma">
                     <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.cdma.title</title>
@@ -70,7 +70,7 @@
                     <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.umts.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="gsm">
                     <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.gsm.title</title>

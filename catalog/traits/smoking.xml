@@ -5,25 +5,25 @@
 		<title>l10n.trait.smoking.title</title>	
 		<more-tags>				
 			<tag d:tag-value-type="enum">
-                <title>l10n.feature.bar.more_tags.smoking.title</title>
+                <title>l10n.trait.smoking.more_tags.smoking.title</title>
                 <key>smoking</key>
                 <val value="yes">
-                    <title>l10n.feature.bar.more_tags.smoking.yes.title</title>
+                    <title></title>
                 </val>
                 <val value="isolated">
-                    <title>l10n.feature.bar.more_tags.smoking.isolated.title</title>
+                    <title>l10n.trait.smoking.more_tags.smoking.isolated.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.bar.more_tags.smoking.no.title</title>
+                    <title>l10n.trait.smoking.more_tags.smoking.no.title</title>
                 </val>
                 <val value="dedicated">
-                    <title>l10n.feature.bar.more_tags.smoking.dedicated.title</title>
+                    <title>l10n.trait.smoking.more_tags.smoking.dedicated.title</title>
                 </val>
                 <val value="separated">
-                    <title>l10n.feature.bar.more_tags.smoking.separated.title</title>
+                    <title>l10n.trait.smoking.more_tags.smoking.separated.title</title>
                 </val>
                 <val value="outside">
-                    <title>l10n.feature.bar.more_tags.smoking.outside.title</title>
+                    <title>l10n.trait.smoking.more_tags.smoking.outside.title</title>
                 </val>
             </tag>
         </more-tags>

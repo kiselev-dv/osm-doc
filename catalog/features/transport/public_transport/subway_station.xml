@@ -13,6 +13,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>accessability</trait>
         <icon>subway_station.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

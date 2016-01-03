@@ -13,18 +13,8 @@
         <trait>cuisine</trait>
         <trait>internet-access</trait>
         <trait>smoking</trait>
-        <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.biergarten.more_tags.drive_in.title</title>
-                <key>drive_in</key>
-                <val value="true">
-                    <title>l10n.feature.biergarten.more_tags.drive_in.true.title</title>
-                </val>
-                <val value="false">
-                    <title>l10n.feature.biergarten.more_tags.drive_in.false.title</title>
-                </val>
-            </tag>
-        </more-tags>
+        <trait>accessability</trait>
+        <trait>drive_in</trait>
         <icon>pub.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

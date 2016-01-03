@@ -9,23 +9,8 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>accessability</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.subway_entrance.more_tags.wheelchair.title</title>
-                <key>wheelchair</key>
-                <val value="yes">
-                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.yes.title</title>
-                </val>
-                <val value="limited">
-                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.limited.title</title>
-                </val>
-                <val value="no">
-                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.no.title</title>
-                </val>
-                <val value="designated">
-                    <title>l10n.feature.subway_entrance.more_tags.wheelchair.designated.title</title>
-                </val>
-            </tag>
             <tag d:tag-value-type="date">
                 <title>l10n.feature.subway_entrance.more_tags.start_date.title</title>
                 <key>start_date</key>

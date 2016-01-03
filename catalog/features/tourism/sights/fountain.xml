@@ -14,13 +14,13 @@
                 <title>l10n.feature.fountain.more_tags.drinkable.title</title>
                 <key>drinkable</key>
                 <val value="yes">
-                    <title>l10n.feature.fountain.more_tags.drinkable.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="mineral">
                     <title>l10n.feature.fountain.more_tags.drinkable.mineral.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.fountain.more_tags.drinkable.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
             </tag>
         </more-tags>

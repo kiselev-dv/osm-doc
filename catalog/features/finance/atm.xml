@@ -14,13 +14,13 @@
                 <title>l10n.feature.atm.more_tags.fee.title</title>
                 <key>fee</key>
                 <val value="yes">
-                    <title>l10n.feature.atm.more_tags.fee.yes.title</title>
+                    <title>l10n.more_tags.true</title>
                 </val>
                 <val value="time_subscription">
                     <title>l10n.feature.atm.more_tags.fee.time_subscription.title</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.atm.more_tags.fee.no.title</title>
+                    <title>l10n.more_tags.false</title>
                 </val>
                 <val value="varies">
                     <title>l10n.feature.atm.more_tags.fee.varies.title</title>
