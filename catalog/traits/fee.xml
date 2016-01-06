@@ -19,7 +19,7 @@
         </more-tags>
     </trait>
 	
-	<trait name="payment">
+	<trait name="payment" group-tags="true">
 		<title>l10n.trait.payment.title</title>	
 		<more-tags>			
 			<tag d:tag-value-type="boolean">

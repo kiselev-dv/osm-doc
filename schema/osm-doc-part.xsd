@@ -103,9 +103,7 @@
 				</annotation>
 			</element>
 			
-			<element name="trait" minOccurs="0" maxOccurs="unbounded"
-				type="string" >
-				
+			<element name="trait" minOccurs="0" maxOccurs="unbounded">
 				<annotation>
 					<documentation>
 						Ссылка на trait'ы данного типа.
@@ -113,6 +111,13 @@
 						Теги trait'ов интерпретируются так же как more-tags.		
 					</documentation>
 				</annotation>
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute name="group-tags" type="boolean" default="false" />
+						</extension>
+				    </simpleContent>
+				</complexType>
 			</element>
 				
 			<element ref="osmdoc:more-tags" minOccurs="0" >
@@ -178,6 +183,7 @@
 				<element ref="osmdoc:more-tags" minOccurs="0"/>
 			</sequence>
 			<attribute name="name" type="string" use="required" />
+			<attribute name="group-tags" type="boolean" use="optional" default="false" />
 		</complexType>
 	</element>
 
