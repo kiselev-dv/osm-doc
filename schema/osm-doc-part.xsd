@@ -299,6 +299,14 @@
 								</documentation>
 							</annotation>
 						</attribute>
+						<attribute name="default" type="boolean" use="optional">
+							<annotation>
+								<documentation>
+									Использовать как значение по умолчанию для тегов, 
+									с разбром значений. (Boolean) например.
+								</documentation>
+							</annotation>
+						</attribute>
 					</complexType>
 				</element>
 			</sequence>
