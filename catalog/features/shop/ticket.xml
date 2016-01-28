@@ -6,6 +6,7 @@
             <tag>
                 <key>shop</key>
                 <val value="ticket"/>
+                <val value="tickets"/>
             </tag>
         </tags>
         <trait>poi</trait>
