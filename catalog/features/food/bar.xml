@@ -8,6 +8,18 @@
                 <val value="bar"/>
             </tag>
         </tags>
+        <more-tags>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.feature.bar.more_tags.karaoke.title</title>
+                <key>karaoke</key>
+                <val value="true">
+                    <title>l10n.more_tags.true</title>
+                </val>
+                <val value="false">
+                    <title>l10n.more_tags.false</title>
+                </val>
+            </tag>
+        </more-tags>
         <trait>poi</trait>
         <trait>seasonal</trait>
         <trait>cuisine</trait>

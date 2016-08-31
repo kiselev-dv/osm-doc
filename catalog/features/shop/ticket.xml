@@ -10,6 +10,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>tickets</trait>
         <icon>ticket.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

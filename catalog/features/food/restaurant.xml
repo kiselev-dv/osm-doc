@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" 
+<doc-part xmlns="http://map.osm.me/osm-doc-part"
 	xmlns:d="http://map.osm.me/osm-doc-part">
     <feature name="restaurant">
         <title>l10n.feature.restaurant.title</title>
@@ -9,6 +9,18 @@
                 <val value="restaurant"/>
             </tag>
         </tags>
+		<more-tags>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.feature.bar.more_tags.karaoke.title</title>
+                <key>karaoke</key>
+                <val value="true">
+                    <title>l10n.more_tags.true</title>
+                </val>
+                <val value="false">
+                    <title>l10n.more_tags.false</title>
+                </val>
+            </tag>
+        </more-tags>
         <trait>poi</trait>
         <trait>seasonal</trait>
         <trait>cuisine</trait>
