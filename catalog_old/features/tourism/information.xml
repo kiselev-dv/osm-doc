@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="information">
+        <title>l10n.feature.information.title</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="information"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.information.more_tags.information.title</title>
+                <key>information</key>
+                <val value="office">
+                    <title>l10n.feature.information.more_tags.information.office.title</title>
+                </val>
+                <val value="guidepost">
+                    <title>l10n.feature.information.more_tags.information.guidepost.title</title>
+                </val>
+                <val value="audioguide">
+                    <title>l10n.feature.information.more_tags.information.audioguide.title</title>
+                </val>
+                <val value="terminal">
+                    <title>l10n.feature.information.more_tags.information.terminal.title</title>
+                </val>
+                <val value="tactile_model">
+                    <title>l10n.feature.information.more_tags.information.tactile_model.title</title>
+                </val>
+                <val value="map">
+                    <title>l10n.feature.information.more_tags.information.map.title</title>
+                </val>
+                <val value="tactile_map">
+                    <title>l10n.feature.information.more_tags.information.tactile_map.title</title>
+                </val>
+                <val value="board">
+                    <title>l10n.feature.information.more_tags.information.board.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>information.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

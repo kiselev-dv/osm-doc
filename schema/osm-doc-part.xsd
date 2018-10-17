@@ -198,15 +198,16 @@
 
 	<group name="titleDescription">
 		<sequence>
-			<element name="title" type="string" />
-			<element name="description" minOccurs="0" type="string" />
+			<element name="title" type="osmdoc:langString" maxOccurs="unbounded" />
+			<element name="description" type="osmdoc:langString" minOccurs="0" maxOccurs="unbounded" />
 		</sequence>
 	</group>
 	
 	<complexType name="langString">
 		<simpleContent>
 			<extension base="string">
-				<attribute name="lang" type="string" use="optional"	/>
+				<attribute name="lang" type="string" use="required"	/>
+				<attribute name="key" type="string" use="optional"	/>
 			</extension>
 		</simpleContent>
 	</complexType>

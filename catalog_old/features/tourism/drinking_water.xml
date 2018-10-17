@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="drinking_water">
+        <title>l10n.feature.drinking_water.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="drinking_water"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>drinking_water.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

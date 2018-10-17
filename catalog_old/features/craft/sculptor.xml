@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="sculptor">
+        <title>l10n.feature.sculptor.title</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="sculptor"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>sculptor.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part"
+	xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="cafe">
+        <title>l10n.feature.cafe.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="cafe"/>
+            </tag>
+        </tags>
+		<more-tags>
+			<tag d:tag-value-type="boolean">
+                <title>l10n.feature.bar.more_tags.karaoke.title</title>
+                <key>karaoke</key>
+                <val value="true">
+                    <title>l10n.more_tags.true</title>
+                </val>
+                <val value="false">
+                    <title>l10n.more_tags.false</title>
+                </val>
+            </tag>
+        </more-tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>cuisine</trait>
+        <trait>internet-access</trait>
+        <trait>smoking</trait>
+        <trait>accessability</trait>
+        <trait>drive_in</trait>
+        <icon>cafe.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

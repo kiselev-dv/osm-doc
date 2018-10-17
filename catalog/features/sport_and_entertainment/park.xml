@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="park">
-        <title>l10n.feature.park.title</title>
+        <title lang="ru" key="l10n.feature.park.title">Парк</title>
+        <title lang="en" key="l10n.feature.park.title">Park</title>
         <tags>
             <tag>
                 <key>leisure</key>

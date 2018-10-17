@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="fishing">
+        <title>l10n.feature.fishing.title</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="fishing"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>fee</trait>
+        <icon>fishing.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

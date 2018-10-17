@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="landfill">
+        <title>l10n.feature.landfill.title</title>
+        <tags>
+            <tag>
+                <key>landuse</key>
+                <val value="landfill"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>landfill.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

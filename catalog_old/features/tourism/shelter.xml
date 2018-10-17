@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="shelter">
+        <title>l10n.feature.shelter.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="shelter"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.shelter.more_tags.bench.title</title>
+                <key>bench</key>
+                <val value="true">
+                    <title>l10n.feature.shelter.more_tags.bench.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.shelter.more_tags.bench.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>shelter.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

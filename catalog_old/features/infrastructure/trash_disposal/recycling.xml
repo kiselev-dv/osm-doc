@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" 
+	xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="recycling">
+        <title>l10n.feature.recycling.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="recycling"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>garbage-types</trait>
+        <more-tags>
+        	<tag d:tag-value-type="period">
+                <title>l10n.feature.recycling.more_tags.collection_times.title</title>
+                <key>collection_times</key>
+            </tag>
+        </more-tags>
+        <icon>recycling.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

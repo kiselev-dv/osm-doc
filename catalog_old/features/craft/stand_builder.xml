@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="stand_builder">
+        <title>l10n.feature.stand_builder.title</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="stand_builder"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

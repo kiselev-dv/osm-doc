@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="ice_cream">
-        <title>l10n.feature.ice_cream.title</title>
+        <title lang="ru" key="l10n.feature.ice_cream.title">Мороженое</title>
+        <title lang="en" key="l10n.feature.ice_cream.title">Ice cream</title>
         <tags>
             <tag>
                 <key>shop</key>

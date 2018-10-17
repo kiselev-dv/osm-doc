@@ -1,819 +1,1072 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="garbage-types" group-tags="true">
-		<title>l10n.trait.garbage-types.title</title>			
-		<more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="garbage-types">
+        <title lang="ru" key="l10n.trait.garbage-types.title">Типы мусора</title>
+        <title lang="en" key="l10n.trait.garbage-types.title">Garbage-types</title>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.title">Принимает листовой метал</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.title">Recycling sheet metal</title>
                 <key>recycling:sheet_metal</key>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:sheet_metal.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cardboard.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cardboard.title">Принимает картон</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cardboard.title">Recycling cardboard</title>
                 <key>recycling:cardboard</key>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cardboard.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cardboard.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cardboard.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cardboard.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cardboard.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cardboard.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:aluminium.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:aluminium.title">Принимает алюминий</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:aluminium.title">Recycling aluminium</title>
                 <key>recycling:aluminium</key>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:aluminium.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:aluminium.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:aluminium.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:aluminium.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:aluminium.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:aluminium.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:plasterboard.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plasterboard.title">Принимает гипсокартон</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plasterboard.title">Recycling plasterboard</title>
                 <key>recycling:plasterboard</key>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:plasterboard.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plasterboard.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plasterboard.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:plasterboard.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plasterboard.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plasterboard.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cork.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cork.title">Принимает пробку</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cork.title">Recycling cork</title>
                 <key>recycling:cork</key>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cork.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cork.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cork.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cork.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cork.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cork.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:computers.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:computers.title">Принимает компьютеры</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:computers.title">Recycling computers</title>
                 <key>recycling:computers</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:computers.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:computers.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:computers.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:computers.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:computers.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:computers.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:computers.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:computers.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:computers.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:computers.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:computers.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:computers.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:animal_waste.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:animal_waste.title">Принимает продукты жизнедеятельности животных</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:animal_waste.title">Recycling animal waste</title>
                 <key>recycling:animal_waste</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:animal_waste.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:animal_waste.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:animal_waste.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:animal_waste.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:animal_waste.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:animal_waste.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:animal_waste.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:animal_waste.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:garden_waste.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:garden_waste.title">Принимает садовый мусор</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:garden_waste.title">Recycling garden waste</title>
                 <key>recycling:garden_waste</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:garden_waste.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:garden_waste.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:garden_waste.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:garden_waste.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:garden_waste.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:garden_waste.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:garden_waste.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:garden_waste.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:batteries.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:batteries.title">Принимает батарейки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:batteries.title">Recycling batteries</title>
                 <key>recycling:batteries</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:batteries.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:batteries.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:batteries.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:batteries.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:batteries.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:batteries.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:batteries.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:batteries.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:batteries.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:batteries.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:batteries.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:batteries.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.title">Принимает энергосберегающие лампы</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.title">Recycling low energy bulbs</title>
                 <key>recycling:low_energy_bulbs</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:excrement.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:excrement.title">Принимает экскременты</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:excrement.title">Recycling excrement</title>
                 <key>recycling:excrement</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:excrement.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:excrement.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:excrement.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:excrement.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:excrement.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:excrement.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:excrement.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:excrement.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:excrement.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:excrement.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:excrement.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:excrement.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cds.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cds.title">Принимает компакт-диски</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cds.title">Recycling cds</title>
                 <key>recycling:cds</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:cds.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cds.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cds.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:cds.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cds.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cds.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cds.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cds.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cds.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cds.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cds.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cds.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:paint.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paint.title">Принимает краску</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paint.title">Recycling paint</title>
                 <key>recycling:paint</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:paint.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paint.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paint.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:paint.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paint.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paint.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:paint.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paint.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paint.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:paint.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paint.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paint.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:books.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:books.title">Принимает книги</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:books.title">Recycling books</title>
                 <key>recycling:books</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:books.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:books.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:books.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:books.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:books.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:books.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:books.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:books.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:books.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:books.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:books.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:books.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.title">Принимает пластиковую упаковку</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.title">Recycling plastic packaging</title>
                 <key>recycling:plastic_packaging</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_packaging.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:white_goods.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:white_goods.title">Принимает кухонную технику</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:white_goods.title">Recycling white goods</title>
                 <key>recycling:white_goods</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:white_goods.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:white_goods.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:white_goods.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:white_goods.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:white_goods.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:white_goods.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:white_goods.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:white_goods.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:small_appliances.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:small_appliances.title">Принимает мелкую кухонную технику</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:small_appliances.title">Recycling small appliances</title>
                 <key>recycling:small_appliances</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:small_appliances.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:small_appliances.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:small_appliances.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:small_appliances.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:small_appliances.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:small_appliances.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:small_appliances.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:small_appliances.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.title">Принимает металлолом</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.title">Recycling scrap metal</title>
                 <key>recycling:scrap_metal</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:scrap_metal.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.title">Принимает пищевое масло</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.title">Recycling cooking oil</title>
                 <key>recycling:cooking_oil</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cooking_oil.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cartons.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cartons.title">Принимает пищевой картон</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cartons.title">Recycling cartons</title>
                 <key>recycling:cartons</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:cartons.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cartons.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cartons.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:cartons.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cartons.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cartons.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cartons.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cartons.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cartons.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cartons.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cartons.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cartons.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:tyres.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tyres.title">Принимает покрышки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tyres.title">Recycling tyres</title>
                 <key>recycling:tyres</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:tyres.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tyres.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tyres.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:tyres.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tyres.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tyres.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:tyres.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tyres.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tyres.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:tyres.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tyres.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tyres.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:thermometers.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:thermometers.title">Принимает термометры</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:thermometers.title">Recycling thermometers</title>
                 <key>recycling:thermometers</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:thermometers.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:thermometers.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:thermometers.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:thermometers.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:thermometers.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:thermometers.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:thermometers.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:thermometers.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:green_waste.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:green_waste.title">Принимает биоразлагаемые отходы</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:green_waste.title">Recycling green waste</title>
                 <key>recycling:green_waste</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:green_waste.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:green_waste.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:green_waste.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:green_waste.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:green_waste.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:green_waste.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:green_waste.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:green_waste.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.title">Принимает пластиковые пакеты</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.title">Recycling plastic bags</title>
                 <key>recycling:plastic_bags</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bags.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:electrical_items.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:electrical_items.title">Принимает бытовую технику</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:electrical_items.title">Recycling electrical items</title>
                 <key>recycling:electrical_items</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:electrical_items.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:electrical_items.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:electrical_items.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:electrical_items.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:electrical_items.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:electrical_items.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:electrical_items.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:electrical_items.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.title">Принимает стеклянные бутылки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.title">Recycling glass bottles</title>
                 <key>recycling:glass_bottles</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass_bottles.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:engine_oil.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:engine_oil.title">Принимает машинное масло</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:engine_oil.title">Recycling engine oil</title>
                 <key>recycling:engine_oil</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:engine_oil.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:engine_oil.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:engine_oil.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:engine_oil.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:engine_oil.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:engine_oil.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:engine_oil.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:engine_oil.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:paper.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper.title">Принимает бумагу</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper.title">Recycling paper</title>
                 <key>recycling:paper</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.title">Принимает картриджи для принтеров</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.title">Recycling printer cartridges</title>
                 <key>recycling:printer_cartridges</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:printer_cartridges.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:polyester.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:polyester.title">Принимает полиэстер</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:polyester.title">Recycling polyester</title>
                 <key>recycling:polyester</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:polyester.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:polyester.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:polyester.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:polyester.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:polyester.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:polyester.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:polyester.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:polyester.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:polyester.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:polyester.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:polyester.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:polyester.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:waste.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:waste.title">Принимает бытовой мусор</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:waste.title">Recycling waste</title>
                 <key>recycling:waste</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:waste.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:waste.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:waste.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:waste.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:waste.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:waste.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:waste.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:waste.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:waste.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:waste.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:waste.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:waste.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.title">Принимает мобильные телефоны</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.title">Recycling mobile phones</title>
                 <key>recycling:mobile_phones</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:mobile_phones.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:chipboard.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:chipboard.title">Принимает электронные компоненты</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:chipboard.title">Recycling chipboard</title>
                 <key>recycling:chipboard</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:chipboard.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:chipboard.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:chipboard.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:chipboard.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:chipboard.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:chipboard.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:chipboard.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:chipboard.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.title">Принимает новогодние ёлки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.title">Recycling christmas trees</title>
                 <key>recycling:christmas_trees</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:christmas_trees.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:organic.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:organic.title">Принимает пищевые отходы</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:organic.title">Recycling organic</title>
                 <key>recycling:organic</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:organic.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:organic.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:organic.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:organic.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:organic.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:organic.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:organic.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:organic.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:organic.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:organic.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:organic.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:organic.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:magazines.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:magazines.title">Принимает журналы</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:magazines.title">Recycling magazines</title>
                 <key>recycling:magazines</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:magazines.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:magazines.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:magazines.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:magazines.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:magazines.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:magazines.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:magazines.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:magazines.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:magazines.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:magazines.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:magazines.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:magazines.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:hardcore.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:hardcore.title">Принимает тяжёлый строительный мусор</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:hardcore.title">Recycling hardcore</title>
                 <key>recycling:hardcore</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:hardcore.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:hardcore.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:hardcore.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:hardcore.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:hardcore.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:hardcore.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:hardcore.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:hardcore.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:clothes.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:clothes.title">Принимает одежду</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:clothes.title">Recycling clothes</title>
                 <key>recycling:clothes</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:clothes.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:clothes.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:clothes.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:clothes.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:clothes.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:clothes.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:clothes.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:clothes.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:clothes.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:clothes.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:clothes.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:clothes.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.title">Принимает газовые баллоны</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.title">Recycling gas bottles</title>
                 <key>recycling:gas_bottles</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:gas_bottles.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.title">Принимает бумажную упаковку</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.title">Recycling paper packaging</title>
                 <key>recycling:paper_packaging</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:paper_packaging.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.title">Принимает пластиковые бутылки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.title">Recycling plastic bottles</title>
                 <key>recycling:plastic_bottles</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic_bottles.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:rubble.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:rubble.title">Принимает строительный мусор</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:rubble.title">Recycling rubble</title>
                 <key>recycling:rubble</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:rubble.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:rubble.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:rubble.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:rubble.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:rubble.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:rubble.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:rubble.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:rubble.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:rubble.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:rubble.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:rubble.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:rubble.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:styrofoam.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:styrofoam.title">Принимает пенопласт</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:styrofoam.title">Recycling styrofoam</title>
                 <key>recycling:styrofoam</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:styrofoam.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:styrofoam.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:styrofoam.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:styrofoam.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:styrofoam.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:styrofoam.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:styrofoam.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:styrofoam.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.title">Принимает люминесцентные лампы</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.title">Recycling fluorescent tubes</title>
                 <key>recycling:fluorescent_tubes</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:newspaper.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:newspaper.title">Принимает газеты</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:newspaper.title">Recycling newspaper</title>
                 <key>recycling:newspaper</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:newspaper.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:newspaper.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:newspaper.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:newspaper.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:newspaper.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:newspaper.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:newspaper.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:newspaper.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:plastic.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic.title">Принимает пластик</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic.title">Recycling plastic</title>
                 <key>recycling:plastic</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:plastic.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:plastic.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:plastic.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:foil.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:foil.title">Принимает пищевую фольгу</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:foil.title">Recycling foil</title>
                 <key>recycling:foil</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:foil.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:foil.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:foil.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:foil.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:foil.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:foil.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:foil.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:foil.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:foil.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:foil.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:foil.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:foil.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:bicycles.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:bicycles.title">Принимает велосипеды</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:bicycles.title">Recycling bicycles</title>
                 <key>recycling:bicycles</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:bicycles.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:bicycles.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:bicycles.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:bicycles.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:bicycles.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:bicycles.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:bicycles.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:bicycles.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.title">Принимает телевизоры</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.title">Recycling tv monitor</title>
                 <key>recycling:tv_monitor</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:tv_monitor.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.recycling.more_tags.recycling_type.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling_type.title">Тип</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling_type.title">Recycling type</title>
                 <key>recycling_type</key>
                 <val value="center">
-                    <title>l10n.feature.recycling.more_tags.recycling_type.center.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling_type.center.title">Пункт переработки</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling_type.center.title">Center</title>
                 </val>
                 <val value="container">
-                    <title>l10n.feature.recycling.more_tags.recycling_type.container.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling_type.container.title">Контейнер</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling_type.container.title">Container</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:wood.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:wood.title">Принимает дерево</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:wood.title">Recycling wood</title>
                 <key>recycling:wood</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:wood.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:wood.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:wood.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:wood.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:wood.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:wood.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:wood.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:wood.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:wood.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:wood.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:wood.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:wood.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:cans.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cans.title">Принимает алюминиевые банки</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cans.title">Recycling cans</title>
                 <key>recycling:cans</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:cans.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cans.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cans.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:cans.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cans.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cans.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:cans.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cans.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cans.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:cans.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:cans.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:cans.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.recycling.more_tags.recycling:glass.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass.title">Принимает стекло</title>
+                <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass.title">Recycling glass</title>
                 <key>recycling:glass</key>
                 <val value="yes">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass.yes.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass.yes.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass.no.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass.no.title">No</title>
                 </val>
                 <val value="true">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass.true.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.recycling.more_tags.recycling:glass.false.title</title>
+                    <title lang="ru" key="l10n.feature.recycling.more_tags.recycling:glass.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.recycling.more_tags.recycling:glass.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

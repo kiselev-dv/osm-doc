@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="club_automobile">
-        <title>l10n.feature.club_automobile.title</title>
+        <title lang="ru" key="l10n.feature.club_automobile.title">Автоклуб</title>
+        <title lang="en" key="l10n.feature.club_automobile.title">Club automobile</title>
         <tags>
             <tag>
                 <key>club</key>

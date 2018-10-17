@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part"
-	xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cafe">
-        <title>l10n.feature.cafe.title</title>
+        <title lang="ru" key="l10n.feature.cafe.title">Кафе</title>
+        <title lang="en" key="l10n.feature.cafe.title">Cafe</title>
         <tags>
             <tag>
                 <key>amenity</key>
                 <val value="cafe"/>
             </tag>
         </tags>
-		<more-tags>
-			<tag d:tag-value-type="boolean">
-                <title>l10n.feature.bar.more_tags.karaoke.title</title>
-                <key>karaoke</key>
-                <val value="true">
-                    <title>l10n.more_tags.true</title>
-                </val>
-                <val value="false">
-                    <title>l10n.more_tags.false</title>
-                </val>
-            </tag>
-        </more-tags>
         <trait>poi</trait>
         <trait>seasonal</trait>
         <trait>cuisine</trait>
@@ -28,6 +16,21 @@
         <trait>smoking</trait>
         <trait>accessability</trait>
         <trait>drive_in</trait>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.bar.more_tags.karaoke.title">Караоке</title>
+                <title lang="en" key="l10n.feature.bar.more_tags.karaoke.title">Karaoke</title>
+                <key>karaoke</key>
+                <val value="true">
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
+                </val>
+                <val value="false">
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
+                </val>
+            </tag>
+        </more-tags>
         <icon>cafe.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

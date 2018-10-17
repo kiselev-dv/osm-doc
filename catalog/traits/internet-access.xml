@@ -1,43 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="internet-access">
-		<title>l10n.trait.internet-access.title</title>	
-		<more-tags>				
-			<tag d:tag-value-type="enum">
-                <title>l10n.trait.internet-access.more_tags.internet_access.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="internet-access" group-tags="false">
+        <title lang="ru" key="l10n.trait.internet-access.title">Доступ в интернет</title>
+        <title lang="en" key="l10n.trait.internet-access.title">Internet-access</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.title">Доступ к Интернету</title>
+                <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.title">Internet access</title>
                 <key>internet_access</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="wlan">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.wlan.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.wlan.title">WiFi</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.wlan.title">WiFi</title>
                 </val>
                 <val value="terminal">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.terminal.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.terminal.title">Через терминалы</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.terminal.title">Terminal</title>
                 </val>
                 <val value="no">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.no.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.no.title">Отсутствует</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.no.title">No</title>
                 </val>
                 <val value="wired">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.wired.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.wired.title">Проводной</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.wired.title">Wired</title>
                 </val>
                 <val value="public">
-                    <title>l10n.trait.internet-access.more_tags.internet_access.public.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access.public.title">Публичный</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access.public.title">Public</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="anyString">
-                <title>l10n.trait.internet-access.more_tags.internet_access:operator.title</title>
+            <tag>
+                <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access:operator.title">Оператор доступа к Интернет</title>
+                <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access:operator.title">Internet access operator</title>
                 <key>internet_access:operator</key>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.trait.internet-access.more_tags.internet_access:fee.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access:fee.title">Оплата Интернета</title>
+                <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access:fee.title">Internet access fee</title>
                 <key>internet_access:fee</key>
                 <val value="true">
-                    <title>l10n.trait.internet-access.more_tags.internet_access:fee.true.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access:fee.true.title">Да</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access:fee.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.trait.internet-access.more_tags.internet_access:fee.false.title</title>
+                    <title lang="ru" key="l10n.trait.internet-access.more_tags.internet_access:fee.false.title">Нет</title>
+                    <title lang="en" key="l10n.trait.internet-access.more_tags.internet_access:fee.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

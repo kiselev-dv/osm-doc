@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="accessability">
-		<title>l10n.trait.accessability.title</title>	
-		<more-tags>				
-            <tag d:tag-value-type="enum">
-                <title>l10n.trait.accessability.more_tags.wheelchair.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="accessability" group-tags="false">
+        <title lang="ru" key="l10n.trait.accessability.title">Доступность</title>
+        <title lang="en" key="l10n.trait.accessability.title">Accessability</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.title">Доступность на коляске</title>
+                <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.title">Wheelchair</title>
                 <key>wheelchair</key>
                 <val value="yes">
-                    <title>l10n.trait.accessability.more_tags.wheelchair.yes.title</title>
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.yes.title">Да</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.trait.accessability.more_tags.wheelchair.no.title</title>
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.no.title">Нет</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.no.title">No</title>
                 </val>
                 <val value="limited">
-                    <title>l10n.trait.accessability.more_tags.wheelchair.limited.title</title>
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.limited.title">Ограниченно</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.limited.title">Limited</title>
                 </val>
                 <val value="designated">
-                    <title>l10n.trait.accessability.more_tags.wheelchair.designated.title</title>
+                    <title lang="ru" key="l10n.trait.accessability.more_tags.wheelchair.designated.title">Предназначено для колясок</title>
+                    <title lang="en" key="l10n.trait.accessability.more_tags.wheelchair.designated.title">Designated</title>
                 </val>
             </tag>
         </more-tags>
     </trait>
-</doc-part>			
-			
+</doc-part>

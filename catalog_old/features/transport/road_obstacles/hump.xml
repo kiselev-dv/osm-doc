@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="hump">
+        <title>l10n.feature.hump.title</title>
+        <tags>
+            <tag>
+                <key>traffic_calming</key>
+                <val value="hump"/>
+            </tag>
+        </tags>
+        <icon>hump.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

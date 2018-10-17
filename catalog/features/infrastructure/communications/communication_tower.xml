@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="communication_tower">
-        <title>l10n.feature.communication_tower.title</title>
+        <title lang="ru" key="l10n.feature.communication_tower.title">Вышка связи</title>
+        <title lang="en" key="l10n.feature.communication_tower.title">Communication tower</title>
         <tags>
             <tag>
                 <key>tower:type</key>
@@ -14,73 +15,94 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="anyString">
-                <title>l10n.feature.communication_tower.more_tags.ref.title</title>
+            <tag>
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.ref.title">Номер</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.ref.title">Ref</title>
                 <key>ref</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.communication_tower.more_tags.height.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.height.title">Высота (м)</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.height.title">Height</title>
                 <key>height</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.communication_tower.more_tags.communication:radio.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:radio.title">Радиовещание</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:radio.title">Communication radio</title>
                 <key>communication:radio</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="fm">
-                    <title>l10n.feature.communication_tower.more_tags.communication:radio.fm.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:radio.fm.title">FM</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:radio.fm.title">Fm</title>
                 </val>
                 <val value="am">
-                    <title>l10n.feature.communication_tower.more_tags.communication:radio.am.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:radio.am.title">AM</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:radio.am.title">Am</title>
                 </val>
                 <val value="no">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
                 <val value="dav">
-                    <title>l10n.feature.communication_tower.more_tags.communication:radio.dav.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:radio.dav.title">DAB</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:radio.dav.title">Dav</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.communication_tower.more_tags.communication:television.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:television.title">Телевещание</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:television.title">Communication television</title>
                 <key>communication:television</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="dvb-t">
-                    <title>l10n.feature.communication_tower.more_tags.communication:television.dvb-t.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:television.dvb-t.title">DVB-T</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:television.dvb-t.title">Dvb-t</title>
                 </val>
                 <val value="no">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
                 <val value="analogue">
-                    <title>l10n.feature.communication_tower.more_tags.communication:television.analogue.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:television.analogue.title">аналоговое</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:television.analogue.title">Analogue</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.title">Сотовая связь</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.title">Communication mobile phone</title>
                 <key>communication:mobile_phone</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="cdma">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.cdma.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.cdma.title">CDMA</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.cdma.title">Cdma</title>
                 </val>
                 <val value="umts">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.umts.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.umts.title">UMTS</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.umts.title">Umts</title>
                 </val>
                 <val value="no">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
                 <val value="gsm">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.gsm.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.gsm.title">GSM</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.gsm.title">Gsm</title>
                 </val>
                 <val value="lte">
-                    <title>l10n.feature.communication_tower.more_tags.communication:mobile_phone.lte.title</title>
+                    <title lang="ru" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.lte.title">LTE</title>
+                    <title lang="en" key="l10n.feature.communication_tower.more_tags.communication:mobile_phone.lte.title">Lte</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.communication_tower.more_tags.ele.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.communication_tower.more_tags.ele.title">Высота над уровнем моря (м)</title>
+                <title lang="en" key="l10n.feature.communication_tower.more_tags.ele.title">Ele</title>
                 <key>ele</key>
             </tag>
         </more-tags>

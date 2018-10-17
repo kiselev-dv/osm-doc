@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="miniature_golf">
+        <title>l10n.feature.miniature_golf.title</title>
+        <tags>
+            <tag>
+                <key>leisure</key>
+                <val value="miniature_golf"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>miniature_golf.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

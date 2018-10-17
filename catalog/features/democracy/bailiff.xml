@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="bailiff">
-        <title>l10n.feature.bailiff.title</title>
+        <title lang="ru" key="l10n.feature.bailiff.title">Служба судебных приставов</title>
+        <title lang="en" key="l10n.feature.bailiff.title">Bailiff</title>
         <tags>
             <tag>
                 <key>office</key>

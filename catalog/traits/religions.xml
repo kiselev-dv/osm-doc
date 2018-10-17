@@ -1,99 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="religions">
-		<title>l10n.trait.religions.title</title>			
-		<more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.cemetery.more_tags.religion.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="religions" group-tags="false">
+        <title lang="ru" key="l10n.trait.religions.title">Религии</title>
+        <title lang="en" key="l10n.trait.religions.title">Religions</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.title">Религия</title>
+                <title lang="en" key="l10n.feature.cemetery.more_tags.religion.title">Religion</title>
                 <key>religion</key>
                 <val value="muslim">
-                    <title>l10n.feature.cemetery.more_tags.religion.muslim.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.muslim.title">Мусульманство (Ислам)</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.muslim.title">Muslim</title>
                 </val>
                 <val value="sikh">
-                    <title>l10n.feature.cemetery.more_tags.religion.sikh.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.sikh.title">Сикхизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.sikh.title">Sikh</title>
                 </val>
                 <val value="christian">
-                    <title>l10n.feature.cemetery.more_tags.religion.christian.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.christian.title">Христианство</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.christian.title">Christian</title>
                 </val>
                 <val value="jewish">
-                    <title>l10n.feature.cemetery.more_tags.religion.jewish.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.jewish.title">Иудаизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.jewish.title">Jewish</title>
                 </val>
                 <val value="buddhist">
-                    <title>l10n.feature.cemetery.more_tags.religion.buddhist.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.buddhist.title">Буддизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.buddhist.title">Buddhist</title>
                 </val>
                 <val value="jain">
-                    <title>l10n.feature.cemetery.more_tags.religion.jain.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.jain.title">Джайнизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.jain.title">Jain</title>
                 </val>
                 <val value="shinto">
-                    <title>l10n.feature.cemetery.more_tags.religion.shinto.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.shinto.title">Синтоизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.shinto.title">Shinto</title>
                 </val>
                 <val value="bahai">
-                    <title>l10n.feature.cemetery.more_tags.religion.bahai.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.bahai.title">Бахаи</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.bahai.title">Bahai</title>
                 </val>
                 <val value="zoroastrian">
-                    <title>l10n.feature.cemetery.more_tags.religion.zoroastrian.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.zoroastrian.title">Зороастризм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.zoroastrian.title">Zoroastrian</title>
                 </val>
                 <val value="hindu">
-                    <title>l10n.feature.cemetery.more_tags.religion.hindu.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.hindu.title">Индуизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.hindu.title">Hindu</title>
                 </val>
                 <val value="scientologist">
-                    <title>l10n.feature.cemetery.more_tags.religion.scientologist.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.scientologist.title">Сайентология</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.scientologist.title">Scientologist</title>
                 </val>
                 <val value="unitarianist">
-                    <title>l10n.feature.cemetery.more_tags.religion.unitarianist.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.unitarianist.title">Унитаризм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.unitarianist.title">Unitarianist</title>
                 </val>
                 <val value="pastafarian">
-                    <title>l10n.feature.cemetery.more_tags.religion.pastafarian.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.religion.pastafarian.title">Пастафарианство</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.religion.pastafarian.title">Pastafarian</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.cemetery.more_tags.denomination.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.title">Конфессия</title>
+                <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.title">Denomination</title>
                 <key>denomination</key>
                 <val value="armenian_apostolic">
-                    <title>l10n.feature.cemetery.more_tags.denomination.armenian_apostolic.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.armenian_apostolic.title">Армянская Григорианская церковь</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.armenian_apostolic.title">Armenian apostolic</title>
                 </val>
                 <val value="catholic">
-                    <title>l10n.feature.cemetery.more_tags.denomination.catholic.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.catholic.title">Римская католическая церковь</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.catholic.title">Catholic</title>
                 </val>
                 <val value="russian_orthodox">
-                    <title>l10n.feature.cemetery.more_tags.denomination.russian_orthodox.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.russian_orthodox.title">Русское православие</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.russian_orthodox.title">Russian orthodox</title>
                 </val>
                 <val value="baptist">
-                    <title>l10n.feature.cemetery.more_tags.denomination.baptist.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.baptist.title">Баптизм</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.baptist.title">Baptist</title>
                 </val>
                 <val value="orthodox">
-                    <title>l10n.feature.cemetery.more_tags.denomination.orthodox.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.orthodox.title">Православие</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.orthodox.title">Orthodox</title>
                 </val>
                 <val value="old_believers">
-                    <title>l10n.feature.cemetery.more_tags.denomination.old_believers.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.old_believers.title">Старообрядчество</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.old_believers.title">Old believers</title>
                 </val>
                 <val value="pentecostal">
-                    <title>l10n.feature.cemetery.more_tags.denomination.pentecostal.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.pentecostal.title">Пятидесятничество</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.pentecostal.title">Pentecostal</title>
                 </val>
                 <val value="lutheran">
-                    <title>l10n.feature.cemetery.more_tags.denomination.lutheran.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.lutheran.title">Лютеранство</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.lutheran.title">Lutheran</title>
                 </val>
                 <val value="greek_orthodox">
-                    <title>l10n.feature.cemetery.more_tags.denomination.greek_orthodox.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.greek_orthodox.title">Греческое православие</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.greek_orthodox.title">Greek orthodox</title>
                 </val>
                 <val value="anglican">
-                    <title>l10n.feature.cemetery.more_tags.denomination.anglican.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.anglican.title">Англиканство</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.anglican.title">Anglican</title>
                 </val>
                 <val value="assyrian">
-                    <title>l10n.feature.cemetery.more_tags.denomination.assyrian.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.assyrian.title">Ассирийская церковь Востока</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.assyrian.title">Assyrian</title>
                 </val>
                 <val value="sunni">
-                    <title>l10n.feature.cemetery.more_tags.denomination.sunni.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.sunni.title">Сунниты</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.sunni.title">Sunni</title>
                 </val>
                 <val value="jehovahs_witness">
-                    <title>l10n.feature.cemetery.more_tags.denomination.jehovahs_witness.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.jehovahs_witness.title">Свидетели Иеговы</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.jehovahs_witness.title">Jehovans Witness</title>
                 </val>
                 <val value="protestant">
-                    <title>l10n.feature.cemetery.more_tags.denomination.protestant.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.protestant.title">Протестантство</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.protestant.title">Protestants</title>
                 </val>
                 <val value="roman_catholic">
-                    <title>l10n.feature.cemetery.more_tags.denomination.roman_catholic.title</title>
+                    <title lang="ru" key="l10n.feature.cemetery.more_tags.denomination.roman_catholic.title">Римская Католическая церковь</title>
+                    <title lang="en" key="l10n.feature.cemetery.more_tags.denomination.roman_catholic.title">Roman Catholic</title>
                 </val>
             </tag>
         </more-tags>

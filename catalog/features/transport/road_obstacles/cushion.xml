@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="cushion">
-        <title>l10n.feature.cushion.title</title>
+        <title lang="ru" key="l10n.feature.cushion.title">Лежачий полицейский с разрывами</title>
+        <title lang="en" key="l10n.feature.cushion.title">Cushion</title>
         <tags>
             <tag>
                 <key>traffic_calming</key>

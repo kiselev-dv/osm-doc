@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="camp_site">
+        <title>l10n.feature.camp_site.title</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="camp_site"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>camp_site.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

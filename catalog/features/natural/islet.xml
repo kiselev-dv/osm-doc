@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="islet">
-        <title>l10n.feature.islet.title</title>
+        <title lang="ru" key="l10n.feature.islet.title">Остров (небольшой)</title>
+        <title lang="en" key="l10n.feature.islet.title">Islet</title>
         <tags>
             <tag>
                 <key>place</key>

@@ -1,142 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="power_generator">
-        <title>l10n.feature.power_generator.title</title>
+        <title lang="ru" key="l10n.feature.power_generator.title">Генератор</title>
+        <title lang="en" key="l10n.feature.power_generator.title">Power generator</title>
         <tags>
             <tag>
                 <key>power</key>
                 <val value="generator"/>
             </tag>
             <tag>
-                <key d:match="any">generator:output:electricity</key>
+                <key match="any">generator:output:electricity</key>
                 <val value="*"/>
             </tag>
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:cold_water.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:cold_water.title">Выработка холодной воды</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:cold_water.title">Generator output cold water</title>
                 <key>generator:output:cold_water</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.power_generator.more_tags.generator:source.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.title">Источник энергии/топливо</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.title">Generator source</title>
                 <key>generator:source</key>
                 <val value="waste">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.waste.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.waste.title">мусор, отходы</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.waste.title">Waste</title>
                 </val>
                 <val value="wind">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.wind.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.wind.title">ветряная энергия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.wind.title">Wind</title>
                 </val>
                 <val value="biomass">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.biomass.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.biomass.title">биомасса</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.biomass.title">Biomass</title>
                 </val>
                 <val value="gasoline">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.gasoline.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.gasoline.title">безнзин</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.gasoline.title">Gasoline</title>
                 </val>
                 <val value="biogas">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.biogas.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.biogas.title">биогаз</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.biogas.title">Biogas</title>
                 </val>
                 <val value="biofuel">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.biofuel.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.biofuel.title">биотопливо</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.biofuel.title">Biofuel</title>
                 </val>
                 <val value="osmotic">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.osmotic.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.osmotic.title">осмотическая энегрия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.osmotic.title">Osmotic</title>
                 </val>
                 <val value="solar">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.solar.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.solar.title">солнечная энергия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.solar.title">Solar</title>
                 </val>
                 <val value="hydro">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.hydro.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.hydro.title">гидроэнегрия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.hydro.title">Hydro</title>
                 </val>
                 <val value="oil">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.oil.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.oil.title">мазут</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.oil.title">Oil</title>
                 </val>
                 <val value="gas">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.gas.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.gas.title">природный газ</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.gas.title">Gas</title>
                 </val>
                 <val value="diesel">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.diesel.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.diesel.title">дизльное топливо</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.diesel.title">Diesel</title>
                 </val>
                 <val value="nuclear">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.nuclear.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.nuclear.title">ядерная энегрия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.nuclear.title">Nuclear</title>
                 </val>
                 <val value="coal">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.coal.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.coal.title">уголь</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.coal.title">Coal</title>
                 </val>
                 <val value="geothermal">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.geothermal.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.geothermal.title">геотермальная энегрия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.geothermal.title">Geothermal</title>
                 </val>
                 <val value="wave">
-                    <title>l10n.feature.power_generator.more_tags.generator:source.wave.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:source.wave.title">приливная энегрия</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:source.wave.title">Wave</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:steam.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:steam.title">Выработка пара</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:steam.title">Generator output steam</title>
                 <key>generator:output:steam</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:vacuum.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:vacuum.title">Выработка вакуума</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:vacuum.title">Generator output vacuum</title>
                 <key>generator:output:vacuum</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:compressed_air.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:compressed_air.title">Выработка сжатого воздуха</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:compressed_air.title">Generator output compressed air</title>
                 <key>generator:output:compressed_air</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:electricity.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:electricity.title">Выработка электроэнергии</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:electricity.title">Generator output electricity</title>
                 <key>generator:output:electricity</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.power_generator.more_tags.generator:method.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.title">Способ получения энергии</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.title">Generator method</title>
                 <key>generator:method</key>
                 <val value="photovoltaic">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.photovoltaic.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.photovoltaic.title">фотовольтаика</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.photovoltaic.title">Photovoltaic</title>
                 </val>
                 <val value="stream">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.stream.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.stream.title">использование приливных течений</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.stream.title">Stream</title>
                 </val>
                 <val value="thermal">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.thermal.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.thermal.title">нагрев солнцем</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.thermal.title">Thermal</title>
                 </val>
                 <val value="fusion">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.fusion.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.fusion.title">ядерный синтез</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.fusion.title">Fusion</title>
                 </val>
                 <val value="water-pumped-storage">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.water-pumped-storage.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.water-pumped-storage.title">использование водохранилища с закачкой воды (ГАЭС)</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.water-pumped-storage.title">Water-pumped-storage</title>
                 </val>
                 <val value="combustion">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.combustion.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.combustion.title">сжигание топлива</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.combustion.title">Combustion</title>
                 </val>
                 <val value="run-of-the-river">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.run-of-the-river.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.run-of-the-river.title">использование течения реки</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.run-of-the-river.title">Run-of-the-river</title>
                 </val>
                 <val value="fission">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.fission.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.fission.title">ядерный распад</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.fission.title">Fission</title>
                 </val>
                 <val value="gasification">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.gasification.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.gasification.title">газификация</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.gasification.title">Gasification</title>
                 </val>
                 <val value="barrage">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.barrage.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.barrage.title">использование изменений уровня водной поверхности</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.barrage.title">Barrage</title>
                 </val>
                 <val value="water-storage">
-                    <title>l10n.feature.power_generator.more_tags.generator:method.water-storage.title</title>
+                    <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:method.water-storage.title">использование водохранилища</title>
+                    <title lang="en" key="l10n.feature.power_generator.more_tags.generator:method.water-storage.title">Water-storage</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:hot_water.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:hot_water.title">Выработка горячей воды</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:hot_water.title">Generator output hot water</title>
                 <key>generator:output:hot_water</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.power_generator.more_tags.generator:type.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:type.title">Тип генератора</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:type.title">Generator type</title>
                 <key>generator:type</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:cold_air.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:cold_air.title">Выработка холодного воздуха</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:cold_air.title">Generator output cold air</title>
                 <key>generator:output:cold_air</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.power_generator.more_tags.generator:output:hot_air.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.power_generator.more_tags.generator:output:hot_air.title">Выработка горячего воздуха</title>
+                <title lang="en" key="l10n.feature.power_generator.more_tags.generator:output:hot_air.title">Generator output hot air</title>
                 <key>generator:output:hot_air</key>
             </tag>
         </more-tags>

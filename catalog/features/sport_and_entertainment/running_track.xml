@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="running_track">
-        <title>l10n.feature.running_track.title</title>
+        <title lang="ru" key="l10n.feature.running_track.title">Беговая дорожка</title>
+        <title lang="en" key="l10n.feature.running_track.title">Running track</title>
         <tags>
             <tag>
-                <title>l10n.feature.running_track.tags.sport.title</title>
+                <title lang="ru" key="l10n.feature.running_track.tags.sport.title">Бег</title>
+                <title lang="en" key="l10n.feature.running_track.tags.sport.title">Running</title>
                 <key>sport</key>
                 <val value="running"/>
             </tag>
@@ -18,14 +20,17 @@
         <trait>fee</trait>
         <trait>surface</trait>
         <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.running_track.more_tags.covered.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.running_track.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.running_track.more_tags.covered.title">Covered</title>
                 <key>covered</key>
                 <val value="true">
-                    <title>l10n.feature.running_track.more_tags.covered.true.title</title>
+                    <title lang="ru" key="l10n.feature.running_track.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.running_track.more_tags.covered.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.running_track.more_tags.covered.false.title</title>
+                    <title lang="ru" key="l10n.feature.running_track.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.running_track.more_tags.covered.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

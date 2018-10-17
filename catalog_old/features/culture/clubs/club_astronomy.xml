@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="club_astronomy">
+        <title>l10n.feature.club_astronomy.title</title>
+        <tags>
+            <tag>
+                <key>club</key>
+                <val value="astronomy"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>club_astronomy.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="dentist">
+        <title>l10n.feature.dentist.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="dentist"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>dentist.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

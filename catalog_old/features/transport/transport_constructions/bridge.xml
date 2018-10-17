@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bridge">
+        <title>l10n.feature.bridge.title</title>
+        <tags>
+            <tag>
+                <key>man_made</key>
+                <val value="bridge"/>
+            </tag>
+        </tags>
+        <icon>bridge.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

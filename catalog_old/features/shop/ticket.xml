@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="ticket">
+        <title>l10n.feature.ticket.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="ticket"/>
+                <val value="tickets"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>tickets</trait>
+        <icon>ticket.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

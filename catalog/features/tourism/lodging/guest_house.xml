@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="guest_house">
-        <title>l10n.feature.guest_house.title</title>
+        <title lang="ru" key="l10n.feature.guest_house.title">Гостевой дом</title>
+        <title lang="en" key="l10n.feature.guest_house.title">Guest house</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -13,8 +14,9 @@
         <trait>smoking</trait>
         <trait>parking</trait>
         <more-tags>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.guest_house.more_tags.beds.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.guest_house.more_tags.beds.title">Число спальных мест</title>
+                <title lang="en" key="l10n.feature.guest_house.more_tags.beds.title">Beds</title>
                 <key>beds</key>
             </tag>
         </more-tags>

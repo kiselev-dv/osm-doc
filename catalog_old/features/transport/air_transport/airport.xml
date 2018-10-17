@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="airport">
+        <title>l10n.feature.airport.title</title>
+        <tags>
+            <tag>
+                <key>aeroway</key>
+                <val value="aerodrome"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag>
+                <title>l10n.feature.airport.more_tags.iata.title</title>
+                <key>iata</key>
+            </tag>
+            <tag>
+                <title>l10n.feature.airport.more_tags.icao.title</title>
+                <key>icao</key>
+            </tag>
+            <tag d:tag-value-type="measure">
+                <title>l10n.feature.airport.more_tags.ele.title</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>airport.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

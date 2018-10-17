@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="beauty_salon">
+        <title>l10n.feature.beauty_salon.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="beauty"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>beauty_salon.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="information">
-        <title>l10n.feature.information.title</title>
+        <title lang="ru" key="l10n.feature.information.title">Информационный стенд</title>
+        <title lang="en" key="l10n.feature.information.title">Information</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -10,32 +11,41 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.information.more_tags.information.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.information.more_tags.information.title">Тип стенда</title>
+                <title lang="en" key="l10n.feature.information.more_tags.information.title">Information</title>
                 <key>information</key>
                 <val value="office">
-                    <title>l10n.feature.information.more_tags.information.office.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.office.title">Офис</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.office.title">Office</title>
                 </val>
                 <val value="guidepost">
-                    <title>l10n.feature.information.more_tags.information.guidepost.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.guidepost.title">Указатель направления</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.guidepost.title">Guidepost</title>
                 </val>
                 <val value="audioguide">
-                    <title>l10n.feature.information.more_tags.information.audioguide.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.audioguide.title">Аудиогид</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.audioguide.title">Audioguide</title>
                 </val>
                 <val value="terminal">
-                    <title>l10n.feature.information.more_tags.information.terminal.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.terminal.title">Терминал</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.terminal.title">Terminal</title>
                 </val>
                 <val value="tactile_model">
-                    <title>l10n.feature.information.more_tags.information.tactile_model.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.tactile_model.title">Тактильная модель</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.tactile_model.title">Tactile model</title>
                 </val>
                 <val value="map">
-                    <title>l10n.feature.information.more_tags.information.map.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.map.title">Карта</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.map.title">Map</title>
                 </val>
                 <val value="tactile_map">
-                    <title>l10n.feature.information.more_tags.information.tactile_map.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.tactile_map.title">Тактильная карта</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.tactile_map.title">Tactile map</title>
                 </val>
                 <val value="board">
-                    <title>l10n.feature.information.more_tags.information.board.title</title>
+                    <title lang="ru" key="l10n.feature.information.more_tags.information.board.title">Щит</title>
+                    <title lang="en" key="l10n.feature.information.more_tags.information.board.title">Board</title>
                 </val>
             </tag>
         </more-tags>

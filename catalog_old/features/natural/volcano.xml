@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="volcano">
+        <title>l10n.feature.volcano.title</title>
+        <tags>
+            <tag>
+                <key>natural</key>
+                <val value="volcano"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag d:tag-value-type="measure">
+                <title>l10n.feature.volcano.more_tags.ele.title</title>
+                <key>ele</key>
+            </tag>
+        </more-tags>
+        <icon>volcano.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

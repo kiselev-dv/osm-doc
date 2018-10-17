@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="car_repair">
+        <title>l10n.feature.car_repair.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="car_repair"/>
+            </tag>
+            <!-- Не знаю исключать или не стоит -->
+            <tag exclude="true">
+                <key>service</key>
+                <val value="tyres"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>car_repair.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

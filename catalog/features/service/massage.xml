@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="massage">
-        <title>l10n.feature.massage.title</title>
+        <title lang="ru" key="l10n.feature.massage.title">Массажный салон</title>
+        <title lang="en" key="l10n.feature.massage.title">Massage</title>
         <tags>
             <tag>
                 <key>shop</key>

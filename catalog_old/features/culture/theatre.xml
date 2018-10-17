@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="theatre">
+        <title>l10n.feature.theatre.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="theatre"/>
+            </tag>
+            <tag exclude="true">
+                <key>theatre:genre</key>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <more-tags>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.theatre.more_tags.theatre:genre.title</title>
+                <key>theatre:genre</key>
+                <val value="boulevard">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.boulevard.title</title>
+                </val>
+                <val value="cabaret">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.cabaret.title</title>
+                </val>
+                <val value="comedy">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.comedy.title</title>
+                </val>
+                <val value="musical">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.musical.title</title>
+                </val>
+                <val value="political">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.political.title</title>
+                </val>
+                <val value="marionette">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.marionette.title</title>
+                </val>
+                <val value="drama">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.drama.title</title>
+                </val>
+                <val value="varietе">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.varietе.title</title>
+                </val>
+                <val value="philharmonic">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.philharmonic.title</title>
+                </val>
+                <val value="puppet">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.puppet.title</title>
+                </val>
+                <val value="opera">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.opera.title</title>
+                </val>
+                <val value="stand_up_comedy">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.stand_up_comedy.title</title>
+                </val>
+                <val value="chamber_music">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.chamber_music.title</title>
+                </val>
+                <val value="shadow_play">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.shadow_play.title</title>
+                </val>
+                <val value="ballet">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.ballet.title</title>
+                </val>
+                <val value="circus">
+                    <title>l10n.feature.theatre.more_tags.theatre:genre.circus.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>theatre.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

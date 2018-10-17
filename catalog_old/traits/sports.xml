@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="sports">
+		<title>l10n.trait.sports.title</title>	
+		<more-tags>	
+			<tag d:tag-value-type="enum">
+                <title>l10n.feature.bicycle_track.more_tags.sport.title</title>
+                <key>sport</key>
+                <val value="basketball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.basketball.title</title>
+                </val>
+                <val value="9pin">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.9pin.title</title>
+                </val>
+                <val value="cycling">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.cycling.title</title>
+                </val>
+                <val value="horseshoes">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.horseshoes.title</title>
+                </val>
+                <val value="table_tennis">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.table_tennis.title</title>
+                </val>
+                <val value="karting">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.karting.title</title>
+                </val>
+                <val value="curling">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.curling.title</title>
+                </val>
+                <val value="baseball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.baseball.title</title>
+                </val>
+                <val value="archery">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.archery.title</title>
+                </val>
+                <val value="american_football">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.american_football.title</title>
+                </val>
+                <val value="tennis">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.tennis.title</title>
+                </val>
+                <val value="rugby_league">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.rugby_league.title</title>
+                </val>
+                <val value="volleyball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.volleyball.title</title>
+                </val>
+                <val value="racquet">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.racquet.title</title>
+                </val>
+                <val value="orienteering">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.orienteering.title</title>
+                </val>
+                <val value="taekwondo">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.taekwondo.title</title>
+                </val>
+                <val value="korfball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.korfball.title</title>
+                </val>
+                <val value="equestrian">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.equestrian.title</title>
+                </val>
+                <val value="climbing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.climbing.title</title>
+                </val>
+                <val value="BASE">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.BASE.title</title>
+                </val>
+                <val value="free_flying">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.free_flying.title</title>
+                </val>
+                <val value="toboggan">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.toboggan.title</title>
+                </val>
+                <val value="bmx">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.bmx.title</title>
+                </val>
+                <val value="multi">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.multi.title</title>
+                </val>
+                <val value="boxing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.boxing.title</title>
+                </val>
+                <val value="10pin">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.10pin.title</title>
+                </val>
+                <val value="diving">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.diving.title</title>
+                </val>
+                <val value="gymnastics">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.gymnastics.title</title>
+                </val>
+                <val value="bowls">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.bowls.title</title>
+                </val>
+                <val value="skiing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.skiing.title</title>
+                </val>
+                <val value="hockey">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.hockey.title</title>
+                </val>
+                <val value="athletics">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.athletics.title</title>
+                </val>
+                <val value="dog_racing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.dog_racing.title</title>
+                </val>
+                <val value="rowing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.rowing.title</title>
+                </val>
+                <val value="water_ski">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.water_ski.title</title>
+                </val>
+                <val value="chess">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.chess.title</title>
+                </val>
+                <val value="canoe">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.canoe.title</title>
+                </val>
+                <val value="pelota">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.pelota.title</title>
+                </val>
+                <val value="ice_stock">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.ice_stock.title</title>
+                </val>
+                <val value="paddle_tennis">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.paddle_tennis.title</title>
+                </val>
+                <val value="running">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.running.title</title>
+                </val>
+                <val value="swimming">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.swimming.title</title>
+                </val>
+                <val value="fencing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.fencing.title</title>
+                </val>
+                <val value="paragliding">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.paragliding.title</title>
+                </val>
+                <val value="horse_racing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.horse_racing.title</title>
+                </val>
+                <val value="surfing">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.surfing.title</title>
+                </val>
+                <val value="motor">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.motor.title</title>
+                </val>
+                <val value="team_handball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.team_handball.title</title>
+                </val>
+                <val value="golf">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.golf.title</title>
+                </val>
+                <val value="soccer">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.soccer.title</title>
+                </val>
+                <val value="scuba_diving">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.scuba_diving.title</title>
+                </val>
+                <val value="canadian_football">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.canadian_football.title</title>
+                </val>
+                <val value="badminton">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.badminton.title</title>
+                </val>
+                <val value="wrestling">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.wrestling.title</title>
+                </val>
+                <val value="judo">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.judo.title</title>
+                </val>
+                <val value="skating">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.skating.title</title>
+                </val>
+                <val value="rugby_union">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.rugby_union.title</title>
+                </val>
+                <val value="skateboard">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.skateboard.title</title>
+                </val>
+                <val value="gaelic_games">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.gaelic_games.title</title>
+                </val>
+                <val value="australian_football">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.australian_football.title</title>
+                </val>
+                <val value="beachvolleyball">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.beachvolleyball.title</title>
+                </val>
+                <val value="football">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.football.title</title>
+                </val>
+                <val value="motocross">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.motocross.title</title>
+                </val>
+                <val value="boules">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.boules.title</title>
+                </val>
+                <val value="weightlifting">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.weightlifting.title</title>
+                </val>
+                <val value="shooting">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.shooting.title</title>
+                </val>
+                <val value="fitness">
+                    <title>l10n.feature.bicycle_track.more_tags.sport.fitness.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

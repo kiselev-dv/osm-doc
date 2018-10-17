@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="bus_stop">
+        <title>l10n.feature.bus_stop.title</title>
+        <tags>
+            <tag>
+                <key>highway</key>
+                <val value="bus_stop"/>
+            </tag>
+        </tags>
+        <more-tags>
+            <tag d:tag-value-type="anyString">
+                <title>l10n.feature.bus_stop.more_tags.route_ref.title</title>
+                <key>route_ref</key>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bus_stop.more_tags.shelter.title</title>
+                <key>shelter</key>
+                <val value="true">
+                    <title>l10n.feature.bus_stop.more_tags.shelter.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bus_stop.more_tags.shelter.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bus_stop.more_tags.bench.title</title>
+                <key>bench</key>
+                <val value="true">
+                    <title>l10n.feature.bus_stop.more_tags.bench.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bus_stop.more_tags.bench.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bus_stop.more_tags.bin.title</title>
+                <key>bin</key>
+                <val value="true">
+                    <title>l10n.feature.bus_stop.more_tags.bin.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bus_stop.more_tags.bin.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bus_stop.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

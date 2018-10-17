@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="motel">
+        <title>l10n.feature.motel.title</title>
+        <tags>
+            <tag>
+                <key>tourism</key>
+                <val value="motel"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>internet-access</trait>
+        <trait>smoking</trait>
+        <trait>parking</trait>
+        <more-tags>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.motel.more_tags.beds.title</title>
+                <key>beds</key>
+            </tag>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.motel.more_tags.rooms.title</title>
+                <key>rooms</key>
+            </tag>
+        </more-tags>
+        <icon>motel.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

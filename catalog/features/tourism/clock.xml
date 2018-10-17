@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="clock">
-        <title>l10n.feature.clock.title</title>
+        <title lang="ru" key="l10n.feature.clock.title">Часы</title>
+        <title lang="en" key="l10n.feature.clock.title">Clock</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,93 +11,120 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.clock.more_tags.visibility.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.clock.more_tags.visibility.title">Видимость</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.visibility.title">Visibility</title>
                 <key>visibility</key>
                 <val value="area">
-                    <title>l10n.feature.clock.more_tags.visibility.area.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.visibility.area.title">с большого расстояния</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.visibility.area.title">Area</title>
                 </val>
                 <val value="street">
-                    <title>l10n.feature.clock.more_tags.visibility.street.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.visibility.street.title">в пределах улицы</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.visibility.street.title">Street</title>
                 </val>
                 <val value="house">
-                    <title>l10n.feature.clock.more_tags.visibility.house.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.visibility.house.title">в пределах нескольких метров</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.visibility.house.title">House</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.clock.more_tags.display.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.clock.more_tags.display.title">Метод отображения</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.display.title">Display</title>
                 <key>display</key>
                 <val value="sundial">
-                    <title>l10n.feature.clock.more_tags.display.sundial.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.display.sundial.title">солнечные часы</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.display.sundial.title">Sundial</title>
                 </val>
                 <val value="unorthodox">
-                    <title>l10n.feature.clock.more_tags.display.unorthodox.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.display.unorthodox.title">нестандартный</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.display.unorthodox.title">Unorthodox</title>
                 </val>
                 <val value="analog">
-                    <title>l10n.feature.clock.more_tags.display.analog.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.display.analog.title">аналоговый (стрелки)</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.display.analog.title">Analog</title>
                 </val>
                 <val value="digital">
-                    <title>l10n.feature.clock.more_tags.display.digital.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.display.digital.title">цифровой</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.display.digital.title">Digital</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.clock.more_tags.faces.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.clock.more_tags.faces.title">Число циферблатов</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.faces.title">Faces</title>
                 <key>faces</key>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.clock.more_tags.hygrometer.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.clock.more_tags.hygrometer.title">Показывает влажность</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.hygrometer.title">Hygrometer</title>
                 <key>hygrometer</key>
                 <val value="true">
-                    <title>l10n.feature.clock.more_tags.hygrometer.true.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.hygrometer.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.hygrometer.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.clock.more_tags.hygrometer.false.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.hygrometer.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.hygrometer.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.clock.more_tags.support.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.clock.more_tags.support.title">Метод установки</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.support.title">Support</title>
                 <key>support</key>
                 <val value="pole">
-                    <title>l10n.feature.clock.more_tags.support.pole.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.support.pole.title">крепление на столб</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.support.pole.title">Pole</title>
                 </val>
                 <val value="wall_mounted">
-                    <title>l10n.feature.clock.more_tags.support.wall_mounted.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.support.wall_mounted.title">крепление на стену</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.support.wall_mounted.title">Wall mounted</title>
                 </val>
                 <val value="ground">
-                    <title>l10n.feature.clock.more_tags.support.ground.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.support.ground.title">на земле</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.support.ground.title">Ground</title>
                 </val>
                 <val value="billboard">
-                    <title>l10n.feature.clock.more_tags.support.billboard.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.support.billboard.title">информационный щит</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.support.billboard.title">Billboard</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.clock.more_tags.date.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.clock.more_tags.date.title">Показывает дату</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.date.title">Date</title>
                 <key>date</key>
                 <val value="true">
-                    <title>l10n.feature.clock.more_tags.date.true.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.date.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.date.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.clock.more_tags.date.false.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.date.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.date.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.clock.more_tags.barometer.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.clock.more_tags.barometer.title">Показывает давление</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.barometer.title">Barometer</title>
                 <key>barometer</key>
                 <val value="true">
-                    <title>l10n.feature.clock.more_tags.barometer.true.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.barometer.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.barometer.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.clock.more_tags.barometer.false.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.barometer.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.barometer.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.clock.more_tags.thermometer.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.clock.more_tags.thermometer.title">Показывает температуру</title>
+                <title lang="en" key="l10n.feature.clock.more_tags.thermometer.title">Thermometer</title>
                 <key>thermometer</key>
                 <val value="true">
-                    <title>l10n.feature.clock.more_tags.thermometer.true.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.thermometer.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.thermometer.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.clock.more_tags.thermometer.false.title</title>
+                    <title lang="ru" key="l10n.feature.clock.more_tags.thermometer.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.clock.more_tags.thermometer.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="clock">
+        <title>l10n.feature.clock.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="clock"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.visibility.title</title>
+                <key>visibility</key>
+                <val value="area">
+                    <title>l10n.feature.clock.more_tags.visibility.area.title</title>
+                </val>
+                <val value="street">
+                    <title>l10n.feature.clock.more_tags.visibility.street.title</title>
+                </val>
+                <val value="house">
+                    <title>l10n.feature.clock.more_tags.visibility.house.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.display.title</title>
+                <key>display</key>
+                <val value="sundial">
+                    <title>l10n.feature.clock.more_tags.display.sundial.title</title>
+                </val>
+                <val value="unorthodox">
+                    <title>l10n.feature.clock.more_tags.display.unorthodox.title</title>
+                </val>
+                <val value="analog">
+                    <title>l10n.feature.clock.more_tags.display.analog.title</title>
+                </val>
+                <val value="digital">
+                    <title>l10n.feature.clock.more_tags.display.digital.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.clock.more_tags.faces.title</title>
+                <key>faces</key>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.clock.more_tags.hygrometer.title</title>
+                <key>hygrometer</key>
+                <val value="true">
+                    <title>l10n.feature.clock.more_tags.hygrometer.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.clock.more_tags.hygrometer.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.clock.more_tags.support.title</title>
+                <key>support</key>
+                <val value="pole">
+                    <title>l10n.feature.clock.more_tags.support.pole.title</title>
+                </val>
+                <val value="wall_mounted">
+                    <title>l10n.feature.clock.more_tags.support.wall_mounted.title</title>
+                </val>
+                <val value="ground">
+                    <title>l10n.feature.clock.more_tags.support.ground.title</title>
+                </val>
+                <val value="billboard">
+                    <title>l10n.feature.clock.more_tags.support.billboard.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.clock.more_tags.date.title</title>
+                <key>date</key>
+                <val value="true">
+                    <title>l10n.feature.clock.more_tags.date.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.clock.more_tags.date.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.clock.more_tags.barometer.title</title>
+                <key>barometer</key>
+                <val value="true">
+                    <title>l10n.feature.clock.more_tags.barometer.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.clock.more_tags.barometer.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.clock.more_tags.thermometer.title</title>
+                <key>thermometer</key>
+                <val value="true">
+                    <title>l10n.feature.clock.more_tags.thermometer.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.clock.more_tags.thermometer.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>clock.png</icon>
+        <applyed-to>node way area</applyed-to>
+    </feature>
+</doc-part>

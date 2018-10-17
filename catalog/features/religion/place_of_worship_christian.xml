@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="place_of_worship_christian">
-        <title>l10n.feature.place_of_worship_christian.title</title>
+        <title lang="ru" key="l10n.feature.place_of_worship_christian.title">Храм, церковь</title>
+        <title lang="en" key="l10n.feature.place_of_worship_christian.title">Place of worship christian</title>
         <tags>
             <tag>
-                <title>l10n.feature.place_of_worship_christian.tags.religion.title</title>
+                <title lang="ru" key="l10n.feature.place_of_worship_christian.tags.religion.title">Религия</title>
+                <title lang="en" key="l10n.feature.place_of_worship_christian.tags.religion.title">Religion</title>
                 <key>religion</key>
                 <val value="christian"/>
             </tag>

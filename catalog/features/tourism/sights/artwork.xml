@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" 
-	xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="artwork">
-        <title>l10n.feature.artwork.title</title>
+        <title lang="ru" key="l10n.feature.artwork.title">Арт-объект</title>
+        <title lang="en" key="l10n.feature.artwork.title">Artwork</title>
         <tags>
             <tag>
                 <key>tourism</key>
@@ -12,33 +12,42 @@
         <trait>poi</trait>
         <more-tags>
             <tag>
-                <title>l10n.feature.artwork.more_tags.artist_name.title</title>
+                <title lang="ru" key="l10n.feature.artwork.more_tags.artist_name.title">Имя художника</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.artist_name.title">Artist name</title>
                 <key>artist_name</key>
             </tag>
-            <tag d:tag-value-type="date">
-                <title>l10n.feature.artwork.more_tags.start_date.title</title>
+            <tag tag-value-type="date">
+                <title lang="ru" key="l10n.feature.artwork.more_tags.start_date.title">Дата установки</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.start_date.title">Start date</title>
                 <key>start_date</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.artwork.more_tags.artwork_type.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.title">Тип произведения</title>
+                <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.title">Artwork type</title>
                 <key>artwork_type</key>
                 <val value="sculpture">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.sculpture.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.sculpture.title">скульптура</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.sculpture.title">Sculpture</title>
                 </val>
                 <val value="statue">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.statue.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.statue.title">статуя</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.statue.title">Statue</title>
                 </val>
                 <val value="mural">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.mural.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.mural.title">фреска</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.mural.title">Mural</title>
                 </val>
                 <val value="architecture">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.architecture.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.architecture.title">архитектурный объект</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.architecture.title">Architecture</title>
                 </val>
                 <val value="mosaic">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.mosaic.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.mosaic.title">мозаика</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.mosaic.title">Mosaic</title>
                 </val>
                 <val value="painting">
-                    <title>l10n.feature.artwork.more_tags.artwork_type.painting.title</title>
+                    <title lang="ru" key="l10n.feature.artwork.more_tags.artwork_type.painting.title">живопись</title>
+                    <title lang="en" key="l10n.feature.artwork.more_tags.artwork_type.painting.title">Painting</title>
                 </val>
             </tag>
         </more-tags>

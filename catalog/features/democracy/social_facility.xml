@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="social_facility">
-        <title>l10n.feature.social_facility.title</title>
+        <title lang="ru" key="l10n.feature.social_facility.title">Социальное учреждение</title>
+        <title lang="en" key="l10n.feature.social_facility.title">Social facility</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -10,75 +11,98 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.social_facility.more_tags.social_facility:for.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.title">Целевая группа</title>
+                <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.title">Social facility for</title>
                 <key>social_facility:for</key>
                 <val value="unemployed">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.unemployed.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.unemployed.title">безработные</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.unemployed.title">Unemployed</title>
                 </val>
                 <val value="underprivileged">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.underprivileged.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.underprivileged.title">малообеспеченные</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.underprivileged.title">Underprivileged</title>
                 </val>
                 <val value="abused">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.abused.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.abused.title">жертвы насилия</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.abused.title">Abused</title>
                 </val>
                 <val value="victim">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.victim.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.victim.title">жертвы преступности</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.victim.title">Victim</title>
                 </val>
                 <val value="migrant">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.migrant.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.migrant.title">мигранты, беженцы</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.migrant.title">Migrant</title>
                 </val>
                 <val value="drug_addicted">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.drug_addicted.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.drug_addicted.title">наркозависимые</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.drug_addicted.title">Drug addicted</title>
                 </val>
                 <val value="child">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.child.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.child.title">дети</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.child.title">Child</title>
                 </val>
                 <val value="mental_health">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.mental_health.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.mental_health.title">люди с психическими проблемами</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.mental_health.title">Mental health</title>
                 </val>
                 <val value="orphan">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.orphan.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.orphan.title">сироты</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.orphan.title">Orphan</title>
                 </val>
                 <val value="diseased">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.diseased.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.diseased.title">больные конкретными заболеваниями</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.diseased.title">Diseased</title>
                 </val>
                 <val value="homeless">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.homeless.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.homeless.title">бездомные</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.homeless.title">Homeless</title>
                 </val>
                 <val value="juvenile">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.juvenile.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.juvenile.title">подростки</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.juvenile.title">Juvenile</title>
                 </val>
                 <val value="disabled">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.disabled.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.disabled.title">инвалиды</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.disabled.title">Disabled</title>
                 </val>
                 <val value="senior">
-                    <title>l10n.feature.social_facility.more_tags.social_facility:for.senior.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility:for.senior.title">пожилые</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility:for.senior.title">Senior</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.social_facility.more_tags.social_facility.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.title">Тип</title>
+                <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.title">Social facility</title>
                 <key>social_facility</key>
                 <val value="group_home">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.group_home.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.group_home.title">учреждение группового проживания</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.group_home.title">Group home</title>
                 </val>
                 <val value="ambulatory_care">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.ambulatory_care.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.ambulatory_care.title">учреждение, занимающееся поддержкой на дому</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.ambulatory_care.title">Ambulatory care</title>
                 </val>
                 <val value="food_bank">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.food_bank.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.food_bank.title">учреждение без проживания, занимающееся раздачей пищевых рационов или готовых блюд</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.food_bank.title">Food bank</title>
                 </val>
                 <val value="workshop">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.workshop.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.workshop.title">учреждение без проживания, обеспечивающее работой людей с проблемами, реабилитационный центр</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.workshop.title">Workshop</title>
                 </val>
                 <val value="shelter">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.shelter.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.shelter.title">учреждение временного проживания (ночлега)</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.shelter.title">Shelter</title>
                 </val>
                 <val value="outreach">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.outreach.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.outreach.title">учреждение без проживания, занимающееся предоставлением социальных услуг на бесплатной основе</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.outreach.title">Outreach</title>
                 </val>
                 <val value="assisted_living">
-                    <title>l10n.feature.social_facility.more_tags.social_facility.assisted_living.title</title>
+                    <title lang="ru" key="l10n.feature.social_facility.more_tags.social_facility.assisted_living.title">учреждение группового проживания</title>
+                    <title lang="en" key="l10n.feature.social_facility.more_tags.social_facility.assisted_living.title">Assisted living</title>
                 </val>
             </tag>
         </more-tags>

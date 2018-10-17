@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="transformer">
-        <title>l10n.feature.transformer.title</title>
+        <title lang="ru" key="l10n.feature.transformer.title">Трансформатор</title>
+        <title lang="en" key="l10n.feature.transformer.title">Transformer</title>
         <tags>
             <tag>
                 <key>power</key>
@@ -10,16 +11,19 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.transformer.more_tags.phases.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.phases.title">Число фаз</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.phases.title">Phases</title>
                 <key>phases</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.transformer.more_tags.voltage.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.voltage.title">Напряжения</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.voltage.title">Voltage</title>
                 <key>voltage</key>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.transformer.more_tags.frequency.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.transformer.more_tags.frequency.title">Частота тока (Гц)</title>
+                <title lang="en" key="l10n.feature.transformer.more_tags.frequency.title">Frequency</title>
                 <key>frequency</key>
             </tag>
         </more-tags>

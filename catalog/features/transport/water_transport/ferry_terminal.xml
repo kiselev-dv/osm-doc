@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="ferry_terminal">
-        <title>l10n.feature.ferry_terminal.title</title>
+        <title lang="ru" key="l10n.feature.ferry_terminal.title">Причал парома</title>
+        <title lang="en" key="l10n.feature.ferry_terminal.title">Ferry terminal</title>
         <tags>
             <tag>
                 <key>amenity</key>

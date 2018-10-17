@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="tea">
+        <title>l10n.feature.tea.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="tea"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

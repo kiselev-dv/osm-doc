@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="dry_cleaning">
+        <title>l10n.feature.dry_cleaning.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="dry_cleaning"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>dry_cleaning.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

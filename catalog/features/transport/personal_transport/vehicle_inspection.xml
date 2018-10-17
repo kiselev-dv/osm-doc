@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="vehicle_inspection">
-        <title>l10n.feature.vehicle_inspection.title</title>
+        <title lang="ru" key="l10n.feature.vehicle_inspection.title">Пункт техосмотра</title>
+        <title lang="en" key="l10n.feature.vehicle_inspection.title">Vehicle inspection</title>
         <tags>
             <tag>
                 <key>amenity</key>

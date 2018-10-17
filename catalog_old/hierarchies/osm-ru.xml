@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <hierarchy name="osm-ru">
+    	<group name="public_transport">
+            <title>l10n.group.osm-ru.public_transport.title</title>
+            <fref ref="bus_stop"/>
+            <fref ref="tram_stop"/>
+            <fref ref="subway_entrance"/>
+            <fref ref="subway_station"/>
+            <fref ref="bus_station"/>
+            <fref ref="railway_station"/>
+            <fref ref="railway_halt"/>
+            <fref ref="taxi"/>
+            <fref ref="funicular"/>
+        </group>
+        <group name="shop">
+            <title>l10n.group.osm-ru.shop.title</title>
+            <group name="shop_food">
+                <title>l10n.group.osm-ru.shop_food.title</title>
+                <fref ref="bakery"/>
+                <fref ref="alcohol"/>
+                <fref ref="convenience"/>
+                <fref ref="mall"/>
+                <fref ref="beverages"/>
+                <fref ref="butcher"/>
+                <fref ref="deli"/>
+                <fref ref="farm"/>
+                <fref ref="greengrocer"/>
+                <fref ref="seafood"/>
+                <fref ref="confectionery"/>
+                <fref ref="ice_cream"/>
+                <fref ref="supermarket"/>
+                <fref ref="tea"/>
+            </group>
+            <fref ref="bookshop"/>
+            <fref ref="bicycle"/>
+            <fref ref="mall"/>
+            <fref ref="anime"/>
+            <fref ref="antiques"/>
+            <fref ref="art"/>
+            <fref ref="bag"/>
+            <fref ref="baby_goods"/>
+            <fref ref="bathroom_furnishing"/>
+            <fref ref="bed"/>
+            <fref ref="boutique"/>
+            <fref ref="carpet"/>
+            <fref ref="charity"/>
+            <fref ref="chemist"/>
+            <fref ref="clothes"/>
+            <fref ref="shoes"/>
+            <fref ref="computer"/>
+            <fref ref="copyshop"/>
+            <fref ref="curtain"/>
+            <fref ref="fabric"/>
+            <fref ref="bedding"/>
+            <fref ref="dive"/>
+            <fref ref="doityourself"/>
+            <fref ref="erotic"/>
+            <fref ref="fishing_shop"/>
+            <fref ref="florist"/>
+            <fref ref="frame"/>
+            <fref ref="furniture"/>
+            <fref ref="garden_centre"/>
+            <fref ref="gas"/>
+            <fref ref="gift"/>
+            <fref ref="glaziery_shop"/>
+            <fref ref="hardware"/>
+            <fref ref="hearing_aids"/>
+            <fref ref="herbalist"/>
+            <fref ref="hifi"/>
+            <fref ref="houseware"/>
+            <fref ref="hunting"/>
+            <fref ref="interior_decoration"/>
+            <fref ref="jewelry"/>
+            <fref ref="kiosk"/>
+            <fref ref="kitchen"/>
+            <fref ref="mobile_phone"/>
+            <fref ref="motorcycle"/>
+            <fref ref="musical_instrument"/>
+            <fref ref="newsagent"/>
+            <fref ref="optician_shop"/>
+            <fref ref="organic"/>
+            <fref ref="outdoor"/>
+            <fref ref="paint"/>
+            <fref ref="pet"/>
+            <fref ref="radiotechnics"/>
+            <fref ref="second_hand"/>
+            <fref ref="ship_chandler"/>
+            <fref ref="sports"/>
+            <fref ref="stationery"/>
+            <fref ref="tableware"/>
+            <fref ref="ticket"/>
+            <fref ref="tobacco"/>
+            <fref ref="toys"/>
+            <fref ref="trade"/>
+            <fref ref="vacuum_cleaner"/>
+            <fref ref="variety_store"/>
+            <fref ref="video"/>
+            <fref ref="window_blind"/>
+            <fref ref="supermarket"/>
+            <fref ref="department_store"/>
+            <fref ref="electronics"/>
+            <fref ref="car"/>
+            <fref ref="car_parts"/>
+            <fref ref="atv"/>
+            <fref ref="pawnbroker"/>
+            <fref ref="cosmetics"/>
+            <fref ref="marketplace"/>
+            <fref ref="sewing"/>
+        </group>
+        <group name="health">
+            <title>l10n.group.osm-ru.health.title</title>
+            <fref ref="pharmacy"/>
+            <fref ref="hospital"/>
+            <fref ref="doctors"/>
+            <fref ref="clinic"/>
+            <fref ref="dentist"/>
+            <fref ref="nursing_home"/>
+            <fref ref="veterinary"/>
+            <fref ref="mortuary"/>
+            <fref ref="ambulance_station"/>
+        </group>
+        <group name="food">
+            <title>l10n.group.osm-ru.food.title</title>
+            <fref ref="cafe"/>
+            <fref ref="biergarten"/>
+            <fref ref="restaurant"/>
+            <fref ref="fast_food"/>
+            <fref ref="bar"/>
+            <fref ref="pub"/>
+            <fref ref="food_court"/>
+        </group>
+        <group name="finance">
+            <title>l10n.group.osm-ru.finance.title</title>
+            <fref ref="bank"/>
+            <fref ref="atm"/>
+            <fref ref="money_lender"/>
+            <fref ref="pawnbroker"/>
+            <fref ref="currencyexchange"/>
+            <fref ref="accountant"/>
+        </group>
+        <group name="service">
+            <title>l10n.group.osm-ru.service.title</title>
+            <fref ref="funeral_directors"/>
+            <fref ref="currencyexchange"/>
+            <fref ref="driving_school"/>
+            <fref ref="craft_computer"/>
+            <fref ref="post_office"/>
+            <fref ref="post_box"/>
+            <fref ref="beauty_salon"/>
+            <fref ref="nails"/>
+            <fref ref="hairdresser"/>
+            <fref ref="massage"/>
+            <fref ref="tattoo"/>
+            <fref ref="dry_cleaning"/>
+            <fref ref="laundry"/>
+            <fref ref="car_rental"/>
+            <fref ref="bicycle_rental"/>
+            <fref ref="tailor"/>
+            <fref ref="charging_station"/>
+            <fref ref="toilets"/>
+            <fref ref="telephone"/>
+            <fref ref="sauna"/>
+            <fref ref="recycling"/>
+            <fref ref="internet_cafe"/>
+        </group>
+        <group name="craft">
+            <title>l10n.group.osm-ru.craft.title</title>
+            <fref ref="craft_computer"/>
+            <fref ref="agricultural_engines"/>
+            <fref ref="basket_maker"/>
+            <fref ref="beekeeper"/>
+            <fref ref="blacksmith"/>
+            <fref ref="brewery"/>
+            <fref ref="boatbuilder"/>
+            <fref ref="bookbinder"/>
+            <fref ref="carpenter"/>
+            <fref ref="carpet_layer"/>
+            <fref ref="caterer"/>
+            <fref ref="clockmaker"/>
+            <fref ref="dressmaker"/>
+            <fref ref="electrician"/>
+            <fref ref="gardener"/>
+            <fref ref="glaziery_craft"/>
+            <fref ref="handicraft"/>
+            <fref ref="hvac"/>
+            <fref ref="insulation"/>
+            <fref ref="jeweller"/>
+            <fref ref="locksmith"/>
+            <fref ref="key_cutter"/>
+            <fref ref="metal_construction"/>
+            <fref ref="optician_craft"/>
+            <fref ref="painter"/>
+            <fref ref="parquet_layer"/>
+            <fref ref="photographer"/>
+            <fref ref="photographic_laboratory"/>
+            <fref ref="plasterer"/>
+            <fref ref="plumber"/>
+            <fref ref="pottery"/>
+            <fref ref="rigger"/>
+            <fref ref="roofer"/>
+            <fref ref="saddler"/>
+            <fref ref="sailmaker"/>
+            <fref ref="sawmill"/>
+            <fref ref="scaffolder"/>
+            <fref ref="sculptor"/>
+            <fref ref="shoemaker"/>
+            <fref ref="stand_builder"/>
+            <fref ref="stonemason"/>
+            <fref ref="sun_protection"/>
+            <fref ref="sweep"/>
+            <fref ref="tailor"/>
+            <fref ref="tiler"/>
+            <fref ref="tinsmith"/>
+            <fref ref="upholsterer"/>
+            <fref ref="watchmaker"/>
+            <fref ref="window_construction"/>
+        </group>
+        <group name="transport">
+            <title>l10n.group.osm-ru.transport.title</title>
+            <group name="road_obstacles">
+                <title>l10n.group.osm-ru.road_obstacles.title</title>
+                <fref ref="ford"/>
+                <fref ref="mountain_pass"/>
+                <fref ref="gate"/>
+                <fref ref="lift_gate"/>
+                <fref ref="toll_booth"/>
+                <fref ref="bump"/>
+                <fref ref="hump"/>
+                <fref ref="cushion"/>
+                <fref ref="speed_camera"/>
+            </group>
+            <group name="personal_transport">
+                <title>l10n.group.osm-ru.personal_transport.title</title>
+                <fref ref="car_repair"/>
+                <fref ref="car_repair_tyres"/>
+                <fref ref="vehicle_inspection"/>
+                <fref ref="car_wash"/>
+                <fref ref="fuel"/>
+                <fref ref="charging_station"/>
+                <fref ref="vehicle_ramp"/>
+                <fref ref="parking"/>
+                <fref ref="parking_entrance"/>
+                <fref ref="garages"/>
+                <fref ref="speed_camera"/>
+            </group>
+            <group name="air_transport">
+                <title>l10n.group.osm-ru.air_transport.title</title>
+                <fref ref="airport"/>
+                <fref ref="helipad"/>
+            </group>
+            <group name="water_transport">
+                <title>l10n.group.osm-ru.water_transport.title</title>
+                <fref ref="slipway"/>
+                <fref ref="ferry_terminal"/>
+            </group>
+            <group name="bicycle_transport">
+                <title>l10n.group.osm-ru.bicycle_transport.title</title>
+                <fref ref="bicycle_rental"/>
+                <fref ref="bicycle_parking"/>
+            </group>
+            <group name="transport_constructions">
+                <title>l10n.group.osm-ru.transport_constructions.title</title>
+                <fref ref="tunnel"/>
+                <fref ref="bridge"/>
+            </group>
+        </group>
+        <group name="education">
+            <title>l10n.group.osm-ru.education.title</title>
+            <fref ref="driving_school"/>
+            <fref ref="school"/>
+            <fref ref="kindergarten"/>
+            <fref ref="library"/>
+            <fref ref="college"/>
+            <fref ref="university"/>
+        </group>
+        <group name="sport_and_entertainment">
+            <title>l10n.group.osm-ru.sport_and_entertainment.title</title>
+            <fref ref="bicycle_rental"/>
+            <fref ref="nightclub"/>
+            <fref ref="stadium"/>
+            <fref ref="sports_centre"/>
+            <fref ref="beach_resort"/>
+            <fref ref="dance"/>
+            <fref ref="dog_park"/>
+            <fref ref="fishing"/>
+            <fref ref="golf_course"/>
+            <fref ref="ice_rink"/>
+            <fref ref="marina"/>
+            <fref ref="slipway"/>
+            <fref ref="miniature_golf"/>
+            <fref ref="pitch"/>
+            <fref ref="running_track"/>
+            <fref ref="bicycle_track"/>
+            <fref ref="horse_track"/>
+            <fref ref="raceway"/>
+            <fref ref="playground"/>
+            <fref ref="swimming_pool"/>
+            <fref ref="water_park"/>
+            <fref ref="park"/>
+            <fref ref="sauna"/>
+            <fref ref="theme_park"/>
+            <fref ref="club_sport"/>
+        </group>
+        <group name="religion">
+            <title>l10n.group.osm-ru.religion.title</title>
+            <fref ref="place_of_worship"/>
+            <fref ref="place_of_worship_christian"/>
+            <fref ref="place_of_worship_jewish"/>
+            <fref ref="place_of_worship_muslim"/>
+            <fref ref="cemetery"/>
+        </group>
+        <group name="democracy">
+            <title>l10n.group.osm-ru.democracy.title</title>
+            <fref ref="social_facility"/>
+            <fref ref="police"/>
+            <fref ref="courthouse"/>
+            <fref ref="prison"/>
+            <fref ref="register_office"/>
+            <fref ref="embassy"/>
+            <fref ref="government"/>
+            <fref ref="bailiff"/>
+            <fref ref="prosecutor"/>
+            <fref ref="pension_fund"/>
+            <fref ref="migration"/>
+            <fref ref="tax_inspection"/>
+            <fref ref="administrative"/>
+            <fref ref="town_hall"/>
+            <fref ref="customs"/>
+        </group>
+        <group name="emergency">
+            <title>l10n.group.osm-ru.emergency.title</title>
+            <fref ref="police"/>
+            <fref ref="fire_station"/>
+            <fref ref="emergency_phone"/>
+            <fref ref="fire_hydrant"/>
+            <fref ref="fire_water_pond"/>
+            <fref ref="ambulance_station"/>
+        </group>
+        <group name="tourism">
+            <title>l10n.group.osm-ru.tourism.title</title>
+            <group name="sights">
+                <title>l10n.group.osm-ru.sights.title</title>
+                <fref ref="museum"/>
+                <fref ref="attraction"/>
+                <fref ref="memorial"/>
+                <fref ref="artwork"/>
+                <fref ref="archaeological_site"/>
+                <fref ref="battlefield"/>
+                <fref ref="boundary_stone"/>
+                <fref ref="castle"/>
+                <fref ref="city_gate"/>
+                <fref ref="fort"/>
+                <fref ref="fountain"/>
+                <fref ref="ruins"/>
+                <fref ref="rune_stone"/>
+                <fref ref="wreck"/>
+                <fref ref="ship"/>
+                <fref ref="monument"/>
+                <fref ref="viewpoint"/>
+                <fref ref="zoo"/>
+                <fref ref="theme_park"/>
+                <fref ref="lighthouse"/>
+            </group>
+            <group name="lodging">
+                <title>l10n.group.osm-ru.lodging.title</title>
+                <fref ref="hotel"/>
+                <fref ref="guest_house"/>
+                <fref ref="hostel"/>
+                <fref ref="motel"/>
+            </group>
+            <fref ref="information"/>
+            <fref ref="clock"/>
+            <fref ref="travel_agent"/>
+            <fref ref="viewpoint"/>
+            <fref ref="camp_site"/>
+            <fref ref="picnic_site"/>
+            <fref ref="spring"/>
+            <fref ref="shelter"/>
+            <fref ref="drinking_water"/>
+            <fref ref="club_tourism"/>
+            <fref ref="funicular"/>
+        </group>
+        <group name="culture">
+            <title>l10n.group.osm-ru.culture.title</title>
+            <group name="clubs">
+                <title>l10n.group.osm-ru.clubs.title</title>
+                <fref ref="club_art"/>
+                <fref ref="club_astronomy"/>
+                <fref ref="club_computer"/>
+                <fref ref="club_board_games"/>
+                <fref ref="club_motorcycle"/>
+                <fref ref="club_sport"/>
+                <fref ref="club_game"/>
+                <fref ref="club_automobile"/>
+                <fref ref="club_chess"/>
+                <fref ref="club_cinema"/>
+                <fref ref="club_fan"/>
+                <fref ref="club_fishing"/>
+                <fref ref="club_veterans"/>
+                <fref ref="club_linux"/>
+                <fref ref="club_theatre"/>
+                <fref ref="club_history"/>
+                <fref ref="club_music"/>
+                <fref ref="club_ethnic"/>
+                <fref ref="club_nature"/>
+                <fref ref="club_photography"/>
+                <fref ref="club_hunting"/>
+                <fref ref="club_shooting"/>
+                <fref ref="club_tourism"/>
+                <fref ref="club_charity"/>
+            </group>
+            <fref ref="library"/>
+            <fref ref="arts_centre"/>
+            <fref ref="cinema"/>
+            <fref ref="community_centre"/>
+            <fref ref="theatre"/>
+            <fref ref="circus"/>
+            <fref ref="museum"/>
+            <fref ref="dance"/>
+            <fref ref="zoo"/>
+        </group>
+        <group name="office">
+            <title>l10n.group.osm-ru.office.title</title>
+            <fref ref="company"/>
+            <fref ref="insurance"/>
+            <fref ref="estate_agent"/>
+            <fref ref="lawyer"/>
+            <fref ref="notary"/>
+            <fref ref="telecommunication"/>
+            <fref ref="travel_agent"/>
+            <fref ref="ngo"/>
+            <fref ref="administrative"/>
+            <fref ref="town_hall"/>
+            <fref ref="accountant"/>
+            <fref ref="employment_agency"/>
+            <fref ref="research"/>
+            <fref ref="it"/>
+            <fref ref="newspaper"/>
+            <fref ref="architect"/>
+            <fref ref="advertising_agency"/>
+            <fref ref="educational_institution"/>
+            <fref ref="studio"/>
+            <fref ref="bookmaker"/>
+        </group>
+        <group name="natural">
+            <title>l10n.group.osm-ru.natural.title</title>
+            <fref ref="cave_entrance"/>
+            <fref ref="peak"/>
+            <fref ref="saddle"/>
+            <fref ref="volcano"/>
+            <fref ref="waterfall"/>
+            <fref ref="spring"/>
+            <fref ref="cape"/>
+            <fref ref="bay"/>
+            <fref ref="strait"/>
+            <fref ref="island"/>
+            <fref ref="islet"/>
+            <fref ref="beach"/>
+        </group>
+        <group name="infrastructure">
+            <title>l10n.group.osm-ru.infrastructure.title</title>
+            <group name="transport_constructions">
+                <title>l10n.group.osm-ru.transport_constructions.title</title>
+                <fref ref="tunnel"/>
+                <fref ref="bridge"/>
+            </group>
+            <group name="communications">
+                <title>l10n.group.osm-ru.communications.title</title>
+                <fref ref="post_office"/>
+                <fref ref="post_box"/>
+                <fref ref="telephone"/>
+                <fref ref="emergency_phone"/>
+                <fref ref="communication_tower"/>
+                <fref ref="telephone_exchange"/>
+            </group>
+            <group name="trash_disposal">
+                <title>l10n.group.osm-ru.trash_disposal.title</title>
+                <fref ref="recycling"/>
+                <fref ref="landfill"/>
+                <fref ref="waste_disposal"/>
+            </group>
+            <group name="advertising">
+                <title>l10n.group.osm-ru.advertising.title</title>
+                <fref ref="advertising_billboard"/>
+                <fref ref="advertising_column"/>
+                <fref ref="advertising_flag"/>
+                <fref ref="advertising_sign"/>
+                <fref ref="advertising_screen"/>
+                <fref ref="advertising_sculpture"/>
+                <fref ref="advertising_wall_painting"/>
+            </group>
+            <group name="water_supply">
+                <title>l10n.group.osm-ru.water_supply.title</title>
+                <fref ref="water_well"/>
+                <fref ref="water_works"/>
+                <fref ref="wastewater_plant"/>
+                <fref ref="water_tower"/>
+            </group>
+            <group name="power">
+                <title>l10n.group.osm-ru.power.title</title>
+                <fref ref="substation"/>
+                <fref ref="transformer"/>
+                <fref ref="power_plant"/>
+                <fref ref="power_generator"/>
+            </group>
+            <fref ref="surveillance"/>
+            <fref ref="construction"/>
+        </group>
+    </hierarchy>
+</doc-part>

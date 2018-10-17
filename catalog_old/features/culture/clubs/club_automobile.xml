@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="club_automobile">
+        <title>l10n.feature.club_automobile.title</title>
+        <tags>
+            <tag>
+                <key>club</key>
+                <val value="automobile"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>club_automobile.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bus_station">
+        <title>l10n.feature.bus_station.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="bus_station"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <icon>bus_station.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

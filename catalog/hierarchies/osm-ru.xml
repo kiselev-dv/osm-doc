@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <hierarchy name="osm-ru">
-    	<group name="public_transport">
-            <title>l10n.group.osm-ru.public_transport.title</title>
+        <group name="public_transport">
+            <title lang="ru" key="l10n.group.osm-ru.public_transport.title">Общественный транспорт</title>
+            <title lang="en" key="l10n.group.osm-ru.public_transport.title">Public transport</title>
             <fref ref="bus_stop"/>
             <fref ref="tram_stop"/>
             <fref ref="subway_entrance"/>
@@ -14,9 +15,11 @@
             <fref ref="funicular"/>
         </group>
         <group name="shop">
-            <title>l10n.group.osm-ru.shop.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.shop.title">Магазины</title>
+            <title lang="en" key="l10n.group.osm-ru.shop.title">Shop</title>
             <group name="shop_food">
-                <title>l10n.group.osm-ru.shop_food.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.shop_food.title">Продукты</title>
+                <title lang="en" key="l10n.group.osm-ru.shop_food.title">Food shops</title>
                 <fref ref="bakery"/>
                 <fref ref="alcohol"/>
                 <fref ref="convenience"/>
@@ -109,7 +112,8 @@
             <fref ref="sewing"/>
         </group>
         <group name="health">
-            <title>l10n.group.osm-ru.health.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.health.title">Здоровье</title>
+            <title lang="en" key="l10n.group.osm-ru.health.title">Health</title>
             <fref ref="pharmacy"/>
             <fref ref="hospital"/>
             <fref ref="doctors"/>
@@ -121,7 +125,8 @@
             <fref ref="ambulance_station"/>
         </group>
         <group name="food">
-            <title>l10n.group.osm-ru.food.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.food.title">Еда</title>
+            <title lang="en" key="l10n.group.osm-ru.food.title">Food</title>
             <fref ref="cafe"/>
             <fref ref="biergarten"/>
             <fref ref="restaurant"/>
@@ -131,7 +136,8 @@
             <fref ref="food_court"/>
         </group>
         <group name="finance">
-            <title>l10n.group.osm-ru.finance.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.finance.title">Финансы</title>
+            <title lang="en" key="l10n.group.osm-ru.finance.title">Finance</title>
             <fref ref="bank"/>
             <fref ref="atm"/>
             <fref ref="money_lender"/>
@@ -140,7 +146,8 @@
             <fref ref="accountant"/>
         </group>
         <group name="service">
-            <title>l10n.group.osm-ru.service.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.service.title">Услуги</title>
+            <title lang="en" key="l10n.group.osm-ru.service.title">Service</title>
             <fref ref="funeral_directors"/>
             <fref ref="currencyexchange"/>
             <fref ref="driving_school"/>
@@ -165,7 +172,8 @@
             <fref ref="internet_cafe"/>
         </group>
         <group name="craft">
-            <title>l10n.group.osm-ru.craft.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.craft.title">Ремонт и мелкое производство</title>
+            <title lang="en" key="l10n.group.osm-ru.craft.title">Craft</title>
             <fref ref="craft_computer"/>
             <fref ref="agricultural_engines"/>
             <fref ref="basket_maker"/>
@@ -217,9 +225,11 @@
             <fref ref="window_construction"/>
         </group>
         <group name="transport">
-            <title>l10n.group.osm-ru.transport.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.transport.title">Транспорт</title>
+            <title lang="en" key="l10n.group.osm-ru.transport.title">Transport</title>
             <group name="road_obstacles">
-                <title>l10n.group.osm-ru.road_obstacles.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.road_obstacles.title">Препятствия на дороге</title>
+                <title lang="en" key="l10n.group.osm-ru.road_obstacles.title">Road obstacles</title>
                 <fref ref="ford"/>
                 <fref ref="mountain_pass"/>
                 <fref ref="gate"/>
@@ -228,11 +238,11 @@
                 <fref ref="bump"/>
                 <fref ref="hump"/>
                 <fref ref="cushion"/>
-                <fref ref="traffic_signals"/>
                 <fref ref="speed_camera"/>
             </group>
             <group name="personal_transport">
-                <title>l10n.group.osm-ru.personal_transport.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.personal_transport.title">Личный автотранспорт</title>
+                <title lang="en" key="l10n.group.osm-ru.personal_transport.title">Personal transport</title>
                 <fref ref="car_repair"/>
                 <fref ref="car_repair_tyres"/>
                 <fref ref="vehicle_inspection"/>
@@ -246,34 +256,27 @@
                 <fref ref="speed_camera"/>
             </group>
             <group name="air_transport">
-                <title>l10n.group.osm-ru.air_transport.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.air_transport.title">Воздушный транспорт</title>
+                <title lang="en" key="l10n.group.osm-ru.air_transport.title">Air transport</title>
                 <fref ref="airport"/>
                 <fref ref="helipad"/>
             </group>
             <group name="water_transport">
-                <title>l10n.group.osm-ru.water_transport.title</title>
-                <group name="ship_navigation">
-                    <title>l10n.group.osm-ru.ship_navigation.title</title>
-                    <fref ref="leading_beacon"/>
-                    <fref ref="lateral_buoy"/>
-                    <fref ref="lighthouse"/>
-                </group>
+                <title lang="ru" key="l10n.group.osm-ru.water_transport.title">Водный транспорт</title>
+                <title lang="en" key="l10n.group.osm-ru.water_transport.title">Water transport</title>
                 <fref ref="slipway"/>
                 <fref ref="ferry_terminal"/>
             </group>
-            <group name="bicycle_transport">
-                <title>l10n.group.osm-ru.bicycle_transport.title</title>
-                <fref ref="bicycle_rental"/>
-                <fref ref="bicycle_parking"/>
-            </group>
             <group name="transport_constructions">
-                <title>l10n.group.osm-ru.transport_constructions.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.transport_constructions.title">Транспортные сооружения</title>
+                <title lang="en" key="l10n.group.osm-ru.transport_constructions.title">Transport constructions</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
         </group>
         <group name="education">
-            <title>l10n.group.osm-ru.education.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.education.title">Образование</title>
+            <title lang="en" key="l10n.group.osm-ru.education.title">Education</title>
             <fref ref="driving_school"/>
             <fref ref="school"/>
             <fref ref="kindergarten"/>
@@ -282,7 +285,8 @@
             <fref ref="university"/>
         </group>
         <group name="sport_and_entertainment">
-            <title>l10n.group.osm-ru.sport_and_entertainment.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.sport_and_entertainment.title">Спорт и развлечения</title>
+            <title lang="en" key="l10n.group.osm-ru.sport_and_entertainment.title">Sport and entertainment</title>
             <fref ref="bicycle_rental"/>
             <fref ref="nightclub"/>
             <fref ref="stadium"/>
@@ -310,7 +314,8 @@
             <fref ref="club_sport"/>
         </group>
         <group name="religion">
-            <title>l10n.group.osm-ru.religion.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.religion.title">Религия</title>
+            <title lang="en" key="l10n.group.osm-ru.religion.title">Religion</title>
             <fref ref="place_of_worship"/>
             <fref ref="place_of_worship_christian"/>
             <fref ref="place_of_worship_jewish"/>
@@ -318,7 +323,8 @@
             <fref ref="cemetery"/>
         </group>
         <group name="democracy">
-            <title>l10n.group.osm-ru.democracy.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.democracy.title">Госучреждения</title>
+            <title lang="en" key="l10n.group.osm-ru.democracy.title">Democracy</title>
             <fref ref="social_facility"/>
             <fref ref="police"/>
             <fref ref="courthouse"/>
@@ -336,7 +342,8 @@
             <fref ref="customs"/>
         </group>
         <group name="emergency">
-            <title>l10n.group.osm-ru.emergency.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.emergency.title">Экстренные службы</title>
+            <title lang="en" key="l10n.group.osm-ru.emergency.title">Emergency</title>
             <fref ref="police"/>
             <fref ref="fire_station"/>
             <fref ref="emergency_phone"/>
@@ -345,9 +352,11 @@
             <fref ref="ambulance_station"/>
         </group>
         <group name="tourism">
-            <title>l10n.group.osm-ru.tourism.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.tourism.title">Туризм</title>
+            <title lang="en" key="l10n.group.osm-ru.tourism.title">Tourism</title>
             <group name="sights">
-                <title>l10n.group.osm-ru.sights.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.sights.title">Достопримечательности</title>
+                <title lang="en" key="l10n.group.osm-ru.sights.title">Sights</title>
                 <fref ref="museum"/>
                 <fref ref="attraction"/>
                 <fref ref="memorial"/>
@@ -370,7 +379,8 @@
                 <fref ref="lighthouse"/>
             </group>
             <group name="lodging">
-                <title>l10n.group.osm-ru.lodging.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.lodging.title">Проживание</title>
+                <title lang="en" key="l10n.group.osm-ru.lodging.title">Lodging</title>
                 <fref ref="hotel"/>
                 <fref ref="guest_house"/>
                 <fref ref="hostel"/>
@@ -389,9 +399,11 @@
             <fref ref="funicular"/>
         </group>
         <group name="culture">
-            <title>l10n.group.osm-ru.culture.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.culture.title">Культура, досуг</title>
+            <title lang="en" key="l10n.group.osm-ru.culture.title">Culture</title>
             <group name="clubs">
-                <title>l10n.group.osm-ru.clubs.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.clubs.title">Клубы по интересам, кружки</title>
+                <title lang="en" key="l10n.group.osm-ru.clubs.title">Clubs</title>
                 <fref ref="club_art"/>
                 <fref ref="club_astronomy"/>
                 <fref ref="club_computer"/>
@@ -428,7 +440,8 @@
             <fref ref="zoo"/>
         </group>
         <group name="office">
-            <title>l10n.group.osm-ru.office.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.office.title">Организации</title>
+            <title lang="en" key="l10n.group.osm-ru.office.title">Offices</title>
             <fref ref="company"/>
             <fref ref="insurance"/>
             <fref ref="estate_agent"/>
@@ -451,7 +464,8 @@
             <fref ref="bookmaker"/>
         </group>
         <group name="natural">
-            <title>l10n.group.osm-ru.natural.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.natural.title">Природные объекты</title>
+            <title lang="en" key="l10n.group.osm-ru.natural.title">Natural</title>
             <fref ref="cave_entrance"/>
             <fref ref="peak"/>
             <fref ref="saddle"/>
@@ -466,14 +480,17 @@
             <fref ref="beach"/>
         </group>
         <group name="infrastructure">
-            <title>l10n.group.osm-ru.infrastructure.title</title>
+            <title lang="ru" key="l10n.group.osm-ru.infrastructure.title">Инфраструктура</title>
+            <title lang="en" key="l10n.group.osm-ru.infrastructure.title">Infrastructure</title>
             <group name="transport_constructions">
-                <title>l10n.group.osm-ru.transport_constructions.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.transport_constructions.title">Транспортные сооружения</title>
+                <title lang="en" key="l10n.group.osm-ru.transport_constructions.title">Transport constructions</title>
                 <fref ref="tunnel"/>
                 <fref ref="bridge"/>
             </group>
             <group name="communications">
-                <title>l10n.group.osm-ru.communications.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.communications.title">Связь</title>
+                <title lang="en" key="l10n.group.osm-ru.communications.title">Communications</title>
                 <fref ref="post_office"/>
                 <fref ref="post_box"/>
                 <fref ref="telephone"/>
@@ -482,13 +499,15 @@
                 <fref ref="telephone_exchange"/>
             </group>
             <group name="trash_disposal">
-                <title>l10n.group.osm-ru.trash_disposal.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.trash_disposal.title">Утилизация мусора</title>
+                <title lang="en" key="l10n.group.osm-ru.trash_disposal.title">Trash disposal</title>
                 <fref ref="recycling"/>
                 <fref ref="landfill"/>
                 <fref ref="waste_disposal"/>
             </group>
             <group name="advertising">
-                <title>l10n.group.osm-ru.advertising.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.advertising.title">Реклама</title>
+                <title lang="en" key="l10n.group.osm-ru.advertising.title">Advertising</title>
                 <fref ref="advertising_billboard"/>
                 <fref ref="advertising_column"/>
                 <fref ref="advertising_flag"/>
@@ -498,14 +517,16 @@
                 <fref ref="advertising_wall_painting"/>
             </group>
             <group name="water_supply">
-                <title>l10n.group.osm-ru.water_supply.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.water_supply.title">Водоснабжение</title>
+                <title lang="en" key="l10n.group.osm-ru.water_supply.title">Water supply</title>
                 <fref ref="water_well"/>
                 <fref ref="water_works"/>
                 <fref ref="wastewater_plant"/>
                 <fref ref="water_tower"/>
             </group>
             <group name="power">
-                <title>l10n.group.osm-ru.power.title</title>
+                <title lang="ru" key="l10n.group.osm-ru.power.title">Электроснабжение</title>
+                <title lang="en" key="l10n.group.osm-ru.power.title">Power</title>
                 <fref ref="substation"/>
                 <fref ref="transformer"/>
                 <fref ref="power_plant"/>

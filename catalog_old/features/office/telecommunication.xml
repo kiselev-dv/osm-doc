@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="telecommunication">
+        <title>l10n.feature.telecommunication.title</title>
+        <tags>
+            <tag>
+                <key>office</key>
+                <val value="telecommunication"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>telecommunication.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

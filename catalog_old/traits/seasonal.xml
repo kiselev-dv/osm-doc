@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="seasonal">
+		<title>l10n.trait.seasonal.title</title>	
+		<more-tags>
+			<tag d:tag-value-type="enum">
+                <title>l10n.trait.seasonal.more_tags.seasonal.title</title>
+                <key>seasonal</key>
+                <val value="yes">
+                    <title>l10n.more_tags.true</title>
+                </val>
+                <val value="no">
+                    <title>l10n.more_tags.false</title>
+                </val>
+                <val value="summer">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.summer.title</title>
+                </val>
+                <val value="winter">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.winter.title</title>
+                </val>
+                <val value="spring">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.spring.title</title>
+                </val>
+                <val value="autumn">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.autmn.title</title>
+                </val>
+                <val value="dry_season">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.dry_season.title</title>
+                </val>
+                <val value="wet_season">
+                    <title>l10n.trait.seasonal.more_tags.seasonal.wet_season.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

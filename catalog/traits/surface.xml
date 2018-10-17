@@ -1,76 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="surface">
-		<title>l10n.trait.surface.title</title>	
-		<more-tags>			
-			<tag d:tag-value-type="enum">
-                <title>l10n.trait.surface.more_tags.surface.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="surface" group-tags="false">
+        <title lang="ru" key="l10n.trait.surface.title">Типы поверхности</title>
+        <title lang="en" key="l10n.trait.surface.title">Surface</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.surface.more_tags.surface.title">Покрытие</title>
+                <title lang="en" key="l10n.trait.surface.more_tags.surface.title">Surface</title>
                 <key>surface</key>
                 <val value="paving_stones">
-                    <title>l10n.trait.surface.more_tags.surface.paving_stones.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.paving_stones.title">Тротуарная плитка</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.paving_stones.title">Paving stones</title>
                 </val>
                 <val value="sand">
-                    <title>l10n.trait.surface.more_tags.surface.sand.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.sand.title">Песок</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.sand.title">Sand</title>
                 </val>
                 <val value="asphalt">
-                    <title>l10n.trait.surface.more_tags.surface.asphalt.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.asphalt.title">Асфальт</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.asphalt.title">Asphalt</title>
                 </val>
                 <val value="wood">
-                    <title>l10n.trait.surface.more_tags.surface.wood.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.wood.title">Дерево</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.wood.title">Wood</title>
                 </val>
                 <val value="grass">
-                    <title>l10n.trait.surface.more_tags.surface.grass.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.grass.title">Трава</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.grass.title">Grass</title>
                 </val>
                 <val value="paved">
-                    <title>l10n.trait.surface.more_tags.surface.paved.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.paved.title">С покрытием</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.paved.title">Paved</title>
                 </val>
                 <val value="ground">
-                    <title>l10n.trait.surface.more_tags.surface.ground.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.ground.title">Земля</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.ground.title">Ground</title>
                 </val>
                 <val value="gravel">
-                    <title>l10n.trait.surface.more_tags.surface.gravel.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.gravel.title">Гравий</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.gravel.title">Gravel</title>
                 </val>
                 <val value="concrete">
-                    <title>l10n.trait.surface.more_tags.surface.concrete.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.concrete.title">Бетон</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.concrete.title">Concrete</title>
                 </val>
                 <val value="unpaved">
-                    <title>l10n.trait.surface.more_tags.surface.unpaved.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.unpaved.title">Без покрытия</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.unpaved.title">Unpaved</title>
                 </val>
                 <val value="metal">
-                    <title>l10n.trait.surface.more_tags.surface.metal.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.metal.title">Металл</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.metal.title">Metal</title>
                 </val>
                 <val value="concrete:plates">
-                    <title>l10n.trait.surface.more_tags.surface.concrete:plates.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.concrete:plates.title">Бетонные плиты</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.concrete:plates.title">Concrete plates</title>
                 </val>
                 <val value="ice">
-                    <title>l10n.trait.surface.more_tags.surface.ice.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.ice.title">Лед</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.ice.title">Ice</title>
                 </val>
                 <val value="concrete:lanes">
-                    <title>l10n.trait.surface.more_tags.surface.concrete:lanes.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.concrete:lanes.title">Бетонные плитки</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.concrete:lanes.title">Concrete lanes</title>
                 </val>
                 <val value="earth">
-                    <title>l10n.trait.surface.more_tags.surface.earth.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.earth.title">Земля</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.earth.title">Earth</title>
                 </val>
                 <val value="tartan">
-                    <title>l10n.trait.surface.more_tags.surface.tartan.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.tartan.title">Тартан</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.tartan.title">Tartan</title>
                 </val>
                 <val value="pebblestone">
-                    <title>l10n.trait.surface.more_tags.surface.pebblestone.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.pebblestone.title">Галька</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.pebblestone.title">Pebblestone</title>
                 </val>
                 <val value="artificial_turf">
-                    <title>l10n.trait.surface.more_tags.surface.artificial_turf.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.artificial_turf.title">Искусственная трава</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.artificial_turf.title">Artificial turf</title>
                 </val>
                 <val value="dirt">
-                    <title>l10n.trait.surface.more_tags.surface.dirt.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.dirt.title">Грязь</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.dirt.title">Dirt</title>
                 </val>
                 <val value="cobblestone">
-                    <title>l10n.trait.surface.more_tags.surface.cobblestone.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.cobblestone.title">Булыжник</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.cobblestone.title">Cobblestone</title>
                 </val>
                 <val value="clay">
-                    <title>l10n.trait.surface.more_tags.surface.clay.title</title>
+                    <title lang="ru" key="l10n.trait.surface.more_tags.surface.clay.title">Глина</title>
+                    <title lang="en" key="l10n.trait.surface.more_tags.surface.clay.title">Clay</title>
                 </val>
             </tag>
         </more-tags>
     </trait>
-</doc-part>        
+</doc-part>

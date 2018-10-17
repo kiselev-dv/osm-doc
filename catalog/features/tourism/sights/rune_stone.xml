@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="rune_stone">
-        <title>l10n.feature.rune_stone.title</title>
+        <title lang="ru" key="l10n.feature.rune_stone.title">Рунический камень</title>
+        <title lang="en" key="l10n.feature.rune_stone.title">Rune stone</title>
         <tags>
             <tag>
                 <key>historic</key>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="subway_entrance">
+        <title>l10n.feature.subway_entrance.title</title>
+        <tags>
+            <tag>
+                <key>railway</key>
+                <val value="subway_entrance"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <more-tags>
+            <tag d:tag-value-type="date">
+                <title>l10n.feature.subway_entrance.more_tags.start_date.title</title>
+                <key>start_date</key>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.subway_entrance.more_tags.bicycle.title</title>
+                <key>bicycle</key>
+                <val value="true">
+                    <title>l10n.feature.subway_entrance.more_tags.bicycle.yes.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.subway_entrance.more_tags.bicycle.no.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>subway_entrance.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

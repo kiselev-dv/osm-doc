@@ -1,35 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="seasonal">
-		<title>l10n.trait.seasonal.title</title>	
-		<more-tags>
-			<tag d:tag-value-type="enum">
-                <title>l10n.trait.seasonal.more_tags.seasonal.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="seasonal" group-tags="false">
+        <title lang="ru" key="l10n.trait.seasonal.title">Сезонность</title>
+        <title lang="en" key="l10n.trait.seasonal.title">Seasonal</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.title">Сезонность</title>
+                <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.title">Seasonal</title>
                 <key>seasonal</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
                 <val value="summer">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.summer.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.summer.title">Лето</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.summer.title">Summer</title>
                 </val>
                 <val value="winter">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.winter.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.winter.title">Зима</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.winter.title">Winter</title>
                 </val>
                 <val value="spring">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.spring.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.spring.title">Весна</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.spring.title">Spring</title>
                 </val>
                 <val value="autumn">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.autmn.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.autmn.title">Осень</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.autmn.title">Autumn</title>
                 </val>
                 <val value="dry_season">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.dry_season.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.dry_season.title">Сухой сезон</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.dry_season.title">Dry season</title>
                 </val>
                 <val value="wet_season">
-                    <title>l10n.trait.seasonal.more_tags.seasonal.wet_season.title</title>
+                    <title lang="ru" key="l10n.trait.seasonal.more_tags.seasonal.wet_season.title">Сезон дождей</title>
+                    <title lang="en" key="l10n.trait.seasonal.more_tags.seasonal.wet_season.title">Wet season</title>
                 </val>
             </tag>
         </more-tags>

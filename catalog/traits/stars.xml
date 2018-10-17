@@ -1,41 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="stars">
-		<title>l10n.trait.stars.title</title>	
-		<more-tags>			
-			<tag d:tag-value-type="enum">
-                <title>l10n.feature.hotel.more_tags.stars.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="stars" group-tags="false">
+        <title lang="ru" key="l10n.trait.stars.title">Звездность</title>
+        <title lang="en" key="l10n.trait.stars.title">Stars</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.hotel.more_tags.stars.title">Звёзды</title>
+                <title lang="en" key="l10n.feature.hotel.more_tags.stars.title">Stars</title>
                 <key>stars</key>
                 <val value="3">
-                    <title>l10n.feature.hotel.more_tags.stars.3.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.3.title">***</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.3.title">3</title>
                 </val>
                 <val value="2">
-                    <title>l10n.feature.hotel.more_tags.stars.2.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.2.title">**</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.2.title">2</title>
                 </val>
                 <val value="1">
-                    <title>l10n.feature.hotel.more_tags.stars.1.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.1.title">*</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.1.title">1</title>
                 </val>
                 <val value="3S">
-                    <title>l10n.feature.hotel.more_tags.stars.3S.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.3S.title">***S</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.3S.title">3S</title>
                 </val>
                 <val value="5">
-                    <title>l10n.feature.hotel.more_tags.stars.5.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.5.title">*****</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.5.title">5</title>
                 </val>
                 <val value="4">
-                    <title>l10n.feature.hotel.more_tags.stars.4.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.4.title">****</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.4.title">4</title>
                 </val>
                 <val value="5S">
-                    <title>l10n.feature.hotel.more_tags.stars.5S.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.5S.title">*****S</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.5S.title">5S</title>
                 </val>
                 <val value="1S">
-                    <title>l10n.feature.hotel.more_tags.stars.1S.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.1S.title">*S</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.1S.title">1S</title>
                 </val>
                 <val value="4S">
-                    <title>l10n.feature.hotel.more_tags.stars.4S.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.4S.title">****S</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.4S.title">4S</title>
                 </val>
                 <val value="2S">
-                    <title>l10n.feature.hotel.more_tags.stars.2S.title</title>
+                    <title lang="ru" key="l10n.feature.hotel.more_tags.stars.2S.title">**S</title>
+                    <title lang="en" key="l10n.feature.hotel.more_tags.stars.2S.title">2S</title>
                 </val>
             </tag>
         </more-tags>

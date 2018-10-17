@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="bump">
+        <title>l10n.feature.bump.title</title>
+        <tags>
+            <tag>
+                <key>traffic_calming</key>
+                <val value="bump"/>
+            </tag>
+            <tag exclude="true">
+                <key>traffic_calming</key>
+            </tag>
+        </tags>
+        <icon>bump.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

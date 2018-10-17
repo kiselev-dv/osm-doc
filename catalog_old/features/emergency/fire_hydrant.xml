@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="fire_hydrant">
+        <title>l10n.feature.fire_hydrant.title</title>
+        <tags>
+            <tag>
+                <title>l10n.feature.fire_hydrant.tags.emergency.title</title>
+                <key>emergency</key>
+                <val value="fire_hydrant"/>
+            </tag>
+        </tags>
+        <more-tags>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.title</title>
+                <key>fire_hydrant:type</key>
+                <val value="pillar">
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pillar.title</title>
+                </val>
+                <val value="underground">
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.underground.title</title>
+                </val>
+                <val value="pond">
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.pond.title</title>
+                </val>
+                <val value="wall">
+                    <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:type.wall.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="anyString">
+                <title>l10n.feature.fire_hydrant.more_tags.ref</title>
+                <key>ref</key>
+            </tag>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:count.title</title>
+                <key>fire_hydrant:count</key>
+            </tag>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:diameter.title</title>
+                <key>fire_hydrant:diameter</key>
+            </tag>
+            <tag d:tag-value-type="number">
+                <title>l10n.feature.fire_hydrant.more_tags.fire_hydrant:pressure.title</title>
+                <key>fire_hydrant:pressure</key>
+            </tag>
+        </more-tags>
+        <icon>fire_hydrant.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

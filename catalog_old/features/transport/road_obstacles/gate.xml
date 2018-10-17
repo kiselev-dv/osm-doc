@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="gate">
+        <title>l10n.feature.gate.title</title>
+        <tags>
+            <tag>
+                <key>barrier</key>
+                <val value="gate"/>
+            </tag>
+        </tags>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

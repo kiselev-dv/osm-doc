@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="doctors">
+        <title>l10n.feature.doctors.title</title>
+        <tags>
+            <tag>
+                <key>amenity</key>
+                <val value="doctors"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>accessability</trait>
+        <more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.doctors.more_tags.emergency.title</title>
+                <key>emergency</key>
+                <val value="true">
+                    <title>l10n.feature.doctors.more_tags.emergency.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.doctors.more_tags.emergency.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>doctors.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,212 +1,280 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="sports">
-		<title>l10n.trait.sports.title</title>	
-		<more-tags>	
-			<tag d:tag-value-type="enum">
-                <title>l10n.feature.bicycle_track.more_tags.sport.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="sports" group-tags="false">
+        <title lang="ru" key="l10n.trait.sports.title">Спорт</title>
+        <title lang="en" key="l10n.trait.sports.title">Sports</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.title">Виды спорта</title>
+                <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.title">Sport</title>
                 <key>sport</key>
                 <val value="basketball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.basketball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.basketball.title">Баскетбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.basketball.title">Basketball</title>
                 </val>
                 <val value="9pin">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.9pin.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.9pin.title">Кегельбан</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.9pin.title">9pin</title>
                 </val>
                 <val value="cycling">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.cycling.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.cycling.title">Велоспорт</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.cycling.title">Cycling</title>
                 </val>
                 <val value="horseshoes">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.horseshoes.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.horseshoes.title">Метание подковы</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.horseshoes.title">Horseshoes</title>
                 </val>
                 <val value="table_tennis">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.table_tennis.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.table_tennis.title">Настольный теннис</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.table_tennis.title">Table tennis</title>
                 </val>
                 <val value="karting">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.karting.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.karting.title">Картинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.karting.title">Karting</title>
                 </val>
                 <val value="curling">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.curling.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.curling.title">Кёрлинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.curling.title">Curling</title>
                 </val>
                 <val value="baseball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.baseball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.baseball.title">Бейсбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.baseball.title">Baseball</title>
                 </val>
                 <val value="archery">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.archery.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.archery.title">Стрельбы из лука</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.archery.title">Archery</title>
                 </val>
                 <val value="american_football">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.american_football.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.american_football.title">Американский футбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.american_football.title">American football</title>
                 </val>
                 <val value="tennis">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.tennis.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.tennis.title">Большой теннис</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.tennis.title">Tennis</title>
                 </val>
                 <val value="rugby_league">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.rugby_league.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.rugby_league.title">Регбилиг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.rugby_league.title">Rugby league</title>
                 </val>
                 <val value="volleyball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.volleyball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.volleyball.title">Волейбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.volleyball.title">Volleyball</title>
                 </val>
                 <val value="racquet">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.racquet.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.racquet.title">Бадминтон, сквош</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.racquet.title">Racquet</title>
                 </val>
                 <val value="orienteering">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.orienteering.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.orienteering.title">Спортивное ориентирование</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.orienteering.title">Orienteering</title>
                 </val>
                 <val value="taekwondo">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.taekwondo.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.taekwondo.title">Тхэквондо</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.taekwondo.title">Taekwondo</title>
                 </val>
                 <val value="korfball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.korfball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.korfball.title">Корфбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.korfball.title">Korfball</title>
                 </val>
                 <val value="equestrian">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.equestrian.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.equestrian.title">Конный спорт</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.equestrian.title">Equestrian</title>
                 </val>
                 <val value="climbing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.climbing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.climbing.title">Альпинизм</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.climbing.title">Climbing</title>
                 </val>
                 <val value="BASE">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.BASE.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.BASE.title">Бейсджампинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.BASE.title">BASE</title>
                 </val>
                 <val value="free_flying">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.free_flying.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.free_flying.title">Фрифлай</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.free_flying.title">Free flying</title>
                 </val>
                 <val value="toboggan">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.toboggan.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.toboggan.title">Тобогган</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.toboggan.title">Toboggan</title>
                 </val>
                 <val value="bmx">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.bmx.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.bmx.title">BMX</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.bmx.title">Bmx</title>
                 </val>
                 <val value="multi">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.multi.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.multi.title">Различные виды</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.multi.title">Multi</title>
                 </val>
                 <val value="boxing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.boxing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.boxing.title">Бокс</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.boxing.title">Boxing</title>
                 </val>
                 <val value="10pin">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.10pin.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.10pin.title">Боулинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.10pin.title">10pin</title>
                 </val>
                 <val value="diving">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.diving.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.diving.title">Прыжки в воду</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.diving.title">Diving</title>
                 </val>
                 <val value="gymnastics">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.gymnastics.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.gymnastics.title">Спортивная гимнастика</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.gymnastics.title">Gymnastics</title>
                 </val>
                 <val value="bowls">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.bowls.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.bowls.title">Игра в шары на траве</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.bowls.title">Bowls</title>
                 </val>
                 <val value="skiing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.skiing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.skiing.title">Лыжный спорт, сноуборд</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.skiing.title">Skiing</title>
                 </val>
                 <val value="hockey">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.hockey.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.hockey.title">Хоккей</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.hockey.title">Hockey</title>
                 </val>
                 <val value="athletics">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.athletics.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.athletics.title">Лёгкая атлетика</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.athletics.title">Athletics</title>
                 </val>
                 <val value="dog_racing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.dog_racing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.dog_racing.title">Собачьи бега</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.dog_racing.title">Dog racing</title>
                 </val>
                 <val value="rowing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.rowing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.rowing.title">Академическая гребля</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.rowing.title">Rowing</title>
                 </val>
                 <val value="water_ski">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.water_ski.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.water_ski.title">Водные лыжи</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.water_ski.title">Water ski</title>
                 </val>
                 <val value="chess">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.chess.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.chess.title">Шахматы</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.chess.title">Chess</title>
                 </val>
                 <val value="canoe">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.canoe.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.canoe.title">Гребля на байдарках (каяках)</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.canoe.title">Canoe</title>
                 </val>
                 <val value="pelota">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.pelota.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.pelota.title">Пелота</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.pelota.title">Pelota</title>
                 </val>
                 <val value="ice_stock">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.ice_stock.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.ice_stock.title">Айсшток</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.ice_stock.title">Ice stock</title>
                 </val>
                 <val value="paddle_tennis">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.paddle_tennis.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.paddle_tennis.title">Настольный теннис</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.paddle_tennis.title">Paddle tennis</title>
                 </val>
                 <val value="running">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.running.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.running.title">Бег</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.running.title">Running</title>
                 </val>
                 <val value="swimming">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.swimming.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.swimming.title">Плавание</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.swimming.title">Swimming</title>
                 </val>
                 <val value="fencing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.fencing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.fencing.title">Фехтование</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.fencing.title">Fencing</title>
                 </val>
                 <val value="paragliding">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.paragliding.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.paragliding.title">Парапланеризм</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.paragliding.title">Paragliding</title>
                 </val>
                 <val value="horse_racing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.horse_racing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.horse_racing.title">Лошадиные скачки</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.horse_racing.title">Horse racing</title>
                 </val>
                 <val value="surfing">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.surfing.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.surfing.title">Сёрфинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.surfing.title">Surfing</title>
                 </val>
                 <val value="motor">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.motor.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.motor.title">Автомотоспорт</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.motor.title">Motor</title>
                 </val>
                 <val value="team_handball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.team_handball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.team_handball.title">Гандбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.team_handball.title">Team handball</title>
                 </val>
                 <val value="golf">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.golf.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.golf.title">Гольф</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.golf.title">Golf</title>
                 </val>
                 <val value="soccer">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.soccer.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.soccer.title">Футбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.soccer.title">Soccer</title>
                 </val>
                 <val value="scuba_diving">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.scuba_diving.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.scuba_diving.title">Дайвинг</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.scuba_diving.title">Scuba diving</title>
                 </val>
                 <val value="canadian_football">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.canadian_football.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.canadian_football.title">Канадский футбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.canadian_football.title">Canadian football</title>
                 </val>
                 <val value="badminton">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.badminton.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.badminton.title">Бадминтон</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.badminton.title">Badminton</title>
                 </val>
                 <val value="wrestling">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.wrestling.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.wrestling.title">Борьба</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.wrestling.title">Wrestling</title>
                 </val>
                 <val value="judo">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.judo.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.judo.title">Дзюдо</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.judo.title">Judo</title>
                 </val>
                 <val value="skating">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.skating.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.skating.title">Бег на коньках</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.skating.title">Skating</title>
                 </val>
                 <val value="rugby_union">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.rugby_union.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.rugby_union.title">Регби</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.rugby_union.title">Rugby union</title>
                 </val>
                 <val value="skateboard">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.skateboard.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.skateboard.title">Скейтборд</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.skateboard.title">Skateboard</title>
                 </val>
                 <val value="gaelic_games">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.gaelic_games.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.gaelic_games.title">Гэльские игры</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.gaelic_games.title">Gaelic games</title>
                 </val>
                 <val value="australian_football">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.australian_football.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.australian_football.title">Австралийский футбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.australian_football.title">Australian football</title>
                 </val>
                 <val value="beachvolleyball">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.beachvolleyball.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.beachvolleyball.title">Пляжный волейбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.beachvolleyball.title">Beachvolleyball</title>
                 </val>
                 <val value="football">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.football.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.football.title">Футбол</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.football.title">Football</title>
                 </val>
                 <val value="motocross">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.motocross.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.motocross.title">Мотокросс</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.motocross.title">Motocross</title>
                 </val>
                 <val value="boules">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.boules.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.boules.title">Игра в шары (французская)</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.boules.title">Boules</title>
                 </val>
                 <val value="weightlifting">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.weightlifting.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.weightlifting.title">Тяжёлая атлетика</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.weightlifting.title">Weightlifting</title>
                 </val>
                 <val value="shooting">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.shooting.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.shooting.title">Спортивная стрельба, тир</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.shooting.title">Shooting</title>
                 </val>
                 <val value="fitness">
-                    <title>l10n.feature.bicycle_track.more_tags.sport.fitness.title</title>
+                    <title lang="ru" key="l10n.feature.bicycle_track.more_tags.sport.fitness.title">Фитнесс</title>
+                    <title lang="en" key="l10n.feature.bicycle_track.more_tags.sport.fitness.title">Fitness</title>
                 </val>
             </tag>
         </more-tags>

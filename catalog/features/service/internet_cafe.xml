@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="internet_cafe">
-        <title>l10n.feature.internet_cafe.title</title>
+        <title lang="ru" key="l10n.feature.internet_cafe.title">Интернет-кафе</title>
+        <title lang="en" key="l10n.feature.internet_cafe.title">Internet cafe</title>
         <tags>
             <tag>
                 <key>amenity</key>

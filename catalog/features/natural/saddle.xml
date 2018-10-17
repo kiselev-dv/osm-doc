@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="saddle">
-        <title>l10n.feature.saddle.title</title>
+        <title lang="ru" key="l10n.feature.saddle.title">Седловая точка (перевал)</title>
+        <title lang="en" key="l10n.feature.saddle.title">Saddle</title>
         <tags>
             <tag>
                 <key>natural</key>
@@ -10,8 +11,9 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.saddle.more_tags.ele.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.saddle.more_tags.ele.title">Высота над уровнем моря (м)</title>
+                <title lang="en" key="l10n.feature.saddle.more_tags.ele.title">Ele</title>
                 <key>ele</key>
             </tag>
         </more-tags>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="mall">
+        <title>l10n.feature.mall.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="mall"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>mall.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

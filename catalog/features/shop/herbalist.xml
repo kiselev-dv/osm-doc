@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="herbalist">
-        <title>l10n.feature.herbalist.title</title>
+        <title lang="ru" key="l10n.feature.herbalist.title">Травы (народная медицина)</title>
+        <title lang="en" key="l10n.feature.herbalist.title">Herbalist</title>
         <tags>
             <tag>
                 <key>shop</key>

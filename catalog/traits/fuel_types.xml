@@ -1,207 +1,267 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="fuel_types" group-tags="true">
-		<title>l10n.trait.fuel_types.title</title>	
-		<more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:svo.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="fuel_types">
+        <title lang="ru" key="l10n.trait.fuel_types.title">Топливо</title>
+        <title lang="en" key="l10n.trait.fuel_types.title">Fuel</title>
+        <more-tags>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:svo.title">Биотопливо</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:svo.title">Fuel svo</title>
                 <key>fuel:svo</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:svo.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:svo.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:svo.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:svo.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:svo.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:svo.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.title">LKW дизель</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.title">Fuel HGV diesel</title>
                 <key>fuel:HGV_diesel</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:HGV_diesel.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_98.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_98.title">Бензин АИ-98</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_98.title">Fuel octane 98</title>
                 <key>fuel:octane_98</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_98.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_98.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_98.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_98.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_98.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_98.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:cng.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:cng.title">Сжатый газ (CNG)</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:cng.title">Fuel cng</title>
                 <key>fuel:cng</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:cng.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:cng.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:cng.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:cng.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:cng.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:cng.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:e85.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:e85.title">Е85</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:e85.title">Fuel e85</title>
                 <key>fuel:e85</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:e85.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:e85.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:e85.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:e85.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:e85.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:e85.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_76.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_76.title">Бензин АИ-76</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_76.title">Fuel octane 76</title>
                 <key>fuel:octane_76</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_76.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_76.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_76.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_76.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_76.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_76.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:LH2.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:LH2.title">Водород</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:LH2.title">Fuel LH2</title>
                 <key>fuel:LH2</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:LH2.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:LH2.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:LH2.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:LH2.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:LH2.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:LH2.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:ethanol.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:ethanol.title">Этанол</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:ethanol.title">Fuel ethanol</title>
                 <key>fuel:ethanol</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:ethanol.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:ethanol.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:ethanol.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:ethanol.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:ethanol.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:ethanol.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_100.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_100.title">Бензин АИ-100</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_100.title">Fuel octane 100</title>
                 <key>fuel:octane_100</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_100.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_100.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_100.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_100.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_100.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_100.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:biodiesel.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biodiesel.title">Биодизель</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biodiesel.title">Fuel biodiesel</title>
                 <key>fuel:biodiesel</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:biodiesel.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biodiesel.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biodiesel.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:biodiesel.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biodiesel.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biodiesel.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:1_50.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_50.title">Топливная смесь 1:50</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_50.title">Fuel 1 50</title>
                 <key>fuel:1_50</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:1_50.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_50.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_50.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:1_50.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_50.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_50.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:biogas.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biogas.title">Биогаз</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biogas.title">Fuel biogas</title>
                 <key>fuel:biogas</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:biogas.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biogas.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biogas.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:biogas.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:biogas.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:biogas.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:methanol.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:methanol.title">Метанол</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:methanol.title">Fuel methanol</title>
                 <key>fuel:methanol</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:methanol.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:methanol.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:methanol.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:methanol.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:methanol.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:methanol.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:lpg.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:lpg.title">Сжиженный газ (LPG)</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:lpg.title">Fuel lpg</title>
                 <key>fuel:lpg</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:lpg.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:lpg.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:lpg.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:lpg.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:lpg.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:lpg.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_95.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_95.title">Бензин АИ-95</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_95.title">Fuel octane 95</title>
                 <key>fuel:octane_95</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_95.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_95.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_95.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_95.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_95.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_95.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:1_25.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_25.title">Топливная смесь 1:25</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_25.title">Fuel 1 25</title>
                 <key>fuel:1_25</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:1_25.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_25.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_25.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:1_25.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:1_25.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:1_25.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:electricity.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:electricity.title">Электроподзарядка</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:electricity.title">Fuel electricity</title>
                 <key>fuel:electricity</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:electricity.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:electricity.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:electricity.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:electricity.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:electricity.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:electricity.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_92.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_92.title">Бензин АИ-92</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_92.title">Fuel octane 92</title>
                 <key>fuel:octane_92</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_92.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_92.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_92.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_92.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_92.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_92.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:octane_91.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_91.title">Бензин АИ-91</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_91.title">Fuel octane 91</title>
                 <key>fuel:octane_91</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_91.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_91.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_91.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:octane_91.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:octane_91.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:octane_91.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.fuel.more_tags.fuel:diesel.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:diesel.title">Дизельное топливо</title>
+                <title lang="en" key="l10n.feature.fuel.more_tags.fuel:diesel.title">Fuel diesel</title>
                 <key>fuel:diesel</key>
                 <val value="true">
-                    <title>l10n.feature.fuel.more_tags.fuel:diesel.true.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:diesel.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:diesel.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.fuel.more_tags.fuel:diesel.false.title</title>
+                    <title lang="ru" key="l10n.feature.fuel.more_tags.fuel:diesel.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.fuel.more_tags.fuel:diesel.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

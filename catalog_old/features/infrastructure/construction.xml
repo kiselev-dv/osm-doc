@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="construction">
+        <title>l10n.feature.construction.title</title>
+        <tags>
+            <tag>
+                <key>landuse</key>
+                <val value="construction"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>construction.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

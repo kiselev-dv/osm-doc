@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="anime">
-        <title>l10n.feature.anime.title</title>
+        <title lang="ru" key="l10n.feature.anime.title">Аниме</title>
+        <title lang="en" key="l10n.feature.anime.title">Anime</title>
         <tags>
             <tag>
                 <key>shop</key>
@@ -10,44 +11,56 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.anime.more_tags.anime:gift.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.anime.more_tags.anime:gift.title">Подарки, сувениры</title>
+                <title lang="en" key="l10n.feature.anime.more_tags.anime:gift.title">Anime gift</title>
                 <key>anime:gift</key>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.true.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.false.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.anime.more_tags.anime:manga.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.anime.more_tags.anime:manga.title">Манга</title>
+                <title lang="en" key="l10n.feature.anime.more_tags.anime:manga.title">Anime manga</title>
                 <key>anime:manga</key>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.true.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.false.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.anime.more_tags.anime:costume.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.anime.more_tags.anime:costume.title">Костюмы для косплея</title>
+                <title lang="en" key="l10n.feature.anime.more_tags.anime:costume.title">Anime costume</title>
                 <key>anime:costume</key>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.true.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.false.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.false.title">No</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.anime.more_tags.anime:video.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.anime.more_tags.anime:video.title">Видео</title>
+                <title lang="en" key="l10n.feature.anime.more_tags.anime:video.title">Anime video</title>
                 <key>anime:video</key>
                 <val value="true">
-                    <title>l10n.feature.anime.more_tags.true.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.anime.more_tags.false.title</title>
+                    <title lang="ru" key="l10n.feature.anime.more_tags.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.anime.more_tags.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

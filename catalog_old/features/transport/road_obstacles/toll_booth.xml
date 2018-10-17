@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="toll_booth">
+        <title>l10n.feature.toll_booth.title</title>
+        <tags>
+            <tag>
+                <key>barrier</key>
+                <val value="toll_booth"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>toll_booth.png</icon>
+        <applyed-to>node</applyed-to>
+    </feature>
+</doc-part>

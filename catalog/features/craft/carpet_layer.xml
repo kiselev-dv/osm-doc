@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="carpet_layer">
-        <title>l10n.feature.carpet_layer.title</title>
+        <title lang="ru" key="l10n.feature.carpet_layer.title">Укладка ковров, ковролина</title>
+        <title lang="en" key="l10n.feature.carpet_layer.title">Carpet layer</title>
         <tags>
             <tag>
                 <key>craft</key>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="water_well">
-        <title>l10n.feature.water_well.title</title>
+        <title lang="ru" key="l10n.feature.water_well.title">Колодец, колонка</title>
+        <title lang="en" key="l10n.feature.water_well.title">Water well</title>
         <tags>
             <tag>
                 <key>man_made</key>
@@ -10,17 +11,21 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.water_well.more_tags.pump.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.water_well.more_tags.pump.title">Насос</title>
+                <title lang="en" key="l10n.feature.water_well.more_tags.pump.title">Pump</title>
                 <key>pump</key>
                 <val value="manual">
-                    <title>l10n.feature.water_well.more_tags.pump.manual.title</title>
+                    <title lang="ru" key="l10n.feature.water_well.more_tags.pump.manual.title">Ручной</title>
+                    <title lang="en" key="l10n.feature.water_well.more_tags.pump.manual.title">Manual</title>
                 </val>
                 <val value="powered">
-                    <title>l10n.feature.water_well.more_tags.pump.powered.title</title>
+                    <title lang="ru" key="l10n.feature.water_well.more_tags.pump.powered.title">Автоматический</title>
+                    <title lang="en" key="l10n.feature.water_well.more_tags.pump.powered.title">Powered</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.water_well.more_tags.pump.no.title</title>
+                    <title lang="ru" key="l10n.feature.water_well.more_tags.pump.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.water_well.more_tags.pump.no.title">No</title>
                 </val>
             </tag>
         </more-tags>

@@ -1,61 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
-	<trait name="parking">
-		<title>l10n.trait.parking.title</title>	
-		<more-tags>				
-			<tag d:tag-value-type="enum">
-                <title>l10n.trait.parking.more_tags.parking.title</title>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="parking" group-tags="false">
+        <title lang="ru" key="l10n.trait.parking.title">Парковка</title>
+        <title lang="en" key="l10n.trait.parking.title">Parking</title>
+        <more-tags>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.trait.parking.more_tags.parking.title">Парковка</title>
+                <title lang="en" key="l10n.trait.parking.more_tags.parking.title">Parking</title>
                 <key>parking</key>
                 <val value="yes">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
                 <val value="private">
-                    <title>l10n.trait.parking.more_tags.parking.private.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.private.title">Собственная</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.private.title">Private</title>
                 </val>
                 <val value="rooftop">
-                    <title>l10n.trait.parking.more_tags.parking.rooftop.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.rooftop.title">На крыше</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.rooftop.title">Rooftop</title>
                 </val>
                 <val value="public">
-                    <title>l10n.trait.parking.more_tags.parking.public.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.public.title">Общественная</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.public.title">Public</title>
                 </val>
                 <val value="lane">
-                    <title>l10n.trait.parking.more_tags.parking.lane.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.lane.title">Вдоль края дороги</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.lane.title">Parking lane</title>
                 </val>
-                 <val value="garage_boxes">
-                    <title>l10n.trait.parking.more_tags.parking.garage_boxes.title</title>
+                <val value="garage_boxes">
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.garage_boxes.title">Гаражи</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.garage_boxes.title">Garage boxes</title>
                 </val>
                 <val value="surface">
-                    <title>l10n.trait.parking.more_tags.parking.surface.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.surface.title">Открытая</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.surface.title">Surface</title>
                 </val>
                 <val value="carports">
-                    <title>l10n.trait.parking.more_tags.parking.carports.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.carports.title">Навесы</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.carports.title">Carpots</title>
                 </val>
                 <val value="sheds">
-                    <title>l10n.trait.parking.more_tags.parking.sheds.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.sheds.title">Ракушки и пеналы</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.sheds.title">Sheds</title>
                 </val>
                 <val value="underground">
-                    <title>l10n.trait.parking.more_tags.parking.underground.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.underground.title">Подземная</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.underground.title">Underground</title>
                 </val>
                 <val value="multi-storey">
-                    <title>l10n.trait.parking.more_tags.parking.multi-storey.title</title>
+                    <title lang="ru" key="l10n.trait.parking.more_tags.parking.multi-storey.title">Многоуровневая</title>
+                    <title lang="en" key="l10n.trait.parking.more_tags.parking.multi-storey.title">Multi-storey</title>
                 </val>
             </tag>
-            <tag d:tag-value-type="number">
-                <title>l10n.trait.parking.more_tags.capacity.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.trait.parking.more_tags.capacity.title">Количество мест</title>
+                <title lang="en" key="l10n.trait.parking.more_tags.capacity.title">Capacity</title>
                 <key>capacity</key>
             </tag>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.trait.parking.more_tags.covered.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.trait.parking.more_tags.covered.title">Крытая</title>
+                <title lang="en" key="l10n.trait.parking.more_tags.covered.title">Covered</title>
                 <key>covered</key>
                 <val value="true">
-                    <title>l10n.more_tags.true</title>
+                    <title lang="ru" key="l10n.more_tags.true">Да</title>
+                    <title lang="en" key="l10n.more_tags.true">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.more_tags.false</title>
+                    <title lang="ru" key="l10n.more_tags.false">Нет</title>
+                    <title lang="en" key="l10n.more_tags.false">No</title>
                 </val>
             </tag>
         </more-tags>

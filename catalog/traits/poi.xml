@@ -1,90 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
-	
-	<trait name="poi">
-		<title>l10n.trait.poi.title</title>
-		<description>l10n.trait.poi.description</description>
-		<extends>payment</extends>
-		<extends>working-hours</extends>
-		<extends>contacts</extends>
-		<extends>trade-networks</extends>
-	</trait>
-	
-	<trait name="trade-networks">
-		<title>l10n.trait.trade-networks.title</title>
-		<more-tags>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.brand.title</title>
-				<key>brand</key>
-			</tag>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.operator.title</title>
-				<key>operator</key>
-			</tag>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.branch.title</title>
-				<key>branch</key>
-			</tag>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.department.title</title>
-				<key>department</key>
-			</tag>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.network.title</title>
-				<key>network</key>
-			</tag>
-			<tag d:tag-value-type="anyString">
-				<title>l10n.trait.trade-networks.tag.ref.title</title>
-				<key>ref</key>
-			</tag>
-		</more-tags>
-	</trait>
-	
-	<trait name="working-hours">
-		<title>l10n.trait.working-hours.title</title>
-		<more-tags>
-			<tag d:tag-value-type="openHours">
-				<title>l10n.trait.working-hours.tag.opening_hours.title</title>
-				<description>l10n.trait.working-hours.tag.opening_hours.description</description>
-				<key>opening_hours</key>
-			</tag>
-		</more-tags>
-	</trait>
-	
-	<trait name="contacts">
-		<title>l10n.trait.contacts.title</title>
-		<more-tags>
-			<choise primary-key="contact:phone">
-				<tag d:tag-value-type="phone">
-					<title>l10n.trait.contacts.tag.phone.title</title>
-					<key>contact:phone</key>
-				</tag>
-				<tag d:tag-value-type="phone">
-					<title>l10n.trait.contacts.tag.phone.title</title>
-					<key>phone</key>
-				</tag>
-			</choise>
-			<choise primary-key="contact:website">
-				<tag d:tag-value-type="url">
-					<title>l10n.trait.contacts.tag.website.title</title>
-					<key>contact:website</key>
-				</tag>
-				<tag d:tag-value-type="url">
-					<title>l10n.trait.contacts.tag.website.title</title>
-					<key>website</key>
-				</tag>
-			</choise>
-			<choise primary-key="contact:email">
-				<tag d:tag-value-type="mail">
-					<title>l10n.trait.contacts.tag.mail.title</title>
-					<key>contact:email</key>
-				</tag>
-				<tag d:tag-value-type="mail">
-					<title>l10n.trait.contacts.tag.mail.title</title>
-					<key>email</key>
-				</tag>
-			</choise>
-		</more-tags>
-	</trait>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <trait name="poi" group-tags="false">
+        <title lang="ru" key="l10n.trait.poi.title">Организация</title>
+        <title lang="en" key="l10n.trait.poi.title">Poi</title>
+        <description lang="ru" key="l10n.trait.poi.description"/>
+        <description lang="en" key="l10n.trait.poi.description"/>
+        <extends>payment</extends>
+        <extends>working-hours</extends>
+        <extends>contacts</extends>
+        <extends>trade-networks</extends>
+    </trait>
+    <trait name="trade-networks" group-tags="false">
+        <title lang="ru" key="l10n.trait.trade-networks.title">Торговые сети</title>
+        <title lang="en" key="l10n.trait.trade-networks.title">Trade-networks</title>
+        <more-tags>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.brand.title">Брэнд</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.brand.title">Brand</title>
+                <key>brand</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.operator.title">Оператор</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.operator.title">Operator</title>
+                <key>operator</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.branch.title">Отделение</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.branch.title">Branch</title>
+                <key>branch</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.department.title">Подразделение</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.department.title">Department</title>
+                <key>department</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.network.title">Сеть</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.network.title">Network</title>
+                <key>network</key>
+            </tag>
+            <tag>
+                <title lang="ru" key="l10n.trait.trade-networks.tag.ref.title">Номер или код</title>
+                <title lang="en" key="l10n.trait.trade-networks.tag.ref.title">Ref</title>
+                <key>ref</key>
+            </tag>
+        </more-tags>
+    </trait>
+    <trait name="working-hours" group-tags="false">
+        <title lang="ru" key="l10n.trait.working-hours.title">Часы работы</title>
+        <title lang="en" key="l10n.trait.working-hours.title">Working-hours</title>
+        <more-tags>
+            <tag tag-value-type="open_hours">
+                <title lang="ru" key="l10n.trait.working-hours.tag.opening_hours.title">Часы работы</title>
+                <title lang="en" key="l10n.trait.working-hours.tag.opening_hours.title">Opening hours</title>
+                <description lang="ru" key="l10n.trait.working-hours.tag.opening_hours.description"/>
+                <description lang="en" key="l10n.trait.working-hours.tag.opening_hours.description"/>
+                <key>opening_hours</key>
+            </tag>
+        </more-tags>
+    </trait>
+    <trait name="contacts" group-tags="false">
+        <title lang="ru" key="l10n.trait.contacts.title">Контактная информация</title>
+        <title lang="en" key="l10n.trait.contacts.title">Contacts</title>
+        <more-tags>
+            <choise primary-key="contact:phone">
+                <tag tag-value-type="phone">
+                    <title lang="ru" key="l10n.trait.contacts.tag.phone.title">Телефон</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.phone.title">Phone</title>
+                    <key>contact:phone</key>
+                </tag>
+                <tag tag-value-type="phone">
+                    <title lang="ru" key="l10n.trait.contacts.tag.phone.title">Телефон</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.phone.title">Phone</title>
+                    <key>phone</key>
+                </tag>
+            </choise>
+            <choise primary-key="contact:website">
+                <tag tag-value-type="url">
+                    <title lang="ru" key="l10n.trait.contacts.tag.website.title">Веб-сайт</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.website.title">Website</title>
+                    <key>contact:website</key>
+                </tag>
+                <tag tag-value-type="url">
+                    <title lang="ru" key="l10n.trait.contacts.tag.website.title">Веб-сайт</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.website.title">Website</title>
+                    <key>website</key>
+                </tag>
+            </choise>
+            <choise primary-key="contact:email">
+                <tag tag-value-type="mail">
+                    <title lang="ru" key="l10n.trait.contacts.tag.mail.title">Электронная почта</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.mail.title">Email</title>
+                    <key>contact:email</key>
+                </tag>
+                <tag tag-value-type="mail">
+                    <title lang="ru" key="l10n.trait.contacts.tag.mail.title">Электронная почта</title>
+                    <title lang="en" key="l10n.trait.contacts.tag.mail.title">Email</title>
+                    <key>email</key>
+                </tag>
+            </choise>
+        </more-tags>
+    </trait>
 </doc-part>

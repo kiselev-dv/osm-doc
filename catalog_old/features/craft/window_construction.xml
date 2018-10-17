@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="window_construction">
+        <title>l10n.feature.window_construction.title</title>
+        <tags>
+            <tag>
+                <key>craft</key>
+                <val value="window_construction"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>window_construction.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

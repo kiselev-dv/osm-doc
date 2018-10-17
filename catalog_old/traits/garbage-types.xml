@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="garbage-types" group-tags="true">
+		<title>l10n.trait.garbage-types.title</title>			
+		<more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.title</title>
+                <key>recycling:sheet_metal</key>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:sheet_metal.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cardboard.title</title>
+                <key>recycling:cardboard</key>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cardboard.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cardboard.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:aluminium.title</title>
+                <key>recycling:aluminium</key>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:aluminium.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:aluminium.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:plasterboard.title</title>
+                <key>recycling:plasterboard</key>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:plasterboard.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:plasterboard.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cork.title</title>
+                <key>recycling:cork</key>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cork.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cork.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:computers.title</title>
+                <key>recycling:computers</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:computers.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:computers.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:computers.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:computers.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:animal_waste.title</title>
+                <key>recycling:animal_waste</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:animal_waste.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:garden_waste.title</title>
+                <key>recycling:garden_waste</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:garden_waste.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:batteries.title</title>
+                <key>recycling:batteries</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:batteries.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:batteries.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:batteries.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:batteries.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.title</title>
+                <key>recycling:low_energy_bulbs</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:low_energy_bulbs.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:excrement.title</title>
+                <key>recycling:excrement</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:excrement.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:excrement.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:excrement.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:excrement.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cds.title</title>
+                <key>recycling:cds</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:cds.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:cds.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cds.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cds.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:paint.title</title>
+                <key>recycling:paint</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:paint.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:paint.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:paint.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:paint.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:books.title</title>
+                <key>recycling:books</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:books.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:books.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:books.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:books.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.title</title>
+                <key>recycling:plastic_packaging</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_packaging.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:white_goods.title</title>
+                <key>recycling:white_goods</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:white_goods.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:small_appliances.title</title>
+                <key>recycling:small_appliances</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:small_appliances.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.title</title>
+                <key>recycling:scrap_metal</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:scrap_metal.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.title</title>
+                <key>recycling:cooking_oil</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cooking_oil.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cartons.title</title>
+                <key>recycling:cartons</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:cartons.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:cartons.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cartons.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cartons.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:tyres.title</title>
+                <key>recycling:tyres</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:tyres.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:tyres.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:tyres.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:tyres.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:thermometers.title</title>
+                <key>recycling:thermometers</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:thermometers.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:green_waste.title</title>
+                <key>recycling:green_waste</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:green_waste.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.title</title>
+                <key>recycling:plastic_bags</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:electrical_items.title</title>
+                <key>recycling:electrical_items</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:electrical_items.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.title</title>
+                <key>recycling:glass_bottles</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass_bottles.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:engine_oil.title</title>
+                <key>recycling:engine_oil</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:engine_oil.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:paper.title</title>
+                <key>recycling:paper</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.title</title>
+                <key>recycling:printer_cartridges</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:printer_cartridges.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:polyester.title</title>
+                <key>recycling:polyester</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:polyester.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:polyester.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:polyester.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:polyester.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:waste.title</title>
+                <key>recycling:waste</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:waste.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:waste.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:waste.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:waste.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.title</title>
+                <key>recycling:mobile_phones</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:mobile_phones.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:chipboard.title</title>
+                <key>recycling:chipboard</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:chipboard.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.title</title>
+                <key>recycling:christmas_trees</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:christmas_trees.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:organic.title</title>
+                <key>recycling:organic</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:organic.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:organic.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:organic.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:organic.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:magazines.title</title>
+                <key>recycling:magazines</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:magazines.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:magazines.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:magazines.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:magazines.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:hardcore.title</title>
+                <key>recycling:hardcore</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:hardcore.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:clothes.title</title>
+                <key>recycling:clothes</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:clothes.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:clothes.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:clothes.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:clothes.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.title</title>
+                <key>recycling:gas_bottles</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:gas_bottles.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.title</title>
+                <key>recycling:paper_packaging</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:paper_packaging.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.title</title>
+                <key>recycling:plastic_bottles</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic_bottles.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:rubble.title</title>
+                <key>recycling:rubble</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:rubble.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:rubble.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:rubble.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:rubble.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:styrofoam.title</title>
+                <key>recycling:styrofoam</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:styrofoam.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.title</title>
+                <key>recycling:fluorescent_tubes</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:fluorescent_tubes.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:newspaper.title</title>
+                <key>recycling:newspaper</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:newspaper.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:plastic.title</title>
+                <key>recycling:plastic</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:plastic.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:foil.title</title>
+                <key>recycling:foil</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:foil.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:foil.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:foil.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:foil.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:bicycles.title</title>
+                <key>recycling:bicycles</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:bicycles.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.title</title>
+                <key>recycling:tv_monitor</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:tv_monitor.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="enum">
+                <title>l10n.feature.recycling.more_tags.recycling_type.title</title>
+                <key>recycling_type</key>
+                <val value="center">
+                    <title>l10n.feature.recycling.more_tags.recycling_type.center.title</title>
+                </val>
+                <val value="container">
+                    <title>l10n.feature.recycling.more_tags.recycling_type.container.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:wood.title</title>
+                <key>recycling:wood</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:wood.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:wood.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:wood.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:wood.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:cans.title</title>
+                <key>recycling:cans</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:cans.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:cans.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:cans.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:cans.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.recycling.more_tags.recycling:glass.title</title>
+                <key>recycling:glass</key>
+                <val value="yes">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass.yes.title</title>
+                </val>
+                <val value="no">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass.no.title</title>
+                </val>
+                <val value="true">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.recycling.more_tags.recycling:glass.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

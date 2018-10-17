@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="caterer">
-        <title>l10n.feature.caterer.title</title>
-        <description>l10n.feature.caterer.description</description>
+        <title lang="ru" key="l10n.feature.caterer.title">Кейтеринг</title>
+        <title lang="en" key="l10n.feature.caterer.title">Caterer</title>
+        <description lang="ru" key="l10n.feature.caterer.description"/>
+        <description lang="en" key="l10n.feature.caterer.description"/>
         <tags>
             <tag>
                 <key>craft</key>

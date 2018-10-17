@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="theatre">
-        <title>l10n.feature.theatre.title</title>
+        <title lang="ru" key="l10n.feature.theatre.title">Театр, концертный зал</title>
+        <title lang="en" key="l10n.feature.theatre.title">Theatre</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -14,56 +15,73 @@
         <trait>poi</trait>
         <trait>accessability</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.theatre.more_tags.theatre:genre.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.title">Жанр</title>
+                <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.title">Theatre genre</title>
                 <key>theatre:genre</key>
                 <val value="boulevard">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.boulevard.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.boulevard.title">бульварный театр</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.boulevard.title">Boulevard</title>
                 </val>
                 <val value="cabaret">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.cabaret.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.cabaret.title">кабаре</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.cabaret.title">Cabaret</title>
                 </val>
                 <val value="comedy">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.comedy.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.comedy.title">комедия</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.comedy.title">Comedy</title>
                 </val>
                 <val value="musical">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.musical.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.musical.title">музыкальный</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.musical.title">Musical</title>
                 </val>
                 <val value="political">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.political.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.political.title">политический</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.political.title">Political</title>
                 </val>
                 <val value="marionette">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.marionette.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.marionette.title">театр марионеток</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.marionette.title">Marionette</title>
                 </val>
                 <val value="drama">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.drama.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.drama.title">драма</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.drama.title">Drama</title>
                 </val>
                 <val value="varietе">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.varietе.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.varietе.title">варьете</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.varietе.title">Varietе</title>
                 </val>
                 <val value="philharmonic">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.philharmonic.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.philharmonic.title">филармония</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.philharmonic.title">Philharmonic</title>
                 </val>
                 <val value="puppet">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.puppet.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.puppet.title">кукольный</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.puppet.title">Puppet</title>
                 </val>
                 <val value="opera">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.opera.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.opera.title">опера</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.opera.title">Opera</title>
                 </val>
                 <val value="stand_up_comedy">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.stand_up_comedy.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.stand_up_comedy.title">стендап комедия</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.stand_up_comedy.title">Stand up comedy</title>
                 </val>
                 <val value="chamber_music">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.chamber_music.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.chamber_music.title">камерная музыка</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.chamber_music.title">Chamber music</title>
                 </val>
                 <val value="shadow_play">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.shadow_play.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.shadow_play.title">театр теней</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.shadow_play.title">Shadow play</title>
                 </val>
                 <val value="ballet">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.ballet.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.ballet.title">балет</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.ballet.title">Ballet</title>
                 </val>
                 <val value="circus">
-                    <title>l10n.feature.theatre.more_tags.theatre:genre.circus.title</title>
+                    <title lang="ru" key="l10n.feature.theatre.more_tags.theatre:genre.circus.title">цирк</title>
+                    <title lang="en" key="l10n.feature.theatre.more_tags.theatre:genre.circus.title">Circus</title>
                 </val>
             </tag>
         </more-tags>

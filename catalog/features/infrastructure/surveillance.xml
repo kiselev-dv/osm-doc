@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="surveillance">
-        <title>l10n.feature.surveillance.title</title>
+        <title lang="ru" key="l10n.feature.surveillance.title">Наблюдение</title>
+        <title lang="en" key="l10n.feature.surveillance.title">Surveillance</title>
         <tags>
             <tag>
                 <key>man_made</key>
@@ -10,17 +11,21 @@
         </tags>
         <trait>poi</trait>
         <more-tags>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.surveillance.more_tags.surveillance.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.title">Тип</title>
+                <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.title">Surveillance</title>
                 <key>surveillance</key>
                 <val value="indoor">
-                    <title>l10n.feature.surveillance.more_tags.surveillance.indoor.title</title>
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.indoor.title">внутреннее</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.indoor.title">Indoor</title>
                 </val>
                 <val value="outdoor">
-                    <title>l10n.feature.surveillance.more_tags.surveillance.outdoor.title</title>
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.outdoor.title">наружное</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.outdoor.title">Outdoor</title>
                 </val>
                 <val value="public">
-                    <title>l10n.feature.surveillance.more_tags.surveillance.public.title</title>
+                    <title lang="ru" key="l10n.feature.surveillance.more_tags.surveillance.public.title">публичное</title>
+                    <title lang="en" key="l10n.feature.surveillance.more_tags.surveillance.public.title">Public</title>
                 </val>
             </tag>
         </more-tags>

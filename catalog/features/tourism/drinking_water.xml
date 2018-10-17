@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="drinking_water">
-        <title>l10n.feature.drinking_water.title</title>
+        <title lang="ru" key="l10n.feature.drinking_water.title">Питьевая вода</title>
+        <title lang="en" key="l10n.feature.drinking_water.title">Drinking water</title>
         <tags>
             <tag>
                 <key>amenity</key>

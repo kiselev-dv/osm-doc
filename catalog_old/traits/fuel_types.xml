@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">		
+	<trait name="fuel_types" group-tags="true">
+		<title>l10n.trait.fuel_types.title</title>	
+		<more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:svo.title</title>
+                <key>fuel:svo</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:svo.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:svo.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.title</title>
+                <key>fuel:HGV_diesel</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:HGV_diesel.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_98.title</title>
+                <key>fuel:octane_98</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_98.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_98.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:cng.title</title>
+                <key>fuel:cng</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:cng.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:cng.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:e85.title</title>
+                <key>fuel:e85</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:e85.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:e85.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_76.title</title>
+                <key>fuel:octane_76</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_76.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_76.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:LH2.title</title>
+                <key>fuel:LH2</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:LH2.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:LH2.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:ethanol.title</title>
+                <key>fuel:ethanol</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:ethanol.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:ethanol.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_100.title</title>
+                <key>fuel:octane_100</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_100.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_100.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:biodiesel.title</title>
+                <key>fuel:biodiesel</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:biodiesel.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:biodiesel.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:1_50.title</title>
+                <key>fuel:1_50</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:1_50.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:1_50.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:biogas.title</title>
+                <key>fuel:biogas</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:biogas.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:biogas.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:methanol.title</title>
+                <key>fuel:methanol</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:methanol.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:methanol.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:lpg.title</title>
+                <key>fuel:lpg</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:lpg.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:lpg.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_95.title</title>
+                <key>fuel:octane_95</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_95.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_95.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:1_25.title</title>
+                <key>fuel:1_25</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:1_25.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:1_25.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:electricity.title</title>
+                <key>fuel:electricity</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:electricity.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:electricity.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_92.title</title>
+                <key>fuel:octane_92</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_92.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_92.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:octane_91.title</title>
+                <key>fuel:octane_91</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_91.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:octane_91.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.fuel.more_tags.fuel:diesel.title</title>
+                <key>fuel:diesel</key>
+                <val value="true">
+                    <title>l10n.feature.fuel.more_tags.fuel:diesel.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.fuel.more_tags.fuel:diesel.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+    </trait>
+</doc-part>

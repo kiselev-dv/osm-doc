@@ -10,6 +10,7 @@
             </tag>
         </tags>
         <trait>poi</trait>
+        <trait>accessability</trait>
         <icon>ambulance_station.png</icon>
         <applyed-to>node area</applyed-to>
     </feature>

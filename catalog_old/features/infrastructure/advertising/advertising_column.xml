@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="advertising_column">
+        <title>l10n.feature.advertising_column.title</title>
+        <tags>
+            <tag>
+                <key>advertising</key>
+                <val value="column"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

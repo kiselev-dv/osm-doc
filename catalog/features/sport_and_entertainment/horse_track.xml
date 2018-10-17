@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="horse_track">
-        <title>l10n.feature.horse_track.title</title>
+        <title lang="ru" key="l10n.feature.horse_track.title">Ипподром</title>
+        <title lang="en" key="l10n.feature.horse_track.title">Horse track</title>
         <tags>
             <tag>
-                <title>l10n.feature.horse_track.tags.sport.title</title>
+                <title lang="ru" key="l10n.feature.horse_track.tags.sport.title">Конный спорт</title>
+                <title lang="en" key="l10n.feature.horse_track.tags.sport.title">Horse track</title>
                 <key>sport</key>
                 <val value="horse_racing"/>
             </tag>
@@ -18,14 +20,17 @@
         <trait>fee</trait>
         <trait>surface</trait>
         <more-tags>
-            <tag d:tag-value-type="boolean">
-                <title>l10n.feature.horse_track.more_tags.covered.title</title>
+            <tag tag-value-type="boolean">
+                <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.title">Крытый</title>
+                <title lang="en" key="l10n.feature.horse_track.more_tags.covered.title">Covered</title>
                 <key>covered</key>
                 <val value="true">
-                    <title>l10n.feature.horse_track.more_tags.covered.true.title</title>
+                    <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.true.title">Да</title>
+                    <title lang="en" key="l10n.feature.horse_track.more_tags.covered.true.title">Yes</title>
                 </val>
                 <val value="false">
-                    <title>l10n.feature.horse_track.more_tags.covered.false.title</title>
+                    <title lang="ru" key="l10n.feature.horse_track.more_tags.covered.false.title">Нет</title>
+                    <title lang="en" key="l10n.feature.horse_track.more_tags.covered.false.title">No</title>
                 </val>
             </tag>
         </more-tags>

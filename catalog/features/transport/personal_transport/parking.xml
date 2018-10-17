@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="parking">
-        <title>l10n.feature.parking.title</title>
+        <title lang="ru" key="l10n.feature.parking.title">Парковка</title>
+        <title lang="en" key="l10n.feature.parking.title">Parking</title>
         <tags>
             <tag>
                 <key>amenity</key>
@@ -12,33 +13,42 @@
         <trait>fee</trait>
         <trait>parking</trait>
         <more-tags>
-            <tag d:tag-value-type="number">
-                <title>l10n.feature.parking.more_tags.maystay.title</title>
+            <tag tag-value-type="number">
+                <title lang="ru" key="l10n.feature.parking.more_tags.maystay.title">Ограничение по времени стоянки</title>
+                <title lang="en" key="l10n.feature.parking.more_tags.maystay.title">Maystay</title>
                 <key>maystay</key>
             </tag>
-            <tag d:tag-value-type="enum">
-                <title>l10n.feature.parking.more_tags.park_ride.title</title>
+            <tag tag-value-type="enum">
+                <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.title">Перехватывающая парковка</title>
+                <title lang="en" key="l10n.feature.parking.more_tags.park_ride.title">Park ride</title>
                 <key>park_ride</key>
                 <val value="yes">
-                    <title>l10n.feature.parking.more_tags.park_ride.yes.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.yes.title">Есть</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.yes.title">Yes</title>
                 </val>
                 <val value="no">
-                    <title>l10n.feature.parking.more_tags.park_ride.no.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.no.title">Нет</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.no.title">No</title>
                 </val>
                 <val value="bus">
-                    <title>l10n.feature.parking.more_tags.park_ride.bus.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.bus.title">пересадка на автобус</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.bus.title">Bus</title>
                 </val>
                 <val value="ferry">
-                    <title>l10n.feature.parking.more_tags.park_ride.ferry.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.ferry.title">пересадка на паром</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.ferry.title">Ferry</title>
                 </val>
                 <val value="metro">
-                    <title>l10n.feature.parking.more_tags.park_ride.metro.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.metro.title">пересадка на метро</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.metro.title">Metro</title>
                 </val>
                 <val value="train">
-                    <title>l10n.feature.parking.more_tags.park_ride.train.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.train.title">пересадка на поезд</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.train.title">Train</title>
                 </val>
                 <val value="tram">
-                    <title>l10n.feature.parking.more_tags.park_ride.tram.title</title>
+                    <title lang="ru" key="l10n.feature.parking.more_tags.park_ride.tram.title">пересадка на трамвай</title>
+                    <title lang="en" key="l10n.feature.parking.more_tags.park_ride.tram.title">Tram</title>
                 </val>
             </tag>
         </more-tags>

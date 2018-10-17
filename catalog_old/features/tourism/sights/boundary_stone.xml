@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="boundary_stone">
+        <title>l10n.feature.boundary_stone.title</title>
+        <tags>
+            <tag>
+                <key>historic</key>
+                <val value="boundary_stone"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>boundary_stone.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

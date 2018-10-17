@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <doc-part xmlns="http://map.osm.me/osm-doc-part">
     <feature name="subway_station">
-        <title>l10n.feature.subway_station.title</title>
+        <title lang="ru" key="l10n.feature.subway_station.title">Станция метро</title>
+        <title lang="en" key="l10n.feature.subway_station.title">Subway station</title>
         <tags>
             <tag>
                 <key>railway</key>

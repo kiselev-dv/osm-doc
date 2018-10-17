@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="pawnbroker">
+        <title>l10n.feature.pawnbroker.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="pawnbroker"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

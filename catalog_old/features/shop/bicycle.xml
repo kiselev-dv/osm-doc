@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="bicycle">
+        <title>l10n.feature.bicycle.title</title>
+        <tags>
+            <tag>
+                <key>shop</key>
+                <val value="bicycle"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:retail.title</title>
+                <key>service:bicycle:retail</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:pump.title</title>
+                <key>service:bicycle:pump</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:second_hand.title</title>
+                <key>service:bicycle:second_hand</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:cleaning.title</title>
+                <key>service:bicycle:cleaning</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:repair.title</title>
+                <key>service:bicycle:repair</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:rental.title</title>
+                <key>service:bicycle:rental</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.bicycle.more_tags.service:bicycle:diy.title</title>
+                <key>service:bicycle:diy</key>
+                <val value="true">
+                    <title>l10n.feature.bicycle.more_tags.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.bicycle.more_tags.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>bicycle.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part" xmlns:d="http://map.osm.me/osm-doc-part">
+    <feature name="raceway">
+        <title>l10n.feature.raceway.title</title>
+        <tags>
+            <tag>
+                <key>highway</key>
+                <val value="raceway"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <trait>seasonal</trait>
+        <trait>fee</trait>
+        <trait>surface</trait>
+        <trait>sports</trait>
+        <more-tags>
+            <tag d:tag-value-type="boolean">
+                <title>l10n.feature.raceway.more_tags.covered.title</title>
+                <key>covered</key>
+                <val value="true">
+                    <title>l10n.feature.raceway.more_tags.covered.true.title</title>
+                </val>
+                <val value="false">
+                    <title>l10n.feature.raceway.more_tags.covered.false.title</title>
+                </val>
+            </tag>
+        </more-tags>
+        <icon>raceway.png</icon>
+        <applyed-to>way</applyed-to>
+    </feature>
+</doc-part>

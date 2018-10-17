@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc-part xmlns="http://map.osm.me/osm-doc-part">
+    <feature name="monument">
+        <title>l10n.feature.monument.title</title>
+        <tags>
+            <tag>
+                <key>historic</key>
+                <val value="monument"/>
+            </tag>
+        </tags>
+        <trait>poi</trait>
+        <icon>monument.png</icon>
+        <applyed-to>node area</applyed-to>
+    </feature>
+</doc-part>
